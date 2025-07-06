@@ -262,6 +262,43 @@ def download_osm_roads() -> Path:
 
 
 # ---------------------------------------------------------------------------
+# AHCB – Atlas of Historical County Boundaries (Newberry Library)
+# ---------------------------------------------------------------------------
+
+def download_ahcb_va() -> Path:
+    """Download and convert the AHCB Virginia historical county layer to GeoPackage.
+
+    Returns path to the saved GeoPackage. Skips download if file already exists.
+    """
+    out_gpkg = config.REFERENCE_DIR / "ahcb_va.gpkg"
+    if out_gpkg.exists():
+        logger.info("AHCB Virginia layer already present – skipping download.")
+        return out_gpkg
+
+    url = "https://digital.newberry.org/ahcb/downloads/gis/VA_AtlasHCB.zip"
+    with tempfile.TemporaryDirectory() as tmp:
+        tmpdir = Path(tmp)
+        zip_path = tmpdir / "VA_Atlas.zip"
+        try:
+            _download_file(url, zip_path, verify_ssl=False)
+            _extract_zip(zip_path, tmpdir)
+
+            # find the main shapefile (ends with _counties.shp or similar)
+            shp = next(tmpdir.rglob("*HistCounties*.shp"), None)
+            if shp is None:
+                # fallback any .shp
+                shp = next(tmpdir.rglob("*.shp"))
+
+            gdf = gpd.read_file(shp)
+            gdf = gdf.to_crs(config.CRS_LATLON)
+            gdf.to_file(out_gpkg, driver="GPKG")
+            logger.success(f"AHCB Virginia layer downloaded → {out_gpkg.relative_to(config.ROOT_DIR)}")
+            return out_gpkg
+        except Exception as exc:  # noqa: BLE001
+            raise RuntimeError(f"AHCB download failed: {exc}")
+
+
+# ---------------------------------------------------------------------------
 # Entrypoint
 # ---------------------------------------------------------------------------
 
@@ -295,13 +332,16 @@ def main() -> None:
     download_gnis_features()
 
     # ------------------------------------------------------------------
-    # OSM roads – skip if previously cached.
+    # OSM roads download disabled (not needed for centroid validation)
     # ------------------------------------------------------------------
-    roads_path = config.REFERENCE_DIR / "osm_roads_va.gpkg"
-    if roads_path.exists():
-        logger.info("OSM roads already present – skipping download.")
-    else:
-        download_osm_roads()
+    # roads_path = config.REFERENCE_DIR / "osm_roads_va.gpkg"
+    # if not roads_path.exists():
+    #     download_osm_roads()
+
+    # ------------------------------------------------------------------
+    # AHCB – Atlas of Historical County Boundaries (Newberry Library)
+    # ------------------------------------------------------------------
+    download_ahcb_va()
 
     logger.success("All reference layers available ✓")
 

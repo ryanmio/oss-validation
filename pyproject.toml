@@ -21,7 +21,8 @@ dependencies = [
   "click>=8.1",
   "requests>=2.31",
   "osmnx>=1.7",
-  "loguru>=0.7"
+  "loguru>=0.7",
+  "folium>=0.15",
 ]
 
 [project.optional-dependencies]
