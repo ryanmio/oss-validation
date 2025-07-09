@@ -27,6 +27,7 @@ WATER_FEATURE_CLASSES = {
     "Stream",  # rivers, creeks, runs
     "Lake",  # few mouths but safe to include
     "Swamp",
+    "Valley",  # some forks and heads recorded as valleys
 }
 
 # Some confluence locations are tagged as Locale in GNIS; allow as water-adjacent when needed
@@ -39,7 +40,7 @@ STRUCTURAL_CLASSES = {
 }
 
 BASE_SIM_THRESHOLD = 90  # tightened again per user feedback
-STREAM_SIM_THRESHOLD = 90  # apply same strictness to stream names
+STREAM_SIM_THRESHOLD = 85  # tighten to reduce mismatches
 
 # Historical → allowed modern county names cross-walk (minimal – extend as needed)
 HIST_TO_MODERN: dict[str, list[str]] = {
@@ -67,6 +68,9 @@ HIST_TO_MODERN: dict[str, list[str]] = {
     "Hanover": ["Hanover", "Louisa", "Caroline"],
     "Augusta": ["Augusta", "Rockingham", "Rockbridge", "Bath", "Alleghany"],
     "Bedford": ["Bedford", "Campbell", "Franklin"],
+    "Prince George": ["Prince George", "Dinwiddie", "Charles City"],
+    "Chesterfield": ["Chesterfield", "Henrico", "Dinwiddie"],
+    "Fluvanna": ["Fluvanna", "Albemarle", "Goochland"],
     # fallback will use identity mapping
 }
 
@@ -175,10 +179,11 @@ def _clean_feature_name(name: str) -> str:
         name = name[4:]
     # strip apostrophes and trailing s
     name = name.replace("'", "")
+    # remove plural 's' only when immediately before water body type (handled below)
     # remove directional suffix ' of n', ' of s', etc.
     name = re.sub(r'\s+of\s+[nswe]$', '', name)
     # If we have plural 's' before water-body type (e.g., "Carys Creek" → "Cary Creek")
-    name = re.sub(r"([a-z]+)s\s+(creek|river|swamp|branch|run)$", r"\1 \2", name)
+    # (rule removed; causes false matches like Owens Branch → Bowen Branch)
     name = name.strip()
     return name
 
@@ -202,6 +207,20 @@ def _max_pairwise_distance_m(cands: gpd.GeoDataFrame) -> float:
             if dist > maxd:
                 maxd = dist
     return maxd
+
+# Manually identified bad fuzzy matches: (anchor_clean, candidate_clean) to reject
+BAD_MATCH_PAIRS = {
+    ("hensons creek", "johnsons creek"),
+    ("holly branch", "polly branch"),
+    ("pocoson branch", "poston branch"),
+    ("fort branch", "ford branch"),
+    ("myery branch", "merry branch"),
+    ("brushey branch", "rush branch"),
+    ("indian spring branch", "finney spring branch"),
+    ("haynes spring branch", "hardy spring branch"),
+    ("youl branch", "yokel branch"),
+    ("gentrys branch", "gent branch"),
+}
 
 def _resolve_single(
     row: pd.Series,
@@ -227,17 +246,12 @@ def _resolve_single(
     else:
         subset = gnis
 
-    subset_initial = subset
-    if county_guess is not None:
-        county_allowed = {c.lower() for c in _allowed_modern_counties(county_guess)}
-        subset_in_county = subset[subset.county_name_norm.isin(county_allowed)]
-        if not subset_in_county.empty:
-            subset = subset_in_county
-
     if subset.empty:
         return None, None, None, 2, None, None, None
 
-    # Fuzzy match
+    # ------------------------------------------------------------------
+    # 1. Fuzzy match across the *full* subset (no county filter yet)
+    # ------------------------------------------------------------------
     names_list = subset["feature_name_norm"].tolist()
     matches = process.extract(feature_name_clean, names_list, scorer=fuzz.ratio, limit=15)
 
@@ -253,6 +267,15 @@ def _resolve_single(
     good_names = {m[0] for m in good if m[1] == best_score}
 
     candidates = subset[subset.feature_name_norm.isin(good_names)].copy()
+
+    # ------------------------------------------------------------------
+    # 2. County filter *after* fuzzy, but only if it retains >=1 candidate
+    # ------------------------------------------------------------------
+    if county_guess is not None and not candidates.empty:
+        county_allowed = {c.lower() for c in _allowed_modern_counties(county_guess)}
+        in_county = candidates[candidates.county_name_norm.isin(county_allowed)]
+        if not in_county.empty:
+            candidates = in_county
 
     # Direction / elevation heuristic ------------------------------------------------
     if len(candidates) > 1:
@@ -285,7 +308,12 @@ def _resolve_single(
             return centroid.y, centroid.x, best_score, 0, sel.feature_name, sel.feature_class, sel.county_name
         return None, None, best_score, 1, None, None, None
 
+    # after determining cand
     cand = candidates.iloc[0]
+    # manual blacklist check
+    if (feature_name_clean, cand.feature_name_norm) in BAD_MATCH_PAIRS:
+        return None, None, None, 2, None, None, None
+
     lon, lat = cand.geometry.x, cand.geometry.y
 
     return lat, lon, best_score, 0, cand.feature_name, cand.feature_class, cand.county_name
