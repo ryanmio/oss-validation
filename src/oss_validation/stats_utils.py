@@ -92,3 +92,4 @@ def bootstrap_ci(
     lower = np.percentile(stats, 100 * alpha / 2)
     upper = np.percentile(stats, 100 * (1 - alpha / 2))
     return (lower, upper)
+ 
