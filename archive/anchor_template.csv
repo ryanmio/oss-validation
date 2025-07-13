@@ -1,0 +1,221 @@
+anchor_id,anchor_type,county,feature_name,anchor_latlong,sigma_m,anchor_lat,anchor_lon
+Albemarle_seat,seat,Albemarle,Charlottesville,"38.03920701842497, -78.4835427564855",700,38.03920701842500,-78.4835427564855
+Amherst_seat,seat,Amherst,Amherst,"37.58342823866442, -79.0493582273069",700,37.58342823866440,-79.0493582273069
+Appomattox_seat,seat,Appomattox,Appomattox,"37.35752339718277, -78.82564411517208",700,37.35752339718280,-78.82564411517210
+Augusta_seat,seat,Augusta,Staunton,"38.158186326097194, -79.06349601319633",700,38.158186326097200,-79.06349601319630
+Bedford_seat,seat,Bedford,Bedford,"37.33589437724705, -79.51959807832635",700,37.33589437724710,-79.51959807832640
+Botetourt_seat,seat,Botetourt,Botetourt,"37.49969440374371, -79.87717225914744",700,37.49969440374370,-79.87717225914740
+Buckingham_seat,seat,Buckingham,Buckingham,"37.55440924497107, -78.55110474839346",700,37.55440924497110,-78.55110474839350
+Campbell_seat,seat,Campbell,Rustburg,"37.276478818851196, -79.0974016446756",700,37.276478818851200,-79.0974016446756
+Caroline_seat,seat,Caroline,Bowling Green,"38.05350368860241, -77.34807457476846",700,38.05350368860240,-77.34807457476850
+Charles_City_seat,seat,Charles City,Charles City,"37.34490835878253, -77.06629851741491",700,37.34490835878250,-77.06629851741490
+Charlotte_seat,seat,Charlotte,Charlotte,"37.056677883052764, -78.63911577429745",700,37.056677883052800,-78.63911577429750
+Charlottesville_seat,seat,Charlottesville,Charlottesville,"38.03920701842497, -78.4835427564855",700,38.03920701842500,-78.4835427564855
+Chesterfield_seat,seat,Chesterfield,Chesterfield,"37.3824025919451, -77.51070724203348",700,37.3824025919451,-77.51070724203350
+Colonial_Heights_seat,seat,Colonial Heights,Colonial Heights,"37.26269429932944, -77.39845668909331",700,37.26269429932940,-77.39845668909330
+Culpeper_seat,seat,Culpeper,Culpeper,"38.46983541525538, -77.99863484034617",700,38.46983541525540,-77.99863484034620
+Cumberland_seat,seat,Cumberland,Cumberland,"37.49196882928934, -78.2552136731587",700,37.49196882928930,-78.2552136731587
+Dinwiddie_seat,seat,Dinwiddie,Dinwiddie,"37.081477336249954, -77.58412975239692",700,37.081477336250000,-77.58412975239690
+Fluvanna_seat,seat,Fluvanna,Palmyra,"37.86346908614281, -78.26177459404227",700,37.86346908614280,-78.26177459404230
+Franklin_seat,seat,Franklin,Rocky Mount,"37.00303428696083, -79.88428020813977",700,37.00303428696080,-79.88428020813980
+Fredericksburg_seat,seat,Fredericksburg,Fredericksburg,"38.30246342333816, -77.48659196976111",700,38.30246342333820,-77.48659196976110
+Goochland_seat,seat,Goochland,Goochland,"37.697058486944286, -77.89174563638554",700,37.697058486944300,-77.89174563638550
+Greene_seat,seat,Greene,Greene,"38.29605295307255, -78.43999717022102",700,38.29605295307260,-78.43999717022100
+Greensville_seat,seat,Greensville,Greensville,"36.68639018211303, -77.54225156399706",700,36.68639018211300,-77.54225156399710
+Hanover_seat,seat,Hanover,Hanover,"37.7664479516363, -77.37002129427533",700,37.7664479516363,-77.37002129427530
+Henrico_seat,seat,Henrico,Richmond,"37.54174051958065, -77.43758044566363",700,37.54174051958070,-77.43758044566360
+Hopewell_seat,seat,Hopewell,Hopewell,"37.29091607945924, -77.29500832415609",700,37.29091607945920,-77.29500832415610
+Isle_Of_Wight_seat,seat,Isle Of Wight,Isle Of Wight,"36.90995722718172, -76.7035554103315",700,36.90995722718170,-76.7035554103315
+Louisa_seat,seat,Louisa,Louisa,"38.02180553140985, -77.99874744736546",700,38.02180553140990,-77.99874744736550
+Lynchburg_seat,seat,Lynchburg,Lynchburg,"37.39674606077084, -79.1887267605811",700,37.39674606077080,-79.1887267605811
+Madison_seat,seat,Madison,Madison,"38.37979138216352, -78.25802963974897",700,38.37979138216350,-78.25802963974900
+Nelson_seat,seat,Nelson,Lovingston,"37.76118406119901, -78.86899822165942",700,37.76118406119900,-78.86899822165940
+New_Kent_seat,seat,New Kent,New Kent,"37.5094762834005, -76.98648131980933",700,37.5094762834005,-76.98648131980930
+Orange_seat,seat,Orange,Orange,"38.248087854989244, -78.11041008403433",700,38.248087854989200,-78.11041008403430
+Petersburg_seat,seat,Petersburg,Petersburg,"37.21276437310398, -77.3910539565524",700,37.21276437310400,-77.3910539565524
+Pittsylvania_seat,seat,Pittsylvania,Pittsylvania,"36.82053859132155, -79.39805452146508",700,36.82053859132160,-79.39805452146510
+Powhatan_seat,seat,Powhatan,Powhatan,"37.541267699413226, -77.91896934988131",700,37.541267699413200,-77.91896934988130
+Prince_George_seat,seat,Prince George,Prince George,"37.22273019379227, -77.28554317450553",1400,37.22273019379230,-77.28554317450550
+Richmond_seat,seat,Richmond,Richmond,"37.540053596615564, -77.43925756464824",700,37.540053596615600,-77.43925756464820
+Roanoke_seat,seat,Roanoke,Roanoke,"37.271645086358824, -79.94554318163306",700,37.271645086358800,-79.94554318163310
+Rockbridge_seat,seat,Rockbridge,Lexington,"37.783902126868206, -79.44328631527483",700,37.783902126868200,-79.44328631527480
+Rockingham_seat,seat,Rockingham,Harrisonburg,"38.44535632591296, -78.86946458683848",700,38.44535632591300,-78.86946458683850
+Southampton_seat,seat,Southampton,Southampton,"36.71583501942555, -77.06549181052969",700,36.71583501942560,-77.06549181052970
+Spotsylvania_seat,seat,Spotsylvania,Spotsylvania Courthouse,"38.19928094230186, -77.58909114999857",700,38.19928094230190,-77.58909114999860
+Suffolk_seat,seat,Suffolk,Suffolk,"36.72879264242426, -76.58286452096657",700,36.72879264242430,-76.58286452096660
+Surry_seat,seat,Surry,Surry,"37.137942680434094, -76.83473854598351",700,37.137942680434100,-76.83473854598350
+Sussex_seat,seat,Sussex,Sussex,"36.915695324184554, -77.2802964533111",700,36.915695324184600,-77.2802964533111
+Buck_Island_Creek_mouth,mouth,Goochland,Buck Island Creek Mouth,"37.939132196842145, -78.4275640735187",500,37.939132196842100,-78.4275640735187
+Stone_Horse_Branch_mouth,mouth,Goochland,Stone Horse Branch Mouth,"37.76031675195455, -77.62175560591574",500,37.76031675195460,-77.62175560591570
+Wintopock_main_Creek_mouth,mouth,Henrico,Wintopock main Creek Mouth,"37.30484298523833, -77.68855896764813",500,37.30484298523830,-77.68855896764810
+Skin_Quarter_Creek_mouth,mouth,Henrico,Skin Quarter Creek Mouth,"37.41837248897091, -77.85492989437827",500,37.41837248897090,-77.85492989437830
+the_Reedy_Branch_mouth,mouth,Isle Of Wight,the Reedy Branch Mouth,"37.40081575237329, -77.60903660805982",500,37.40081575237330,-77.60903660805980
+the_Caitail_Branch_mouth,mouth,Surry,the Caitail Branch Mouth,"38.7413571480125, -77.80732135296438",500,38.7413571480125,-77.80732135296440
+New_Bremo_Creek_mouth,mouth,,New Bremo Creek Mouth,"37.72513725066007, -78.34529603717168",500,37.72513725066010,-78.34529603717170
+Bear_Garden_Creek_mouth,mouth,,Bear Garden Creek Mouth,"37.70815763700744, -78.29420698388577",500,37.70815763700740,-78.29420698388580
+Nottoway_BuckskinCreek_mouth,mouth,,Buckskin Creek,"36.88769659082854,-77.63105136056151",500,36.88769659082850,-77.63105136056150
+Nottoway_HardwoodCreek_mouth,mouth,,Hardwood Creek,"36.85293350125763,-77.57672475817677",500,36.85293350125760,-77.57672475817680
+Nottoway_StonyCreek_mouth,mouth,,Stony Creek,"36.947355104651905,-77.38071371264031",500,36.947355104651900,-77.38071371264030
+Nottoway_GooseSwamp_mouth,mouth,,Goose Swamp,"36.99640091962778,-77.32482858138076",500,36.99640091962780,-77.32482858138080
+Nottoway_BlackBranch_mouth,mouth,,Black Branch,"36.99260848876653,-77.29372801293215",500,36.99260848876650,-77.29372801293220
+Nottoway_SouthwestSwamp_mouth,mouth,,Southwest Swamp,"36.94400908752333,-77.38393880060782",500,36.94400908752330,-77.38393880060780
+Nottoway_MooresSwamp_mouth,mouth,,Moores Swamp,"36.98843779516141,-77.27187009677237",500,36.98843779516140,-77.27187009677240
+Nottoway_CabinPointSwamp_mouth,mouth,,Cabin Point Swamp,"36.970484,-77.332792",500,36.970484,-77.332792
+Nottoway_RowantyCreek_mouth,mouth,,Rowanty Creek,"36.970556,-77.346513",500,36.970556,-77.346513
+Nottoway_RaccoonCreek_mouth,mouth,,Raccoon Creek,"36.793857,-77.161495",500,36.793857,-77.161495
+Nottoway_ThreeCreek_mouth,mouth,,Three Creek,"36.781428,-77.163566",500,36.781428,-77.163566
+Nottoway_BuckhornCreek_mouth,mouth,,Buckhorn Creek,"36.761842,-77.15865",500,36.761842,-77.15865
+Nottoway_MillSwamp_mouth,mouth,,Mill Swamp,"36.678563,-77.05473",500,36.678563,-77.05473
+Blackwater_TerrapinSwamp_mouth,mouth,,Terrapin Swamp,"36.963445,-76.856825",500,36.963445,-76.856825
+Blackwater_HickaneckSwamp_mouth,mouth,,Hickaneck Swamp,"36.946022,-76.852185",500,36.946022,-76.852185
+Blackwater_RattlesnakeSwamp_mouth,mouth,,Rattlesnake Swamp,"36.914794,-76.816041",500,36.914794,-76.816041
+Blackwater_CyprusSwamp_mouth,mouth,,Cyprus Swamp,"36.735694,-76.915068",500,36.735694,-76.915068
+Blackwater_BlackCreek_mouth,mouth,,Black Creek,"36.759584,-76.897717",500,36.759584,-76.897717
+Blackwater_OtterdamSwamp_mouth,mouth,,Otterdam Swamp,"37.070142,-77.044593",500,37.070142,-77.044593
+Blackwater_MilltailSwamp_mouth,mouth,,Milltail Swamp,"37.021254,-76.944063",500,37.021254,-76.944063
+Blackwater_PigSwamp_mouth,mouth,,Pig Swamp,"36.887582,-76.827129",500,36.887582,-76.827129
+Blackwater_WarwickBranch_mouth,mouth,,Warwick Branch,"36.891166,-76.825721",500,36.891166,-76.825721
+Chickahominy_BroadWaterCreek_mouth,mouth,,Broad Water Creek,"37.55615,-77.286736",500,37.55615,-77.286736
+Chickahominy_TuckersBranch_mouth,mouth,,Tuckers Branch,"37.560139,-77.294969",500,37.560139,-77.294969
+Chickahominy_BeaverdamCreek_mouth,mouth,,Beaverdam Creek,"37.588538,-77.362425",500,37.588538,-77.362425
+Chickahominy_HorseSwampCreek_mouth,mouth,,Horse Swamp Creek,"37.604032,-77.398198",500,37.604032,-77.398198
+Branchville_seat,seat,,Branchville town center,"36.570336844196284,-77.24845857445429",1000,36.570336844196300,-77.24845857445430
+Boykins_seat,seat,,Boykins town center,"36.58314344574657,-77.19990155888337",1000,36.58314344574660,-77.19990155888340
+Newsoms_seat,seat,,Newsoms town center,"36.624473995938864,-77.12506311693231",1000,36.624473995938900,-77.12506311693230
+Capron_seat,seat,,Capron town center,"36.710942906783444,-77.19985108124779",1000,36.710942906783400,-77.19985108124780
+Courtland_seat,seat,,Courtland town center,"36.71572129489663,-77.06762513843441",1000,36.71572129489660,-77.06762513843440
+StonyCreek_town_seat,seat,,Stony Creek town center,"36.94803361909154,-77.40045511683721",1000,36.94803361909150,-77.40045511683720
+Waverly_seat,seat,,Waverly town center,"37.036103417550756,-77.09507901111552",1000,37.036103417550800,-77.09507901111550
+SpringGrove_seat,seat,,Spring Grove town center,"37.166182874716654,-76.97278555659085",1000,37.166182874716700,-76.97278555659090
+Henry_seat,seat,,Henry hamlet center,"36.796971350491006,-77.3928073237866",1000,36.796971350491000,-77.3928073237866
+Jarratt_seat,seat,,Jarratt town center,"36.8136322467522,-77.4679209766466",1000,36.8136322467522,-77.4679209766466
+SussexCountyCourthouse_seat,seat,,Sussex County Courthouse,"36.91529505106839,-77.28016185902126",1000,36.91529505106840,-77.28016185902130
+MorgansPond_landmark,landmark,,Morgans Pond,"36.975498,-77.427262",1200,36.975498,-77.427262
+LewisPond_landmark,landmark,,Lewis Pond,"36.890114,-77.451313",1200,36.890114,-77.451313
+SmithsBranch_HarrisSwamp_mouth,mouth,,Smiths Branch @ Harris Swamp,"36.882257,-77.532028",500,36.882257,-77.532028
+SpiersPond_landmark,landmark,,Spiers Pond,"36.929459,-77.489906",1200,36.929459,-77.489906
+TuckerSwamp_mid_landmark,landmark,,Mid‑Tucker Swamp,"36.876776,-76.865167",1200,36.876776,-76.865167
+WadesPond_landmark,landmark,,Wades Pond,"36.797667,-76.918364",1200,36.797667,-76.918364
+SpringGroveSwamp_meets_CyprusSwamp_mouth,mouth,,Spring Grove Swamp @ Cyprus Swamp,"37.154794,-76.953134",500,37.154794,-76.953134
+DarkSwamp_meets_CyprusSwamp_mouth,mouth,,Dark Swamp @ Cyprus Swamp,"37.113239,-76.913639",500,37.113239,-76.913639
+AtkinsPond_landmark,landmark,,Atkins Pond,"37.111905,-76.994799",1200,37.111905,-76.994799
+EberhardSwamp_landmark,landmark,,Eberhard Swamp,"37.517414,-77.241501",1200,37.517414,-77.241501
+BlackCreek_meets_CattailSwamp_mouth,mouth,,Black Creek @ Cattail Swamp,"36.769312,-76.914214",500,36.769312,-76.914214
+MottoRiver_crosses_CountylineChurchRd_landmark,landmark,,Motto River @ Countyline Church Rd,"38.070678,-77.548858",1200,38.070678,-77.548858
+MottoRiver_meets_SouthRiver_mouth,mouth,,Motto River @ South River,"38.053853,-77.485428",500,38.053853,-77.485428
+WallersCorner_landmark,landmark,,Wallers Corner,"38.078497489963574,-77.54493661760486",1200,38.078497489963600,-77.54493661760490
+I95_meets_US301_landmark,landmark,,I‑95 @ US‑301,"36.766793996579686,-77.47342090352844",1200,36.766793996579700,-77.47342090352840
+BeaverPondSwamp_meets_GooseSwamp_mouth,mouth,,Beaver Pond Swamp @ Goose Swamp,"36.990017645443054,-77.33142483180075",500,36.990017645443100,-77.33142483180080
+Meherrin_CaneyBranch_mouth,mouth,,Caney Branch mouth,"36.671548,-77.492266",500,36.671548,-77.492266
+EmporiaGreenvilleAirport_landmark,landmark,,Emporia–Greenville airport SE end,"36.681267,-77.477813",1200,36.681267,-77.477813
+AdamsGroveRd_ThreeCreek_landmark,landmark,,Adams Grove Rd × Three Creek,"36.69545943685959,-77.387264126184",1200,36.69545943685960,-77.387264126184
+LittleTexasRd_WhiteheadRd_landmark,landmark,,Little Texas Rd × Whitehead Rd,"36.602107,-77.339793",1200,36.602107,-77.339793
+McGraphsPond_landmark,landmark,,McGraphs Pond,"36.694596,-77.205786",1200,36.694596,-77.205786
+BarhamsHillRd_PatesHillRd_landmark,landmark,,Barhams Hill Rd × Pates Hill Rd,"36.665023,-77.349991",1200,36.665023,-77.349991
+FranksSwamp_FlatSwamp_mouth,mouth,,Franks Swamp @ Flat Swamp,"36.640911,-77.343969",500,36.640911,-77.343969
+FoxBranchRd_FoxBranch_landmark,landmark,,Fox Branch Rd × Fox Branch,"36.672599,-77.284383",1200,36.672599,-77.284383
+NicholsonCreek_DrewryRd_landmark,landmark,,Nicholson Creek × Drewry Rd,"36.689823,-77.309110",1200,36.689823,-77.309110
+LittleTexasRd_OldChurchRd_landmark,landmark,,Little Texas Rd × Old Church Rd,"36.635995,-77.328098",1200,36.635995,-77.328098
+SweatSwamp_OldPlaceRd_landmark,landmark,,Sweat Swamp × Old Place Rd,"36.65832786143701,-77.18334258990211",1200,36.65832786143700,-77.18334258990210
+OtterdamSwamp_SussexDr_landmark,landmark,,Otterdam Swamp × Sussex Dr,"36.75163411970152,-77.48613116829532",1200,36.75163411970150,-77.48613116829530
+BrownsBranch_ProctorDr_landmark,landmark,,Browns Branch × Proctor Dr,"36.759302,-77.461935",1200,36.759302,-77.461935
+LebanonChurchRd_GrizzardDr_landmark,landmark,,Lebanon Church Rd × Grizzard Dr,"36.757895109666826,-77.41872010044567",1200,36.757895109666800,-77.41872010044570
+SpringCreek_StokesDr_mouth,mouth,,Spring Creek @ Stokes Dr,"36.811928,-77.339058",500,36.811928,-77.339058
+US301_OwensRd_landmark,landmark,,US‑301 × Owens Rd,"36.853543,-77.424277",1200,36.853543,-77.424277
+RaccoonCreek_StokesRd_mouth,mouth,,Raccoon Creek @ Stokes Rd,"36.827687,-77.328784",500,36.827687,-77.328784
+CourtlandRd_PollardRd_landmark,landmark,,Courtland Rd × Pollard Rd,"36.680486,-77.481450",1200,36.680486,-77.481450
+GilletteCt_WoodlandDr_landmark,landmark,,Gillette Ct × Woodland Dr,"36.696390,-76.946051",1200,36.696390,-76.946051
+SouthamptonHospital_landmark,landmark,,Southampton Memorial Hospital,"36.692023,-76.937583",1200,36.692023,-76.937583
+BethelRd_SedleyRd_landmark,landmark,,Bethel Rd × Sedley Rd,"36.717270,-76.966126",1200,36.717270,-76.966126
+BroadwaterRd_TuckerSwampRd_landmark,landmark,,Broadwater Rd × Tucker Swamp Rd,"36.907022,-76.855050",1200,36.907022,-76.855050
+GenThomasHwy_RoseValleyRd_landmark,landmark,,Gen Thomas Hwy × Rose Valley Rd,"36.661014,-76.974652",1200,36.661014,-76.974652
+CSXRailroad_Route58_landmark,landmark,,CSX Rail × US‑58,"36.664228,-76.954879",1200,36.664228,-76.954879
+MeherrinRd_OldBranchvilleRd_landmark,landmark,,Meherrin Rd × Old Branchville Rd,"36.610510,-77.195500",1200,36.610510,-77.195500
+MeherrinRd_CrossKeysRd_landmark,landmark,,Meherrin Rd × Cross Keys Rd,"36.620521,-77.187700",1200,36.620521,-77.187700
+CyprusSwamp_SpringGroveSwamp_mouth,mouth,,Cyprus Swamp @ Spring Grove Swamp,"37.154817,-76.953207",500,37.154817,-76.953207
+SpringGroveRd_SpringGroveSwamp_landmark,landmark,,Spring Grove Rd × Spring Grove Swamp,"37.179949,-76.968498",1200,37.179949,-76.968498
+SweatSwamp_TarraraCreek_mouth,mouth,,Sweat Swamp × Tarrara Creek,"36.64039074343996,-77.20396154853738",500,36.64039074344000,-77.20396154853740
+NorfolkSouthern_AdamsGroveRd_landmark,landmark,,Norfolk Southern × Adams Grove Rd,"36.693226,-77.385995",1200,36.693226,-77.385995
+AdamsGroveRd_US58_landmark,landmark,,Adams Grove Rd × US‑58,"36.685913,-77.384523",1200,36.685913,-77.384523
+StephensonCemetery_landmark,landmark,,Stephenson Cemetery,"36.88708379087309,-76.91413281723958",1200,36.88708379087310,-76.91413281723960
+BrantleySwamp_SeacockSwamp_mouth,mouth,,Brantley Swamp × Seacock Swamp,"36.87951182917276,-76.92525175990359",500,36.87951182917280,-76.92525175990360
+ColFrederickJonesRd10162_landmark,landmark,,10162 Col Frederick Jones Rd,"36.8812007533998,-76.91249133654301",1200,36.8812007533998,-76.91249133654300
+GooseSwamp_CabinPointRd_landmark,landmark,,Goose Swamp × Cabin Point Rd,"36.998099,-77.341227",1200,36.998099,-77.341227
+WellsLn_RowantyRd_landmark,landmark,,Wells Ln × Rowanty Rd,"37.000501,-77.372942",1200,37.000501,-77.372942
+MeherrinRiver_HugoRd_landmark,landmark,,Meherrin River × Hugo Rd,"36.545478,-77.298817",1200,36.545478,-77.298817
+CSX_MeherrinRiver_landmark,landmark,,CSX Rail × Meherrin River,"36.547517,-77.299374",1200,36.547517,-77.299374
+DolesRd_ClaytonRd_landmark,landmark,,Doles Rd × Clayton Rd,"36.841334,-76.886510",1200,36.841334,-76.886510
+DolesRd_TuckerSwampRd_landmark,landmark,,Doles Rd × Tucker Swamp Rd,"36.829007,-76.874264",1200,36.829007,-76.874264
+NewRd_TuckerSwampRd_landmark,landmark,,New Rd × Tucker Swamp Rd,"36.870760,-76.859370",1200,36.870760,-76.859370
+I95_CabinPointRd_landmark,landmark,,I‑95 × Cabin Point Rd,"36.979194,-77.392653",1200,36.979194,-77.392653
+RowantyCreek_CabinPointRd_landmark,landmark,,Rowanty Creek × Cabin Point Rd,"36.982588,-77.381390",1200,36.982588,-77.381390
+BeaverCreek_TanyardBranch_mouth,mouth,,Beaver Creek × Tanyard Branch,"38.009139,-77.992939",500,38.009139,-77.992939
+SpringGroveSwamp_SwannsPointRd_landmark,landmark,,Spring Grove Swamp × Swanns Point Rd,"37.169075,-76.964423",1200,37.169075,-76.964423
+BuckhornSwamp_PittmanRd_landmark,landmark,,Buckhorn Swamp × Pittman Rd,"36.573018,-77.240191",1200,36.573018,-77.240191
+TarraraCreek_OldBranchvilleRd_landmark,landmark,,Tarrara Creek × Old Branchville Rd,"36.594985,-77.227701",1200,36.594985,-77.227701
+SykesFarmRd_OldBranchvilleRd_landmark,landmark,,Sykes Farm Rd × Old Branchville Rd,"36.602025,-77.216455",1200,36.602025,-77.216455
+TarraraCreek_SykesFarmRd_landmark,landmark,,Tarrara Creek × Sykes Farm Rd,"36.609603,-77.226753",1200,36.609603,-77.226753
+NorfolkSouthern_ThreeCreeksRd_landmark,landmark,,Norfolk Southern × Three Creeks Rd,"36.718604,-77.256070",1200,36.718604,-77.256070
+NorfolkSouthern_AngelicoRd_landmark,landmark,,Norfolk Southern × Angelico Rd,"36.718220,-77.243353",1200,36.718220,-77.243353
+IveyTractRd_LittleTexasRd_landmark,landmark,,Ivey Tract Rd × Little Texas Rd,"36.613665,-77.339792",1200,36.613665,-77.339792
+RiverRd_PlankRd_landmark,landmark,,River Rd × Plank Rd,"36.784531,-77.126635",1200,36.784531,-77.126635
+CabinPointSwamp_EmeraldRd_landmark,landmark,,Cabin Point Swamp × Emerald Rd,"36.926512,-77.351709",1200,36.926512,-77.351709
+VawterCornerRd_EllisvilleRd_landmark,landmark,,Vawter Corner Rd × Ellisville Rd,"38.129760,-78.013549",1200,38.129760,-78.013549
+MarketRd_RockhillRd_landmark,landmark,,Market Rd × Rockhill Rd,"37.577942,-77.232595",1200,37.577942,-77.232595
+ParsleysCreek_McClellanRd_landmark,landmark,,Parsleys Creek × McClellan Rd,"37.611781,-77.219915",1200,37.611781,-77.219915
+BrookRd_PretlowRd_landmark,landmark,,Brook Rd × Pretlow Rd,"36.645128,-76.909957",1200,36.645128,-76.909957
+BethanySchoolRd_GlendaleDr_landmark,landmark,,Bethany School Rd × Glendale Dr,"36.618182,-76.919646",1200,36.618182,-76.919646
+GrizzardRd_FortvilleRd_landmark,landmark,,Grizzard Rd × Fortville Rd,"36.724227,-77.439385",1200,36.724227,-77.439385
+HarrellPond_landmark,landmark,,Harrell Pond,"36.723676,-77.446411",1200,36.723676,-77.446411
+ShandsRd_SussexDr_landmark,landmark,,Shands Rd × Sussex Dr,"36.943793,-77.477672",1200,36.943793,-77.477672
+ShandsRd_TheodoreLane_landmark,landmark,,Shands Rd × Theodore Ln,"36.934167,-77.482016",1200,36.934167,-77.482016
+HardyCentralCemetery_landmark,landmark,,Hardy Central Cemetery,"37.449590,-77.280810",1200,37.449590,-77.280810
+BlackCreekRd_BurdetteRd_landmark,landmark,,Black Creek Rd × Burdette Rd,"36.767663,-76.925438",1200,36.767663,-76.925438
+BrownsBranch_AdamsGroveRd_landmark,landmark,,Browns Branch × Adams Grove Rd,"36.710957,-77.391924",1200,36.710957,-77.391924
+AllensBranch_FordsCountryLn_landmark,landmark,,Allens Branch × Fords Country Ln,"37.673237,-77.578018",1200,37.673237,-77.578018
+AppletonRd_QuakerRd_landmark,landmark,,Appleton Rd × Quaker Rd,"36.830220,-76.931554",1200,36.830220,-76.931554
+IvorRd_SeacockSwamp_landmark,landmark,,Ivor Rd × Seacock Swamp,"36.899890,-76.916625",1200,36.899890,-76.916625
+GreatSpringRd_FairwayDr_landmark,landmark,,Great Spring Rd × Fairway Dr,"36.968041,-76.636998",1200,36.968041,-76.636998
+StallingsRd_GreatSpringRd_landmark,landmark,,Stallings Rd × Great Spring Rd,"36.954240,-76.630744",1200,36.954240,-76.630744
+FontaineCreek_MeherrinRiver_mouth,mouth,,Fontaine Creek × Meherrin River,"36.551039,-77.348464",500,36.551039,-77.348464
+WebbRd_PetersburgRd_landmark,landmark,,Webb Rd × Petersburg Rd,"37.105342,-77.173407",1200,37.105342,-77.173407
+TanyardRun_head_landmark,landmark,,Head of Tanyard Run,"38.092983,-77.461310",1200,38.092983,-77.461310
+CountylineChurchRd_CedonRd_landmark,landmark,,Countyline Church Rd × Cedon Rd,"38.056873,-77.557600",1200,38.056873,-77.557600
+StonyCreek_LewisPond_centroid,landmark,,Centroid (Stony Creek – Lewis Pond),"36.91849904196128,-77.42447616909942",1200,36.91849904196130,-77.42447616909940
+IvorRd_SeacockSwamp_landmark,landmark,,Ivor Rd × Seacock Swamp,"36.899890,-76.916625",1200,36.89989000000000,-76.91662500000000
+GreatSpringRd_FairwayDr_landmark,landmark,,Great Spring Rd × Fairway Dr,"36.968041,-76.636998",1200,36.968041,-76.636998
+StallingsRd_GreatSpringRd_landmark,landmark,,Stallings Rd × Great Spring Rd,"36.954240,-76.630744",1200,36.954240,-76.630744
+FontaineCreek_MeherrinRiver_mouth,mouth,,Fontaine Creek × Meherrin River,"36.551039,-77.348464",500,36.551039,-77.348464
+WebbRd_PetersburgRd_landmark,landmark,,Webb Rd × Petersburg Rd,"37.105342,-77.173407",1200,37.105342,-77.173407
+TanyardRun_head_landmark,landmark,,Head of Tanyard Run,"38.092983,-77.461310",1200,38.092983,-77.461310
+CountylineChurchRd_CedonRd_landmark,landmark,,Countyline Church Rd × Cedon Rd,"38.056873,-77.557600",1200,38.056873,-77.557600
+StonyCreek_LewisPond_centroid,landmark,,Centroid (Stony Creek – Lewis Pond),"36.91849904196128,-77.42447616909942",1200,36.91849904196130,-77.42447616909940
+SeacockChapelRd35466_building,landmark,,35466 Seacock Chapel Rd (building),"36.858932748756956,-76.89462769110271",1200,36.858932748757000,-76.89462769110270
+StateRd600_11455_building,landmark,,Mailbox 11455 State Rd 600,"36.83459953304954,-76.72637951898675",1200,36.83459953304950,-76.72637951898680
+UnnamedRd_corner_landmark,landmark,,Unnamed Rd corner,"36.6572183691676,-77.45413630526349",1200,36.6572183691676,-77.45413630526350
+TobaccoHeritageTrail_CabinPointRd_landmark,landmark,,Tobacco Heritage Trail × Cabin Point Rd,"36.78143200272073,-77.09151444874894",1200,36.78143200272070,-77.09151444874890
+BishopPoquosonRd_StateHwy674_landmark,landmark,,Bishop Poquoson Rd × Hwy 674,"36.668768,-77.056075",1200,36.668768,-77.056075
+RiverRd20601_building,landmark,,20601 River Rd (building),"37.314724293119475,-77.79758323154536",1200,37.314724293119500,-77.79758323154540
+RiverRd_DeerFarmLn_landmark,landmark,,River Rd × Deer Farm Ln,"37.725479,-78.011140",1200,37.725479,-78.011140
+EndOf_RiceRd_landmark,landmark,,End of Rice Rd,"37.906608,-77.614625",1200,37.906608,-77.614625
+BeaverDamRd_OldRidgeRd_landmark,landmark,,Beaver Dam Rd × Old Ridge Rd,"37.865136,-77.692906",1200,37.865136,-77.692906
+PineStakeRd_FineCrkLn_landmark,landmark,,Pine Stake Rd × Fine Creek Ln,"38.28215453254768,-77.90504086773697",1200,38.28215453254770,-77.90504086773700
+CherryOrchardBranch_Route35_mouth,mouth,,Cherry Orchard Branch × Route 35,"37.047695,-77.314605",500,37.047695,-77.314605
+BlackwaterRiver_JoynersBridgeRd_landmark,landmark,,Blackwater River × Joyners Bridge Rd,"36.733789,-76.916935",1200,36.733789,-76.916935
+DavisLn13426_building,landmark,,13426 Davis Ln (building),"36.603966288726404,-77.2760063527059",1200,36.603966288726400,-77.2760063527059
+OakHillRd1176_building,landmark,,1176 Oak Hill Rd (building),"37.143629776123475,-77.03647061307561",1200,37.143629776123500,-77.03647061307560
+FoundersBridgeRd_MapleHallDr_landmark,landmark,,Founders Bridge Rd × Maple Hall Dr,"37.533732,-77.687370",1200,37.533732,-77.687370
+NorthBeachPool_landmark,landmark,,North Beach Pool,"37.44155752714751,-77.66899568605193",1200,37.44155752714750,-77.66899568605190
+OldStoreRd_LogCabinRd_landmark,landmark,,Old Store Rd × Log Cabin Rd,"37.708359,-77.868403",1200,37.708359,-77.868403
+FoxDownsRd_BroadStRd_landmark,landmark,,Fox Downs Rd × Broad St Rd,"37.695643,-77.764328",1200,37.695643,-77.764328
+MaidensRd_AdventureLn_landmark,landmark,,Maidens Rd × Adventure Ln,"37.716660,-77.854269",1200,37.716660,-77.854269
+MillCreekDr_MillCreekCommonsLn_landmark,landmark,,Mill Creek Dr × Mill Creek Commons Ln,"37.797467,-77.580857",1200,37.797467,-77.580857
+PeppertownRd_BeattiesMillRd_landmark,landmark,,Peppertown Rd × Beatties Mill Rd,"37.631964,-77.252661",1200,37.631964,-77.252661
+MeChumpsCreek_Pond_landmark,landmark,,MeChumps Creek Pond,"37.762396,-77.431847",1200,37.762396,-77.431847
+FarringtonFarmLn11421_building,landmark,,11421 Farrington Farm Ln (building),"37.72355740052544,-77.51787667345857",1200,37.72355740052540,-77.51787667345860
+GarlandParkLn_StumpyRd_landmark,landmark,,Garland Park Ln × Stumpy Rd,"37.712755,-77.395278",1200,37.712755,-77.395278
+WaysideRd_JohnTylerMemHwy_landmark,landmark,,Wayside Rd × John Tyler Mem Hwy,"37.376041,-77.224517",1200,37.376041,-77.224517
+SevernRd503_building,landmark,,503 Severn Rd Building,"36.52921560353315,-77.3173989919234",1200,36.529216,-77.317399
+PrivateDrive_curve_landmark,landmark,,Turn in road on private drive,"36.65477737399685,-77.36175277673293",1200,36.65477737399690,-77.36175277673290
+Capron23829_landmark,landmark,,Mail area 23829 Capron VA,"36.775630,-77.202910",1200,36.775630,-77.202910
+CSXRail_23882_landmark,landmark,,CSX Rail near 23882,"36.906548,-77.414351",1200,36.906548,-77.414351

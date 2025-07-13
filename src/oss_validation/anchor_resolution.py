@@ -461,8 +461,11 @@ def _resolve_single(
     excl_reason = None
     if row.get("centroid_lat") is not None and not pd.isna(row.get("centroid_lat")):
         d_km = _gc_km(lat, lon, row["centroid_lat"], row["centroid_lon"])
-        if d_km > 50:
-            excl_reason = "far_centroid_{:.0f}km".format(d_km)
+        if d_km > 20:
+            excl_reason = f'far_centroid_{d_km:.0f}km'
+
+    # Tighten threshold
+    thresh = 92 if any(s in feature_name_clean for s in ('creek', 'river', 'branch')) else BASE_SIM_THRESHOLD
 
     return (
         lat,
