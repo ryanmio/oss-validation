@@ -19,8 +19,7 @@ A short pandas summary (top-20 by ``parcel_cnt``) is printed to stdout.
 """
 from __future__ import annotations
 
-from typing import List, Set, Dict
-
+import argparse
 import geopandas as gpd
 import pandas as pd
 from loguru import logger
@@ -41,6 +40,7 @@ from .network_adjustment import (
 # ---------------------------------------------------------------------------
 # Output path ----------------------------------------------------------------
 OUT_GPKG = config.PROCESSED_DIR / "unanchored_blocks.gpkg"
+OUT_CSV = config.ROOT_DIR / "results" / "remaining_underanchored_components.csv"
 
 # ---------------------------------------------------------------------------
 # Helpers --------------------------------------------------------------------
@@ -78,8 +78,12 @@ def _component_stats(
         # anchor count – sum over parcels in component
         cnt = sum(anchor_counts.get(idx, 0) for idx in nodes)
 
-        # Does component contain any C&P parcel?
-        has_cp = any(str(polys.grant_id.iloc[idx]) in cp_overlap for idx in nodes)
+        # Count C&P parcels in this component ---------------------------------
+        cp_cnt = sum(
+            1 for idx in nodes if str(polys.grant_id.iloc[idx]) in cp_overlap
+        )
+
+        has_cp = cp_cnt > 0
 
         # Anchor rule failure ------------------------------------------------
         fails_rule = False
@@ -94,6 +98,7 @@ def _component_stats(
                     "comp_id": comp_id,
                     "parcel_cnt": parcel_cnt,
                     "anchor_cnt": int(cnt),
+                    "cp_cnt": cp_cnt,
                 }
             )
     return pd.DataFrame(rows)
@@ -109,6 +114,22 @@ def _dissolve_component_geometry(comp_nodes: List[int], polys: gpd.GeoDataFrame)
 # Main CLI -------------------------------------------------------------------
 
 def main() -> None:  # noqa: C901 (single orchestrator)
+    # ------------------------------------------------------------------
+    parser = argparse.ArgumentParser(description="Export under-anchored components as GeoPackage/CSV.")
+    parser.add_argument(
+        "--cp-only",
+        action="store_true",
+        help="(deprecated – kept for compatibility) Only export C&P components (default).",
+    )
+    parser.add_argument(
+        "--min_cp_parcels",
+        type=int,
+        default=1,
+        help="Minimum number of C&P parcels a component must contain to be exported (default 1).",
+    )
+
+    args = parser.parse_args()
+
     logger.info("=== EXPORT UNANCHORED C&P BLOCKS ===")
 
     # 1. Load core data ------------------------------------------------------
@@ -135,6 +156,11 @@ def main() -> None:  # noqa: C901 (single orchestrator)
 
     # 3. Per-component stats & filter failures ------------------------------
     stats_df = _component_stats(comps, anchors_joined, polys, cp_overlap)
+
+    # Apply --min_cp_parcels filter ---------------------------------------
+    if args.min_cp_parcels > 1:
+        stats_df = stats_df[stats_df.cp_cnt >= args.min_cp_parcels].copy()
+
     if stats_df.empty:
         logger.success("No unanchored components detected – nothing to export.")
         return
@@ -175,9 +201,15 @@ def main() -> None:  # noqa: C901 (single orchestrator)
     needed_pts.to_file(OUT_GPKG, layer="needed_points", driver="GPKG")
     logger.success(f"GeoPackage written → {OUT_GPKG.relative_to(config.ROOT_DIR)}")
 
+    # 5b. Write CSV of remaining gaps ---------------------------------------
+    csv_df = stats_df.sort_values(["cp_cnt", "parcel_cnt"], ascending=[False, False])
+    OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
+    csv_df.to_csv(OUT_CSV, index=False)
+    logger.success(f"CSV written → {OUT_CSV.relative_to(config.ROOT_DIR)}")
+
     # 6. Console summary -----------------------------------------------------
     summary = (
-        stats_df.sort_values("parcel_cnt", ascending=False)
+        stats_df.sort_values(["cp_cnt", "parcel_cnt"], ascending=[False, False])
         .head(20)
         .reset_index(drop=True)
     )
