@@ -1,3 +1,9 @@
-Sample size: 39
-Median: 3.18 km
-90th percentile: 6.92 km (95% CI 4.87–14.67 km)
+Manual-Only Tier-2 Positional Accuracy Analysis
+==================================================
+Sample size: 2
+WARNING: Sample size too small for meaningful CI (n=2)
+Basic statistics:
+  Min:    0.91 km
+  Median: 1.51 km
+  Max:    2.11 km
+  Mean:   1.51 km

@@ -1,0 +1,1199 @@
+confidence,name_sim,raw_sim,cp_id,oss_id,acreage,year_cp,year_oss,cp_name,oss_name,cp_raw,oss_raw,anchor_phrase_raw,anchor_type,anchor_feature_name,anchor_phrase,anchor_lat,anchor_lon,match_score,ambiguity_flag,gnis_name,gnis_class,gnis_county
+100.0,100.0,100.0,II_10_1943,10302,7100.0,1719,1719,Larkin Chew,Larkin Chew Of King & Queen County,"LARKIN CHEW, of K. & Q. Co.,
+7100 acs, (N. L.), 1 May 1719, p. 417.
+2450 acs. part on N. side of Mattapony
+Riv., in St. Stephen’s Parish in K. & Q.
+Co; & 4650 acs. on S, side the river,
+in St. John’s Parish, in King Wm. Co;
+beg. at mouth of the Piney Lick of N.
+side the river; to Harry Beverléy’s
+corner; on Nath. Sanders’, & Mr.
+Bowker’s life. 35 Lbs., 10 Shilf.
+_ JOSEPH WALKER, GENT., 162: acé,
+(O. L.), York Co., in Hampton’, Par;
+by br, of Capt. John West’s Creek; 11
+July, 1719, p. 418. Granted Thomas
+Whitehead, 6 Mar, 1653, which patent
+at a General Court held at our Roya
+Capito! the 29th day of April 1718 was
+by sd. Walker, assignee of Mary Bass,
+surrendered, &c. Consideration: Mehtioned jn an order of our Lt. Gov’r. &
+Council, made on the petition of Mary
+Bass, 13 Nov. 1717, &c.",7100a,mouth of the Piney Lick of N,mouth,the Piney Lick of N,mouth of the Piney Lick of N,,,,2.0,,,
+100.0,100.0,100.0,II_11_2331,11028,1150.0,1722,1722,Robert Bolling,Robert Bolling Of Prince George Co.,"ROBERT BOLLING, GENT., of Pr.
+Geo. Co; 1150 acs. (O. & N. L.),
+Surry Co; on both sides of Nottoway
+Riv; at tnouth of the Island Sw., on S.
+side of sd. river; cor. of John Threewit;
+to mouth of the Miery Meadow Br; by
+a Goose Pond; by John Michel; 26 July
+1722, p. 152. 250 acs. part, with other
+Lands, granted Robert Hawthorn, who
+conveyed to Col. Robt. Bolling, who
+bequeathed to abovenamed Robert; 950
+acs. for Imp. of 18 pers: Wm. Fidles,
+Peter Johnson, Stephen Laine, James
+Siles, Henry Veill, Samll. Story, John
+Dawson, Mary Bird, Henry Mills, Wm.
+Evens, James Clerke, Samll. Hosea,
+Thomas Jones, Richd. Trewman, Edwd.
+Evans, Robt. Jones, Wm. Perkins, John
+Leach (or Leath.)",1150a on both sides of Nottoway River,mouth of the Miery Meadow Branch,mouth,the Miery Meadow Branch,mouth of the Miery Meadow Branch,36.60731380046957,-82.98072150038786,81.25,0.0,Meadow Branch,Stream,Scott
+100.0,100.0,100.0,II_13_4597,7490,400.0,1730,1730,John Cosby & Charles Barret,John Cosby & Charles Barret,"JOHN COSBY & CHARLES
+BARRET, 400 acs. (N. L.), Hanover
+Co; adj. Capt, Carr & Benjamin Brown;
+in a glaid of the S. fork of the Little
+River; 28 Sept, 1730, p. 510. 40 Shill.",400a adj Capt Carr & Benjamin Brown,Fork of the Little River,fork,the Little River,Fork of the Little River,37.99152870040433,-77.88832839995894,100.0,0.0,Little River,Stream,Louisa
+99.33333333333334,100.0,98.7,II_13_3800,7449,400.0,1727,1727,Benjamin Brown,Benjamin Brown,"BENJAMIN BROWN, 400 acs. (N.
+L.), Hanover Co; on both sides the S.
+fork of the Little River; adj. Jeremiah
+Dumas; near Rockey Branch; 16 June
+1727, p. 100. 40 Shill,",400a on both sides the S Fork of Little River adj Benjamin Brown & Jeremiah Dumas,fork of the Little River,fork,the Little River,Fork of the Little River,37.99152870040433,-77.88832839995894,100.0,0.0,Little River,Stream,Louisa
+99.0,100.0,98.0,II_14_5237,5399,1400.0,1732,1732,William Chamberlayne,William Chamberlayne,"WILLIAM CHAMBERLAYNE, 1400
+acs. (O, & N. L.), Goochland Co; S.
+side the Rivanna Riv., or N. Br. of
+James Riv; at mouth of Cary’s Cr; adj.
+Mr. Cocke; 11 Apr. 1732, p. 393. 400
+acs. part granted Ebenezer Adams. 5
+Lbs., Money.",1400a Goochland/ S side the Rivanna Riv. or the N Br. of James Riv.,mouth of Cary's Creek,mouth,Cary's Creek,mouth of Cary's Creek,37.800419999659255,-78.23055810046941,95.23809523809523,0.0,Carys Creek,Stream,Fluvanna
+98.83720930232559,100.0,97.7,II_12_2947,6656,400.0,1724,1724,John Stanley,John Stanley,"JOHN STANLEY, 400 acs. (N. L.),
+Hanover Co; on both sides the N, fork
+of the Newfound River; adj. Cicelia
+Anderson; on S, side of the Ridge Road;
+22 Feb. 1724, p. 139. 40 Shill.",400a on both sides the N fork of the Newfound River,Fork of the Newfound River,fork,the Newfound River,Fork of the Newfound River,37.8145859996373,-77.4997058995205,100.0,0.0,Newfound River,Stream,Louisa
+98.80952380952381,100.0,97.6,II_12_3288,7419,400.0,1725,1725,Thomas Harris,Thomas Harris,"THOMAS HARRIS, 400 acs. (N.
+L.), Hanover Co; on both sides of
+Harris’ fork of Cubb Creek; adj. William Harris; & Dabney’s line; 24 Mar.
+1725, p. 359. 40 Shill,",400a on both sides Harris's Fork of Cubb Creek,fork of Cubb Creek,fork,Cubb Creek,Fork of Cubb Creek,37.833754299607506,-77.84166080003138,94.73684210526316,0.0,Cub Creek,Stream,Louisa
+98.75,100.0,97.5,II_12_3237,5377,5000.0,1725,1725,Dudley Digges,Dudley Digges Of Gloucester County Gent.,"DUDLEY DIGGES, GENT., of
+Gloucester Co., 5000 acs. (N. L.),
+Henrico Co; in the main fork of James
+River; beg. in the poynt of the fork of
+sd river which makes the Fluvanna &
+Rivanna (Rivers); 26 Oct. 1725, p.
+329. 25 Lbs, Money.",5000a Henrico/ in the Main Fork of James River,Fork of James River,fork,James River,Fork of James River,37.4162512002556,-76.49189380004316,80.0,0.0,Ware River,Stream,Gloucester
+98.69565217391305,100.0,97.4,II_13_3990,6731,742.0,1727,1727,Charles Chiswell,Charles Chiswell,"CHARLES CHISWELL, Gent., of
+the City of Williamsburgh; 742 acs.
+(CN. L.), Hanover Co; adj. lines of
+Thomas Hart, John Rice, Philip Higginson, Cicilia Anderson, John Stanley,
+Capt. David Crawford, the Sims’ grant.
+Anthony Waddey, & Walliam Rice; on
+S. side the Ridge Road; on E. side a
+br. of Locust Cr: & by W. fork of
+Licking Hole Cr; 1 Nov. 1727, p. 214.
+3 Lbs., 15 Shill.","742a adj Thomas Hart, John Rice, Philip Higginson, Cicilia Anderson John Stanley Capt David Crawford the Sims Grant Anthony Waddy",Fork of Licking Hole Creek,fork,Licking Hole Creek,Fork of Licking Hole Creek,37.74527779974488,-77.47277779956232,97.14285714285714,0.0,Lickinghole Creek,Stream,Hanover
+98.68421052631578,100.0,97.4,II_12_3239,5378,400.0,1725,1725,Ebenezer Adams,Ebenezer Adams Gent Of New Kent County,"EBENEZER ADAMS, GENT., of
+New Kent Co; 400 acs, (N, L.), in the
+fork of James River on the Rivanna;
+adj. Mr. Cocke; 26 Oct. 1725, p. 330.
+40 Shill.",400a in the Fork of James River on the Rivanna,fork of James River on the Rivanna,fork,James River on the Rivanna,Fork of James River on the Rivanna,,,,2.0,,,
+98.68421052631578,100.0,97.4,II_14_5232,34,400.0,1732,1732,Thomas Goolsby,Thomas Goolsby,"SAME. 400 acs. (N. L.); same Co.
+& date; page 390. On N. side the S.
+fork of James River, alias the Fluvanna
+Riv; adj. his own land. 40 Shill.",400a on the N side of James River (the Fluvanna),fork of James River,fork,James River,Fork of James River,37.63403629991751,-77.99972199978606,95.23809523809523,0.0,James River,Stream,Charles City
+98.61111111111111,100.0,97.2,II_13_4580,7494,400.0,1730,1730,William May,William May,"WILLIAM MAY, 400 acs. (N. L.),
+Hanover Co; adj, William Chamberlayne; & William Wetherford; on Wolf
+Trap fork of Henson’s Creek; 28 Sept.
+1730, p. 502. 40 Shill.",400a adj William Chamberlayne & William Wetherford,Fork of Henson's Creek,fork,Henson's Creek,Fork of Henson's Creek,38.00847300037799,-78.142779899564,83.33333333333334,0.0,Hudson Creek,Stream,Louisa
+98.48484848484848,100.0,97.0,II_12_3555,10367,2650.0,1726,1726,Robert Baylor,Robert Baylor Of King & Queen Co. Gent.,"SAME, 2650 acs. (N. L.); 500 acs.
+part on both sides the South River, in
+St. Maroaret’s Par., in King Wm. Co;
+& 2150 acs. on the County Line, on
+both sides the S. fork of the South Riv.,
+in St. George’s Par., in Spotsyl. Co; ad}.
+William Dunn; & Robert Poweil; on
+E. side of Punch Br; on NE side of
+the main Ridge Road; same date & page,
+13 Lbs., 5 Shill.","2650a, 500a part on both sides the South Riv.",Fork of the South River,fork,the South River,Fork of the South River,38.05680250030298,-77.58331900043237,100.0,0.0,South River,Stream,Spotsylvania
+98.38709677419355,100.0,96.8,II_13_3799,6727,200.0,1727,1727,Robert Sercey (or Sezcey),Robert Sercey,"ROBERT SERCEY (or Sezcey), 200
+acs. (N. L.), Hanover Co; adj. Mr.
+Charles Snelson & John White; on S.
+side of Snelson’s Branch; & N. fork of
+Hollowing Creek; 16 June 1727, p. 100.
+20 Shill.",200a adj Charles Snelson & John White,Fork of Hollowing Creek,fork,Hollowing Creek,Fork of Hollowing Creek,37.90708499949369,-77.67360020029224,100.0,0.0,Hollowing Creek,Stream,Louisa
+97.61904761904762,100.0,95.2,II_13_3640,6692,300.0,1725,1725,Benjamin Brown,Benjamin Brown,"BENJAMIN BROWN, 300 acs. (N.
+L.), Hanover Co; on both sides of the
+N. fork of Beverdam Creek; on Mr.
+Alexander Cocke's line; 24 Mar. 1725,
+p. 4.",300a in Hanover on both sides the N fork of Beverdam Creek,fork of Beverdam Creek,fork,Beverdam Creek,Fork of Beverdam Creek,37.57931200000246,-77.34720189975724,96.55172413793103,0.0,Beaverdam Creek,Stream,Hanover
+97.59358288770053,100.0,95.2,II_13_4370,7485,1987.0,1729,1729,Peter King,Peter King,"PETER KING, 1987 acs. (N. L.),
+Hanover Co; on both sides the Southanna (Riv.); adj, lines of Mr. John
+White; Anderson & Finney; John Clark,
+Andrew Hunter, & Mr. William Clopton, Junr; at mouth of Deep Cr; 27
+Sept. 1729, p. 411. 10 Lbs., Money.",1987a on both sides the S Anna adj John White Anderson Finney John Clark Andrew Hunter William Clopton Junr,mouth of Deep Creek,mouth,Deep Creek,mouth of Deep Creek,37.96764060044137,-77.94694109986796,81.81818181818181,0.0,Desper Creek,Stream,Louisa
+97.5609756097561,100.0,95.1,II_12_3279,7411,400.0,1725,1725,John Hudson,John Hudson,"JOHN HUDSON, 400 acs, (N. L.),
+Hanover Co; on both sides of Harris’
+fork of Cubb Creek; adj. Thomas
+Harris’ land; 24 Mar, 1725, p. 354.
+40 Shill.",400a on both sides Harris's fork of Cubb Creek,fork of Cubb Creek,fork,Cubb Creek,Fork of Cubb Creek,37.833754299607506,-77.84166080003138,94.73684210526316,0.0,Cub Creek,Stream,Louisa
+96.21212121212122,95.5,97.0,II_12_3376,6129,384.0,1725,1725,Leonard Ballow & Thomas Ballow,Leonard Ballow And Thomas Ballow,"LEONARD BALLOW & THOMAS
+BALLOW, 384 acs. (N. L.), Henrico
+Co; on heads of Fleming’s Park Creek;
+crossing the main road to Ridge between head of said Cr. & Amoses’
+Branch; 24 Mar. 1725, p. 408. 40 Shill,",384a Henrico/ Heads of Fleming Park Cr.,head of said Creek,head,said Creek,head of said Creek,37.34083330037265,-77.31527779980678,85.71428571428572,0.0,Shand Creek,Stream,Chesterfield
+96.15384615384616,100.0,92.3,II_11_2353,7378,400.0,1722,1722,William Pulliam,William Pulliam,"WILLIAM PULLIAM, 400 acs. (N.
+L.), Hanover Co: on N. side the Little
+River; 18 Feb. 1722, p. 163. 40 Shill.
+(IDAVID MERIWETHER, 400 acs.
+(N. L.), Hanover Co; on up. side the
+Horse Pen fork of Locust Cr; 18 Feb.
+1722, p. 163. 40 Shill.",400a on the S side the Little River,Fork of Locust Creek,fork,Locust Creek,Fork of Locust Creek,37.913751699483385,-77.70443460024438,100.0,0.0,Locust Creek,Stream,Hanover
+96.15384615384616,100.0,92.3,II_14_4909,7493,200.0,1730,1730,Jeremiah Glen,Jeremiah Glen,"JEREMIAH GLEN, 200 acs. (N. L.),
+Hanover Co; on both sides the S. fork
+of Cubb Cr; adj. Thomas Rice; 28 Sept.
+1730, p. 128. 20 Shill.",200a on both sides the S Fork of Cubb Creek adj Thomas Rice,Fork of Cubb Creek,fork,Cubb Creek,Fork of Cubb Creek,37.833754299607506,-77.84166080003138,94.73684210526316,0.0,Cub Creek,Stream,Louisa
+96.08695652173913,100.0,92.2,II_13_4392,7483,1200.0,1729,1729,John Dandridge,John Dandridge,"JOHN DANDRIDGE, GENT., 1200
+acs. (N, L.), Hanover Co; on N. side
+the Southanna; adj. Richard Phillips &
+Capt. George Dabney; at mouth of
+Juniper Point gut; 27 Sept. 1729, p.
+419. 6 Lbs., Money.",1200a on the N side the S Anna adj Richard Phillips & Capt George Dabney,mouth of Juniper Point gut,mouth,Juniper Point gut,mouth of Juniper Point gut,,,,2.0,,,
+96.05321507760533,94.5,97.6,II_13_4578,7491,400.0,1730,1730,John Cosbie & Charles Barret,John Cosby & Charles Barret,"JOHN COSBIE & CHARLES
+BARRET, 400 acs, (N. L.), Hanoves
+CAVALIERS AND PIONEERS
+Co; on both sides the S. fork of Little
+River; 28 Sept. 1730, p. 501. 40 Shill.",400a on both sides the S Fork of the Little River,Fork of Little River,fork,Little River,Fork of Little River,37.613202499949864,-77.76193860015513,100.0,0.0,Little River,Stream,Goochland
+96.03174603174602,100.0,92.1,II_10_1721,6052,472.0,1717,1717,Amos Lead (lad),Amos Lead,"AMOS LEAD (Lad), 472 acs. (N.
+L.), Henrico Co; N. side of James Riv;
+on E. side of the N, br. of Beaverdam
+€z., at the mouth of Horsepen Cr; adj.
+his own land; 22 Jan. 1717, p. 347.
+50 Shill,",472a Henrico/ Beaverdam Ck Horsepen Br,mouth of Horsepen Creek,mouth,Horsepen Creek,mouth of Horsepen Creek,37.42070710024865,-78.27499580040046,100.0,0.0,Horsepen Creek,Stream,Cumberland
+96.0,100.0,92.0,II_14_5031,7529,400.0,1731,1731,Marmaduke Kimbrow,Marmaduke Kimbrow,"MARMADUKE KIMBROW, 400 acs.
+(N .L.), Hanover Co; on both sides
+the S, fork of Cubb Cr., on N. side the
+South Anna Riv; adj. Capt. Clark &
+William Harris; 25 Aug. 1731, p. 213.
+40 Shill.",400a on both sides the S Fork of Cub Creek on the N side the S Anna adj Capt Clark & William Harris,Fork of Cubb Creek,fork,Cubb Creek,Fork of Cubb Creek,37.833754299607506,-77.84166080003138,94.73684210526316,0.0,Cub Creek,Stream,Louisa
+95.6140350877193,100.0,91.2,II_14_5008,7511,400.0,1731,1731,Edward Rice,Edward Rice,"EDWARD RICE, 400 acs. (N. L.),
+Hanover Co; adj. Mr, Richard Phillips,
+Col. Thomas Jones & Capt. George
+Dabney; on head of Owens’ Br; 26
+June 1731, p..192. 40 Shill.",400a adj Richard Phillips Colonel Thomas Jones Capt George Dabney,head of Owens' Branch,head,Owens' Branch,head of Owens' Branch,38.09318910024649,-77.40220369967187,80.0,0.0,Downers Branch,Stream,Caroline
+95.45454545454545,100.0,90.9,II_12_3109,7425,1000.0,1725,1725,William Macghee,William Macghee,"WILLIAM MACGHEE, of King
+Wm. Co; 1000 acs. (N. L.). Hanover
+Co; on both sides Gr. Rockey Creek, &
+on S. side the North Anna (Riv.); beg.
+at Capt. Martin's; to John Ragland’s
+cor., near mouth of Elk Cr; on N, side
+of Plumbtree Br; 17 Aug. 1725, p. 242.
+5 Lbs., Money,",1000a on both sides Great Rockey Creek & S side N Anna,mouth of Elk Creek,mouth,Elk Creek,mouth of Elk Creek,36.517082099567915,-80.30588780037311,100.0,0.0,Elk Creek,Stream,Stokes
+95.37037037037037,100.0,90.7,II_14_5316,7554,400.0,1732,1732,Thomas Carr,Thomas Carr,"THOMAS CARR, GENT., of Caroline Co; 400 acs. (Lapsed L.), Hanover
+Co; on both sides the §. & N, forks of
+Elk Cr; adj. John Ragland; down Plum
+Tree Br; 1 July 1732, p. 456. Granted
+William Overton, 7 Jan, 1725, on condition of seatihg, &c. 40 Shill.",400a on both sides the S & N Forks of Elk Creek adj John Ragland,Fork of Elk Creek,fork,Elk Creek,Fork of Elk Creek,,,,2.0,,,
+95.23809523809524,100.0,90.5,II_11_2349,7382,400.0,1722,1722,Nicholas Meriwether,Nicholas Meriwether,"NICHOLAS MERIWETHER, 400
+acs. (N. L.), Hanover Co; at the fork
+of the South Anna (Riv.); adj, Christopher Clark; 18 Feb, 1722, p. 161.
+40 Shill.",400a at the fork of the S Anna,Fork of the South Anna,fork,the South Anna,Fork of the South Anna,,,,2.0,,,
+95.16129032258064,100.0,90.3,II_11_2676,6616,400.0,1723,1723,John Mcquerry,John Mcquerry,"JOHN McQUERRY, of New Kent
+Co; 400 acs. (N. L.), Hanover Co; on
+head of Narrow Neck Creek; adj. Wilae Bourne; 20 Feb. 1723, p. 326. 40
+U1,",400a on the Head of Narrow Neck Creek,head of Narrow Neck Creek,head,Narrow Neck Creek,head of Narrow Neck Creek,,,,2.0,,,
+95.1219512195122,100.0,90.2,II_13_4054,10793,150.0,1727,1727,William Atkeison,William Atkeison Junr Of Surry County,"WILLIAM ATKEISON, JUNR., 150
+acs. (N. L.), Surry Co; S. side the main
+Blackwater Sw; on NE side of Gregory’s
+Br., in his own line; to head of Coppahonk Branch; 13 Oct. 1727, p. 255.+ 15
+Shill.",150a on S side Main Blackwater Swamp in Surry Co.,head of Coppahonk Branch,head,Coppahonk Branch,head of Coppahonk Branch,36.78764870018961,-77.63693080034915,78.57142857142857,0.0,Cooks Branch,Stream,Brunswick
+94.87179487179486,100.0,89.7,II_12_3333,7408,1000.0,1725,1725,James Nuckolls,James Nuckolls Junr,"JAMES NUCKOLLS, JUNR., 1000
+acs, (N. L.), Hanover Co; on both
+sides of Overton’s fork of Elk Cr; adj.
+Mr, Dickason’s land; 24 Mar. 1725, p.
+384. 5 Lbs. Money.",1000a on both sides Overton's Fork of Elk Creek,Fork of Elk Creek,fork,Elk Creek,Fork of Elk Creek,38.02291620035561,-77.75138040017151,100.0,0.0,Elk Creek,Stream,Louisa
+94.73684210526315,100.0,89.5,II_13_4464,15,400.0,1730,1730,Thomas Carr,Thomas Carr Of Caroline County,"THOMAS CARR, GENT., of Caroline Co; 400 acs. (N. L.), Hanover
+Co; on both sides the N. fork of James
+River, adj. Major Carr’s line; 6 June
+1730, p. 446. 40 Shill.",400a on both sides of the N ffork of James River,Fork of James River,fork,James River,Fork of James River,,,,2.0,,,
+94.61538461538461,100.0,89.2,II_12_3338,7412,400.0,1725,1725,Benjamin Cook,Benjamin Cook,"BENJAMIN COOK, 400 acs. (N.
+L.), Hanover Co; on S. fork of Hickory
+Bear Creek; in line of the Orphan of
+Owcns; 24 Mar. 1725, p. 388. 40 Shill.",400a on the S fork of Hickory Bear Crek,Fork of Hickory Bear Creek,fork,Hickory Bear Creek,Fork of Hickory Bear Creek,38.12152570020254,-77.9841643998102,83.87096774193549,0.0,Hickory Creek,Stream,Louisa
+94.44444444444444,100.0,88.9,II_14_5054,7528,400.0,1731,1731,Thomas Rice,Thomas Rice,"THOMAS RICE, 400 acs. (N. L.),
+Hanover Co; on both sides the S. fork
+of Cubb Cr; 25 Aug. 1731, p. 231. 40
+Shill.",400a on both sides the S Fork of Cubb Creek,Fork of Cubb Creek,fork,Cubb Creek,Fork of Cubb Creek,37.833754299607506,-77.84166080003138,94.73684210526316,0.0,Cub Creek,Stream,Louisa
+94.44444444444444,100.0,88.9,II_14_5099,9746,190.0,1731,1731,Thomas Jarrel,Thomas Jarrel Of Isle Of Wight Co.,"THOMAS JARREL, 190 acs. (N.
+L.), Is. of Wight’Co; on S. side of
+Nottoway Riv., & on both sides of
+Toquothonta Sw at mouth of Carter's
+Br; adj. Thomas Carter; Capt. John
+Edwards; Henry Flowers; & his own
+land; 25 Aug. 1731, p. 280. 20 Shill.",190a S side Nottoway River & both sides Toquothonta Sw. sd Co.,mouth of Carter's Branch,mouth,Carter's Branch,mouth of Carter's Branch,36.54048319953159,-78.42251500017147,100.0,0.0,Carter Branch,Stream,Vance
+94.30379746835443,100.0,88.6,II_10_2005,10295,470.0,1719,1719,Robert Slaughter,Robert Slaughter Of St. Maryes Par. Essex Co.,"ROBERT SLAUGHTER, 470 acs.
+(N. L.), Essex Co., in St. Mary’s Par;
+on §. side of the Rapidanna River; a
+little above the mouth of Hunting Run;
+20 Feb. 1719, p. 456. 50 Shill.",470a S side of the Rapidanna Riv. in the par. & Co. afsd,mouth of Hunting Run,mouth,Hunting Run,mouth of Hunting Run,,,,2.0,,,
+94.14414414414415,100.0,88.3,II_10_1926,6058,223.0,1718,1718,Edward Hatcher,Edward Hatcher Junr.,"EDWARD HATCHER, JUNR., 223
+acs, (N. L.), Henrico Co; on both sides
+of Tuckahoe main Cr., on N. side of
+James River; beg. in line of Mr. Clarke;
+to mouth of Deep Run; on line of Wm.
+Burston; 22 Jan. 1718, p. 411. 25 Shill.",223a both sides of Tuckahoe Main Creek N side of James River in HECo.,mouth of Deep Run,mouth,Deep Run,mouth of Deep Run,37.45861110018984,-77.28416669985506,100.0,0.0,Deep Run,Stream,Henrico
+94.08602150537635,100.0,88.2,II_14_5140,7505,400.0,1731,1731,Robert Tate,Robert Tate,"ROBERT TATE, 400 acs, (N. L.),
+Hanover Co; S, side the Northanna Riv.,
+on both sides of Christopher’s Run.,
+adj. Robert Hester; to mouth of Tomahawk Swamp; 25 Aug. 1731, p. 322.
+40 Shill.",400a on the S side the N Anna and on both sides Tomahawk Swamp,mouth of Tomahawk Swamp,mouth,Tomahawk Swamp,mouth of Tomahawk Swamp,,,,2.0,,,
+94.0,100.0,88.0,II_14_5057,6758,400.0,1731,1731,Thomas Henderson,Thomas Henderson,"THOMAS HENDERSON, 400 acs.
+(N. L.), Hanover Co; adj. Matthew
+Sims, Mr. George Alves. John Mickie,
+Col. Thomas Jones, Mr. James WhitJock, & John Bunch; by head of Tarapin
+Sw; 25 Aug. 1731, p. 233. 40 Shill.","400a adj Matthew Sims, George Alves, John Michie, Col Thomas Jones Mr James Whitlock John Bunch",head of Tarapin Swamp,head,Tarapin Swamp,head of Tarapin Swamp,,,,2.0,,,
+93.97081413210446,90.3,97.6,II_12_3096,7428,1000.0,1725,1725,Thomas Dickason,Thomas Dickinson,"THOMAS DICKASON, of King
+Wm. Co; 1000 acs. (N, L.), Hanover
+Co; on both sides of Overton’s fork of
+Elk Creek; beg. at Mr. Overton's; to
+Mr. William Winston & Ambrose
+Joshua Smith; to Capt. Carr’s; & John
+Ragland’s land; 17 Aug. 1725. p. 234.
+5 Lbs. Money.
+‘SAME, 1000 acs, (N. L.): same location, & date, p. 235. On bath sides
+the main (run 2) of Gr. Rockey
+Cr, &c. 5 Lbs. Money.",1000a on both sides Overton's fork of Elk Creek,Fork of Elk Creek,fork,Elk Creek,Fork of Elk Creek,37.33597560038021,-79.37475069973505,100.0,0.0,Elk Creek,Stream,Bedford
+93.75,100.0,87.5,II_12_2776,6678,208.0,1724,1724,John Anderson,John Anderson Of Hanover Co.,"JOHN ANDERSON, 208 acs. (N.
+L.\, Hanover Co; beg, at Col. Byrd’s
+(Bird), & Capt. Dangerfield’s cor; to
+S. side of the middle fork of Crumpt
+Cr; cor. of Henry Bow; 9 July 1724, p.
+39. 25 Shill.",208a Hanover/,Fork of Crumpt Creek,fork,Crumpt Creek,Fork of Crumpt Creek,37.99625110039699,-78.23222680046683,81.81818181818181,0.0,Camp Creek,Stream,Louisa
+93.75,100.0,87.5,II_12_3195,5375,400.0,1725,1725,John Martin,John Martin Senr. Of New Kent County,"JOHN MARTIN, SENR., of New
+Kent Co; 400 acs.. (N. L.), Henrico
+Co; on N, side of the N. br. of James
+Riv., or the Rivanna, at mouth of Dog
+Cr; 17 Aug. 1725, p. 302. 40 Shi.",400a Henrico/,mouth of Dog Creek,mouth,Dog Creek,mouth of Dog Creek,37.0774999997397,-78.90277780046767,100.0,0.0,Dog Creek,Stream,Campbell
+93.54838709677419,100.0,87.1,II_11_2670,7384,400.0,1723,1723,James Overton,James Overton,"JAMES OVERTON, 400 acs. (N.
+L.), Hanover Co; on N. side the S, fork
+of Elk Cr; on John Raglin’s line; 20
+Feb. 1723, p. 324. 40 Shill.",400a on the N side the S fork of Elk Creek,Fork of Elk Creek,fork,Elk Creek,Fork of Elk Creek,38.02291620035561,-77.75138040017151,100.0,0.0,Elk Creek,Stream,Louisa
+93.54838709677419,100.0,87.1,II_14_4865,10429,1000.0,1728,1728,George Dowdy,George Dowdy Of Spotsco,"GEORGE DOWDY, 1000 acs. (N.
+L.), Spotsylv, Co., in St. George’s Par;
+on brs. of the N, fork of the Northanna
+Riv; adj, Andrew Harrison; Anthony
+Ghelston (Gholston); & Col. Corbin’s
+line; 28 Sept, 1728, p. 104.",1000a on brs. of North Fork of Northanna in,Fork of the Northanna River,fork,the Northanna River,Fork of the Northanna River,38.05263750030946,-77.7497138001741,96.7741935483871,0.0,North Anna River,Stream,Hanover
+93.47826086956522,100.0,87.0,II_11_2490,6644,400.0,1723,1723,Edward Bullock,Edward Bullock,"EDWARD BULLOCK, 400 acs. (N.
+L.), Hanover Co: in the fork of Licking Hole Cr., & the Little River; 5 Sept.
+1723, pb. 228. 40 Shill,",400a in the fork of Licking Hole Creek and the Little River,Fork of Licking Hole Creek,fork,Licking Hole Creek,Fork of Licking Hole Creek,38.06263750029393,-78.64779529982178,97.14285714285714,0.0,Lickinghole Creek,Stream,Albemarle
+93.43434343434343,100.0,86.9,II_13_3642,7409,400.0,1725,1725,Benjamin Brown,Benjamin Brown,"SAME. 400 acs. (N. L.); same Co..
+& date; p. 5. On both sides the N. &
+S. forks of Little River; beg. at mouth
+of Horsepen Sw., on N. side the river;
+on the Grant line; to S. side of the
+river, &c. 40 Shill.",400a in Hanover on both sides the N & S Forks of the Little River,Fork of Little River,fork,Little River,Fork of Little River,37.613202499949864,-77.76193860015513,100.0,0.0,Little River,Stream,Goochland
+93.42105263157895,100.0,86.8,II_9_808,6924,896.0,1703,1703,Francis Reives,Francis Reives,"FRANCIS REIVES, 896 acs., Henrico
+Go; N. side of James River, about 2
+mi. below the falls; beg. at mouth of
+Almond’s Cr., to mouth of the Deep
+Bottom; to land now or late of Snugg
+on sd. Cr; 23 Oct. 1703, p. 575. Being
+found within bounds of patenit of 600
+acs. granted Humphry Lister, from
+whom by severall conveyances it came
+to sd. Reives; 296 acs. for Imp. of 6
+pers.* Note: 6 rights paid for to William Byrd, Esqr., Auditor. :",896a Henrico/ N s & on James Riv 2 mi bel the falls,mouth of Almond's Creek,mouth,Almond's Creek,mouth of Almond's Creek,37.5034803001202,-77.41803789964729,100.0,0.0,Almond Creek,Stream,Henrico
+93.39622641509433,100.0,86.8,II_10_1641,6547,9976.0,1717,1717,Charles Chiswell,Charles Chiswell,"CHARLES CHISWELL, GENT., 9976
+acs. (N. L.), New Kent Co., in St.
+Paul’s Par; in a fork of Chiswell’s Sw;
+on New Found River, &c; 15 July 1717,
+p. 323. 50 Lbs., Money.",9976a in St Paul's Parish in New Kent,Fork of Chiswell's Swamp,fork,Chiswell's Swamp,Fork of Chiswell's Swamp,,,,2.0,,,
+93.38709677419355,96.8,90.0,II_11_2477,7386,400.0,1723,1723,Samuell Nuckolls,Samuel Nuckolls,"SAMUELL NUCKOLLS, 400 acs.
+(N. L.), Hanover Co; on N. side of
+the South Anna (Riv.); at mouth of
+Holly Br; across the Neck; 5 Sept.
+1723, p. 222. 40 Shill,",400a on the N side the S Anna,mouth of Holly Branch,mouth,Holly Branch,mouth of Holly Branch,37.69181109982787,-77.5324857005113,88.88888888888889,0.0,Holladay Branch,Stream,Hanover
+92.73504273504273,100.0,85.5,II_14_5351,7561,400.0,1732,1732,John Cosby & Charles Barret (barrett),John Cosby & Charles Barret,"SAME. 400 acs. (N. L.); same Co.,
+& date; page 476. On brs. of the S.
+fork of Little Riv., adj. Benjamin
+Brown, & Mr, Carr; on S. side the
+Rockey Br. 40 Shill.",400a on the branches of the S Fork of the Little River adj Benjamin Brown & Mr carr,Fork of Little River,fork,Little River,Fork of Little River,37.613202499949864,-77.76193860015513,100.0,0.0,Little River,Stream,Goochland
+92.6829268292683,100.0,85.4,II_14_5219,25,1200.0,1731,1731,Charles Lewis,Charles Lewis,"CHARLES LEWIS, GENT., 1200 acs,
+(N. L.). Goochland Co; on both sides
+the Rivanna Riv; at mouth of Buck
+Island Cr; 15 Jan. 1731, p. 374. 6
+Lbs., Money,",1200a on both sides the Rivanna in Goochland County,mouth of Buck Island Creek,mouth,Buck Island Creek,mouth of Buck Island Creek,37.912919299484656,-78.4969553000559,100.0,0.0,Buck Island Creek,Stream,Albemarle
+92.5925925925926,100.0,85.2,II_12_3264,6688,400.0,1725,1725,John Leigh,John Leigh,"SAME. 400 acs. (N. L.); same Co.,
+& date; page 346. On both sides the
+Beverdam & Contrary forks of Taylor’s
+Creek, &c. 40 Shill.",400a on the N side of Taylor's Creek and both sides of the Beverdam fork,Fork of Taylor's Creek,fork,Taylor's Creek,Fork of Taylor's Creek,37.697777799818596,-76.41194440016727,100.0,0.0,Taylor Creek,Stream,Lancaster
+92.57425742574257,100.0,85.1,II_12_3112,7429,1000.0,1725,1725,William Winston,William Winston,"WILLIAM WINSTON, 1000 acs.
+(N. L.), Hanover Co; on both sides
+the N. fork of Elk Cr., & the main
+(Br.) of Sedgey Cr; adj. Ambrose
+Joshua Smith; 17 Aug. 1725, p. 244.
+5 Lbs., Money,",1000a on both sides the N fork of Elk Creek & the main of Sedgey Creeks,Fork of Elk Creek,fork,Elk Creek,Fork of Elk Creek,38.02291620035561,-77.75138040017151,100.0,0.0,Elk Creek,Stream,Louisa
+92.53731343283582,100.0,85.1,II_13_4427,10433,3000.0,1730,1730,George Nicholas,Dr George Nicholas Of Williamsburgh Gent.,"GEORGE NICHOLAS, GENT., of
+Williamsburgh; 3000 acs. (N. L.),
+Spotsyl, Co., in St, George’s Par; on
+line of Mr. Harry Beverley; on N. side
+the Northanna (Riv.); on N. side of
+the S. fork of Plentiful River; 7 Apr.
+1730, p. 432. 15 Lbs., Money.",3000a on the back lines of Mr Harry Beverley on the N side the Northanna in St George parish,fork of Plentiful River,fork,Plentiful River,Fork of Plentiful River,38.22333330004449,-77.8363889000396,80.0,0.0,Plentiful Creek,Stream,Spotsylvania
+92.5,100.0,85.0,II_10_1270,10278,740.0,1714,1714,Rice Williams & John Downer,Rice Williams & John Downer,"RICE WILLIAMS & JOHN
+DOWNER, 740 acs. (N. L.), in a fork
+of Mattapony Riv., about 12 mi. above
+the Inhabitants in K. & Q. Co; beg. at
+Madison’s & Pigg’s cor: by S. side of
+the main run; 16 Dec. 1714, p. 213.
+Imp. of 15 pers: Joseph Grigory, Jos.
+Arch, Walter Williams, Wm. Mattock,
+Thos. Essex, Richd. Care. Reynard
+Mackdaniel, Wm. Ingram, Sarah Howard. Henry Loyde, James Risque, Jane
+Clements, Jno, Moore, Thomas Curtis,
+Augustine Schoolcroft.",740a in a fork of Mattapony River about 12 miles above,Fork of Mattapony River,fork,Mattapony River,Fork of Mattapony River,38.01458000036854,-77.37470249971454,93.33333333333333,0.0,Mattaponi River,Stream,King and Queen
+92.37288135593221,100.0,84.7,II_14_5146,7543,419.0,1731,1731,John Henson,John Henson,"JOHN HENSON, 419 acs. -(N. L.),
+Hanover Co; adj. Jeremiah Dumas, on
+the S, fork of Rockey Br; to N. fork
+of Hickory Bear Cr; 17 Sept. 1731, p.
+327. 45 Shill,","419a adj Jeremiah Dumas, Rockey Branch",Fork of Rockey Branch,fork,Rockey Branch,Fork of Rockey Branch,,,,2.0,,,
+92.3076923076923,100.0,84.6,II_14_5032,6759,201.0,1731,1731,John Whatley,John Whatley,"JOHN WHATLEY, 201 acs. (N.
+L.), Hanover Co; on both sides the
+N. fork of Beaver Dam Cr; & on N.
+side of Cattail Br. of sd. creek; 25
+Aug. 1731, p. 214. 20 Shill.
+CAVALIERS AND PIONEERS",201a on both sides the N Fork of Beaverdam Creek,Fork of Beaver Dam Creek,fork,Beaver Dam Creek,Fork of Beaver Dam Creek,37.57931200000246,-77.34720189975724,96.7741935483871,0.0,Beaverdam Creek,Stream,Hanover
+92.15686274509804,100.0,84.3,II_11_2695,9,1200.0,1723,1723,James Skelton,James Skelton,"JAMES SKELTON, 1200 acs. (N.
+L.), Henrico Co; on N. side the S.
+fork of James River; down same below
+the point of a Rocky Island; & crossing
+Hardwars Cr; 20 Feb. 1723, p. 338.
+6 Lbs. Money.
+, SAME. 400 acs. (N. L.); same Co.,
+date, & page. S. side the James River;
+Y% mi. below a gr. creek known by the
+name of the Second Fork. 40 Shill.",1200a on the N Side the South Fork of James River in Henrico County,fork of James River,fork,James River,Fork of James River,,,,2.0,,,
+92.06896551724138,100.0,84.1,II_12_2918,11092,1220.0,1724,1724,Richard Pace,Richard Pace Of Surry County,"RICHARD PACE, 1220 acs. (N. L.),
+Surry Co., in Lawnes Cr. Parish; between the Three Creeks & the Otterdam
+Sw; beg. at mouth of the Indian Br;
+by Ryer’s branch; to John Roberts’ land;
+by sd. Creeks a little above the Great
+Bridge; to John Barlow’s line; 5 Nov.
+1724, p. 116. 6 Lbs., 5 Shill.",1220a between the Three Creeks and the Otterdam Swamp in the Parish of Lawnes Creek in the County of Surry,mouth of the Indian Branch,mouth,the Indian Branch,mouth of the Indian Branch,,,,2.0,,,
+91.97530864197532,100.0,84.0,II_9_535,10890,600.0,1701,1701,William Jones,William Jones Senr,"WILLIAM JONES, SENR., 600 acs.,
+Chas. City Co; on both sides of Nottaway Riv., 24 Oct. 1701, p. 398. Beg.
+at mouth of Jones Hole (Sw. or Cr.),
+to the goeing over; into the horse
+pocosone; to Edloe’s Br; to the Lower
+tradeing path; on an Indian old feild;
+including all Islands on S. side, &c.
+Trans. of 12 pers: John Rudds, 4 times
+imported; & 8 rights more due to Robert
+Bolling by order of Genll. Court, held
+21 Oct. 1699, & by him assigned, &c.",600a both sides of Nottaway Riv. in Charles City Co.,mouth of Jones Hole,mouth,Jones Hole,mouth of Jones Hole,,,,2.0,,,
+91.77215189873418,100.0,83.5,II_13_3988,7441,2000.0,1727,1727,George Webb,George Webb,"GEORGE WEBB, GENT., of New
+Kent Co; 2000 acs. (N. L.), Hanover
+Co; S. side the South Anna (Riv.), on
+both sides Forster's Cr., & the Southern
+& Cycamore forks of Camp Creek, adj.
+Col. Meriwether’s lines; 13 Oct. 1727,
+p. 213. 10 Lbs., Money.",2000a in Hanover on the S side the S Anna on both sides Fosters & the Southern and Sycamore forks of Camp Creek,Fork of Camp Creek,fork,Camp Creek,Fork of Camp Creek,37.164272799605044,-82.52432060005464,100.0,0.0,Camp Creek,Stream,Dickenson
+91.66666666666666,100.0,83.3,II_11_2627,10333,3462.0,1723,1723,Augustine Moore,Augustine Moore Of King William Co. Gent.,"AUGUSTINE MOORE, GENT., of
+King Wm. Co; 3462 acs; part in St.
+Margaret’s Par. in King Wm. Co. &
+part in in St. George’s Par., in Spotsyl..
+Co; beg. at Capt. William Anderson, oii
+low, side of the mouth of Horse Sw.,
+on N. side the Northanna (Riv.);.to
+Griffith Dickason; nigh William Dickason’s line; to N. side of the Rangers
+patth; on Capt. Carr’s line; 15 Nov.
+1723, p. 295. 17 Lbs., 10 Shill.",3462a part in St. Margarets par. in King William Co.,mouth of Horse Swamp,mouth,Horse Swamp,mouth of Horse Swamp,36.80237210016679,-76.86218200051007,100.0,0.0,Horse Swamp,Swamp,Isle of Wight
+91.53846153846155,100.0,83.1,II_11_2334,11029,2119.0,1722,1722,Thomas Jones,Thomas Jones,"THOMAS JONES, GENT., of Williamsburgh; 2119 acs. (O. & N. L.),
+in Pr. Geo, & Surry Counties; on both
+sides of Nottoway Riv; beg. at mouth
+of Buckskin Cr. on N. side the river
+in Pr. Geo. Co; to the County Line;
+adj. Mr. Benjamin Harrison; & George
+Reives’ land; 27 Tuly 1722, p. 154. 206
+acs. granted William Reives, 15 July
+1717; 1913 acs. being wast land adjoining. 9 Lbs., 15 Shill,",2119 acres on both sides of Nottoway River and part in Prince George County and part in Surry County,mouth of Buckskin Creek,mouth,Buckskin Creek,mouth of Buckskin Creek,36.887926800033995,-77.63109890035821,100.0,0.0,Buckskin Creek,Stream,Dinwiddie
+91.17647058823529,100.0,82.4,II_10_1628,10286,1860.0,1717,1717,John Madison,John Madison,"JOHN MADISON, JOHN ROGERS,
+PETER ROGERS, HENRY PIGG, EDWARD PIGG, & JOHN YORK, 1860
+acs. (N. L.), in a fork of Mattapony
+Riv., about 16 mi. above the Inhabitants
+in K. & Q. Co; beg. about 2 mi. above
+the stones or falls of the river; 1 Apr.
+1717, p. 319. 15 Shill., & Imp. of 31
+pers: Nathaniel Davis, Hugh Lewis,
+Obadiah Davis, Isabella Curtis, Thomas
+Webb, John Ray, Edward Fordom,
+Katherine Sead, Wm. Thomas, Robt.
+Peacock, James Staynesby, John Dash,
+Edward Hopkins, Edward Anderson,
+Wm. Lancaster, Thos. Bennett, Robt.
+Poole, John Dickenson, Wm. Parker,
+Anne Bloomer, Eliza. Samine, Eliza.
+Matthews, Wm. Seed, Hannah Porter,
+Joseph Alewood, Eliza, Alewood, Geo.
+Raban (or Rabau), Robert Barkley.",1860a in a fork of Mattapony river about 16 miles above the Inhabitants in the County of King & Queen,Fork of Mattapony River,fork,Mattapony River,Fork of Mattapony River,38.01458000036854,-77.37470249971454,93.33333333333333,0.0,Mattaponi River,Stream,King and Queen
+91.17647058823529,100.0,82.4,II_14_5366,6774,400.0,1732,1732,Matthew Jouet,Matthew Jouet,"MATTHEW JOUET, 400 acs. (N.
+L.); Hanover Co; on both sides of
+Jumping Br; adj. John Matlock; by
+mouth of Chesnut Br; 28 Sept. 1732,
+p. 483. 40 Shill.",400a on both sides Jumping Branch,mouth of Chesnut Branch,mouth,Chesnut Branch,mouth of Chesnut Branch,37.97208470043449,-78.21583720049227,78.57142857142857,0.0,Central Branch,Stream,Louisa
+91.1214953271028,100.0,82.2,II_11_2042,6562,3273.0,1719,1719,Thomas Nelson,Thomas Nelson,"THOMAS NELSON, of York Co;
+3273 acs., (N. L.), New Kent Co; if
+the forks of Pamunkey Riv., bet. the
+Little & Newfound Rivers, 20 Feb.
+1719, p. 10. Beg. adj, Thomas Jones;
+his own land; & Reuben Welch. 11
+Lhs., 5 Shill., & Imp. of 21 pers: Giles
+West, Dorcas West, Thomas Night,
+Patrick Toole, Anne Nollitt, Grace Rice,
+Henry Ballard, Sarah Barnard, Richard
+Harrack, Mary Bradly, Andrew Harrison, Ellinor Harrison, William Edwards,
+William Jones, John Wardin, Vincing
+Inge, Eliza. Mills, Eliza. Bording, Thom.
+Mottley, Walter Dickeson, John Roby.",3273a in the forks of Pamunkey River between Little & Newfound Rivers,Fork of Pamunkey River,fork,Pamunkey River,Fork of Pamunkey River,,,,2.0,,,
+91.08527131782947,100.0,82.2,II_11_2040,6564,3273.0,1719,1719,Thomas Jones,Thomas Jones,"THOMAS JONES, of the City of
+W illiamsburgh, 3273 acs. (N. L.), New
+Kent Co; in the fork of Pamunkey Riv.,
+bet. the Little & New Found Rivers; 20
+Feb. 1719, p. 9. On S, side the Little
+Riv., a little above Hugh Hogan’s plantation; adj. King’s land; Charles Fleming; Thomas Nelson; & Thomas Jones.
+Imp. of 66 pers: Mary Toton, Mary
+Byyard, John Fuller, Reuben Welch,
+Robert Burlidge, Tho. Lee, John. Littleboy, Job. Hall, Tho. Webb, James
+Symons, Wm. Cuningham, Wm. Phillips, John Johnson, Margr. Harrison,
+Jno. Jipp, Henry Clark, Peter Gillon,
+George Walton, Wm. Nisbott, Phillip
+French, Wm. Hudson, Geo, Ives, James
+Fairchild, Randall Downes, Wm. Eddings, Garret Spanhoofe, Henry Barton,
+Eliza. Bynon, Robt. Rimington, Wm.
+Macken, James Pitman, John Langley,
+Alex, Watts, Trephana Denton, Michael
+Rogers, Eliza. Knight, Bernard Cowdart,
+Henry Hill, John Harris, Wm. Roberts,
+Robert Bell. John Redman, James
+veirce, John Battis, Thomas Jones,
+Arthur Winchester, Jno. Williamson,
+James Roe, Robert Townsin, Mary
+Peirce, Eliza. Hawkins, Robert Grimes,
+Tho. Sees, Wm. Thompson, Hugh Anderson, Geo. Lest, Tho. Hargrove,
+Benja. Kemp, Wm. Hogan, James
+Cahall, Waiter Butler, John Poor, Tedy
+Leron. Margaret Neice, Joseph Tunbridge, Jane Brown.",3273a in the N Fork of Pamunkey River between the Little & the Newfound Rivers in New Kent Co,Fork of Pamunkey River,fork,Pamunkey River,Fork of Pamunkey River,37.80375249965408,-77.40775929966321,100.0,0.0,Pamunkey River,Stream,King William
+91.02564102564102,100.0,82.1,II_11_2354,7381,400.0,1722,1722,Christopher Clark,Christopher Clark,"CHRISTOPHER CLARK, 400 acs.
+(N. L.), Hanover Co; in the fork of
+the South Anna (Riv); 18 Feb. 1722,
+p. 164. 40 Shill.",400a at the fork of the S Anna,Fork of the South Anna,fork,the South Anna,Fork of the South Anna,,,,2.0,,,
+90.74074074074073,100.0,81.5,II_12_3383,6118,400.0,1725,1725,Andrew Mooreman,Andrew Mooreman,"ANDREW MOOREMAN, 400 acs.
+(N. L.), Henrico Co; N. side of James
+River, on E. side of Byrd Creek; beg.
+on the Byrd, at the mouth of a gutt
+which makes a small Island; 24 Mar.
+1725, p. 411. 40 Shill.",400a -/on E s Byrd Ck,mouth of a gutt which makes a,mouth,a gutt which makes a,mouth of a gutt which makes a,,,,2.0,,,
+90.32258064516128,100.0,80.6,II_11_2581,11048,485.0,1723,1723,Henry Harrison,Henry Harrison Of Surry County,"HENRY HARRISON, 485 acs. (N.
+L.), Surry Co; on N. side of Seacawris
+Swamp; cor. of Thomas Bentley; &
+Nicholas Jarrat’s land; on fork of
+Parker’s branch; 5 Sept. 1723, p. 271.
+50 Shill,",485a on N side Seacawris Swamp sd County,Fork of Parker's branch,fork,Parker's branch,Fork of Parker's branch,,,,2.0,,,
+90.2439024390244,100.0,80.5,II_10_1125,10276,1525.0,1714,1714,John Rogers,John Rogers,"JOHN ROGERS, PETER ROGERS,
+EDWARD PIGG, JOHN YORK, &
+THOMAS GRESHAM, 1525 acs. (N.
+L.), on S. side of the N’most br. of a
+fork of Mattapony River; about 2 mi.
+above the Doeg Town. & about 9 mi.
+above sd. fork; 16 June 1714, p. 162.
+Imp. of 31 pers: Mary Cobb, Maret.
+Ryan, Tho. Straughan, Tho. Standbridge,
+Tho. Yallow, Thos. Smith, Alice Farrell,
+Eliza. Wright, Tho. Wright, Wm.
+Andress, John Edwards, Mathw. Cradock, Tho, Burten, Herbert Jeffrys, Eliz.
+Smith, Joan Huberd, John Lewis, Mary
+Lewis, Alice Osborne, John Garrett,
+Giles Rogers, Daniel Emes, John
+Downer. Peter Gustavas, Eliza, Warding, James Parkes, Mary Cranwell,
+Walter Blys, John Pate, Thos. Gosnold,
+Mary Read.",1525a S side the Northermost br. of a fork of Mattapony Riv.,fork of Mattapony River,fork,Mattapony River,Fork of Mattapony River,38.01458000036854,-77.37470249971454,93.33333333333333,0.0,Mattaponi River,Stream,King and Queen
+90.0,100.0,80.0,II_12_2969,10777,230.0,1724,1724,Nicholas Cock,Nicholas Cock Of Surry County,"NICHOLAS COCK, 230 acs. (N.
+L.), Surry Co., in Southwark Par; on S.
+side of Johnsehawcon Swamp; beg, at
+mouth of the Pocoson Br; adj, Capt.
+Henry Harrison; 22 Feb. 1724, p. 153.
+5 Shill., & Imp. of 4 pers: Ann Bayley,
+John Atkinson, Katherine Kenill, Margaret Burd.",230a S side Johnsehawcon Swamp in Southwark Parish sd County,mouth of the Pocoson Branch,mouth,the Pocoson Branch,mouth of the Pocoson Branch,,,,2.0,,,
+90.0,100.0,80.0,II_13_3774,6149,328.0,1727,1727,Henry Runnals,Henry Runnals,"HENRY RUNNALS, 328 acs. (N.
+L.). Henrico Co; on N. side of Jasaes
+River, in the lower fork of the Byrd
+Cr: 16 June 1727, p. 85. 35 Shill.",328a -/in lower fk of Byrd Ck,Fork of the Byrd Creek,fork,the Byrd Creek,Fork of the Byrd Creek,37.750143999737304,-78.12083319959805,100.0,0.0,Byrd Creek,Stream,Goochland
+90.0,100.0,80.0,II_14_4796,8905,1000.0,1728,1728,Henry Thacker,Henry Thacker,"HENRY THACKER, GENT., of
+Middlesex Co; 1000 acs. (N. L.),
+Spotsy!. Co., in St. George's Par; on
+N. side the N, fork of the Northanna
+River, & on S, side of Terry’s Run; adj.
+Capt. Clowder; 28 Sept. 1728, p. 70.",1000a N side N fk S Ann & S side Terry's Run,Fork of the Northanna River,fork,the Northanna River,Fork of the Northanna River,,,,2.0,,,
+90.0,100.0,80.0,II_14_4983,5393,400.0,1731,1731,Martin King,Martin King,"MARTIN KING, 400 acs. (N. L.),
+Goochland Co; N. side of Rivanna Riv;
+above mouth of Horsley’s Cr., on Robert
+Horsley's line; 26 June 1731, p. 173.
+40 Shill.",400a Goochland/ N side the River Rivanna,mouth of Horsley's Creek,mouth,Horsley's Creek,mouth of Horsley's Creek,38.019306300361166,-78.5272353000089,83.33333333333334,0.0,Morey Creek,Stream,Albemarle
+90.0,100.0,80.0,II_14_5059,7541,400.0,1731,1731,John Cosby,John Cosby,"JOHN COSBY, 400 acs. (Lapsed
+L.), Hanover Co; on both sides the Tan
+Fatt fork of the Little Riv., adj. the
+Grant Line; 25 Aug. 1731, p, 235.
+Granted Thomas Carr, of King Wm.
+Co., 16 June 1727, on condition of
+seating, &c. 40 Shill.",400a on both sides the Tanfatt Fork of the Little River,Fork of the Little River,fork,the Little River,Fork of the Little River,37.613202499949864,-77.76193860015513,100.0,0.0,Little River,Stream,Goochland
+89.79591836734694,100.0,79.6,II_10_1141,9527,545.0,1714,1714,Etheldred Taylor,Etheldred Taylor Of Surry County,"ETHELDRED TAYLOR. of Surry
+Co. 545 acs. (N.L.). Ts. of Wight Co;
+S, side the main Black Water Sw; beg.
+et mouth of the Concord Br., on §, side
+of the Lightwood Sw; by the Cabben
+Br; 16 June 1714. p. 168. imp. of 11
+pets: Thomas Perce, John Nox, John
+Stakes. Thomas Burttler, Tohn Kingstonc, Willian Soulder. Evan Byrn,
+jatnes Killmort, Elizabeth Evans, Elizabeth Griffin, Sarsh Mackdonnel,",545a Isle of Wight County on S side the main Black Water Swamp,mouth of the Concord Branch,mouth,the Concord Branch,mouth of the Concord Branch,,,,2.0,,,
+89.79591836734694,100.0,79.6,II_11_2671,6626,400.0,1723,1723,Thomas Grant,Thomas Grant Of New Kent County,"THOMAS GRANT, of New Kent
+Co; 400 acs. (N. L.), Hanover Co; on
+E. head branches of Stone Horse Cr;
+adj. John Crenshaw; on N. side of Ash
+Cake Road; by Alsop’s path; 20 Feb.
+1723, p. 324. 40 Shill.
+CAVALIERS AND PIONEERS",400a Hanover/ on the Eastern head branches of Stone Horse Creek,head branches of Stone Horse Creek,head,branches of Stone Horse Creek,head branches of Stone Horse Creek,,,,2.0,,,
+89.65517241379311,100.0,79.3,II_10_1157,10921,1720.0,1714,1714,Nathaniel Harrison,Nathaniel Harrison Of Syco,"NATHANIEL HARRISON, ESQR..
+1720 acs. (N, L.}, Surry Co; on S. side
+the min Blackwater Sw; beg. on E,
+side of Assamusock Sw., at mouth of
+Secauris Sw; ud run of Parker’s Br;
+down run cf the Marshy Br; adj. Col.
+William Randolph: 16 June 1714, p.
+176. 8 Lbs., 15 Shill.",1720a SYCO on S side main Blackwater Sw.,mouth of Secauris Swamp,mouth,Secauris Swamp,mouth of Secauris Swamp,,,,2.0,,,
+88.88888888888889,100.0,77.8,II_11_2438,6094,262.0,1723,1723,Valentine Ware,Valentine Ware,"VALENTINE WARE, 262 acs. (N.
+L.), Henrico Co; in the fork of Tuckahoe Cr., on N. side of James Riv; adj.
+Francis Chumley; 5 Sept. 1723, p, 203.
+30 Shill.",262a -/in Fk of Tuckahoe Ck,Fork of Tuckahoe Creek,fork,Tuckahoe Creek,Fork of Tuckahoe Creek,37.7166666997893,-77.64666670033404,80.0,0.0,Little Tuckahoe Creek,Stream,Henrico
+88.75,100.0,77.5,II_10_1716,4992,1000.0,1717,1717,Francis Epes,Francis Epes,"COL. FRANCIS EPES, 1000 acs. (N.
+L.), Henrico Co; on N. side of Appamattock Riv; at mouth of Nooneing
+Creek; 22 Jan. 1717, p. 345. 5 Lbs.,
+Money.",1000a Henrico/ mouth Nooneing Ck of N s Appomattox Riv,mouth of Nooneing Creek,mouth,Nooneing Creek,mouth of Nooneing Creek,37.32333330039978,-77.6452778003362,96.2962962962963,0.0,Nooning Creek,Stream,Chesterfield
+88.69047619047619,91.7,85.7,II_13_4562,6192,183.0,1730,1730,James Holeman,Jas Holeman,"JAMES HOLEMAN, 183 acs, (N.
+L.), Goochland Co; N. side of James
+Riv., on brs. of Tuckahoe Cr; on line
+of William Wamack, in Bear Br. of the
+Dearpen Br. of sd. creek; to head of the
+Fort Br; 28 Sept. 1730, p. 494. 20
+Shill.",183a -/brs of Tuckahoe Ck,head of the Fort Branch,head,the Fort Branch,head of the Fort Branch,38.070693200281426,-78.3525079002801,83.33333333333334,0.0,Foster Branch,Stream,Albemarle
+88.61386138613861,100.0,77.2,II_14_5440,9759,140.0,1732,1732,James Washington,James Washington Of Surry County,"JAMES WASHINGTON, of Surry
+Co; 140 acs. (N, L.), Is. of Wight Co;
+S. side the main Black Water Sw; on
+E. side of the S. fork of the Lightwood
+Sw., cor; of Robert Hart; 28 Sept. 1732,
+p. 519. 15 Shill.",140a on the S side of the main black Water Swamp in Isle of Wight County,Fork of the Lightwood Swamp,fork,the Lightwood Swamp,Fork of the Lightwood Swamp,37.113333299684086,-76.94694440037853,81.4814814814815,0.0,Elwood Swamp,Stream,Surry
+88.59649122807018,100.0,77.2,II_10_1781,10979,200.0,1717,1717,Silvanus Stokes,Silvanus Stokes Of James City County,"SILVANUS STOKES, of James City
+Co; 200 acs. (N. L.), Surry Co; on N.
+side of the Raccoon Sw., a little below
+the mouth of the Double branch; 24
+Jan. 1717, p. 362. 20 Shill,",200a N side Raccoon Swamp Surry County,mouth of the Double branch,mouth,the Double branch,mouth of the Double branch,,,,2.0,,,
+88.34586466165413,100.0,76.7,II_14_5142,10438,185.0,1731,1731,George Carter,George Carter Of Spotsylvania Co.,"GEORGE CARTER, 185 acs. (N.
+L.), Spotsylv. Co., in St. George’s Par;
+S. side the Middle Riv., on the head
+of Pappaw Sw; adj. Col, John Robinson; Robert Coleman; & Col, Waller's
+ine; 17 Sept. 1731, p. 324. 20 Shill.",185a on the S side the Middle River on the head of Pappaw Sw. in St George Parish in the County aforeaid,head of Pappaw Swamp,head,Pappaw Swamp,head of Pappaw Swamp,,,,2.0,,,
+88.29787234042553,100.0,76.6,II_14_5398,11191,50.0,1732,1732,Peter Green,Peter Green Of Surry County,"PETER GREEN, 50 acs. (N. L.),
+Surry Co; N. side of Nottoway Riv.,
+in the fork of the Woodyard Sw; adj.
+Lewis Green; 28 Sept. 1732, p, 498.
+5 Shill.",50a on N side of Nottoway River,Fork of the Woodyard Swamp,fork,the Woodyard Swamp,Fork of the Woodyard Swamp,,,,2.0,,,
+88.15384615384616,92.3,84.0,II_13_3777,6152,400.0,1727,1727,Michel Holland,Mich Holland,"MICHEL HOLLAND. 400 acs. (N.
+L.), Henrico Co; on W. side of the
+E. fork of Licking Hole Cr., at Scott’s
+commer, 16 June 1727, p. 87. 40 Shill..",400a -/W s of E fk of Licking hole Ck,Fork of Licking Hole Creek,fork,Licking Hole Creek,Fork of Licking Hole Creek,37.84653219958773,-77.9777749998201,87.17948717948718,0.0,Big Lickinghole Creek,Stream,Goochland
+87.90322580645162,100.0,75.8,II_11_2541,9622,225.0,1723,1723,Thomas Barrow,Thomas Barrow Of Isle Of Wight County,"THOMAS BARROW, 225 acs. (N.
+L.), Is. of Wight Co; S. side of Nottoway River, & on both sides of the S.
+fork of Angelica Sw; adj. William
+Turner; 5 Sept. 1723, p. 252. 25 Shill.",225a on S side Nottaway River & both sides of the S fork of the Angelica Swamp in sd County,Fork of Angelica Swamp,fork,Angelica Swamp,Fork of Angelica Swamp,,,,2.0,,,
+87.64705882352942,100.0,75.3,II_10_1788,10980,80.0,1717,1717,Robert Procter,Robert Procter Of Surry County,"ROBERT PROCTER, 80 acs. (N.
+L.), Surry Co; on S. side the main
+Blackwater Sw; beg. below mouth of
+the Caitail Br., cor, of James Binam’s
+land; to fork of the Wolf Pitt Branch;
+24 Jan, 1717, p. 364. Imp. of 2 pers:
+John Sheppard & Agnes Williams.",80a on S side of the main Blackwater Swamp in sd County,mouth of the Caitail Branch,mouth,the Caitail Branch,mouth of the Caitail Branch,36.811258300152986,-77.87249499998353,80.0,0.0,Tain Branch,Stream,Brunswick
+87.5,100.0,75.0,II_12_2812,9248,260.0,1724,1724,William Rives,William Rives Of Pg Co.,"WILLIAM RIVES, 260 acs. (N. L.),
+Pr, Geo. Co; on S. side of Black Water
+Sw; beg. in his old line; to N. side of
+the Long Meadow Br; on Gee's line;
+to fork of the Reedy Br. of Hint’s (or
+Huit’s) Br; by the Cyprus Pond; 9 July
+1724, p. 60. 30 Shill.",260a Prince George/ S side of Black water Sw.,Fork of the Reedy Branch,fork,the Reedy Branch,Fork of the Reedy Branch,36.82986820012411,-78.0616653996899,100.0,0.0,Reedy Branch,Stream,Lunenburg
+87.5,100.0,75.0,II_14_4776,6203,400.0,1730,1730,Timothy Rich,Timothy Rich,"TIMOTHY RICH. 400 acs, .(N. L.),
+Goochland Co; on head of Beaverdam
+Cr; adj. Capt. John Symes; on the
+County Line; om head of Little Cr: &
+Constantine Perkins’ line; ..28 Sept.
+1730, p. 60. 40 Shill.",400a -/hd of Beaverdam Ck,head of Beaverdam Creek,head,Beaverdam Creek,head of Beaverdam Creek,38.20874330006717,-78.47778950008563,100.0,0.0,Beaverdam Creek,Stream,Albemarle
+87.35632183908046,100.0,74.7,II_13_4423,10396,1000.0,1728,1728,William Robertson,William Robertson Of York County Gent.,"WILLIAM ROBERTSON, GENT.,
+of York Co; 1000 acs. (N, L.), Spotsyl.
+Co., in St. George’s Par; on the head
+of Stone Horse Sw., on both sides of
+Piggeon Riv., on N. side the Northanna
+(Riv.); adj. Mr. Robert Baylor; Col.
+David Bray; Mr. Harry Beverley; Mr.
+John Camm; Sam’l. Smith; Roger
+Tandy; & Capt. Camm’s lines; 28 Sept.
+1728, p. 430.",1000a upon the head of Stone Horse Swamp and on both sides of Piggeon River on the N side the Northanna in Saint Georges parish,head of Stone Horse Swamp,head,Stone Horse Swamp,head of Stone Horse Swamp,,,,2.0,,,
+87.31343283582089,100.0,74.6,II_12_3108,7424,1000.0,1725,1725,Ambrose Joshua Smith,Ambrose Joshua Smith,"SAME. 1000 acs. (N, L.); same Co..
+date, & page. On both sides of Overton’s fork of Elk Cr; beg. at cor. of
+Mr. Dickason & Mrs. Arnold’s lands.
+5 Lbs. Money,",1000a on both sides Overtons Fork of Elk Creek,Fork of Elk Creek,fork,Elk Creek,Fork of Elk Creek,37.33597560038021,-79.37475069973505,100.0,0.0,Elk Creek,Stream,Bedford
+87.27272727272728,100.0,74.5,II_11_2348,6609,400.0,1722,1722,Nicholas Mills,Nicholas Mills,"NICHOLAS MILLS. 400 acs. (N.
+L.), Hanover Co; on S. side the Little
+River, bet. mouth of Jones’ Sw. & Licking pial Cr; 18 Feb. 1722, p. 161. 40
+Shill.",400a on the S side the Little River between the Mouth of Jones Swamp & Lickinghole Swamp,mouth of Jones' Swamp,mouth,Jones' Swamp,mouth of Jones' Swamp,37.85958609956742,-77.67693390028711,95.23809523809523,0.0,Jones Swamp,Stream,Hanover
+87.09677419354838,100.0,74.2,II_11_2197,9227,85.0,1721,1721,Cuthbert Williamson,Cuthbert Williamson,"CUTHBERT WILLIAMSON, 85 acs.
+(N. L.), Pr. Geo. Co; on N. side of
+Jones’ Hole Sw; on his own.-land; at
+head of Cherry Orchard Br. or Sw; 13
+Nov. 1721, p. 80. 10 Shill:",85a Prince George/ N side of Jones Hole Sw.,head of Cherry Orchard Branch,head,Cherry Orchard Branch,head of Cherry Orchard Branch,37.03876109979984,-77.32469769979218,100.0,0.0,Cherry Orchard Branch,Stream,Prince George
+86.98630136986301,100.0,74.0,II_9_533,10888,350.0,1701,1701,John Poythris,John Poythris Senr Of Deep Bottom,"JOHN POYTHRIS, SENR., of Deep
+Bottom, 350 acs., Chas, City Co; N.
+side of Nottaway Riv; adj. 950 acs.
+patented by Hugh Lee, Junr. (& sold to
+William Jones, Senr., Robert Hix, the
+taylor, Senr., & John Roberts); to fork
+of the Myery Br., parting Tonatora old
+feild; to the Indian Sw: 24 Oct. 1701,
+p. 396. Trans. of 7 pers: John Lee,
+Robert Boreman, Humphry Hix, Hen.
+Snetgrove, Mary Drin, N. Standback,
+Wm. Lambud.",350a Charles City Co. on the N Side Nottaway River,Fork of the Myery Branch,fork,the Myery Branch,Fork of the Myery Branch,37.72985199976881,-75.72020760019933,91.66666666666666,0.0,Merry Branch,Stream,Accomack
+86.84210526315789,100.0,73.7,II_12_3480,11110,270.0,1725,1725,Nicholas Callyham,Nicholas Callyham Of Surry County,"NICHOLAS CALLYHAM, 270 acs.
+(N. L.), Surry Co; on S, side of Nottoway Riv; beg. at mouth of the Reedy
+Br., on N. side of the Flatt Sw; on
+Robert Reeves’ land; by Rainey’s Br;
+24 Mar. 1725, p. 465. 30 Shill.",270a S side Nottoway River Surry County,mouth of the Reedy Branch,mouth,the Reedy Branch,mouth of the Reedy Branch,37.15583329961811,-77.0955556001478,100.0,0.0,Reedy Branch,Stream,Surry
+86.53846153846155,100.0,73.1,II_10_1790,4995,522.0,1717,1717,Anthony Trebue,Anthony Trebue,"ANTHONY TREBUE, 522 acs. (N.
+L.), Henrico Co; on the gr. fork of
+Swift Creek; 18 Mar. 1717, p. 364.
+Imp. cf 11 pers: Anthony Goadton,
+Peter Gipson, Carleton Rice, Willm.
+May, Martha Allice, Peter Kadow,
+Anthony Tribue, Kath. Trebue, Peter
+Levia, Barnard  Provinsall, Rachell
+Barly.",522a Henrico/ on Great fk of Swift Ck,Fork of Swift Creek,fork,Swift Creek,Fork of Swift Creek,,,,2.0,,,
+86.44444444444444,88.9,84.0,II_13_3778,6158,400.0,1727,1727,Michael Holland,Mich Holland,"MICHAEL HOLLAND, 400 acs. (N..
+L.), Henrico Co; adj, Samuel Burk’s
+land, on W. side of the E. fork of
+Licking Hole Cr; cor. of Col. Scott:.
+16 June 1727, p. 87. 40 Shiill.",400a -/W s E fk of Licking hole Ck,Fork of Licking Hole Creek,fork,Licking Hole Creek,Fork of Licking Hole Creek,37.84653219958773,-77.9777749998201,87.17948717948718,0.0,Big Lickinghole Creek,Stream,Goochland
+86.36363636363636,100.0,72.7,II_12_2925,6116,167.0,1724,1724,Valentine Ware,Valentine Ware,"VALENTINE WARE, of K. & .Q.
+Co., 167 acs. (Lapsed L.), Henrico Co;
+on N. side of James Riv., in a gr. fork
+of Tuckahoe Cr; adj. land of Mr. Clerk
+& Russell; 10 Dec. 1724, p. 122. Granted Richard Cox, 16 Aug. 1715, upon
+condition of seating & planting, which
+he jolted to do; now granted, &c. 20
+Shill.",167a -/on Great Fk of Tuckahoe Ck,Fork of Tuckahoe Creek,fork,Tuckahoe Creek,Fork of Tuckahoe Creek,37.69847889981753,-77.7541598001672,100.0,0.0,Tuckahoe Creek,Stream,Hanover
+86.11111111111111,88.9,83.3,II_13_4606,6209,3761.0,1730,1730,Michell Holland,Mich Holland,"MICHELL HOLLAND, 3761 acs.
+(O. & N. L.), Henrico Co; on N, side
+of James River, in the main fork of
+Licking Hole Cr; on head of Stone
+Horse Br; adj. Scot's; & Robert Addams’ line; 28 Sept. 1730, p. 514. 2400
+acs. part granted by former patent. 7
+Lbs., Money.",3761a -/on main fk Licking hole Ck,Fork of Licking Hole Creek,fork,Licking Hole Creek,Fork of Licking Hole Creek,37.84653219958773,-77.9777749998201,87.17948717948718,0.0,Big Lickinghole Creek,Stream,Goochland
+86.0,100.0,72.0,II_14_5053,7530,400.0,1731,1731,John Mickie,John Mickie,"JOHN MICKIE, 400 acs. (N. L.),
+Hanover Co; adj. Mr. Alves; on head
+of Elk Ford Cr., by Phillips’ ""Partly; by
+head of Tarapin Sw; 25 Aug. 1731, p.
+230. 40 Shill.",400a adj Alves land,head of Elk Ford Creek,head,Elk Ford Creek,head of Elk Ford Creek,37.8330555996086,-77.71944440022111,82.75862068965517,0.0,Rock Ford Creek,Stream,Hanover
+85.96491228070175,100.0,71.9,II_9_512,10892,400.0,1701,1701,Henry Jones,Henry Jones,"HENRY JONES, 400 acs., Chas. City
+Co; N. side of Nottoway River, on
+upper side of Joseph’s Swamp; beg, at
+mouth of same at lower end of an
+island; by an Indian old feild, to lower
+side of a neck of land in the river a
+little above Tohunk fishing place, &c;
+24 Oct. 1701, p. 378. Trans, of 8 pers:
+Job Giles, Richard Williams, Thomas
+Mitchell, Thomas Johnson, Simon Johnson; & 3 rights paid for to Wm. Byrd,
+Esqr., Auditor.",400a Charles City County on N side Nottaway River on the upper Side of Josephs Swamp,mouth of same at lower end of,mouth,same at lower end of,mouth of same at lower end of,,,,2.0,,,
+85.9608745684695,90.9,81.0,II_10_1106,10924,330.0,1714,1714,Jamfs Binam,James Binam,"JAMFS BINAM, 330 acs. (N. L.),
+Surry Ca; on S. side of the main Black
+Water Sw; beg. at mouth of the CarTail Br; ta mouth of the Woolf-Pitt
+Br, 16 June 1714, p. 155. 10 Shill.,
+& Imp. of 5 pers: Adam Morris, Eliza.
+Morris, Eliza. Morris, Junr., Mary
+Morris. Traves Morris.",330a Surry County on S side main Black Water Swamp,mouth of the CarTail Branch,mouth,the CarTail Branch,mouth of the CarTail Branch,38.265130399979626,-77.63498910035219,92.85714285714286,0.0,Cattail Branch,Stream,Spotsylvania
+85.84905660377359,100.0,71.7,II_14_4751,5389,400.0,1730,1730,Amos Lad,Amos Lad,"AMOS LAD, 400 acs. (N. L.)
+Goachland Co; N. side the Fluvanna
+(Riv.); at mouth of New Bremo Cr;
+28 Sept. 1730, p. 44. 40 Shill,",400a Goochland/ on the N side the Fluvanna,mouth of New Bremo Creek,mouth,New Bremo Creek,mouth of New Bremo Creek,37.72542139977571,-78.34528200029132,84.61538461538461,0.0,Bremo Creek,Stream,Fluvanna
+85.2112676056338,100.0,70.4,II_12_3456,9674,250.0,1725,1725,Edward Harris,Edward Harris Of Isle Of Wight County,"EDWARD HARRIS, 250 acs. (N.
+L.), Is. of Wight Co; on S. side the
+main Blackwater Sw; at mouth of the
+Brushey Br.. on N. side of Warreck
+Br; 24 Mar. 1725, p. 453. 25 Shill.",250a on S side Main blackwater Swamp in sd County,mouth of the Brushey Branch,mouth,the Brushey Branch,mouth of the Brushey Branch,37.03455059980638,-82.2665300004548,88.0,0.0,Rush Branch,Stream,Dickenson
+85.2,100.0,70.4,II_12_3554,10366,1100.0,1726,1726,Robert Baylor,Robert Baylor Of King & Queen County Gent.,"ROBERT BAYLOR, GENT., cf K.
+& Q. Co; 1100 acs. (N, L.), Spotsyl.
+Co., in St. George’s Pai; on both sides
+of the S. fork of East North East; on
+James Taylor’s line; 6 July 1726, p.
+503. 5 Lbs., 10 Shill.",1100a on both sides of the S fork of East North East in St. Georges parish in Spotsylvania County,fork of East North East,fork,East North East,Fork of East North East,,,,2.0,,,
+84.88372093023256,100.0,69.8,II_11_2041,6561,3273.0,1719,1719,Reuben Welch,Reuben Welch,"REUBEN WELCH, of Essex Co:
+3273 acs. (N. L.), New Kent Co; ir
+the forks of Pamunkey Riv., bet the
+Little & New Found Rivers, 20 Feb.
+1719, p. 9. Adj. Thomas Nelson; a.
+Jones’ Sw. mouth. Imp. of 66 pers.
+Anthony Housely, Ralph Stubbs, Henry
+Bridges, Wm. Hadsworth, Leonard
+Fisher, Geo, Flemonts, Phillip Right.
+Richd. Bashford, Antho. Cowley, Tho.
+Grove (or Grone), Jacob Hancock,
+Wm. Spendelow, Tho. Billing, Robt.
+Tarr, Anne a woman, Thomas Howard,
+Tho. Randolph, Wm. Bridgatt, Jno.
+Reare, Jno. Stronge; Wm, Parks. Jno.
+Cosens, Thomas Jenkins, Fra. Arnold,
+Wm. Devenport, Jno. Kifftell, Benja.
+Stroud, Richd. Joanes, Margt. Joanes,
+James Seaman, Mary Bell, Mary Godard,
+Wm. Beets, John Sanders, John Borrowes, Thomas Barrwell, Humphrie
+Robbinson, Jenet Blachetter, Tho. Morriss, Jno. Englebreetcht, John Burtching,
+Prissela Lacy, Teague Mineham, Geo,
+Robertson, Wm. Stevens, Jane Jones,
+Christopher Hooper, Walter Dwite,
+Henry Castle, Eliza. Cerby, Henry
+Thomson, James Mead, Thomas Sessions, Lydia Sands, Walter Craddock,
+Mary Vaughan, Jno, Burleigh, Eliza.
+Morriss, Amy Loyd, Jacob Littlewood,
+Thomas .Towler, Wm. Dunwell, Mary
+Bustosack, Wm. Murry, Eliza. Spencer,
+Cullit Barboyn,",3273a in the forks of Pamunkey River between the Little & Newfound,Fork of Pamunkey River,fork,Pamunkey River,Fork of Pamunkey River,,,,2.0,,,
+84.72222222222223,100.0,69.4,II_10_1348,10281,371.0,1715,1715,Henry Shackleford,Henry Shackleford,"HENRY SHACKLEFORD, 371 A.,
+40 P., (N.L.), in the fork of the main
+run of Mattapony Riv; beg. on the W.
+br., being the lower part of the Neck;
+16 Aug. 1715, p. 239. Imp. of 8 pers:
+Daniel Fenner. Alice Thomas, Richd.
+Baggerl.y, Thos. Nichols, George
+Brookes, Abraham Lamb, Mary’ Bugg.
+Thomas Davis.",371a & 40 perches in the Fork of the main Runn of Mattapoy Riv.,Fork of the main run of Mattapony River,fork,the main run of Mattapony,Fork of the main run of Mattapony River,,,,2.0,,,
+84.6938775510204,100.0,69.4,II_10_1352,6535,1343.0,1715,1715,Edward Garland,Edward Garland,"EDWARD GARLAND, 1343 acs.
+(N. L.), New Kent Co., in’ St. Paul’s
+Par; beg. on bank of Little River; adj,
+line of Bush; to mouth of Beaver Dam
+Cr; 16 Aug. 1715, p. 241. Imp. of 27
+pers: James Jordan, James Reiley, John
+Poole, Martin Ware, Morris Bryan,
+Thos. Chance, Charles McGuire, Jno.
+Darcy, Edmd. Butler, Thos. Beanes,
+Patrick Davis, Garret Byrn, Richd.
+Mooney, Edmd. Evans, Bryan Carroll,
+Wm. Kelley, Patrick McCale, Will.
+Madden, Charles Diggins, Peter Gibbons, Robt, Oates, Jno. Booth, Edwd.
+Powell, Owen Oneile, Richd. Rawley,
+Thos. Owen, Thomas White.",1343a St Pauls Parish in New Kent Co,mouth of Beaver Dam Creek,mouth,Beaver Dam Creek,mouth of Beaver Dam Creek,37.46347910018227,-76.89996430045142,96.7741935483871,0.0,Beaverdam Creek,Stream,New Kent
+84.6938775510204,100.0,69.4,II_13_4195,8880,5000.0,1728,1728,William Hopkins,William Hopkins Of Williamsburgh,"WILLIAM HOPKINS, GENT., of
+Williamsburg, 5000 acs. (Lapsed L.),
+Spotsyl. Co; on both sides the Mine
+Run; beg. above mouth of Garr Run;
+on the Governor’s line; to SW side of
+the head of the River Po; on E. side of
+the new marked Ridge Road; 28 Sept.
+1728, p. 335. Granted Hugh Jones,
+Clerk, 20 July 1722, on condition, &c.
+25 Lbs., Money.",5000a SpotsCo on both sides Main Run,mouth of Garr Run,mouth,Garr Run,mouth of Garr Run,38.660672800407326,-79.00253060031281,87.5,0.0,Carr Run,Stream,Rockingham
+84.32835820895522,100.0,68.7,II_10_1548,10284,464.0,1716,1716,Henry Raines,Henry Raines,"HENRY RAINES, WILLIAM HOWARD, & JOHN SUTTON, 464 acs. (N.
+L.), K. & Q. Co., in St. Stephen’s Par;
+beg. in old line of Prossor & Pannell’s;
+to S. side of the N. fork of Otterdam
+Swamp; 31 Oct. 1716, p. 299. 50 Shill.",464a in St. Stephen's parish in King William County,Fork of Otterdam Swamp,fork,Otterdam Swamp,Fork of Otterdam Swamp,,,,2.0,,,
+84.28571428571428,100.0,68.6,II_9_891,4950,324.0,1704,1704,Jeremiah Benskin,Jeremiah Benskin,"JEREMIAH BENSKIN, 324 acs., Henrico Co; on S. side of James River, 20
+Oct. 1704, p. 623. Beg. at mouth of
+Lower Westham Cr; & crossing Up.
+Westham Creek. Trans. of '7 pers.*
+Note: Paid Wm. Byrd, Esqr., Auditor
+for 7 rights.",324a Henrico/ mouth of LowerWestham Ck of S s James Riv,mouth of Lower Westham Creek,mouth,Lower Westham Creek,mouth of Lower Westham Creek,37.56709090002147,-77.53637550050524,82.05128205128204,0.0,Little Westham Creek,Stream,Henrico
+84.28571428571428,100.0,68.6,II_11_2518,5025,400.0,1723,1723,Henry Clay,Henry Clay,"HENRY CLAY, 400 acs. (N. L.),
+Henrico Co; on S, side of Swift Cr;
+at the mouth of Ephriam Lile’s branch;
+on James Eakin’s line; 5 Sept. 1723, p.
+241. 40 Shill.",400a Henrico/ mouth Ephraim Liles Br of S s Swift Ck,mouth of Ephriam Lile's branch,mouth,Ephriam Lile's branch,mouth of Ephriam Lile's branch,,,,2.0,,,
+84.24657534246575,100.0,68.5,II_10_1389,9567,615.0,1716,1716,Joseph Holt,Joseph Holt,"JOSEPH HOLT, 615 acs. (N. L.).
+Is. of Wight Co; on SW side of Nottoway Riv; beg. at mouth of the Three
+Creeks: by Raccoon Sw; 30 Apr. 1716,
+p. 254. Imp. of 13 pers: Elizabeth
+Sherman, John Rawlins, John Ryles.
+Daniel Porteen, Francis Chappell, Peter
+Ambrose, Keador Conner, Daniel Miles,
+Thomas Sims, Thos. Hill, James Fowler.
+Wm. Drury, John Tucker.",615a SW side Nottoway River in Isle of Wight County,mouth of the Three Creeks,mouth,the Three Creeks,mouth of the Three Creeks,36.75014980024781,-77.21635689996032,95.65217391304348,0.0,Three Creek,Stream,Southampton
+84.14634146341464,100.0,68.3,II_9_745,4934,4000.0,1703,1703,Francis Epes,Francis Epes & Isham & Francis Jr Epes & Geo Robinson,"CAPT. FRANCIS EPES, MR. ISHAM
+EPES, MR. FRANCIS EPES, JUNR.,
+MR, GEORGE ROBINSON, MINISTER, & MRS, ELIZABETH KENNON
+& MR. PHILLIP JONES & MRS. MARTHA STRATTON & MR. GEO.
+ARCHER & MR. JAMES HILL, 4000
+acs., Henrico Co; on N. side of Appamattock River, 24 Apr. 1703, p. 540.
+Beg. below mouth of Wintopock main
+Cr; crossing N. br. of Wintopock;
+crossing the middle br., &c. Trans. of
+80 pers: Mary Barnacle, Dorothy
+Brown, Margtt. Overby, Jane Stroude,
+Jane Green, Wm. Pane, Wm. Marlin,
+Wm. Cooke, James Miller, Caleb Ware,
+Anthony Downing, Wm. Muggee, John
+Swaine, John Bay, Jeffery Robinson,
+John Patridge, Saml. Cooke, Daniel
+Watts, Margit. Magee, Sarah Sheppard,
+Wm. Wright, Saml. Iles, Easter Orchard, Tho, Thorpp, Trestram Paine,
+Charles Egan, Thomas Taylor, John
+Littleworth, Richard Iland, Wm. Edwards, James King, John Lewis, Timo.
+Bonus, Saml. Kendall, Cha, Mackattee,
+Andi, Crawfoot, Haniball Haskins, John
+Decus, Edwd. Harper, James Hill, Wm.
+Loftice, Jona. Ingram, Riche, Godin,
+Mary Coicot, John Brown, Sami.
+Bushell, Wm. Adsonn (or Adsam), Saml.
+West, Susan Nockson, Edwd. Harper,
+Richd. Harford, Giles Roe, “7ill, Okes,
+Susan Simons, Fra. Yeule, R.’oh Jackson, Thomas Vincent, Edwd. ‘Thatcher,
+Ellen Walker, Eliza. North, Row!d.
+Bell, Henry Clark, Wm. Smith, Cha.
+Dennis, Wm. Osborn, Matt. Jones,
+Walter Pitman, Edwd. Standley, Richard
+———, John Smith, Fra. Jones, Wm.
+Huff, Wm. Stiles, Thomas Deane.",4000a Henrico/ N s & on Appomattox Riv bel mouth Wintopock Ck,mouth of Wintopock main Creek,mouth,Wintopock main Creek,mouth of Wintopock main Creek,,,,2.0,,,
+83.47826086956522,87.0,80.0,II_12_3371,3344,100.0,1725,1725,John Phelphs,Jno Phelphs,"JOHN PHELPHS, 100 acs. (N. L.),
+Tenrico Co; on S. side of James River;
+et mouth of Bear Garden Creek; 24
+Mar. 1725, p. 406. 10 Shill.",100a Henrico/mouth of Bear Garden,mouth of Bear Garden Creek,mouth,Bear Garden Creek,mouth of Bear Garden Creek,37.708477299801984,-78.29416900037069,100.0,0.0,Bear Garden Creek,Stream,Buckingham
+83.33333333333333,100.0,66.7,II_13_4332,6185,400.0,1729,1729,Ebenezer Adams _ (addams),Ebenezer Adams,"SAME. 400 acs. (N, L.); same location, date, & page. Adj. Col. Cole;
+crossing fork of the Indian Camp Br.
+40 Shill.",400a -/Indian Camp Br of Little Byrd Ck,Fork of the Indian Camp Branch,fork,the Indian Camp Branch,Fork of the Indian Camp Branch,37.27872370046907,-81.82289310010174,88.23529411764706,0.0,Linn Camp Branch,Stream,Buchanan
+82.92682926829268,100.0,65.9,II_10_1303,9535,295.0,1714,1714,Thomas Hart,Thomas Hart Of Surry County,"THOMAS HART, of Surry Co; 295
+acs. (N. L.). Is. of Wight Co; on S.
+side the main Blackwater Sw: at mouth
+of Stroud’s Br; 23 Dec, 1714, p. 224,
+20 Shill., & Imp. of 2 pers: Rowland
+Pite & James Hale.",295a S side of the Main black Water Swamp in Isle of Wight Co.,mouth of Stroud's Branch,mouth,Stroud's Branch,mouth of Stroud's Branch,36.596259800486735,-77.7713755001405,80.0,0.0,Scout Branch,Stream,Brunswick
+82.69394714407503,87.0,78.4,II_10_1834,6059,400.0,1718,1718,John Johnson,Jno Johnson,"JOHN JOHNSON, 400 acs. (N. L.),
+Henrico Co; on N. side of James Riv;
+adj, Cha. Eavens, on N. side & near
+head of Tuckahoe Cr; his own, James
+Johnson; & Michael Johnson; 12 July
+1718, p. 380. 40 Shiil.",400a -/Tuckahoe Ck adj Evans Johnson,head of Tuckahoe Creek,head,Tuckahoe Creek,head of Tuckahoe Creek,37.7166666997893,-77.64666670033404,80.0,0.0,Little Tuckahoe Creek,Stream,Henrico
+82.6923076923077,100.0,65.4,II_9_470,10879,486.0,1701,1701,Thomas Blunt,Thomas Blunt,"THOMAS BLUNT, 486 acs., on S.
+side of the main Black Water; beg. at
+mouth of Indian Spring Branch, cor.
+of Col. Benja. Harrison; 25 Apr. 1701,
+p. 346. 10 rights paid for to Wm.
+Byrd, Esqr., Auditor.",486a on S side of thee main Blackwater,mouth of Indian Spring Branch,mouth,Indian Spring Branch,mouth of Indian Spring Branch,38.349722199848316,-77.9199999999098,85.0,0.0,Finney Spring Branch,Stream,Orange
+82.55813953488372,100.0,65.1,II_10_1265,6528,4843.0,1714,1714,George Alves,George Alves,"GEORGE ALVES, 4843 acs. (N. L.),
+New Kent Co., in St. Paul's Par; beg.
+at Col. James Taylor at head of Meadow
+Br; to Taylor’s Cr; to S, br. of Pamunky
+Riv., called the South River; 16 Dec.
+1714, p, 212. Imp. of 97 pers: ‘Whitfeild Cobb, Henry Weeden, Joho
+Hacker, John Hart, Thos. Burgess;
+Morean Davis, Wm. Tuffton, Tho.
+Thompson, John Lott, Thos, Sanders,
+Wm. Richards, Tohn Mooke, Richd.
+Hooper, Wm. Whitfeild, Eliza, Whitfeild, Eliza. Weston, Hesther Smith,
+Eliza. Evary, Eliza. Woodard, Eliza.
+Gibson, Mary Thomas, John Ingraham,
+Margt. Millard, Christian Mck Gely,
+Wm, Thornhill, Wm. Dollman. Tohn
+Allwayes, John Lane, John Farly, Edwd.
+Gale, Anne Havacar, Frances Price.
+Mary Isaac, Susanna Emerson, Eleanor
+Brady, Wm. Taylor, Edwd. Wilde, John
+Bradborne, John Hopkins, George Abbot, Mary Holding, John Moone, Margaret Barnet, Alice Geathard, Anne
+Wade. Thos. Stone, Anne Adams, Lewis
+Sordwell. Wm. Pentry, Wm. Harrison,
+Robt. Godwin, James Allen, Geo, Matthews, Nich. Wilson. George Stackell.
+Will. Bley, Wm. Jacobs, John Streat,
+William Charles, Ralph Smallbone, Chr.
+Hicks, John Herne. Mary Jones, Elizabeth Pentecost, Edwd. Hamond, Richd.
+Longley (or Langley), Daniel Ward,
+David Thomas, Sterringbrough Thomas,
+Thos. Hill, Joseph Powell, John Manser, John Harris, John Ashcroft. Thos.
+Causer, Alice Causer (or Canser), Thos.
+Watson, Thos. Chapman, Thos. Bishop,
+John Harris, Jno. Sislett, Stephen Sisletr,
+Richd. Barlow, Thos. Barlow. Joseph
+Rose, Nicho. Dawson, Jno. Moore,
+Henry Dycks, Amy Benson, Hester
+Pennard, Susan Knash, Jno. Thomas,
+Robt. White, Marmaduke La~caster.
+Jane Pane, Robt, Allen, Richd. Hall.",4843a in St Pauls Parish in New Kent,head of Meadow Branch,head,Meadow Branch,head of Meadow Branch,,,,2.0,,,
+82.45614035087719,100.0,64.9,II_14_5461,9752,1190.0,1732,1732,Benjamin Edwards,Benjamin Edwards Of Surry Co.,"BENJAMIN EDWARDS, of Surry
+Co; 1190 acs. (O. & N. L.), Is. «¢
+Wight Co; §S. side the main Black
+Water Sw., & on both sides the Rornd
+Hill Sw; beg. at mouth of the Reedy
+Br; to mouth of the Myery Br; ad“
+Richard Atkisson; & George Fort; 2s
+Sept. 1732, p. 531. 350 acs. part granted Joseph John Bridger, 5 Sept. 1723,
+& conveyed to sd. Edwards, 25 Mar.
+1728; 575 acs. part of 1275 acs: granted
+William Edwards, dec’d., 16 June 1712,
+who gave to sd. Benjamin, by will dated
+9 Jan. 1721; the residue being waste
+land adj., & never before patented. 30
+Shill.",1190a S side of Main Blackwater Swamp on both side of the round hill Swamp in Isle of Wight County,mouth of the Reedy Branch,mouth,the Reedy Branch,mouth of the Reedy Branch,37.15583329961811,-77.0955556001478,100.0,0.0,Reedy Branch,Stream,Surry
+82.3699421965318,100.0,64.7,II_12_3550,8858,6500.0,1726,1726,John Baylor,John Baylor Junr. The Son Of John Baylor Late Of King And Queen County Gen. Dec'd,"JOHN BAYLOR, son of John Baylor, Gent., dec’d., of K. & Q. Co; 6500
+acs. (N. L.), Spotsyl Co., in Se.
+George’s Par; on both sides of some
+litele mountains, on up. side of James
+Taylor's line; up S. side of the Rappidan (Riv.), about % mi. below mouth
+of Laurell Run; along the (Spotsylvaria) Company's line; 6 July 1726, p.
+499. Consideration: 32 Lbs., 10 Shill.",6500a on both Sides Sume Little Mountains on the upper Side of James Taylors Line in Saint George parish in Spotsylvania County,mouth of Laurell Run,mouth,Laurell Run,mouth of Laurell Run,,,,2.0,,,
+82.25806451612902,100.0,64.5,II_13_4588,3353,3650.0,1730,1730,Dudley Digges,Dudley Digges,"DUDLEY DIGGES, GENT., of Henrico Co; 3650 acs. (N. L.), Goochland
+Co; S. side of James Riv., on brs. of
+Willis’ Cr; on E. side of Randolph’s
+Creek; corner of Power & Cary; down
+Phelps’ Creek; to head of Power's
+Creek; 28 Sept. 1730, p. 505. 18 Lbs.,
+5 Shill.",3650a Gooch/brs Willis Ck,head of Power's Creek,head,Power's Creek,head of Power's Creek,37.604999999962615,-77.29777779983397,83.33333333333334,0.0,Powhite Creek,Stream,Henrico
+82.25108225108224,85.7,78.8,II_13_3678,5109,500.0,1726,1726,Thomas Totty,Tho Totty,"THOMAS TOTTY, 500 acs, (N. L.),
+Henrico Co; N. side of Appamattock
+Riv., & on S. side of Swift Cr; beg. at
+Capt. Thomas Jefferson; to S. side of
+CAVALIERS AND PIONEERS
+the head of Long Sw; down Ready
+branch; to his own old survey; to a
+great point of Rocks; 2 Nov. 1726, p.
+31. 15 Shill., & Imp. of 7 pers: John
+Royes, Katherine Johnson, Margaret
+Jenkins, Margaret Smith, John Harris,
+Thomas Smith, Jury Barker.",500a Henrico/ S s Swift Ck of N s Appomattox Riv,head of Long Swamp,head,Long Swamp,head of Long Swamp,37.28959440045219,-77.47165189956405,100.0,0.0,Long Swamp,Stream,Chesterfield
+82.0754716981132,100.0,64.2,II_11_2047,6567,250.0,1719,1719,Francis Clarke,Francis Clarke Of New Kent Co.,"FRANCIS CLARKE, 250 acs. (N.
+L.), New Kent Co., in St. Paul’s Par;
+on Cattaile Br. of Stony Run of Chickahominy Sw; 20 Feb. 1719, p. 13. 25
+Shill.
+. THOMAS BAKER, 132 acs, (Esch.
+L.), New Kent Co; 20 Feb. 1719, p.
+13., On Baker's Br., cor. of James
+Duke; on Ware Cr; to mouth of
+Haynes’ spring Br. Escheated from John
+Haynes, dec’d., by inquisition under
+Edmund Jenings, Esqr., Esch’r., for 100
+acs; upon survey returned by John
+Syme, Surveyor, found to contain 132
+acs. 2 Lbs. Tobacco for every acre.",250a New Kent/ in the parish of St. Pauls,mouth of Haynes' spring Branch,mouth,Haynes' spring Branch,mouth of Haynes' spring Branch,,,,2.0,,,
+81.84885290148449,84.2,79.5,II_10_1575,4981,226.0,1716,1716,George Hunt,Geo Hunt,"GEORGE HUNT, 226 acs. (N. L.),
+Henrico Co; on N. side of Appamattock Riv; adj. John Perkinson on W.
+side of a br. of Cattail Cr; to fork that
+maxes the Western Br; 31 Oct. 1716,
+p. 305. 25 Shill,",226a Henrico/ W s of br of Cattail Ck of N s Appomattox Riv,Fork that maxes the Western Branch,fork,that maxes the Western Branch,Fork that maxes the Western Branch,,,,2.0,,,
+81.64556962025317,100.0,63.3,II_10_1229,9529,800.0,1714,1714,Bridgman Joyner,Bridgman Joyner Of Isle Of Wight Co.,"BRIDGMAN JOYNER, 800 acs. (N.
+L.), Is. of Wight Co; S. side the main
+Black Water Sw; beg. at mouth of the
+Cyprus Sw; adj. Maj. Thomas Swan;
+16 Dec, 1714, p. 201.. 40 Shill., &
+Imp, of 8 pers: Peter Garland, Grace
+Garland, Thomas Garret, Philip Evans,
+John Thomson, Lewis Codd, Margt.
+Longland, John Banks.
+‘JOHN PARNELL & MARY JOLLY,
+237 acs. (N. L.), Is. of Wight Co; beg.
+at Wm. Ruffin; to E. side of the Corn
+Sw: adj. Mr. Thos. Giles & John
+CAVALIERS AND PIONEERS
+Parnell; 16 Dec, 1714, p. 201. Imp. of
+5 pers: John McKalla, Morris Way,
+Timothy Denis, Anne Jolley, James
+Jolly.",800a on S side of the mian black Water Swamp in sd County,mouth of the Cyprus Swamp,mouth,the Cyprus Swamp,mouth of the Cyprus Swamp,36.64570670040996,-76.6396752998138,83.33333333333334,0.0,Cypress Swamp,Swamp,Suffolk (city)
+81.5581253804017,83.9,79.2,II_9_683,4931,426.0,1702,1702,James Francklin,Jas Francklin Jr,"JAMES FRANCKLIN, JUNR., 426
+acs., Henrico Co., itt Bristoll Par; on
+S. side of Swift Cr., 28 Oct. 1702, p.
+501. Beg. at his own line, cor. of Capt.
+Epps; crossing Long Sw. & Hunting
+Path; &c. Granted James Francklin, 15
+Oct, 1698, & granted the abovenamec
+by order, &c. Trans, of 9 pers: Wm.
+Chambers, John Evans, Thomas Francklin, Robert Floyd, James Harris, John
+Liveseley, Matthew Oakely,  Richd.
+Allen, Mary Spindlers.
+GILES WEBB, 1797 acs., Henrico
+Co; on N. side of James River, at a
+place known by the name of Westham;
+28 Oct. 1702, p. 502. Beg. at Mr.
+Robert Beverley; to Col. Randolph;
+down Tuckahow Cr, to mouth of lower
+Westham Cr; &c. Trans. of 36 pers:
+Thomas Jones, James Spenso, Edwd.
+Fullmow (or Fillmore), Eliza. Thomson, Edwd. Palmer, Thomas Smith,
+Eliza. Palmer, John Earle, Joseph
+Potter, John Bazy, Thomas Clasper,
+Robert Barker, Edwd. Baynes, Henry
+Freeman, John White, Anne Grose,
+Catherine Kendall, Eliza. Jones, Harthorne Draytonn, Goodlove Smith, Mary
+Scils (or Stiles), Thomas Leech, Richd.
+Kaneday, Emlin Light; & 12. rights
+more paid for to Wm. Byrd, Esqr.,
+Auditor,",426a Henrico/ S s Swift Ck Bristol Par,mouth of lower Westham Creek,mouth,lower Westham Creek,mouth of lower Westham Creek,37.56709090002147,-77.53637550050524,82.05128205128204,0.0,Little Westham Creek,Stream,Henrico
+81.5068493150685,100.0,63.0,II_10_1707,9223,119.0,1717,1717,William Caleb,William Caleb,"WILLIAM CALEB, 119 acs. (N.
+L.), Pr. Geo. Co; on S. side of Blackwater Sw; beg. at Mr. John Nichols, in
+the fork of George’s Meadow; on the
+County Line; to land of Benja. Foster;
+15 July 1717, p. 342. Imp. of 3 pers:
+Eliza, Peebles, Martha Steward, & Philip
+Burrough.",119a Prince George/ on the S side of black water Swamp,Fork of George's Meadow,fork,George's Meadow,Fork of George's Meadow,,,,2.0,,,
+81.42857142857142,85.7,77.1,II_9_822,9203,223.0,1703,1703,Benjamin Foster,Benja. Foster,"BENJAMIN FOSTER, 223 acs., Chas.
+City Co; S. side of the Blackwater, 23
+Oct. 1703, p. 582. Beg. at mouth of
+George’s Meadow; to Mr. James
+Minge’s line; on the maine Warwick
+Road from Welch’s to Busby’s; 23 Oct.
+1703, p. 582. Trans. of 5 pers.* Note:
+Paid William Byrd, Esqr., Auditor for
+5 rights.",223a 3 Roods & 29p Charles City/ on S side Blackwater,mouth of George's Meadow,mouth,George's Meadow,mouth of George's Meadow,,,,2.0,,,
+81.40929535232384,87.0,75.9,II_10_1124,6025,577.0,1714,1714,Charles Evans,Chas Evans,"CHARLES EVANS, 577 acs. (N. L.).
+Henrice Co; N. side of James Riv., on
+head of Mill Cr; beg. on N. side of
+the S. br. from the Beaver Ponds of
+Tuckahoe Cr; along a br. of Genito
+Cr; 16 June 1714, p. 161. 3 Lbs.",577a -/hd Mill Ck & brs Genito Mill & Tuckahoe Cks,head of Mill Creek,head,Mill Creek,head of Mill Creek,39.31621220043144,-78.1391678995696,100.0,0.0,Mill Creek,Stream,Frederick
+81.0344827586207,100.0,62.1,II_9_947,6513,200.0,1705,1705,Stephen Sunter,Stephen Sunter,"STEPHEN SUNTER, 200 acs., New
+Kent Co., in St, Peter’s Par; W. side
+of Stoney run, a br. of Chicahominy Sw;
+near mouth of Mackgirt’s Br; 2 May
+1705, p.-655. Trans. of 4 pers: Patrick Caffery, Christopher Jordison, Jon.
+Crump, Tho. Godfrey.",200a on the W side of a branch of Chicahominy Swamp called Stony Run,mouth of Mackgirt's Branch,mouth,Mackgirt's Branch,mouth of Mackgirt's Branch,37.18209439957735,-77.72610670021078,80.0,0.0,Kit Branch,Stream,Dinwiddie
+80.43478260869566,100.0,60.9,II_12_3401,7407,1500.0,1725,1725,William Harris,William Harris Jr,"WILLIAM HARRIS, JUNR., 1500
+acs. (N. L.}, Hanover Co; adj. Mrs.
+Arnoid & George Woedroof's lines; on
+Overwons fork of Elk Cr; 24 Mar.
+1725, p. 419. 7 Lbs., 10 Shill.",1500a adj Mrs Arnold & George Woodroof,Fork of Elk Creek,fork,Elk Creek,Fork of Elk Creek,38.02291620035561,-77.75138040017151,100.0,0.0,Elk Creek,Stream,Louisa
+80.35714285714286,100.0,60.7,II_12_2803,10340,400.0,1724,1724,John Holloday,John Holloday Of King William Co.,"SAME. 400 acs. (N. L.); same Co.,
+Parish, & date; page 55. Beg. on S.
+side Spouceberry brooke, below mouth
+of Holloday’s Sw., &c. 40 Shill.",400a S Side of Spoucebery Brooke in Saint John's Par. in the County aforesaid,mouth of Holloday's Swamp,mouth,Holloday's Swamp,mouth of Holloday's Swamp,,,,2.0,,,
+79.78290366350068,90.9,68.7,II_12_2759,6663,400.0,1724,1724,John Marlow,John Harlow,"JOHN MARLOW, 400 acs. (N. L.).
+Hanover Co; on both sides the N. fork
+of Chicohominy Sw; adj. Robert Allin’s
+line; 9 July 1724, p. 30. 40 Shill.
+CAVALIERS AND PIONEERS",400a on both sides N fork of Chickahominy Swamp,Fork of Chicohominy Swamp,fork,Chicohominy Swamp,Fork of Chicohominy Swamp,,,,2.0,,,
+79.72972972972973,100.0,59.5,II_13_3956,5111,2350.0,1727,1727,Francis Epes,Francis Epes,"COL. FRANCIS EPES, 2350 acs. (N.
+L.), Henrico Co; on N. side of Appamattock Riv; adj. Maj. William
+Kennon; on mouth of Skin Quarter
+Cr; 13 Oct. 1727, p. 193, 11 Lbs., 15
+Shill.",2350a Henrico/ mouth SkinQuarter Ck of N s Appomattox Riv,mouth of Skin Quarter Creek,mouth,Skin Quarter Creek,mouth of Skin Quarter Creek,37.62486929993179,-78.1469437995575,85.71428571428572,0.0,Snowquarter Creek,Stream,Cumberland
+79.60526315789474,84.2,75.0,II_9_384,6912,1230.0,1700,1700,William Randolph,Wm Randolph,"WILLIAM RANDOLPH, GENT.,
+1230 acs., Henrico Co., 7 May 1700,
+p. 270. 480 acs. part thereof called
+Curles, formerly Long Feild, being part
+of patent to Thomas Harris, dated 25
+Feb, 1638; with the swamp & mash,
+beg. at a cr. over against Capt. Martin,
+N. on back of a Sw., ESE into the
+woods towards Breemo, WNW. upon
+the main river, &c; 750 acs., commofily
+called the Slashes, lying on the poplar
+Brook on head of lands formerly Cape.
+Daniel Lewellin’s, E. along the heads
+thereof two (to) Mawborn Hills, &c.
+Late in the seizen & inheritance of
+Nathaniel Bacon, Juns., Esqr., dec'd.,
+from whom it escheated by his attainder
+for high treason, as by inquisition under
+William Randolph, Esch’r., &c., 21 July
+1698, who hath paid to his Majestie’s
+Auditor & Receiver General, &c., the
+valuable consideration of 150 Ibs.
+Srerling, &c,",1230a Henrico/ 2 tracts 'Curles' or 'LongField' & 'the slashes' esch Nathl Bacon,head of lands formerly Cape,head,lands formerly Cape,head of lands formerly Cape,,,,2.0,,,
+77.88461538461539,100.0,55.8,II_9_1059,10899,1000.0,1706,1706,Benjamin Harrison,Benjamin Harrison Of Surry Co.,"BENJAMIN HARRISON, ESQR.,
+1000 acs.,Up. Par. of Surry Co; “S,
+side the main Black Water Sw; beg. at
+mouth of a small br. that runs through
+the old Nottoway Towne feilds to the
+N. of the old forks & issues into As+
+samusock Sw; 1 May 1706, p. 720.
+Trans. of ‘20 pers: Thomas Strange,
+Benja. ‘Walker, Jno. Macknamarrow,
+Alex. ‘Young, James Francois, The.
+Moy, Richd. Lewis, Saml. Sambrook,
+Silas Smith, Thomas Wilson. Note: ¥0
+tights paid: for to Wm. Byrd, Esqp.,
+Auditor.",1000a Upper Parish of Surry Co. on S side the Main Blackwater Swamp in the Upper Parish of sd County,mouth of a small Branch,mouth,a small Branch,mouth of a small Branch,,,,2.0,,,
+77.85714285714286,85.7,70.0,II_9_1090,4956,17653.0,1705,1705,John Tullit,Jno Tullit,"JOHN TULLIT, 17653 acs., Henrico
+Co; on §. side of James Riv., 2 Nov.
+1705, p. 738. Beg. at Henry Trent:
+crossing Grindall’s run; along Col. Wm.
+Byrd, to Falling Cr; to Scott’s line; on
+Mr. Good; cross Powhatan Br; cross the
+Reedy Cr; across Powhite Cr; to Mr.
+John Pleasants’ land; to mouth of
+Westham Cr; up same to Jeremy Benskin; along the lower French Line; on
+the French Road; on lines of Abraham
+‘Mishew; crossing Manchfeild Woodhouse Branch in Nottingham Parke; on
+Bowman’s line; to S. side of the Beaver
+ponds; on Elam’s lines: & down Poakashock Br. Imp. of 353 pers.* Note:
+200 rights paid for to William Byrd,
+Esqr., late late Auditor. 155 rights
+more paid for (to) Wm. Byrd, Esqr.,
+Receiver Generall.",17653 acres Henrico/,mouth of Westham Creek,mouth,Westham Creek,mouth of Westham Creek,37.56348000002703,-77.5599875004686,100.0,0.0,Westham Creek,Stream,Henrico
+77.6923076923077,100.0,55.4,II_11_2556,9625,130.0,1723,1723,William Thomas,William Thomas Of Isle Of Wight County,"WILLIAM THOMAS, 130 acs. (N.
+L.). Is. of Wight Co; on W. side of
+Sescock Sw: a little below mouth of
+the Long Br; cor. of Randall Revell’s
+land; 5 Sept. 1723, p. 259. 15 Shill.",130a on the W side of Seacock Swamp in the County afsd,mouth of the Long Branch,mouth,the Long Branch,mouth of the Long Branch,36.55327369951175,-81.44202229965123,100.0,0.0,Long Branch,Stream,Grayson
+77.63975155279502,85.7,69.6,II_9_897,6925,286.0,1704,1704,John Pleasants & Joseph Pleasants,Jno Pleasants & Jos Pleasants,"JOHN PLEASANTS & JOSEPH
+PLEASANTS, 286 acs., Henrico Co; on
+head of the White Oake Swamp; 20
+Oct, 1704, p. 627. Trans. of 6 pers.*
+Note: Paid Wm. Byrd, Esqr., Auditor
+for 6 rights.",286a Henrico/ hd of WhiteOak Swamp,head of the White Oake Swamp,head,the White Oake Swamp,head of the White Oake Swamp,37.50903530011158,-77.31331159980982,96.7741935483871,0.0,White Oak Swamp,Stream,Henrico
+75.43859649122807,84.2,66.7,II_13_4101,6971,1600.0,1727,1727,John Bacon,Jno Bacon,"JOHN BACON. of New Kent Co;
+1600 acs. (O. & N. L.), Henrico Co;
+beg. on Uffnam Brooke, parting his own
+& land of John Watson; down sd.
+brooke to the mouth or where it falls
+into Chickohominy Riv. or Sw; adj.
+Thomas Owen; 13 Oct. 1727, p. 282.
+1636 A. 5 P., part thereof granted in
+the name of Francis Izard, 23 Apr.
+1681; 563 A., 155 P., being surplus
+within sd. patent. 3 Lbs. Money.",1600a Henrico/ on Ufnam Brook,mouth or where it falls into,mouth,or where it falls into,mouth or where it falls into,,,,2.0,,,
+75.3931544865865,87.0,63.8,II_14_5468,6235,1000.0,1732,1732,Charles Allen,Chas Allen,"CHARLES ALLEN, 1000 acs. (N.
+L.), Goochland Co; on Licking Hole
+Cr; at mouth of Stone Horse Br; adj.
+John Hankins’ (or Haukins’) line:
+George Payne; David Patterson; & land
+of William Weldy; 17 Jan, 1732, p.
+536. 5 Lbs., Money.",1000a -/on Licking hole Ck & brs thereof,mouth of Stone Horse Branch,mouth,Stone Horse Branch,mouth of Stone Horse Branch,,,,2.0,,,
+75.01665556295804,84.2,65.8,II_12_3208,5074,400.0,1725,1725,Joseph Irby,Jos Irby,"JOSEPH IRBY, 400 acs, (N. L.),
+Henrico Co; on N, side of Appamattock
+Riv; on low, side of the ‘mouth of
+Ceder Cr., parting his own, & land of
+Capt. Henry Anderson; 17 Aug. 1725.
+p. 309. 40 Shill.",400a Henrico/ low s at mouth of Cedar Ck of N s Appomattox Riv,mouth of Ceder Creek,mouth,Ceder Creek,mouth of Ceder Creek,37.612369099951195,-77.74943830017452,81.81818181818181,0.0,Dover Creek,Stream,Goochland
+75.0,100.0,50.0,II_13_3797,10378,400.0,1727,1727,Thomas Carr,Thomas Carr Junr. Gent. Of King William Co.,"SAME. 400 acs. (N. L.); same Co.,
+date, & page. On both sides the Tanfatt
+fork of the Little River, joining to the
+fen line; 16 June 1727, p. 98. 40
+Shill,",400a upon the brs. of the Middle River Issuing out of Mattapony River and the Brs. of Spousberry Brook Issuing out of the Northanna in Saint Georges Parish in Spotsylvania Co.,fork of the Little River,fork,the Little River,Fork of the Little River,37.613202499949864,-77.76193860015513,100.0,0.0,Little River,Stream,Goochland
+73.07692307692308,100.0,46.2,II_12_3262,7417,400.0,1725,1725,John Leigh,John Leigh,"CAPT. JOHN LEIGH, GENT., of
+K. & Q. Co; 400 acs. (N. L.), Hanover
+Co; beg. at mouth of Medlock’s branch;
+down Taylor's Cr; by a small Island
+a a Cr; 24 Mar. 1725, p. 345. 40
+Shil",400a on the N side of Taylor's Creek and both sides of the Beverdam fork,mouth of Medlock's branch,mouth,Medlock's branch,mouth of Medlock's branch,,,,2.0,,,
+72.88378766140602,82.4,63.4,II_12_2750,5033,465.0,1724,1724,John Gill,Jno Gill,"JOHN GILL, 465 acs, (N. L.), Henrico Co; N. side of Appomattock Riv;
+adj. Stephen Gill & John Willson.
+Senr; Thomas Willson; Benjamin Dison; on E, side of White Oak Br; John
+Perkinson; & Charles Cussins’ line; on
+fork of Youl Br; 9 July 1724, p. 25.
+50 Shill.",465a Henrico/ N s Appomattox Riv,Fork of Youl Branch,fork,Youl Branch,Fork of Youl Branch,,,,2.0,,,
+72.72727272727272,100.0,45.5,II_9_1066,10750,150.0,1706,1706,Wm. Rhodes,Wm. Rhodes,"WM. RHODES, 150 acs., Surry Co;
+at head of Besses Sw; 2 May 1706, p.
+724, Part of 530 acs. escheated from
+Geo, Williams, dec’d., by inquisition
+under Wm. Randolph, Esq., Esch’r, &c.",150a in Surry County,head of Besses Swamp,head,Besses Swamp,head of Besses Swamp,37.25750000050198,-77.12583330010085,78.26086956521739,0.0,Nobles Swamp,Stream,Prince George
+70.0,100.0,40.0,II_10_1967,6577,75.0,1719,1719,John Jones,John Jones,"JOHN JONES, 75 acs. (N. L.), New
+Kent Co., in St. Paul’s Par; beg. at
+Capt. Dangerfield’s, near sd. Jones,
+plantation; down S. br. of Crump’s Cr;
+to mouth of Gentry’s Br; on Gentry’s
+line; 11 July 1719, p. 440. Imp. of 2
+pers: John Ducker & George Brasfield.",75a in St Pauls parish,mouth of Gentry's Branch,mouth,Gentry's Branch,mouth of Gentry's Branch,37.19833329955219,-82.14416669960303,91.66666666666666,0.0,Gent Branch,Stream,Buchanan
+69.47368421052632,100.0,38.9,II_13_4215,10411,400.0,1728,1728,Thomas Smith,Thomas Smith Of King George County,"THOMAS SMITH, of King George
+Co; 400 acs. (N. L.), Spotsyl. Co., in
+St, George’s Par; adj. Charles Taliaferro,
+at the mouth of Mott’s Run; on line
+of patent granted Motts & others; 28
+Sept, 1728, p. 345,",400a in Saint George parish in Spotsylvania County,mouth of Mott's Run,mouth,Mott's Run,mouth of Mott's Run,,,,2.0,,,

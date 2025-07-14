@@ -1,0 +1,11 @@
+cp_id,cp_county,oss_id,d_km,anchor_phrase_raw,anchor_feature_name,anchor_type,gnis_name,gnis_county,anchor_quality,anchor_lat,anchor_lon,centroid_lat,centroid_lon,match_score
+II_9_470,,10879,163.0737803017896,mouth of Indian Spring Branch,Indian Spring Branch,mouth,Finney Spring Branch,Orange,exact,38.34972219984832,-77.9199999999098,37.05932291666935,-77.03569269233014,85.0
+II_14_5099,,9746,120.1793438088521,mouth of Carter's Branch,Carter's Branch,mouth,Carter Branch,Vance,exact,36.56847569948815,-78.4133311001857,36.6723872483229,-77.07601435766469,100.0
+II_10_1352,New Kent,6535,39.3425496968494,mouth of Beaver Dam Creek,Beaver Dam Creek,mouth,Beaverdam Creek,Hanover,exact,37.63319969991886,-77.29358909984046,37.90279473983545,-77.58349637663034,96.7741935483871
+II_9_683,Henrico,4931,35.3624679198437,mouth of lower Westham Creek,lower Westham Creek,mouth,Little Westham Creek,Henrico,exact,37.56709090002147,-77.53637550050524,37.25880548683375,-77.43545206586688,82.05128205128204
+II_13_3956,Henrico,5111,22.17446392268349,mouth of Skin Quarter Creek,Skin Quarter Creek,mouth,Skinquarter Creek,Powhatan,exact,37.47777780016008,-77.80250000009215,37.31306058672675,-77.66076806916762,97.14285714285714
+II_9_891,Henrico,4950,20.2092905731958,mouth of Lower Westham Creek,Lower Westham Creek,mouth,Little Westham Creek,Henrico,exact,37.56709090002147,-77.53637550050524,37.38977885555976,-77.48439141862593,82.05128205128204
+II_12_2947,Hanover,6656,19.947930775702325,Fork of the Newfound River,the Newfound River,fork,Newfound River,Louisa,estimated_fork,37.8145859996373,-77.4997058995205,37.86479076613105,-77.7173051999008,100.0
+II_14_4865,Spotsylvania,10429,18.92518065760998,Fork of the Northanna River,the Northanna River,fork,North Anna River,Orange,estimated_fork,38.05263750030946,-77.7497138001741,38.2031653930185,-77.85107918239584,96.7741935483871
+II_10_1141,Isle Of Wight,9527,18.512440622243478,mouth of the Concord Branch,the Concord Branch,mouth,Coscorie Branch,Southampton,estimated_downstream,36.745149900255626,-77.085797800163,36.887626497864645,-76.97788104369212,82.75862068965517
+II_12_3555,King William,10367,18.445901043545824,Fork of the South River,the South River,fork,South River,Caroline,estimated_fork,38.03485730033702,-77.38720289969513,38.04358990500015,-77.59703694812217,100.0
