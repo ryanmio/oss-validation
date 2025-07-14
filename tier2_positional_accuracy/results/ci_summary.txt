@@ -1,0 +1,3 @@
+Sample size: 39
+Median: 3.18 km
+90th percentile: 6.92 km (95% CI 4.87–14.67 km)
