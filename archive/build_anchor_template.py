@@ -22,8 +22,8 @@ import geopandas as gpd
 import pandas as pd
 from loguru import logger
 
-from . import config
-from . import spatial_validation as sv
+from oss_preprocessing import config
+from oss_validation.county_accuracy_validation import spatial_validation as sv
 
 RAW_OSS_GEOJSON = config.RAW_DIR / "CentralVAPatents_PLY-shp" / "centralva.geojson"
 MANUAL_ANCHOR_CSV = config.PROCESSED_DIR / "manual_anchor_worksheet.csv"

@@ -24,7 +24,7 @@ from typing import Tuple
 import numpy as np
 import pandas as pd
 
-from . import config
+from oss_preprocessing import config
 
 # ---------------------------------------------------------------------------
 # Input / output paths

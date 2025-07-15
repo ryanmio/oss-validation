@@ -1,4 +1,4 @@
-from oss_validation import parsing
+from archive import parsing
 
 
 def test_extract_cues_simple():

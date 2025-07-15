@@ -1,0 +1,99 @@
+cp_id,cp_county,oss_id,d_km,anchor_phrase_raw,anchor_feature_name,anchor_type,gnis_name,gnis_county,anchor_quality,anchor_lat,anchor_lon,centroid_lat,centroid_lon,match_score,cp_raw,Manual Latlon,Notes
+II_9_470,,10879,163.0737803,mouth of Indian Spring Branch,Indian Spring Branch,mouth,Finney Spring Branch,Orange,exact,38.3497222,-77.92,37.05932292,-77.03569269,85,"THOMAS BLUNT, 486 acs., on S.
+ side of the main Black Water; beg. at
+ mouth of Indian Spring Branch, cor.
+ of Col. Benja. Harrison; 25 Apr. 1701,
+ p. 346. 10 rights paid for to Wm.
+ Byrd, Esqr., Auditor.",bad match,
+II_14_5099,,9746,120.1793438,mouth of Carter's Branch,Carter's Branch,mouth,Carter Branch,Vance,exact,36.5684757,-78.4133311,36.67238725,-77.07601436,100,"THOMAS JARREL, 190 acs. (N.
+ L.), Is. of Wight’Co; on S. side of
+ Nottoway Riv., & on both sides of
+ Toquothonta Sw at mouth of Carter's
+ Br; adj. Thomas Carter; Capt. John
+ Edwards; Henry Flowers; & his own
+ land; 25 Aug. 1731, p. 280. 20 Shill.",bad match,
+II_10_1352,New Kent,6535,39.3425497,mouth of Beaver Dam Creek,Beaver Dam Creek,mouth,Beaverdam Creek,Hanover,exact,37.6331997,-77.2935891,37.90279474,-77.58349638,96.77419355,"EDWARD GARLAND, 1343 acs.
+ (N. L.), New Kent Co., in’ St. Paul’s
+ Par; beg. on bank of Little River; adj,
+ line of Bush; to mouth of Beaver Dam
+ Cr; 16 Aug. 1715, p. 241. Imp. of 27
+ pers: James Jordan, James Reiley, John
+ Poole, Martin Ware, Morris Bryan,
+ Thos. Chance, Charles McGuire, Jno.
+ Darcy, Edmd. Butler, Thos. Beanes,
+ Patrick Davis, Garret Byrn, Richd.
+ Mooney, Edmd. Evans, Bryan Carroll,
+ Wm. Kelley, Patrick McCale, Will.
+ Madden, Charles Diggins, Peter Gibbons, Robt, Oates, Jno. Booth, Edwd.
+ Powell, Owen Oneile, Richd. Rawley,
+ Thos. Owen, Thomas White.","37.899394, -77.592948",High confidence anchor with both Little River and mouth of Beaver Dam Creek
+II_9_683,Henrico,4931,35.36246792,mouth of lower Westham Creek,lower Westham Creek,mouth,Little Westham Creek,Henrico,exact,37.5670909,-77.5363755,37.25880549,-77.43545207,82.05128205,"JAMES FRANCKLIN, JUNR., 426
+ acs., Henrico Co., itt Bristoll Par; on
+ S. side of Swift Cr., 28 Oct. 1702, p.
+ 501. Beg. at his own line, cor. of Capt.
+ Epps; crossing Long Sw. & Hunting
+ Path; &c. Granted James Francklin, 15
+ Oct, 1698, & granted the abovenamec
+ by order, &c. Trans, of 9 pers: Wm.
+ Chambers, John Evans, Thomas Francklin, Robert Floyd, James Harris, John
+ Liveseley, Matthew Oakely, Richd.
+ Allen, Mary Spindlers.
+ GILES WEBB, 1797 acs., Henrico
+ Co; on N. side of James River, at a
+ place known by the name of Westham;
+ 28 Oct. 1702, p. 502. Beg. at Mr.
+ Robert Beverley; to Col. Randolph;
+ down Tuckahow Cr, to mouth of lower
+ Westham Cr; &c. Trans. of 36 pers:
+ Thomas Jones, James Spenso, Edwd.
+ Fullmow (or Fillmore), Eliza. Thomson, Edwd. Palmer, Thomas Smith,
+ Eliza. Palmer, John Earle, Joseph
+ Potter, John Bazy, Thomas Clasper,
+ Robert Barker, Edwd. Baynes, Henry
+ Freeman, John White, Anne Grose,
+ Catherine Kendall, Eliza. Jones, Harthorne Draytonn, Goodlove Smith, Mary
+ Scils (or Stiles), Thomas Leech, Richd.
+ Kaneday, Emlin Light; & 12. rights
+ more paid for to Wm. Byrd, Esqr.,
+ Auditor,",Discard,two grants combined into one entry
+II_13_3956,Henrico,5111,22.17446392,mouth of Skin Quarter Creek,Skin Quarter Creek,mouth,Skinquarter Creek,Powhatan,exact,37.4777778,-77.8025,37.31306059,-77.66076807,97.14285714,"COL. FRANCIS EPES, 2350 acs. (N.
+ L.), Henrico Co; on N. side of Appamattock Riv; adj. Maj. William
+ Kennon; on mouth of Skin Quarter
+ Cr; 13 Oct. 1727, p. 193, 11 Lbs., 15
+ Shill.","37.41840404659994, -77.85501141609494",
+II_9_891,Henrico,4950,20.20929057,mouth of Lower Westham Creek,Lower Westham Creek,mouth,Little Westham Creek,Henrico,exact,37.5670909,-77.5363755,37.38977886,-77.48439142,82.05128205,"JEREMIAH BENSKIN, 324 acs., Henrico Co; on S. side of James River, 20
+ Oct. 1704, p. 623. Beg. at mouth of
+ Lower Westham Cr; & crossing Up.
+ Westham Creek. Trans. of '7 pers.*
+ Note: Paid Wm. Byrd, Esqr., Auditor
+ for 7 rights.",Bad Match,"Couldn't make sense, westham appears to be north of the james"
+II_12_2947,Hanover,6656,19.94793078,Fork of the Newfound River,the Newfound River,fork,Newfound River,Louisa,estimated_fork,37.814586,-77.4997059,37.86479077,-77.7173052,100,"JOHN STANLEY, 400 acs. (N. L.),
+ Hanover Co; on both sides the N, fork
+ of the Newfound River; adj. Cicelia
+ Anderson; on S, side of the Ridge Road;
+ 22 Feb. 1724, p. 139. 40 Shill.","37.850159, -77.707004","There are multiple forks on the newfound river, I chose the largest by Annual Mean Flow"
+II_14_4865,Spotsylvania,10429,18.92518066,Fork of the Northanna River,the Northanna River,fork,North Anna River,Orange,estimated_fork,38.0526375,-77.7497138,38.20316539,-77.85107918,96.77419355,"GEORGE DOWDY, 1000 acs. (N.
+ L.), Spotsylv, Co., in St. George’s Par;
+ on brs. of the N, fork of the Northanna
+ Riv; adj, Andrew Harrison; Anthony
+ Ghelston (Gholston); & Col. Corbin’s
+ line; 28 Sept, 1728, p. 104.","38.134249, -77.879750","Now lake anna but historic 1864 map shows fork, low confidence"
+II_10_1141,Isle Of Wight,9527,18.51244062,mouth of the Concord Branch,the Concord Branch,mouth,Coscorie Branch,Southampton,estimated_downstream,36.7451499,-77.0857978,36.8876265,-76.97788104,82.75862069,"ETHELDRED TAYLOR. of Surry
+ Co. 545 acs. (N.L.). Ts. of Wight Co;
+ S, side the main Black Water Sw; beg.
+ et mouth of the Concord Br., on §, side
+ of the Lightwood Sw; by the Cabben
+ Br; 16 June 1714. p. 168. imp. of 11
+ pets: Thomas Perce, John Nox, John
+ Stakes. Thomas Burttler, Tohn Kingstonc, Willian Soulder. Evan Byrn,
+ jatnes Killmort, Elizabeth Evans, Elizabeth Griffin, Sarsh Mackdonnel,",Bad Match,
+II_12_3555,King William,10367,18.44590104,Fork of the South River,the South River,fork,South River,Caroline,estimated_fork,38.0348573,-77.3872029,38.04358991,-77.59703695,100,"SAME, 2650 acs. (N. L.); 500 acs.
+ part on both sides the South River, in
+ St. Maroaret’s Par., in King Wm. Co;
+ & 2150 acs. on the County Line, on
+ both sides the S. fork of the South Riv.,
+ in St. George’s Par., in Spotsyl. Co; ad}.
+ William Dunn; & Robert Poweil; on
+ E. side of Punch Br; on NE side of
+ the main Ridge Road; same date & page,
+ 13 Lbs., 5 Shill.","38.030791, -77.547949",

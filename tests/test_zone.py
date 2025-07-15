@@ -1,4 +1,6 @@
-from oss_validation import zone_construction, name_resolution, parsing
+# from oss_validation import zone_construction, name_resolution, parsing
+from archive import parsing
+# TODO: zone_construction and name_resolution modules not found in new structure. Update these imports when available.
 
 
 def test_zone_build_basic():

@@ -22,8 +22,8 @@ import logging
 import pandas as pd
 import geopandas as gpd
 
-from . import config  # project-level dirs
-from . import anchor_resolution as ar
+from oss_preprocessing import config  # project-level dirs
+from oss_validation.least_squares_validation import anchor_resolution as ar
 # Avoid circular import: use the constant already defined in anchor_resolution
 POS_CSV = ar.TIER2_OUT_CSV
 

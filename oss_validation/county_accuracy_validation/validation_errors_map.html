@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_678768e13263aebf8fcec5620fc193a4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_678768e13263aebf8fcec5620fc193a4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_678768e13263aebf8fcec5620fc193a4 = L.map(
+                "map_678768e13263aebf8fcec5620fc193a4",
+                {
+                    center: [37.5, -78.7],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6cc92df97a2e0d6534c8d0c77f44fbab = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_6cc92df97a2e0d6534c8d0c77f44fbab.addTo(map_678768e13263aebf8fcec5620fc193a4);
+        
+    
+            var marker_cluster_79b808f6ec2fc127bd82c8b1769dda0e = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var circle_marker_18b4a41f0ca84a44cd868831436c9794 = L.circleMarker(
+                [37.76897939563265, -78.54628497150505],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_79b808f6ec2fc127bd82c8b1769dda0e);
+        
+    
+        var popup_666f0a8cb1924098324a3f1f2339ce68 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8a23edb89a94fbb654c26cdb709f43fc = $(`<div id="html_8a23edb89a94fbb654c26cdb709f43fc" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9<br><b>CP ID:</b> II_11_2695<br><b>Year:</b> None<br><b>Stated County:</b> Henrico<br><b>Historical county hit:</b> None<br><b>Confidence:</b> 92.2</div>`)[0];
+                popup_666f0a8cb1924098324a3f1f2339ce68.setContent(html_8a23edb89a94fbb654c26cdb709f43fc);
+            
+        
+
+        circle_marker_18b4a41f0ca84a44cd868831436c9794.bindPopup(popup_666f0a8cb1924098324a3f1f2339ce68)
+        ;
+
+        
+    
+    
+            var circle_marker_320f53a1802c224efb22379d12b3500e = L.circleMarker(
+                [36.51186485917595, -77.34604812034331],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_79b808f6ec2fc127bd82c8b1769dda0e);
+        
+    
+        var popup_2de7ea2f3930dfeb2cf4aa34380a70e3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b791e4c5757fb6b534c5cdc8cb08a3dc = $(`<div id="html_b791e4c5757fb6b534c5cdc8cb08a3dc" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9712<br><b>CP ID:</b> II_13_4036<br><b>Year:</b> None<br><b>Stated County:</b> Isle Of Wight<br><b>Historical county hit:</b> None<br><b>Confidence:</b> 91.2</div>`)[0];
+                popup_2de7ea2f3930dfeb2cf4aa34380a70e3.setContent(html_b791e4c5757fb6b534c5cdc8cb08a3dc);
+            
+        
+
+        circle_marker_320f53a1802c224efb22379d12b3500e.bindPopup(popup_2de7ea2f3930dfeb2cf4aa34380a70e3)
+        ;
+
+        
+    
+    
+            var circle_marker_1c1cb8f67c108265a71c48b3c1af0df6 = L.circleMarker(
+                [36.52723243697745, -77.32492732136973],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_79b808f6ec2fc127bd82c8b1769dda0e);
+        
+    
+        var popup_10957e4d7d5cadf59652c0ac42ba0efe = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8145faad619066ba4222a012f0bcbce3 = $(`<div id="html_8145faad619066ba4222a012f0bcbce3" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9550<br><b>CP ID:</b> II_10_1406<br><b>Year:</b> None<br><b>Stated County:</b> Isle Of Wight<br><b>Historical county hit:</b> None<br><b>Confidence:</b> 91.0</div>`)[0];
+                popup_10957e4d7d5cadf59652c0ac42ba0efe.setContent(html_8145faad619066ba4222a012f0bcbce3);
+            
+        
+
+        circle_marker_1c1cb8f67c108265a71c48b3c1af0df6.bindPopup(popup_10957e4d7d5cadf59652c0ac42ba0efe)
+        ;
+
+        
+    
+    
+            var circle_marker_64b82cbdce629db799fc047dd28d6e9a = L.circleMarker(
+                [36.5085255882853, -77.31480861129447],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_79b808f6ec2fc127bd82c8b1769dda0e);
+        
+    
+        var popup_36a7999da6abcb75a4dcdf986d31c4c2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_64a9dcb48335b585307b851dafd6c74d = $(`<div id="html_64a9dcb48335b585307b851dafd6c74d" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9667<br><b>CP ID:</b> II_12_3256<br><b>Year:</b> None<br><b>Stated County:</b> Isle Of Wight<br><b>Historical county hit:</b> None<br><b>Confidence:</b> 91.0</div>`)[0];
+                popup_36a7999da6abcb75a4dcdf986d31c4c2.setContent(html_64a9dcb48335b585307b851dafd6c74d);
+            
+        
+
+        circle_marker_64b82cbdce629db799fc047dd28d6e9a.bindPopup(popup_36a7999da6abcb75a4dcdf986d31c4c2)
+        ;
+
+        
+    
+    
+            marker_cluster_79b808f6ec2fc127bd82c8b1769dda0e.addTo(map_678768e13263aebf8fcec5620fc193a4);
+        
+</script>
+</html>

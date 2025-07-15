@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import pandas as pd
 
-from oss_validation.anchor_extraction import extract_anchors
+from oss_validation.least-squares_validation.anchor_extraction import extract_anchors
 
 
 def test_extract_anchors_basic():

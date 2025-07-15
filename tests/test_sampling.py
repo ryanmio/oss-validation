@@ -1,4 +1,4 @@
-from oss_validation import sampling, parsing
+from archive import stratified_sampling as sampling, parsing
 
 
 def test_sampling_size():

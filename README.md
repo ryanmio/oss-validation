@@ -4,27 +4,6 @@ This repository implements a fully reproducible Python workflow to quantify how 
 
 ---
 
-## Repository layout
-
-```
-.
-├── data/
-│   ├── raw/                # Original inputs (C&P abstracts, OSS centroids)
-│   ├── reference/          # Reference GIS layers downloaded locally
-│   └── processed/          # Intermediate artifacts created by the pipeline
-├── reports/
-│   └── figures/            # QC plots and notebooks
-├── src/                    # All pipeline code (importable as `oss_validation`)
-│   ├── __init__.py
-│   ├── config.py           # Global constants & paths
-│   └── ...                 # Parsing, resolver, zone, scoring modules
-├── tests/                  # Unit tests (pytest)
-├── pyproject.toml          # Dependency lockfile / build metadata
-└── README.md               # You are here
-```
-
----
-
 ## Quick start
 
 1. Create a fresh Python (≥3.9) environment and install the package in editable mode:
@@ -36,7 +15,9 @@ pip install --upgrade pip
 pip install -e .
 ```
 
-2. Download the required datasets into the locations below (exact commands will be added later):
+2. Download the required datasets into the locations below:
+
+Use oss_preprocessing/download_reference.py to download the reference GIS layers.
 
 ```
 # raw inputs
@@ -51,26 +32,31 @@ data/reference/gnis_features_va.gpkg
 data/reference/osm_roads_va.gpkg
 ```
 
-3. Run the full pipeline:
+3. Run the preprocessing scripts
+oss_preprocessing/oss_extract.py
+oss_preprocessing/cp_extract.py
+oss_preprocessing/match_grants.py
+oss_preprocessing/hist_modern_overlap.py
 
-```bash
-python -m oss_validation.pipeline
-```
+4. Run the validation analyses:
 
-Outputs defined in the project brief will be written to `reports/`:
+There are 4 separate validation analyses, each in its own directory:
 
-* `oss_validation_results.csv`
-* `summary_stats.json`
-* `feasible_zones.gpkg`
-* `run_log.txt`
+1. **oss_validation/area_accuracy_validation/**
+    - This analysis validates the area of the OSS polygons. It calculates the area (in acres) of the OSS polygons and compares it to the acreage recorded in the Cavaliers & Pioneers abstracts.
+    - **Result:** 80.7 % of grants (1 207 / 1 496) have acreage error ≤ 25 % — median error just 6 %.
 
----
+2. **oss_validation/county_accuracy_validation/**
+    - This analysis validates the county of the OSS polygons. It determines the county that each OSS polygon lies within and compares it to the county recorded in the Cavaliers & Pioneers abstracts. It uses the tigher_va_counties_2023.gpkg file with historical split normalization.
+    - **Result:** County-level centroid accuracy = 95.9 % (1435 / 1496 grants correct).
 
-## Development workflow
+3. **oss_validation/least-squares_validation/**
+    - This analysis validates the least-squares network adjustment of the OSS polygons. It uses manually plotted anchor points for modern identifiable anchor points and constrains the network using polygon shared edges.
+    - **Result:** 90th-percentile anchor error = 6.9 km on 39 audited anchors
 
-* All source code lives under `src/` and is **import-safe** (no top-level I/O).
-* Unit tests reside in `tests/` and are executed with `pytest -q`.
-* Continuous integration (GitHub Actions) will lint with `ruff` and run the test suite on Ubuntu and macOS.
+4. **oss_validation/stratified_interval_accuracy/**
+    - This analysis validates the positional accuracy of the OSS polygons. It uses a stratified random sample of 100 matched OSS-C&P grants and a interval-censored model to estimate the positional accuracy.
+    - **Result:** 90th-percentile positional error = 5.9 km (95 % CI 4.21 – 8.04 km) from interval-censored model.
 
 ---
 

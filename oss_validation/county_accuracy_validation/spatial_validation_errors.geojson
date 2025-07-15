@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "spatial_validation_errors",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "oss_id": "9", "cp_id": "II_11_2695", "confidence": 92.156862745098039, "cp_county": "Henrico", "tiger_county": "Albemarle", "classification": "mismatch", "notes": "Hist=None; modern=Albemarle; stated=Henrico" }, "geometry": { "type": "Point", "coordinates": [ -78.546284971505045, 37.768979395632648 ] } },
+{ "type": "Feature", "properties": { "oss_id": "9712", "cp_id": "II_13_4036", "confidence": 91.25, "cp_county": "Isle Of Wight", "tiger_county": null, "classification": "mismatch", "notes": "Hist=None; modern=nan; stated=Isle of Wight" }, "geometry": { "type": "Point", "coordinates": [ -77.346048120343312, 36.511864859175951 ] } },
+{ "type": "Feature", "properties": { "oss_id": "9550", "cp_id": "II_10_1406", "confidence": 91.025641025641022, "cp_county": "Isle Of Wight", "tiger_county": null, "classification": "mismatch", "notes": "Hist=None; modern=nan; stated=Isle of Wight" }, "geometry": { "type": "Point", "coordinates": [ -77.324927321369728, 36.527232436977449 ] } },
+{ "type": "Feature", "properties": { "oss_id": "9667", "cp_id": "II_12_3256", "confidence": 91.025641025641022, "cp_county": "Isle Of Wight", "tiger_county": null, "classification": "mismatch", "notes": "Hist=None; modern=nan; stated=Isle of Wight" }, "geometry": { "type": "Point", "coordinates": [ -77.314808611294467, 36.508525588285302 ] } }
+]
+}

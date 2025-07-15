@@ -11,17 +11,7 @@ __pycache__/
 # MyPy / Ruff caches
 .mypy_cache/
 
-# Data – large or generated
-/data/raw/
-/data/reference/
-/data/processed/
-
-# Outputs
-/reports/
-run_log.txt
-*.csv
-*.json
-*.gpkg
-
 # OS metadata
 .DS_Store 
+/data/reference
+/cache

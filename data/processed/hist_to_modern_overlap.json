@@ -1,0 +1,1763 @@
+{
+  "ACCOMACK (orig)": [
+    "Accomack",
+    "Northampton"
+  ],
+  "WARWICK RIVER": [
+    "Hampton",
+    "James City",
+    "Newport News",
+    "York"
+  ],
+  "ELIZABETH CITY (ext)": [
+    "Chesapeake",
+    "Hampton",
+    "Isle of Wight",
+    "Newport News",
+    "Norfolk",
+    "Poquoson",
+    "Portsmouth",
+    "Southampton",
+    "Suffolk",
+    "Virginia Beach",
+    "York"
+  ],
+  "WARROSQUYOAKE": [
+    "Franklin",
+    "Greensville",
+    "Isle of Wight",
+    "Southampton",
+    "Suffolk",
+    "Surry",
+    "Sussex"
+  ],
+  "JAMES CITY": [
+    "Brunswick",
+    "Charles City",
+    "Dinwiddie",
+    "Emporia",
+    "Greensville",
+    "Isle of Wight",
+    "James City",
+    "Mecklenburg",
+    "New Kent",
+    "Newport News",
+    "Prince George",
+    "Southampton",
+    "Surry",
+    "Sussex",
+    "Williamsburg",
+    "York"
+  ],
+  "CHARLES CITY": [
+    "Amelia",
+    "Appomattox",
+    "Brunswick",
+    "Buckingham",
+    "Campbell",
+    "Charles City",
+    "Charlotte",
+    "Chesterfield",
+    "Colonial Heights",
+    "Cumberland",
+    "Danville",
+    "Dinwiddie",
+    "Greensville",
+    "Halifax",
+    "Henrico",
+    "Hopewell",
+    "James City",
+    "Lunenburg",
+    "Mecklenburg",
+    "New Kent",
+    "Nottoway",
+    "Petersburg",
+    "Pittsylvania",
+    "Powhatan",
+    "Prince Edward",
+    "Prince George",
+    "Surry",
+    "Sussex"
+  ],
+  "HENRICO": [
+    "Amelia",
+    "Appomattox",
+    "Buckingham",
+    "Charles City",
+    "Chesterfield",
+    "Colonial Heights",
+    "Cumberland",
+    "Dinwiddie",
+    "Fluvanna",
+    "Goochland",
+    "Hanover",
+    "Henrico",
+    "Hopewell",
+    "Louisa",
+    "New Kent",
+    "Petersburg",
+    "Powhatan",
+    "Prince Edward",
+    "Prince George",
+    "Richmond"
+  ],
+  "CHARLES RIVER": [
+    "Albemarle",
+    "Alexandria",
+    "Arlington",
+    "Caroline",
+    "Charles City",
+    "Culpeper",
+    "Essex",
+    "Fairfax",
+    "Falls Church",
+    "Fauquier",
+    "Fluvanna",
+    "Fredericksburg",
+    "Gloucester",
+    "Goochland",
+    "Hampton",
+    "Hanover",
+    "Henrico",
+    "James City",
+    "King George",
+    "King William",
+    "King and Queen",
+    "Lancaster",
+    "Loudoun",
+    "Louisa",
+    "Manassas",
+    "Manassas Park",
+    "Mathews",
+    "Middlesex",
+    "New Kent",
+    "Newport News",
+    "Northumberland",
+    "Orange",
+    "Poquoson",
+    "Prince William",
+    "Richmond",
+    "Spotsylvania",
+    "Stafford",
+    "Westmoreland",
+    "Williamsburg",
+    "York"
+  ],
+  "NEW NORFOLK (ext)": [
+    "Chesapeake",
+    "Isle of Wight",
+    "Norfolk",
+    "Portsmouth",
+    "Southampton",
+    "Suffolk",
+    "Virginia Beach"
+  ],
+  "UPPER NORFOLK": [
+    "Chesapeake",
+    "Isle of Wight",
+    "Portsmouth",
+    "Southampton",
+    "Suffolk"
+  ],
+  "LOWER NORFOLK (ext)": [
+    "Chesapeake",
+    "Norfolk",
+    "Portsmouth",
+    "Suffolk",
+    "Virginia Beach"
+  ],
+  "ISLE OF WIGHT": [
+    "Franklin",
+    "Greensville",
+    "Isle of Wight",
+    "Southampton",
+    "Suffolk",
+    "Surry",
+    "Sussex"
+  ],
+  "NANSEMOND (ext)": [
+    "Chesapeake",
+    "Isle of Wight",
+    "Portsmouth",
+    "Southampton",
+    "Suffolk"
+  ],
+  "NORTHAMPTON": [
+    "Accomack",
+    "Northampton"
+  ],
+  "YORK": [
+    "Albemarle",
+    "Alexandria",
+    "Arlington",
+    "Caroline",
+    "Charles City",
+    "Culpeper",
+    "Essex",
+    "Fairfax",
+    "Falls Church",
+    "Fauquier",
+    "Fluvanna",
+    "Fredericksburg",
+    "Gloucester",
+    "Goochland",
+    "Hampton",
+    "Hanover",
+    "Henrico",
+    "James City",
+    "King George",
+    "King William",
+    "King and Queen",
+    "Lancaster",
+    "Loudoun",
+    "Louisa",
+    "Madison",
+    "Manassas",
+    "Manassas Park",
+    "Mathews",
+    "Middlesex",
+    "New Kent",
+    "Newport News",
+    "Northumberland",
+    "Orange",
+    "Poquoson",
+    "Prince William",
+    "Rappahannock",
+    "Richmond",
+    "Spotsylvania",
+    "Stafford",
+    "Westmoreland",
+    "Williamsburg",
+    "York"
+  ],
+  "WARWICK (ext)": [
+    "Hampton",
+    "James City",
+    "Newport News",
+    "York"
+  ],
+  "NORTHUMBERLAND": [
+    "Alexandria",
+    "Arlington",
+    "Caroline",
+    "Culpeper",
+    "Essex",
+    "Fairfax",
+    "Falls Church",
+    "Fauquier",
+    "Fredericksburg",
+    "King George",
+    "Lancaster",
+    "Loudoun",
+    "Manassas",
+    "Manassas Park",
+    "Northumberland",
+    "Prince William",
+    "Rappahannock",
+    "Richmond",
+    "Spotsylvania",
+    "Stafford",
+    "Westmoreland"
+  ],
+  "GLOUCESTER": [
+    "Gloucester",
+    "King and Queen",
+    "Mathews",
+    "Middlesex"
+  ],
+  "LANCASTER": [
+    "Caroline",
+    "Culpeper",
+    "Essex",
+    "Fauquier",
+    "Fredericksburg",
+    "Gloucester",
+    "King George",
+    "King and Queen",
+    "Lancaster",
+    "Middlesex",
+    "Northumberland",
+    "Orange",
+    "Richmond",
+    "Spotsylvania",
+    "Stafford",
+    "Westmoreland"
+  ],
+  "SURRY": [
+    "Brunswick",
+    "Dinwiddie",
+    "Emporia",
+    "Greensville",
+    "Isle of Wight",
+    "Mecklenburg",
+    "Prince George",
+    "Southampton",
+    "Surry",
+    "Sussex"
+  ],
+  "WESTMORELAND": [
+    "Alexandria",
+    "Arlington",
+    "Essex",
+    "Fairfax",
+    "Falls Church",
+    "Fauquier",
+    "King George",
+    "Manassas",
+    "Manassas Park",
+    "Northumberland",
+    "Prince William",
+    "Richmond",
+    "Stafford",
+    "Westmoreland"
+  ],
+  "NEW KENT": [
+    "Caroline",
+    "Charles City",
+    "Essex",
+    "Fluvanna",
+    "Gloucester",
+    "Goochland",
+    "Hanover",
+    "Henrico",
+    "James City",
+    "King William",
+    "King and Queen",
+    "Louisa",
+    "Middlesex",
+    "New Kent",
+    "Orange",
+    "Spotsylvania",
+    "York"
+  ],
+  "RAPPAHANNOCK (orig)": [
+    "Caroline",
+    "Culpeper",
+    "Essex",
+    "Fauquier",
+    "Fredericksburg",
+    "King George",
+    "King and Queen",
+    "Lancaster",
+    "Middlesex",
+    "Northumberland",
+    "Orange",
+    "Richmond",
+    "Spotsylvania",
+    "Stafford",
+    "Westmoreland"
+  ],
+  "ACCOMACK": [
+    "Accomack",
+    "Northampton"
+  ],
+  "STAFFORD": [
+    "Alexandria",
+    "Arlington",
+    "Caroline",
+    "Culpeper",
+    "Fairfax",
+    "Falls Church",
+    "Fauquier",
+    "Fredericksburg",
+    "King George",
+    "Manassas",
+    "Manassas Park",
+    "Prince William",
+    "Spotsylvania",
+    "Stafford"
+  ],
+  "MIDDLESEX": [
+    "Essex",
+    "Gloucester",
+    "King and Queen",
+    "Middlesex"
+  ],
+  "PRINCESS ANNE (ext)": [
+    "Chesapeake",
+    "Norfolk",
+    "Virginia Beach"
+  ],
+  "NORFOLK (ext)": [
+    "Chesapeake",
+    "Norfolk",
+    "Portsmouth",
+    "Suffolk",
+    "Virginia Beach"
+  ],
+  "KING AND QUEEN": [
+    "Caroline",
+    "Essex",
+    "Gloucester",
+    "Hanover",
+    "King William",
+    "King and Queen",
+    "Louisa",
+    "Middlesex",
+    "New Kent",
+    "Orange",
+    "Spotsylvania"
+  ],
+  "ESSEX": [
+    "Caroline",
+    "Culpeper",
+    "Essex",
+    "Fauquier",
+    "Fredericksburg",
+    "King George",
+    "King and Queen",
+    "Middlesex",
+    "Orange",
+    "Richmond",
+    "Spotsylvania",
+    "Stafford",
+    "Westmoreland"
+  ],
+  "RICHMOND": [
+    "Caroline",
+    "Culpeper",
+    "Essex",
+    "Fauquier",
+    "Fredericksburg",
+    "King George",
+    "Lancaster",
+    "Northumberland",
+    "Richmond",
+    "Spotsylvania",
+    "Stafford",
+    "Westmoreland"
+  ],
+  "KING WILLIAM": [
+    "Caroline",
+    "Hanover",
+    "King William",
+    "King and Queen",
+    "Louisa",
+    "New Kent",
+    "Orange",
+    "Spotsylvania"
+  ],
+  "PRINCE GEORGE": [
+    "Amelia",
+    "Appomattox",
+    "Brunswick",
+    "Buckingham",
+    "Campbell",
+    "Charles City",
+    "Charlotte",
+    "Chesterfield",
+    "Colonial Heights",
+    "Cumberland",
+    "Danville",
+    "Dinwiddie",
+    "Greensville",
+    "Halifax",
+    "Hopewell",
+    "Lunenburg",
+    "Mecklenburg",
+    "Nottoway",
+    "Petersburg",
+    "Pittsylvania",
+    "Powhatan",
+    "Prince Edward",
+    "Prince George",
+    "Surry",
+    "Sussex"
+  ],
+  "BRUNSWICK": [
+    "Appomattox",
+    "Bedford",
+    "Botetourt",
+    "Brunswick",
+    "Campbell",
+    "Carroll",
+    "Charlotte",
+    "Danville",
+    "Dinwiddie",
+    "Emporia",
+    "Floyd",
+    "Franklin",
+    "Greensville",
+    "Halifax",
+    "Henry",
+    "Lunenburg",
+    "Lynchburg",
+    "Martinsville",
+    "Mecklenburg",
+    "Nottoway",
+    "Patrick",
+    "Pittsylvania",
+    "Prince Edward",
+    "Roanoke",
+    "Southampton",
+    "Sussex"
+  ],
+  "HANOVER": [
+    "Albemarle",
+    "Caroline",
+    "Fluvanna",
+    "Goochland",
+    "Hanover",
+    "Henrico",
+    "King William",
+    "Louisa",
+    "New Kent",
+    "Orange",
+    "Spotsylvania"
+  ],
+  "SPOTSYLVANIA": [
+    "Albemarle",
+    "Caroline",
+    "Culpeper",
+    "Fauquier",
+    "Fredericksburg",
+    "Greene",
+    "Hanover",
+    "Louisa",
+    "Madison",
+    "Orange",
+    "Page",
+    "Rappahannock",
+    "Rockingham",
+    "Spotsylvania",
+    "Stafford",
+    "Warren"
+  ],
+  "KING GEORGE": [
+    "Caroline",
+    "Culpeper",
+    "Essex",
+    "Fauquier",
+    "Fredericksburg",
+    "King George",
+    "Richmond",
+    "Spotsylvania",
+    "Stafford",
+    "Westmoreland"
+  ],
+  "CAROLINE": [
+    "Caroline",
+    "Essex",
+    "Hanover",
+    "King George",
+    "King William",
+    "King and Queen",
+    "Spotsylvania",
+    "Stafford"
+  ],
+  "GOOCHLAND": [
+    "Albemarle",
+    "Amelia",
+    "Amherst",
+    "Appomattox",
+    "Augusta",
+    "Bedford",
+    "Botetourt",
+    "Buckingham",
+    "Campbell",
+    "Charlottesville",
+    "Chesterfield",
+    "Cumberland",
+    "Fluvanna",
+    "Goochland",
+    "Greene",
+    "Hanover",
+    "Henrico",
+    "Louisa",
+    "Lynchburg",
+    "Nelson",
+    "Orange",
+    "Powhatan",
+    "Prince Edward",
+    "Rockbridge",
+    "Rockingham"
+  ],
+  "PRINCE WILLIAM": [
+    "Alexandria",
+    "Arlington",
+    "Clarke",
+    "Culpeper",
+    "Fairfax",
+    "Falls Church",
+    "Fauquier",
+    "Loudoun",
+    "Manassas",
+    "Manassas Park",
+    "Prince William",
+    "Rappahannock",
+    "Stafford",
+    "Warren"
+  ],
+  "FAIRFAX": [
+    "Alexandria",
+    "Arlington",
+    "Clarke",
+    "Fairfax",
+    "Falls Church",
+    "Fauquier",
+    "Loudoun",
+    "Manassas Park",
+    "Prince William"
+  ],
+  "LOUISA": [
+    "Albemarle",
+    "Fluvanna",
+    "Goochland",
+    "Hanover",
+    "Louisa",
+    "Orange",
+    "Spotsylvania"
+  ],
+  "ALBEMARLE": [
+    "Albemarle",
+    "Amherst",
+    "Appomattox",
+    "Augusta",
+    "Bedford",
+    "Botetourt",
+    "Buckingham",
+    "Campbell",
+    "Charlottesville",
+    "Cumberland",
+    "Fluvanna",
+    "Goochland",
+    "Greene",
+    "Louisa",
+    "Lynchburg",
+    "Nelson",
+    "Orange",
+    "Prince Edward",
+    "Rockbridge",
+    "Rockingham"
+  ],
+  "NOTTOWAY": [
+    "Amelia",
+    "Brunswick",
+    "Dinwiddie",
+    "Lunenburg",
+    "Nottoway",
+    "Prince Edward"
+  ],
+  "GREENBRIER (W.Va.)": [
+    "Alleghany",
+    "Bath",
+    "Craig",
+    "Giles"
+  ],
+  "MONTGOMERY": [
+    "Bland",
+    "Buchanan",
+    "Carroll",
+    "Craig",
+    "Floyd",
+    "Franklin",
+    "Galax",
+    "Giles",
+    "Grayson",
+    "Montgomery",
+    "Patrick",
+    "Pulaski",
+    "Radford",
+    "Roanoke",
+    "Salem",
+    "Smyth",
+    "Tazewell",
+    "Washington",
+    "Wythe"
+  ],
+  "KANAWHA (W.Va.)": [],
+  "BOURBON (Ky.)": [
+    "Buchanan",
+    "Dickenson",
+    "Wise"
+  ],
+  "WOOD (W.Va.)": [],
+  "MONONGALIA (W.Va.)": [],
+  "HARRISON (W.Va.)": [],
+  "WYTHE": [
+    "Bland",
+    "Buchanan",
+    "Carroll",
+    "Floyd",
+    "Galax",
+    "Giles",
+    "Grayson",
+    "Patrick",
+    "Pulaski",
+    "Smyth",
+    "Tazewell",
+    "Washington",
+    "Wythe"
+  ],
+  "LUNENBURG": [
+    "Appomattox",
+    "Bedford",
+    "Botetourt",
+    "Brunswick",
+    "Campbell",
+    "Carroll",
+    "Charlotte",
+    "Danville",
+    "Floyd",
+    "Franklin",
+    "Halifax",
+    "Henry",
+    "Lunenburg",
+    "Lynchburg",
+    "Martinsville",
+    "Mecklenburg",
+    "Nottoway",
+    "Patrick",
+    "Pittsylvania",
+    "Prince Edward",
+    "Roanoke"
+  ],
+  "CUMBERLAND": [
+    "Amelia",
+    "Buckingham",
+    "Chesterfield",
+    "Cumberland",
+    "Fluvanna",
+    "Goochland",
+    "Henrico",
+    "Powhatan",
+    "Prince Edward"
+  ],
+  "CULPEPER": [
+    "Culpeper",
+    "Fauquier",
+    "Greene",
+    "Madison",
+    "Orange",
+    "Page",
+    "Rappahannock",
+    "Spotsylvania",
+    "Stafford",
+    "Warren"
+  ],
+  "ORANGE": [
+    "Albemarle",
+    "Alleghany",
+    "Amherst",
+    "Augusta",
+    "Bath",
+    "Bedford",
+    "Bland",
+    "Botetourt",
+    "Bristol",
+    "Buchanan",
+    "Buena Vista",
+    "Carroll",
+    "Clarke",
+    "Covington",
+    "Craig",
+    "Culpeper",
+    "Dickenson",
+    "Fauquier",
+    "Floyd",
+    "Franklin",
+    "Frederick",
+    "Galax",
+    "Giles",
+    "Grayson",
+    "Greene",
+    "Harrisonburg",
+    "Highland",
+    "Lee",
+    "Lexington",
+    "Loudoun",
+    "Louisa",
+    "Madison",
+    "Montgomery",
+    "Nelson",
+    "Norton",
+    "Orange",
+    "Page",
+    "Patrick",
+    "Pulaski",
+    "Radford",
+    "Rappahannock",
+    "Roanoke",
+    "Rockbridge",
+    "Rockingham",
+    "Russell",
+    "Salem",
+    "Scott",
+    "Shenandoah",
+    "Smyth",
+    "Spotsylvania",
+    "Stafford",
+    "Staunton",
+    "Tazewell",
+    "Warren",
+    "Washington",
+    "Waynesboro",
+    "Winchester",
+    "Wise",
+    "Wythe"
+  ],
+  "SOUTHAMPTON": [
+    "Franklin",
+    "Greensville",
+    "Isle of Wight",
+    "Southampton",
+    "Suffolk",
+    "Surry",
+    "Sussex"
+  ],
+  "CHESTERFIELD": [
+    "Amelia",
+    "Charles City",
+    "Chesterfield",
+    "Colonial Heights",
+    "Dinwiddie",
+    "Henrico",
+    "Hopewell",
+    "Petersburg",
+    "Powhatan",
+    "Prince George",
+    "Richmond"
+  ],
+  "DINWIDDIE": [
+    "Amelia",
+    "Brunswick",
+    "Chesterfield",
+    "Colonial Heights",
+    "Dinwiddie",
+    "Greensville",
+    "Nottoway",
+    "Petersburg",
+    "Prince George",
+    "Sussex"
+  ],
+  "HALIFAX": [
+    "Bedford",
+    "Campbell",
+    "Carroll",
+    "Charlotte",
+    "Danville",
+    "Floyd",
+    "Franklin",
+    "Halifax",
+    "Henry",
+    "Martinsville",
+    "Mecklenburg",
+    "Patrick",
+    "Pittsylvania"
+  ],
+  "BEDFORD": [
+    "Amherst",
+    "Appomattox",
+    "Bedford",
+    "Botetourt",
+    "Campbell",
+    "Charlotte",
+    "Floyd",
+    "Franklin",
+    "Halifax",
+    "Lynchburg",
+    "Pittsylvania",
+    "Roanoke",
+    "Rockbridge"
+  ],
+  "LOUDOUN": [
+    "Clarke",
+    "Fairfax",
+    "Fauquier",
+    "Loudoun",
+    "Prince William"
+  ],
+  "FAUQUIER": [
+    "Clarke",
+    "Culpeper",
+    "Fauquier",
+    "Loudoun",
+    "Prince William",
+    "Rappahannock",
+    "Stafford",
+    "Warren"
+  ],
+  "AMHERST": [
+    "Albemarle",
+    "Amherst",
+    "Appomattox",
+    "Augusta",
+    "Bedford",
+    "Buckingham",
+    "Campbell",
+    "Lynchburg",
+    "Nelson",
+    "Rockbridge"
+  ],
+  "BUCKINGHAM": [
+    "Albemarle",
+    "Amherst",
+    "Appomattox",
+    "Buckingham",
+    "Cumberland",
+    "Fluvanna",
+    "Nelson",
+    "Prince Edward"
+  ],
+  "MECKLENBURG": [
+    "Brunswick",
+    "Charlotte",
+    "Halifax",
+    "Lunenburg",
+    "Mecklenburg"
+  ],
+  "CHARLOTTE": [
+    "Appomattox",
+    "Campbell",
+    "Charlotte",
+    "Halifax",
+    "Lunenburg",
+    "Mecklenburg",
+    "Prince Edward"
+  ],
+  "PITTSYLVANIA": [
+    "Bedford",
+    "Campbell",
+    "Carroll",
+    "Danville",
+    "Floyd",
+    "Franklin",
+    "Halifax",
+    "Henry",
+    "Martinsville",
+    "Patrick",
+    "Pittsylvania"
+  ],
+  "FLUVANNA": [
+    "Albemarle",
+    "Buckingham",
+    "Cumberland",
+    "Fluvanna",
+    "Goochland",
+    "Louisa"
+  ],
+  "POWHATAN": [
+    "Amelia",
+    "Chesterfield",
+    "Cumberland",
+    "Goochland",
+    "Henrico",
+    "Powhatan"
+  ],
+  "WASHINGTON": [
+    "Bland",
+    "Bristol",
+    "Buchanan",
+    "Dickenson",
+    "Grayson",
+    "Lee",
+    "Norton",
+    "Russell",
+    "Scott",
+    "Smyth",
+    "Tazewell",
+    "Washington",
+    "Wise",
+    "Wythe"
+  ],
+  "ROCKBRIDGE": [
+    "Alleghany",
+    "Amherst",
+    "Augusta",
+    "Bath",
+    "Bedford",
+    "Botetourt",
+    "Buena Vista",
+    "Lexington",
+    "Nelson",
+    "Rockbridge"
+  ],
+  "HAMPSHIRE (W.Va.)": [
+    "Frederick",
+    "Rockingham",
+    "Shenandoah"
+  ],
+  "ROCKINGHAM": [
+    "Albemarle",
+    "Augusta",
+    "Greene",
+    "Harrisonburg",
+    "Page",
+    "Rockingham",
+    "Shenandoah"
+  ],
+  "ILLINOIS (ext)": [],
+  "AUGUSTA": [
+    "Albemarle",
+    "Alleghany",
+    "Amherst",
+    "Augusta",
+    "Bath",
+    "Bedford",
+    "Bland",
+    "Botetourt",
+    "Bristol",
+    "Buchanan",
+    "Buena Vista",
+    "Carroll",
+    "Covington",
+    "Craig",
+    "Dickenson",
+    "Floyd",
+    "Franklin",
+    "Galax",
+    "Giles",
+    "Grayson",
+    "Greene",
+    "Harrisonburg",
+    "Highland",
+    "Lee",
+    "Lexington",
+    "Madison",
+    "Montgomery",
+    "Nelson",
+    "Norton",
+    "Page",
+    "Patrick",
+    "Pulaski",
+    "Radford",
+    "Rappahannock",
+    "Roanoke",
+    "Rockbridge",
+    "Rockingham",
+    "Russell",
+    "Salem",
+    "Scott",
+    "Shenandoah",
+    "Smyth",
+    "Staunton",
+    "Tazewell",
+    "Warren",
+    "Washington",
+    "Waynesboro",
+    "Wise",
+    "Wythe"
+  ],
+  "BOTETOURT": [
+    "Alleghany",
+    "Amherst",
+    "Bath",
+    "Bedford",
+    "Bland",
+    "Botetourt",
+    "Bristol",
+    "Buchanan",
+    "Buena Vista",
+    "Carroll",
+    "Covington",
+    "Craig",
+    "Dickenson",
+    "Floyd",
+    "Franklin",
+    "Galax",
+    "Giles",
+    "Grayson",
+    "Lee",
+    "Lexington",
+    "Montgomery",
+    "Norton",
+    "Patrick",
+    "Pulaski",
+    "Radford",
+    "Roanoke",
+    "Rockbridge",
+    "Russell",
+    "Salem",
+    "Scott",
+    "Smyth",
+    "Tazewell",
+    "Washington",
+    "Wise",
+    "Wythe"
+  ],
+  "SHENANDOAH": [
+    "Frederick",
+    "Madison",
+    "Page",
+    "Rappahannock",
+    "Rockingham",
+    "Shenandoah",
+    "Warren"
+  ],
+  "YOHOGANIA (ext)": [],
+  "OHIO (W.Va.)": [],
+  "FAYETTE (Ky.)": [
+    "Buchanan",
+    "Dickenson",
+    "Wise"
+  ],
+  "JEFFERSON (Ky.)": [],
+  "LINCOLN (Ky.)": [
+    "Lee",
+    "Wise"
+  ],
+  "GREENSVILLE": [
+    "Brunswick",
+    "Dinwiddie",
+    "Emporia",
+    "Greensville",
+    "Southampton",
+    "Sussex"
+  ],
+  "CAMPBELL": [
+    "Amherst",
+    "Appomattox",
+    "Bedford",
+    "Campbell",
+    "Charlotte",
+    "Halifax",
+    "Lynchburg",
+    "Pittsylvania"
+  ],
+  "NELSON (Ky.)": [],
+  "FRANKLIN": [
+    "Bedford",
+    "Floyd",
+    "Franklin",
+    "Henry",
+    "Patrick",
+    "Pittsylvania",
+    "Roanoke"
+  ],
+  "HARDY (W.Va.)": [
+    "Frederick",
+    "Rockingham",
+    "Shenandoah"
+  ],
+  "HENRY": [
+    "Bedford",
+    "Carroll",
+    "Floyd",
+    "Franklin",
+    "Henry",
+    "Martinsville",
+    "Patrick",
+    "Pittsylvania"
+  ],
+  "RUSSELL": [
+    "Buchanan",
+    "Dickenson",
+    "Lee",
+    "Norton",
+    "Russell",
+    "Scott",
+    "Smyth",
+    "Tazewell",
+    "Washington",
+    "Wise"
+  ],
+  "MADISON (Ky.)": [],
+  "MERCER (Ky.)": [],
+  "RANDOLPH (W.Va.)": [],
+  "PENDLETON (W.Va.)": [
+    "Augusta",
+    "Highland",
+    "Rockingham"
+  ],
+  "AMELIA": [
+    "Amelia",
+    "Appomattox",
+    "Brunswick",
+    "Buckingham",
+    "Charlotte",
+    "Chesterfield",
+    "Cumberland",
+    "Dinwiddie",
+    "Lunenburg",
+    "Nottoway",
+    "Powhatan",
+    "Prince Edward"
+  ],
+  "TAZEWELL": [
+    "Bland",
+    "Buchanan",
+    "Dickenson",
+    "Giles",
+    "Russell",
+    "Smyth",
+    "Tazewell"
+  ],
+  "JEFFERSON (W.Va.)": [
+    "Clarke",
+    "Loudoun"
+  ],
+  "BERKELEY (W.Va.)": [
+    "Clarke",
+    "Frederick",
+    "Loudoun"
+  ],
+  "SUSSEX": [
+    "Dinwiddie",
+    "Greensville",
+    "Prince George",
+    "Southampton",
+    "Surry",
+    "Sussex"
+  ],
+  "CABELL (W.Va.)": [],
+  "RALEIGH (W.Va.)": [],
+  "WYOMING (W.Va.)": [
+    "Buchanan"
+  ],
+  "PLEASANTS (W.Va.)": [],
+  "TYLER (W.Va.)": [],
+  "LEWIS (W.Va.)": [],
+  "ROANOKE": [
+    "Bedford",
+    "Botetourt",
+    "Craig",
+    "Floyd",
+    "Franklin",
+    "Montgomery",
+    "Roanoke",
+    "Salem"
+  ],
+  "MASON (Ky.)": [
+    "Buchanan",
+    "Dickenson",
+    "Wise"
+  ],
+  "WOODFORD (Ky.)": [],
+  "PATRICK": [
+    "Carroll",
+    "Floyd",
+    "Franklin",
+    "Henry",
+    "Patrick"
+  ],
+  "MATHEWS": [
+    "Gloucester",
+    "Mathews"
+  ],
+  "BATH": [
+    "Alleghany",
+    "Augusta",
+    "Bath",
+    "Botetourt",
+    "Covington",
+    "Highland",
+    "Rockbridge"
+  ],
+  "MADISON": [
+    "Culpeper",
+    "Greene",
+    "Madison",
+    "Orange",
+    "Page"
+  ],
+  "GRAYSON": [
+    "Carroll",
+    "Floyd",
+    "Galax",
+    "Grayson",
+    "Patrick",
+    "Pulaski",
+    "Smyth",
+    "Washington",
+    "Wythe"
+  ],
+  "LEE": [
+    "Lee",
+    "Scott",
+    "Wise"
+  ],
+  "BROOKE (W.Va.)": [],
+  "MONROE (W.Va.)": [
+    "Alleghany",
+    "Craig",
+    "Giles"
+  ],
+  "Hopewell (IC)": [
+    "Chesterfield",
+    "Hopewell",
+    "Prince George"
+  ],
+  "Newport News (IC)": [
+    "Hampton",
+    "James City",
+    "Newport News",
+    "York"
+  ],
+  "Portsmouth (IC)": [
+    "Chesapeake",
+    "Portsmouth",
+    "Suffolk"
+  ],
+  "MASON (W.Va.)": [],
+  "GILES": [
+    "Bland",
+    "Craig",
+    "Giles",
+    "Montgomery",
+    "Pulaski"
+  ],
+  "NELSON": [
+    "Albemarle",
+    "Amherst",
+    "Appomattox",
+    "Augusta",
+    "Buckingham",
+    "Nelson",
+    "Rockbridge"
+  ],
+  "SCOTT": [
+    "Lee",
+    "Norton",
+    "Russell",
+    "Scott",
+    "Washington",
+    "Wise"
+  ],
+  "PRESTON (W.Va.)": [],
+  "NICHOLAS (W.Va.)": [],
+  "MORGAN (W.Va.)": [
+    "Frederick"
+  ],
+  "Norfolk (IC)": [
+    "Chesapeake",
+    "Norfolk",
+    "Virginia Beach"
+  ],
+  "Williamsburg (IC)": [
+    "James City",
+    "Williamsburg",
+    "York"
+  ],
+  "Fredericksburg (IC)": [
+    "Fredericksburg",
+    "Spotsylvania",
+    "Stafford"
+  ],
+  "Waynesboro (IC)": [
+    "Augusta",
+    "Waynesboro"
+  ],
+  "Petersburg (IC)": [
+    "Chesterfield",
+    "Colonial Heights",
+    "Dinwiddie",
+    "Petersburg",
+    "Prince George"
+  ],
+  "Danville (IC)": [
+    "Danville",
+    "Pittsylvania"
+  ],
+  "Staunton (IC)": [
+    "Augusta",
+    "Staunton"
+  ],
+  "Roanoke (IC)": [
+    "Roanoke",
+    "Salem"
+  ],
+  "Lexington (IC)": [
+    "Lexington",
+    "Rockbridge"
+  ],
+  "Radford (IC)": [
+    "Montgomery",
+    "Pulaski",
+    "Radford"
+  ],
+  "Charlottesville (IC)": [
+    "Albemarle",
+    "Charlottesville"
+  ],
+  "Salem (IC)": [
+    "Roanoke",
+    "Salem"
+  ],
+  "POCAHONTAS (W.Va.)": [
+    "Bath",
+    "Highland"
+  ],
+  "ALLEGHANY": [
+    "Alleghany",
+    "Bath",
+    "Botetourt",
+    "Covington",
+    "Craig",
+    "Rockbridge"
+  ],
+  "APPOMATTOX": [
+    "Amherst",
+    "Appomattox",
+    "Buckingham",
+    "Campbell",
+    "Charlotte",
+    "Nelson",
+    "Prince Edward"
+  ],
+  "GILMER (W.Va.)": [],
+  "WETZEL (W.Va.)": [],
+  "ALEXANDRIA": [
+    "Alexandria",
+    "Arlington",
+    "Fairfax"
+  ],
+  "HIGHLAND": [
+    "Augusta",
+    "Bath",
+    "Highland"
+  ],
+  "Emporia (IC)": [
+    "Emporia",
+    "Greensville"
+  ],
+  "Chesapeake (IC)": [
+    "Chesapeake",
+    "Norfolk",
+    "Portsmouth",
+    "Suffolk",
+    "Virginia Beach"
+  ],
+  "Bedford (IC)": [
+    "Bedford"
+  ],
+  "LOGAN (W.Va.)": [
+    "Buchanan",
+    "Tazewell"
+  ],
+  "ARLINGTON": [
+    "Alexandria",
+    "Arlington",
+    "Fairfax"
+  ],
+  "Harrisonburg (IC)": [
+    "Harrisonburg",
+    "Rockingham"
+  ],
+  "Covington (IC)": [
+    "Alleghany",
+    "Covington"
+  ],
+  "CARROLL": [
+    "Carroll",
+    "Floyd",
+    "Galax",
+    "Grayson",
+    "Patrick",
+    "Pulaski",
+    "Wythe"
+  ],
+  "Galax (IC)": [
+    "Carroll",
+    "Galax",
+    "Grayson"
+  ],
+  "PAGE": [
+    "Greene",
+    "Madison",
+    "Page",
+    "Rappahannock",
+    "Rockingham",
+    "Shenandoah",
+    "Warren"
+  ],
+  "JACKSON (W.Va.)": [],
+  "FAYETTE (W.Va.)": [],
+  "FLOYD": [
+    "Carroll",
+    "Floyd",
+    "Franklin",
+    "Montgomery",
+    "Patrick",
+    "Pulaski",
+    "Roanoke"
+  ],
+  "SMYTH": [
+    "Grayson",
+    "Russell",
+    "Smyth",
+    "Tazewell",
+    "Washington",
+    "Wythe"
+  ],
+  "RAPPAHANNOCK": [
+    "Culpeper",
+    "Fauquier",
+    "Madison",
+    "Page",
+    "Rappahannock",
+    "Warren"
+  ],
+  "MARSHALL (W.Va.)": [],
+  "WARREN": [
+    "Clarke",
+    "Fauquier",
+    "Frederick",
+    "Page",
+    "Rappahannock",
+    "Shenandoah",
+    "Warren"
+  ],
+  "FREDERICK": [
+    "Clarke",
+    "Fauquier",
+    "Frederick",
+    "Loudoun",
+    "Madison",
+    "Page",
+    "Rappahannock",
+    "Rockingham",
+    "Shenandoah",
+    "Warren",
+    "Winchester"
+  ],
+  "CLARKE": [
+    "Clarke",
+    "Fauquier",
+    "Frederick",
+    "Loudoun",
+    "Warren"
+  ],
+  "BRAXTON (W.Va.)": [],
+  "MERCER (W.Va.)": [
+    "Bland",
+    "Giles",
+    "Tazewell"
+  ],
+  "GREENE": [
+    "Albemarle",
+    "Greene",
+    "Madison",
+    "Orange",
+    "Page",
+    "Rockingham"
+  ],
+  "PULASKI": [
+    "Bland",
+    "Carroll",
+    "Floyd",
+    "Giles",
+    "Montgomery",
+    "Pulaski",
+    "Radford",
+    "Wythe"
+  ],
+  "Franklin (IC)": [
+    "Franklin",
+    "Isle of Wight",
+    "Southampton"
+  ],
+  "WAYNE (W.Va.)": [],
+  "MARION (W.Va.)": [],
+  "BARBOUR (W.Va.)": [],
+  "RITCHIE (W.Va.)": [],
+  "TAYLOR (W.Va.)": [],
+  "DODDRIDGE (W.Va.)": [],
+  "PRINCE EDWARD": [
+    "Amelia",
+    "Appomattox",
+    "Buckingham",
+    "Charlotte",
+    "Cumberland",
+    "Lunenburg",
+    "Nottoway",
+    "Prince Edward"
+  ],
+  "BOONE (W.Va.)": [],
+  "HANCOCK (W.Va.)": [],
+  "WIRT (W.Va.)": [],
+  "PUTNAM (W.Va.)": [],
+  "CRAIG": [
+    "Alleghany",
+    "Botetourt",
+    "Craig",
+    "Giles",
+    "Montgomery",
+    "Roanoke"
+  ],
+  "UPSHUR (W.Va.)": [],
+  "CALHOUN (W.Va.)": [],
+  "TUCKER (W.Va.)": [],
+  "ROANE (W.Va.)": [],
+  "WISE": [
+    "Dickenson",
+    "Lee",
+    "Norton",
+    "Russell",
+    "Scott",
+    "Wise"
+  ],
+  "CLAY (W.Va.)": [],
+  "McDOWELL (W.Va.)": [
+    "Buchanan",
+    "Tazewell"
+  ],
+  "BUCHANAN": [
+    "Buchanan",
+    "Dickenson",
+    "Russell",
+    "Tazewell"
+  ],
+  "WEBSTER (W.Va.)": [],
+  "BLAND": [
+    "Bland",
+    "Giles",
+    "Pulaski",
+    "Smyth",
+    "Tazewell",
+    "Wythe"
+  ],
+  "DICKENSON": [
+    "Buchanan",
+    "Dickenson",
+    "Russell",
+    "Wise"
+  ],
+  "Buena Vista (IC)": [
+    "Buena Vista",
+    "Rockbridge"
+  ],
+  "Winchester (IC)": [
+    "Frederick",
+    "Winchester"
+  ],
+  "Richmond (IC)": [
+    "Chesterfield",
+    "Henrico",
+    "Richmond"
+  ],
+  "Manchester (IC, ext)": [
+    "Henrico",
+    "Richmond"
+  ],
+  "Lynchburg (IC)": [
+    "Amherst",
+    "Bedford",
+    "Campbell",
+    "Lynchburg"
+  ],
+  "Alexandria (IC)": [
+    "Alexandria",
+    "Arlington",
+    "Fairfax"
+  ],
+  "Bristol (IC)": [
+    "Bristol",
+    "Washington"
+  ],
+  "Clifton Forge (IC)": [
+    "Alleghany"
+  ],
+  "Hampton (IC)": [
+    "Hampton",
+    "Newport News",
+    "Poquoson",
+    "York"
+  ],
+  "Suffolk (IC)": [
+    "Chesapeake",
+    "Isle of Wight",
+    "Portsmouth",
+    "Southampton",
+    "Suffolk"
+  ],
+  "South Norfolk (IC)": [
+    "Chesapeake",
+    "Norfolk"
+  ],
+  "Martinsville (IC)": [
+    "Henry",
+    "Martinsville"
+  ],
+  "Colonial Hts. (IC)": [
+    "Chesterfield",
+    "Colonial Heights",
+    "Petersburg"
+  ],
+  "Falls Church (IC)": [
+    "Arlington",
+    "Fairfax",
+    "Falls Church"
+  ],
+  "Virginia Beach (IC)": [
+    "Chesapeake",
+    "Norfolk",
+    "Virginia Beach"
+  ],
+  "Warwick (IC, ext)": [
+    "Hampton",
+    "James City",
+    "Newport News",
+    "York"
+  ],
+  "Norton (IC)": [
+    "Norton",
+    "Wise"
+  ],
+  "South Boston (IC)": [
+    "Halifax"
+  ],
+  "Fairfax (IC)": [
+    "Fairfax"
+  ],
+  "Nansemond (IC, ext)": [
+    "Chesapeake",
+    "Isle of Wight",
+    "Portsmouth",
+    "Southampton",
+    "Suffolk"
+  ],
+  "Manassas Park (IC)": [
+    "Manassas Park",
+    "Prince William"
+  ],
+  "Poquoson (IC)": [
+    "Hampton",
+    "Poquoson",
+    "York"
+  ],
+  "Manassas (IC)": [
+    "Manassas",
+    "Manassas Park",
+    "Prince William"
+  ],
+  "DUNMORE": [
+    "Frederick",
+    "Madison",
+    "Page",
+    "Rappahannock",
+    "Rockingham",
+    "Shenandoah",
+    "Warren"
+  ],
+  "FINCASTLE (ext)": [
+    "Bland",
+    "Bristol",
+    "Buchanan",
+    "Carroll",
+    "Dickenson",
+    "Floyd",
+    "Galax",
+    "Giles",
+    "Grayson",
+    "Lee",
+    "Montgomery",
+    "Norton",
+    "Patrick",
+    "Pulaski",
+    "Radford",
+    "Russell",
+    "Scott",
+    "Smyth",
+    "Tazewell",
+    "Washington",
+    "Wise",
+    "Wythe"
+  ],
+  "W. Augusta Dist.": [],
+  "KENTUCKY (ext)": [
+    "Buchanan",
+    "Dickenson",
+    "Lee",
+    "Wise"
+  ]
+}

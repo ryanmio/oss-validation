@@ -22,8 +22,8 @@ from pathlib import Path
 import geopandas as gpd
 from loguru import logger
 
-from . import network_adjustment as na
-from . import config
+from oss_validation.least_squares_validation import network_adjustment as na
+from oss_preprocessing import config
 
 OUT_DIR = config.ROOT_DIR / "results" / "unanchored_components"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
