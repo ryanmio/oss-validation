@@ -19,7 +19,7 @@ import geopandas as gpd
 import pandas as pd
 from shapely.geometry import Point
 
-from ...src.oss_preprocessing import config
+from oss_preprocessing import config
 
 # Input/output paths
 MATCHED_CSV = config.PROCESSED_DIR / "matched_grants.csv"

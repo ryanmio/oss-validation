@@ -29,10 +29,9 @@ def _gc_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     _, _, dist_m = _GEOD.inv(lon1, lat1, lon2, lat2)
     return dist_m / 1000.0
 
-from . import spatial_validation as sv
-from .hist_modern_overlap import get_overlap_mapping
-
-from . import config
+from oss_validation.county_accuracy_validation import spatial_validation as sv
+from oss_preprocessing.hist_modern_overlap import get_overlap_mapping
+from oss_preprocessing import config
 
 # Load modern county polygons once
 _TIGER_COUNTIES = None

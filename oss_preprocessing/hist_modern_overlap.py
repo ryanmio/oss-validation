@@ -17,8 +17,8 @@ from typing import Dict, List
 
 import geopandas as gpd
 
-from . import config
-from ...oss_validation.county_accuracy_validation import spatial_validation as sv
+from oss_preprocessing import config
+from oss_validation.county_accuracy_validation import spatial_validation as sv
 
 _CACHE_JSON = config.PROCESSED_DIR / "hist_to_modern_overlap.json"
 

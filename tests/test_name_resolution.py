@@ -1,4 +1,6 @@
-from oss_validation import name_resolution, parsing
+# from oss_validation import name_resolution, parsing
+from archive import parsing
+# TODO: name_resolution module not found in new structure. Update this import when available.
 
 
 def test_resolve_cue_basic():

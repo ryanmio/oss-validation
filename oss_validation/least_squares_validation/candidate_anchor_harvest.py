@@ -34,10 +34,10 @@ import geopandas as gpd
 import pandas as pd
 from loguru import logger
 
-from . import config
-from . import spatial_validation as sv
+from oss_preprocessing import config
+from oss_validation.county_accuracy_validation import spatial_validation as sv
 from . import anchor_resolution as ar
-from .download_reference import download_gnis_features, download_tiger_counties
+from oss_preprocessing.download_reference import download_gnis_features, download_tiger_counties
 
 # ---------------------------------------------------------------------------
 # CONSTANTS & PATHS

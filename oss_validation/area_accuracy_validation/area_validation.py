@@ -17,7 +17,7 @@ from pathlib import Path
 import pandas as pd
 import geopandas as gpd
 
-from ...src.oss_preprocessing import config
+from oss_preprocessing import config
 
 # ---------------------------------------------------------------------------
 # IO paths

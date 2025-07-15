@@ -21,8 +21,8 @@ import numpy as np
 import pandas as pd
 from loguru import logger
 
-from oss_validation_preprocessing.candidate_anchor_harvest import _load_oss_centroids
-from . import config
+from oss_validation.least_squares_validation.candidate_anchor_harvest import _load_oss_centroids
+from oss_preprocessing import config
 
 # ---------------------------------------------------------------------------
 # Paths ---------------------------------------------------------------------

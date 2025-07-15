@@ -15,7 +15,7 @@ import geopandas as gpd
 import pandas as pd
 from folium.plugins import MarkerCluster  # type: ignore
 
-from ...src.oss_preprocessing import config
+from oss_preprocessing import config
 
 VAL_CSV = config.PROCESSED_DIR / "spatial_validation.csv"
 OSS_GEOJSON = config.RAW_DIR / "CentralVAPatents_PLY-shp" / "centralva.geojson"

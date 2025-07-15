@@ -18,9 +18,9 @@ from typing import List, Dict, Optional, Tuple
 
 import pandas as pd
 
-from ..archive import parsing
+from archive import parsing
 
-from . import config
+from oss_preprocessing import config
 
 OUT_CSV = config.PROCESSED_DIR / "cp_grants.csv"
 

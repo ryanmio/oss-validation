@@ -23,7 +23,8 @@ import geopandas as gpd
 import pandas as pd
 from pyproj import Geod
 
-from . import config
+from oss_preprocessing import config
+from oss_validation.least_squares_validation import anchor_resolution as ar
 from .tier2_positional_accuracy import OUT_CSV as POS_CSV  # existing output path
 
 OSS_GEOJSON = config.RAW_DIR / "CentralVAPatents_PLY-shp" / "centralva.geojson"

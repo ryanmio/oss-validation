@@ -15,7 +15,7 @@ import pandas as pd
 import numpy as np
 from pyproj import Geod
 
-from . import config
+from oss_preprocessing import config
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 

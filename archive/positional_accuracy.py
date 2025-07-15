@@ -15,8 +15,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from . import config
-from .stats_utils import wilson_ci, bootstrap_ci
+from oss_preprocessing import config
+from oss_preprocessing.stats_utils import wilson_ci, bootstrap_ci
 
 # ---------------------------------------------------------------------------
 # Paths

@@ -14,7 +14,7 @@ from typing import Iterable, List
 
 import pandas as pd
 
-from ..oss_preprocessing import config
+from oss_preprocessing import config
 
 # ---------------------------------------------------------------------------
 # Load abstracts
