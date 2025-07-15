@@ -1,4 +1,0 @@
-Interval-censored log-normal fit (exact + censored)
-Exact n = 60, censored n = 40
-90th percentile = 5.89 km
-95% CI = 4.23 – 8.22 km  (B=1000 bootstraps)

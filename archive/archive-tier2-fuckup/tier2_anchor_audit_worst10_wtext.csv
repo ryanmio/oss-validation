@@ -1,0 +1,99 @@
+cp_id,cp_county,oss_id,d_km,anchor_phrase_raw,anchor_feature_name,anchor_type,gnis_name,gnis_county,anchor_quality,anchor_lat,anchor_lon,centroid_lat,centroid_lon,match_score,cp_raw
+II_9_470,,10879,163.0737803017896,mouth of Indian Spring Branch,Indian Spring Branch,mouth,Finney Spring Branch,Orange,exact,38.34972219984832,-77.9199999999098,37.05932291666935,-77.03569269233014,85.0,"THOMAS BLUNT, 486 acs., on S.
+side of the main Black Water; beg. at
+mouth of Indian Spring Branch, cor.
+of Col. Benja. Harrison; 25 Apr. 1701,
+p. 346. 10 rights paid for to Wm.
+Byrd, Esqr., Auditor."
+II_14_5099,,9746,120.1793438088521,mouth of Carter's Branch,Carter's Branch,mouth,Carter Branch,Vance,exact,36.56847569948815,-78.4133311001857,36.6723872483229,-77.07601435766469,100.0,"THOMAS JARREL, 190 acs. (N.
+L.), Is. of Wight’Co; on S. side of
+Nottoway Riv., & on both sides of
+Toquothonta Sw at mouth of Carter's
+Br; adj. Thomas Carter; Capt. John
+Edwards; Henry Flowers; & his own
+land; 25 Aug. 1731, p. 280. 20 Shill."
+II_10_1352,New Kent,6535,39.3425496968494,mouth of Beaver Dam Creek,Beaver Dam Creek,mouth,Beaverdam Creek,Hanover,exact,37.63319969991886,-77.29358909984046,37.90279473983545,-77.58349637663034,96.7741935483871,"EDWARD GARLAND, 1343 acs.
+(N. L.), New Kent Co., in’ St. Paul’s
+Par; beg. on bank of Little River; adj,
+line of Bush; to mouth of Beaver Dam
+Cr; 16 Aug. 1715, p. 241. Imp. of 27
+pers: James Jordan, James Reiley, John
+Poole, Martin Ware, Morris Bryan,
+Thos. Chance, Charles McGuire, Jno.
+Darcy, Edmd. Butler, Thos. Beanes,
+Patrick Davis, Garret Byrn, Richd.
+Mooney, Edmd. Evans, Bryan Carroll,
+Wm. Kelley, Patrick McCale, Will.
+Madden, Charles Diggins, Peter Gibbons, Robt, Oates, Jno. Booth, Edwd.
+Powell, Owen Oneile, Richd. Rawley,
+Thos. Owen, Thomas White."
+II_9_683,Henrico,4931,35.3624679198437,mouth of lower Westham Creek,lower Westham Creek,mouth,Little Westham Creek,Henrico,exact,37.56709090002147,-77.53637550050524,37.25880548683375,-77.43545206586688,82.05128205128204,"JAMES FRANCKLIN, JUNR., 426
+acs., Henrico Co., itt Bristoll Par; on
+S. side of Swift Cr., 28 Oct. 1702, p.
+501. Beg. at his own line, cor. of Capt.
+Epps; crossing Long Sw. & Hunting
+Path; &c. Granted James Francklin, 15
+Oct, 1698, & granted the abovenamec
+by order, &c. Trans, of 9 pers: Wm.
+Chambers, John Evans, Thomas Francklin, Robert Floyd, James Harris, John
+Liveseley, Matthew Oakely,  Richd.
+Allen, Mary Spindlers.
+GILES WEBB, 1797 acs., Henrico
+Co; on N. side of James River, at a
+place known by the name of Westham;
+28 Oct. 1702, p. 502. Beg. at Mr.
+Robert Beverley; to Col. Randolph;
+down Tuckahow Cr, to mouth of lower
+Westham Cr; &c. Trans. of 36 pers:
+Thomas Jones, James Spenso, Edwd.
+Fullmow (or Fillmore), Eliza. Thomson, Edwd. Palmer, Thomas Smith,
+Eliza. Palmer, John Earle, Joseph
+Potter, John Bazy, Thomas Clasper,
+Robert Barker, Edwd. Baynes, Henry
+Freeman, John White, Anne Grose,
+Catherine Kendall, Eliza. Jones, Harthorne Draytonn, Goodlove Smith, Mary
+Scils (or Stiles), Thomas Leech, Richd.
+Kaneday, Emlin Light; & 12. rights
+more paid for to Wm. Byrd, Esqr.,
+Auditor,"
+II_13_3956,Henrico,5111,22.17446392268349,mouth of Skin Quarter Creek,Skin Quarter Creek,mouth,Skinquarter Creek,Powhatan,exact,37.47777780016008,-77.80250000009215,37.31306058672675,-77.66076806916762,97.14285714285714,"COL. FRANCIS EPES, 2350 acs. (N.
+L.), Henrico Co; on N. side of Appamattock Riv; adj. Maj. William
+Kennon; on mouth of Skin Quarter
+Cr; 13 Oct. 1727, p. 193, 11 Lbs., 15
+Shill."
+II_9_891,Henrico,4950,20.2092905731958,mouth of Lower Westham Creek,Lower Westham Creek,mouth,Little Westham Creek,Henrico,exact,37.56709090002147,-77.53637550050524,37.38977885555976,-77.48439141862593,82.05128205128204,"JEREMIAH BENSKIN, 324 acs., Henrico Co; on S. side of James River, 20
+Oct. 1704, p. 623. Beg. at mouth of
+Lower Westham Cr; & crossing Up.
+Westham Creek. Trans. of '7 pers.*
+Note: Paid Wm. Byrd, Esqr., Auditor
+for 7 rights."
+II_12_2947,Hanover,6656,19.947930775702325,Fork of the Newfound River,the Newfound River,fork,Newfound River,Louisa,estimated_fork,37.8145859996373,-77.4997058995205,37.86479076613105,-77.7173051999008,100.0,"JOHN STANLEY, 400 acs. (N. L.),
+Hanover Co; on both sides the N, fork
+of the Newfound River; adj. Cicelia
+Anderson; on S, side of the Ridge Road;
+22 Feb. 1724, p. 139. 40 Shill."
+II_14_4865,Spotsylvania,10429,18.92518065760998,Fork of the Northanna River,the Northanna River,fork,North Anna River,Orange,estimated_fork,38.05263750030946,-77.7497138001741,38.2031653930185,-77.85107918239584,96.7741935483871,"GEORGE DOWDY, 1000 acs. (N.
+L.), Spotsylv, Co., in St. George’s Par;
+on brs. of the N, fork of the Northanna
+Riv; adj, Andrew Harrison; Anthony
+Ghelston (Gholston); & Col. Corbin’s
+line; 28 Sept, 1728, p. 104."
+II_10_1141,Isle Of Wight,9527,18.512440622243478,mouth of the Concord Branch,the Concord Branch,mouth,Coscorie Branch,Southampton,estimated_downstream,36.745149900255626,-77.085797800163,36.887626497864645,-76.97788104369212,82.75862068965517,"ETHELDRED TAYLOR. of Surry
+Co. 545 acs. (N.L.). Ts. of Wight Co;
+S, side the main Black Water Sw; beg.
+et mouth of the Concord Br., on §, side
+of the Lightwood Sw; by the Cabben
+Br; 16 June 1714. p. 168. imp. of 11
+pets: Thomas Perce, John Nox, John
+Stakes. Thomas Burttler, Tohn Kingstonc, Willian Soulder. Evan Byrn,
+jatnes Killmort, Elizabeth Evans, Elizabeth Griffin, Sarsh Mackdonnel,"
+II_12_3555,King William,10367,18.445901043545824,Fork of the South River,the South River,fork,South River,Caroline,estimated_fork,38.03485730033702,-77.38720289969513,38.04358990500015,-77.59703694812217,100.0,"SAME, 2650 acs. (N. L.); 500 acs.
+part on both sides the South River, in
+St. Maroaret’s Par., in King Wm. Co;
+& 2150 acs. on the County Line, on
+both sides the S. fork of the South Riv.,
+in St. George’s Par., in Spotsyl. Co; ad}.
+William Dunn; & Robert Poweil; on
+E. side of Punch Br; on NE side of
+the main Ridge Road; same date & page,
+13 Lbs., 5 Shill."

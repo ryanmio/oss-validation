@@ -1,0 +1,51 @@
+cp_id,cp_name,acreage,year_cp,cp_county,oss_id,year_oss,confidence,tiger_county,classification,notes,year,decade,stratum
+II_9_526,John Butler (buttler),930.0,1701,Charles City,9196,1701,80.76923076923077,Prince George,adjacent_modern,Centroid in adjacent county (modern),1701,1700,Charles City_1700
+II_13_4186,James Holman,400.0,1728,Goochland,3351,1728,63.63636363636364,Buckingham,exact_hist,Historical county match,1728,1720,Goochland_1720
+II_14_5337,John Robinson,200.0,1732,Goochland,5402,1732,98.4375,Fluvanna,exact_hist,Historical county match,1732,1730,Goochland_1730
+II_14_5368,John Bolling,400.0,1732,Goochland,3354,1732,83.77676833225178,Buckingham,exact_hist,Historical county match,1732,1730,Goochland_1730
+II_11_2349,Nicholas Meriwether,400.0,1722,Hanover,7382,1722,95.23809523809524,Louisa,exact_hist,Historical county match,1722,1720,Hanover_1720
+II_11_2487,Charles Morman,254.0,1723,Hanover,6637,1723,82.78688524590164,Hanover,exact_hist,Historical county match,1723,1720,Hanover_1720
+II_11_2348,Nicholas Mills,400.0,1722,Hanover,6609,1722,87.27272727272728,Hanover,exact_hist,Historical county match,1722,1720,Hanover_1720
+II_12_2759,John Marlow,400.0,1724,Hanover,6663,1724,79.78290366350068,Hanover,exact_hist,Historical county match,1724,1720,Hanover_1720
+II_12_3272,George Alves,400.0,1725,Hanover,6694,1725,98.07692307692308,Hanover,exact_hist,Historical county match,1725,1720,Hanover_1720
+II_12_2947,John Stanley,400.0,1724,Hanover,6656,1724,98.8372093023256,Hanover,exact_hist,Historical county match,1724,1720,Hanover_1720
+II_13_4512,Charles Stevens,400.0,1728,Hanover,7468,1728,95.97701149425288,Louisa,exact_hist,Historical county match,1728,1720,Hanover_1720
+II_14_5249,Thomas Carr,400.0,1732,Hanover,39,1732,92.5,Albemarle,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),1732,1730,Hanover_1730
+II_14_5346,John Woody,400.0,1732,Hanover,7556,1732,90.3846153846154,Louisa,exact_hist,Historical county match,1732,1730,Hanover_1730
+II_14_5263,Michael Holland,88.0,1732,Hanover,6770,1732,90.7079646017699,Goochland,adjacent_modern,Centroid in adjacent county (modern),1732,1730,Hanover_1730
+II_9_683,James Francklin,426.0,1702,Henrico,4931,1702,81.5581253804017,Chesterfield,exact_hist,Historical county match,1702,1700,Henrico_1700
+II_10_1646,John Bolling,479.0,1717,Henrico,4999,1717,87.38069989395547,Chesterfield,exact_hist,Historical county match,1717,1710,Henrico_1710
+II_10_1634,Henry Anderson,500.0,1717,Henrico,4997,1717,78.36879432624113,Chesterfield,exact_hist,Historical county match,1717,1710,Henrico_1710
+II_10_1917,George Freeman,400.0,1718,Henrico,6939,1718,87.39622641509433,Henrico,exact_hist,Historical county match,1718,1710,Henrico_1710
+II_11_2211,Thomas Farrar,400.0,1722,Henrico,6084,1722,91.20553359683794,Goochland,exact_hist,Historical county match,1722,1720,Henrico_1720
+II_13_4222,William Randolph,900.0,1729,Henrico,5114,1729,67.91171477079797,Chesterfield,exact_hist,Historical county match,1729,1720,Henrico_1720
+II_12_3379,John Ellis,400.0,1725,Henrico,6961,1725,81.39097744360902,Henrico,exact_hist,Historical county match,1725,1720,Henrico_1720
+II_13_4248,John Parish,400.0,1728,Henrico,6175,1728,86.60714285714286,Goochland,exact_hist,Historical county match,1728,1720,Henrico_1720
+II_12_3378,John Walters,400.0,1725,Henrico,6960,1725,84.15622697126014,Henrico,exact_hist,Historical county match,1725,1720,Henrico_1720
+II_12_2721,Godfrey Fowler,300.0,1724,Henrico,5039,1724,87.5,Chesterfield,exact_hist,Historical county match,1724,1720,Henrico_1720
+II_14_5215,John Ferguson,1365.0,1731,Henrico,5125,1731,78.88372093023256,Chesterfield,exact_hist,Historical county match,1731,1730,Henrico_1730
+II_9_681,Henry Hart,379.0,1702,Isle Of Wight,9448,1702,92.3913043478261,Southampton,exact_hist,Historical county match,1702,1700,Isle Of Wight_1700
+II_10_1153,Mr. William Edwards,1275.0,1714,Isle Of Wight,9506,1714,77.45098039215685,Southampton,exact_hist,Historical county match,1714,1710,Isle Of Wight_1710
+II_10_1358,Samuel Brown,200.0,1715,Isle Of Wight,9566,1715,78.35820895522389,Southampton,exact_hist,Historical county match,1715,1710,Isle Of Wight_1710
+II_13_3709,Richard Lane,100.0,1726,Isle Of Wight,9697,1726,90.54054054054056,Southampton,exact_hist,Historical county match,1726,1720,Isle Of Wight_1720
+II_13_4031,Capt,220.0,1727,Isle Of Wight,9710,1727,88.0952380952381,Southampton,exact_hist,Historical county match,1727,1720,Isle Of Wight_1720
+II_11_2422,James Davis,330.0,1722,Isle Of Wight,9597,1722,86.14457831325302,Southampton,exact_hist,Historical county match,1722,1720,Isle Of Wight_1720
+II_11_2558,William Johnson,165.0,1723,Isle Of Wight,9616,1723,93.33333333333334,Southampton,exact_hist,Historical county match,1723,1720,Isle Of Wight_1720
+II_13_4610,Robert Harris,150.0,1730,Isle Of Wight,9733,1730,87.25490196078431,Southampton,exact_hist,Historical county match,1730,1730,Isle Of Wight_1730
+II_9_947,Stephen Sunter,200.0,1705,New Kent,6513,1705,81.0344827586207,Hanover,exact_hist,Historical county match,1705,1700,New Kent_1700
+II_10_1265,George Alves,4843.0,1714,New Kent,6528,1714,82.55813953488372,Hanover,exact_hist,Historical county match,1714,1710,New Kent_1710
+II_10_1468,Hugh Golitely,200.0,1715,Prince George,9553,1715,94.68085106382978,Southampton,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),1715,1710,Prince George_1710
+II_12_3176,George Rives,225.0,1725,Prince George,9251,1725,96.01769911504424,Prince George,exact_hist,Historical county match,1725,1720,Prince George_1720
+II_13_4285,James Hayle & Edward Hayle,840.0,1728,Spotsylvania,8894,1728,82.97872340425532,Orange,exact_hist,Historical county match,1728,1720,Spotsylvania_1720
+II_14_4849,William Smith,300.0,1728,Spotsylvania,10427,1728,77.82608695652173,Spotsylvania,exact_hist,Historical county match,1728,1720,Spotsylvania_1720
+II_13_4239,John Taliaferro & Francis Taliaferro,1000.0,1728,Spotsylvania,8890,1728,75.71428571428572,Orange,exact_hist,Historical county match,1728,1720,Spotsylvania_1720
+II_14_4796,Henry Thacker,1000.0,1728,Spotsylvania,8905,1728,90.0,Orange,exact_hist,Historical county match,1728,1720,Spotsylvania_1720
+II_10_1327,Thomas Harnison,180.0,1714,Surry,10942,1714,90.25974025974024,Sussex,exact_hist,Historical county match,1714,1710,Surry_1710
+II_10_1782,William Heath,325.0,1717,Surry,10981,1717,87.34939759036145,Sussex,exact_hist,Historical county match,1717,1710,Surry_1710
+II_10_1911,Lambert Zell,215.0,1718,Surry,10996,1718,92.85714285714286,Sussex,exact_hist,Historical county match,1718,1710,Surry_1710
+II_12_3319,Jones Stokes,250.0,1725,Surry,11106,1725,87.03703703703704,Sussex,exact_hist,Historical county match,1725,1720,Surry_1720
+II_12_3001,Joseph Collyer,380.0,1724,Surry,10779,1724,68.75,Surry,exact_hist,Historical county match,1724,1720,Surry_1720
+II_11_2121,Giles Underhill,133.0,1720,Surry,11005,1720,81.3953488372093,Sussex,exact_hist,Historical county match,1720,1720,Surry_1720
+II_13_4052,William Binum,220.0,1727,Surry,11141,1727,83.84615384615384,Sussex,exact_hist,Historical county match,1727,1720,Surry_1720
+II_12_3420,Edward Clanton,150.0,1725,Surry,11112,1725,83.33333333333333,Sussex,exact_hist,Historical county match,1725,1720,Surry_1720
+II_14_5408,James Washington,225.0,1732,Surry,11195,1732,90.74074074074072,Sussex,exact_hist,Historical county match,1732,1730,Surry_1730

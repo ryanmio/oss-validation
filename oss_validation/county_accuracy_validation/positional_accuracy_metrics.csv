@@ -1,0 +1,1497 @@
+oss_id,cp_id,confidence,cp_county,tiger_county,classification,notes,pct_diff,county_correct,acre_within30
+6500,II_9_323,100.0,New Kent,Hanover,exact_hist,Historical county match,0.1207217951725202,True,True
+9438,II_9_524,100.0,,Southampton,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),7.777047498263615,True,True
+9202,II_9_803,100.0,Charles City,Prince George,adjacent_modern,Centroid in adjacent county (modern),12.488377514234978,False,True
+6531,II_10_1317,100.0,New Kent,Hanover,exact_hist,Historical county match,22.92925197032444,True,True
+4988,II_10_1530,100.0,Henrico,Chesterfield,exact_hist,Historical county match,1326.3164872844166,True,False
+10302,II_10_1943,100.0,King William,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),2.48985375336477,True,True
+11028,II_11_2331,100.0,Surry,Sussex,exact_hist,Historical county match,43.86487948415028,True,False
+6676,II_12_2775,100.0,Hanover,Hanover,exact_hist,Historical county match,2.694544221317571,True,True
+6186,II_13_4326,100.0,Goochland,Goochland,exact_hist,Historical county match,4.969745437254318,True,True
+7490,II_13_4597,100.0,Hanover,Louisa,exact_hist,Historical county match,0.6665181131291575,True,True
+7492,II_13_4601,100.0,Hanover,Louisa,exact_hist,Historical county match,8.043646297653575,True,True
+7527,II_14_5048,100.0,Hanover,Louisa,exact_hist,Historical county match,1.354923839025048,True,True
+7550,II_14_5239,100.0,Hanover,Louisa,exact_hist,Historical county match,2.278203624698022,True,True
+43,II_14_5333,100.0,Goochland,Albemarle,exact_hist,Historical county match,5.580610224327772,True,True
+7562,II_14_5357,100.0,Hanover,Louisa,exact_hist,Historical county match,0.2634240512614383,True,True
+7460,II_13_3958,99.375,Hanover,Louisa,exact_hist,Historical county match,1.0750484370962423,True,True
+7449,II_13_3800,99.33333333333334,Hanover,Louisa,exact_hist,Historical county match,4.273536487712562,True,True
+6714,II_12_3093,99.26470588235294,Hanover,Hanover,exact_hist,Historical county match,1.2338659433135175,True,True
+6725,II_13_3803,99.2537313432836,Hanover,Hanover,exact_hist,Historical county match,2.0835903834075573,True,True
+6748,II_13_4372,99.2537313432836,Hanover,Hanover,exact_hist,Historical county match,2.5051606303428,True,True
+6742,II_13_4154,99.18032786885246,Hanover,Louisa,exact_hist,Historical county match,3.066299925692036,True,True
+6631,II_11_2469,99.07407407407408,Hanover,Hanover,exact_hist,Historical county match,8.286177264538779,True,True
+7548,II_14_5253,99.0566037735849,Hanover,Louisa,exact_hist,Historical county match,0.6041525172854136,True,True
+6755,II_14_4971,99.01960784313728,Hanover,Louisa,exact_hist,Historical county match,3.0280388816413164,True,True
+6772,II_14_5347,99.01960784313728,Hanover,Hanover,exact_hist,Historical county match,29.44051056195411,True,True
+5399,II_14_5237,99.0,Goochland,Fluvanna,exact_hist,Historical county match,27.862768241713017,True,True
+9430,II_9_503,98.9795918367347,,Southampton,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),43.19917892091664,True,False
+7458,II_13_3966,98.91304347826087,Hanover,Louisa,exact_hist,Historical county match,0.1871784542789925,True,True
+6764,II_14_5245,98.86363636363636,Hanover,Hanover,exact_hist,Historical county match,0.3980841791444618,True,True
+6656,II_12_2947,98.8372093023256,Hanover,Hanover,exact_hist,Historical county match,5.421684295889975,True,True
+7480,II_13_4334,98.81889763779527,Hanover,Louisa,exact_hist,Historical county match,6.994731084315071,True,True
+7419,II_12_3288,98.8095238095238,Hanover,Louisa,exact_hist,Historical county match,3.0931618780257395,True,True
+10344,II_13_3651,98.8095238095238,Spotsylvania,Spotsylvania,exact_hist,Historical county match,5.984300766881574,True,True
+9440,II_9_608,98.75,,Southampton,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),34.329983820265866,True,False
+5377,II_12_3237,98.75,Henrico,Fluvanna,exact_hist,Historical county match,39.62574035318265,True,False
+6686,II_12_3486,98.75,,Hanover,boundary_tol,≤50.0 m outside hist polygon (HANOVER),2.287338818059766,True,True
+7447,II_13_3796,98.75,Hanover,Louisa,exact_hist,Historical county match,9.533305355598571,True,True
+9706,II_13_3857,98.75,Isle Of Wight,Southampton,exact_hist,Historical county match,19.352823480066693,True,True
+6501,II_9_353,98.71794871794872,,Hanover,boundary_tol,≤50.0 m outside hist polygon (NEW KENT),0.1204198257369739,True,True
+11095,II_12_3321,98.71794871794872,Surry,Sussex,exact_hist,Historical county match,13.093730776901054,True,True
+6731,II_13_3990,98.69565217391305,Hanover,Hanover,exact_hist,Historical county match,5.999362349323987,True,True
+5378,II_12_3239,98.68421052631578,,Fluvanna,boundary_tol,≤50.0 m outside hist polygon (HENRICO),24.215607820614466,True,True
+34,II_14_5232,98.68421052631578,Goochland,Albemarle,exact_hist,Historical county match,6.734167838151308,True,True
+10873,II_9_448,98.64864864864865,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),12.06812021428325,True,True
+6645,II_11_2470,98.64864864864865,Hanover,Hanover,exact_hist,Historical county match,0.3370285992829593,True,True
+11094,II_12_2916,98.64864864864865,Surry,Sussex,exact_hist,Historical county match,19.306604933449627,True,True
+6760,II_14_5041,98.64864864864865,Hanover,Hanover,exact_hist,Historical county match,2.399244960737032,True,True
+7418,II_12_3287,98.61111111111111,Hanover,Louisa,exact_hist,Historical county match,1.9658161082814445,True,True
+7494,II_13_4580,98.61111111111111,Hanover,Louisa,exact_hist,Historical county match,1.583632950143354,True,True
+5374,II_12_2711,98.57142857142856,Henrico,Fluvanna,exact_hist,Historical county match,17.715360425882754,True,True
+7410,II_12_3282,98.57142857142856,,Louisa,boundary_tol,≤50.0 m outside hist polygon (HANOVER),0.3608125786326062,True,True
+7440,II_13_3954,98.57142857142856,Hanover,Louisa,exact_hist,Historical county match,0.8892125204760647,True,True
+6079,II_11_2155,98.52941176470588,Henrico,Goochland,exact_hist,Historical county match,28.079050997328824,True,True
+8864,II_13_3884,98.52941176470588,Spotsylvania,Orange,exact_hist,Historical county match,6.734076597988235,True,True
+6700,II_12_3276,98.50746268656717,Hanover,Hanover,exact_hist,Historical county match,3.411440917957389,True,True
+6655,II_12_2955,98.48484848484848,Hanover,Hanover,exact_hist,Historical county match,0.7925470863818446,True,True
+10367,II_12_3555,98.48484848484848,King William,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (SPOTSYLVANIA),6.03117919627744,True,True
+6722,II_13_3794,98.48484848484848,Hanover,Louisa,exact_hist,Historical county match,3.171708468531051,True,True
+5388,II_13_4333,98.4375,Goochland,Fluvanna,exact_hist,Historical county match,31.270649475206294,True,False
+5394,II_14_5080,98.4375,Goochland,Fluvanna,exact_hist,Historical county match,4.565038018182463,True,True
+5402,II_14_5337,98.4375,Goochland,Fluvanna,exact_hist,Historical county match,0.0904329230388469,True,True
+6727,II_13_3799,98.38709677419357,Hanover,Hanover,exact_hist,Historical county match,5.481582368413754,True,True
+6553,II_10_1928,98.33333333333334,Henrico,Hanover,adjacent_modern,Centroid in adjacent county (modern),1.0673826270280813,False,True
+6629,II_11_2468,98.33333333333334,Hanover,Hanover,exact_hist,Historical county match,22.25813594552487,True,True
+7509,II_14_4982,98.33333333333334,Hanover,Louisa,exact_hist,Historical county match,3.8141423501025713,True,True
+7536,II_14_5033,98.33333333333334,Hanover,Louisa,exact_hist,Historical county match,2.620650087105602,True,True
+10390,II_13_4064,98.21428571428572,Spotsylvania,Spotsylvania,exact_hist,Historical county match,7.666818824069184,True,True
+7535,II_14_5044,98.21428571428572,Hanover,Louisa,exact_hist,Historical county match,1.5497606457958568,True,True
+7519,II_14_5046,98.21428571428572,Hanover,Louisa,exact_hist,Historical county match,0.0561554674202398,True,True
+9436,II_9_451,98.14814814814817,,Southampton,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),9.15245419665138,True,True
+10872,II_9_459,98.14814814814817,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),8.572802711390656,True,True
+7371,II_11_2046,98.14814814814817,New Kent,Louisa,exact_hist,Historical county match,2.710692360110363,True,True
+7377,II_11_2351,98.14814814814817,Hanover,Louisa,exact_hist,Historical county match,30.415480449003383,True,False
+6666,II_12_2752,98.14814814814817,Hanover,Hanover,exact_hist,Historical county match,0.758543970176035,True,True
+6657,II_12_2952,98.14814814814817,Hanover,Hanover,exact_hist,Historical county match,6.727995394676639,True,True
+7542,II_14_5145,98.14814814814817,Hanover,Louisa,exact_hist,Historical county match,1.949607062335815,True,True
+6694,II_12_3272,98.07692307692308,Hanover,Hanover,exact_hist,Historical county match,0.0036391307263414,True,True
+6696,II_12_3275,98.07692307692308,Hanover,Hanover,exact_hist,Historical county match,0.0234979307396514,True,True
+10874,II_9_457,97.91666666666666,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),13.68277050207861,True,True
+10880,II_9_458,97.91666666666666,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),0.0091138982231173,True,True
+9546,II_10_1394,97.91666666666666,Isle Of Wight,Southampton,exact_hist,Historical county match,49.7587232644317,True,False
+7401,II_12_2754,97.91666666666666,Hanover,Louisa,exact_hist,Historical county match,3.1740512558714897,True,True
+6671,II_12_2772,97.91666666666666,Hanover,Hanover,exact_hist,Historical county match,1.0399044835070017,True,True
+5030,II_12_2943,97.91666666666666,Henrico,Chesterfield,exact_hist,Historical county match,42.49264496691925,True,False
+6942,II_11_2700,97.82608695652176,Henrico,Henrico,exact_hist,Historical county match,9.143114662048632,True,True
+6050,II_10_1582,97.72727272727272,Henrico,Goochland,exact_hist,Historical county match,15.392362559411527,True,True
+9640,II_12_3048,97.72727272727272,Isle Of Wight,Southampton,exact_hist,Historical county match,15.147565546813468,True,True
+11139,II_13_4045,97.72727272727272,Surry,Sussex,exact_hist,Historical county match,9.794804852171788,True,True
+6489,II_9_52,97.61904761904762,New Kent,Hanover,exact_hist,Historical county match,38.18359217547239,True,False
+6607,II_11_2355,97.61904761904762,Hanover,Hanover,exact_hist,Historical county match,0.9232690419021168,True,True
+6692,II_13_3640,97.61904761904762,Hanover,Hanover,exact_hist,Historical county match,7.991048898066462,True,True
+6229,II_14_5159,97.61904761904762,Goochland,Goochland,exact_hist,Historical county match,25.039900430133077,True,True
+7485,II_13_4370,97.59358288770052,Hanover,Louisa,exact_hist,Historical county match,11.04371780622918,True,True
+7411,II_12_3279,97.5609756097561,Hanover,Louisa,exact_hist,Historical county match,2.9927919652860027,True,True
+6145,II_13_3968,97.54098360655738,Henrico,Goochland,exact_hist,Historical county match,0.7878224616899986,True,True
+5047,II_12_2733,97.5,Henrico,Chesterfield,exact_hist,Historical county match,54.942650550098094,True,False
+6569,II_10_1966,97.47474747474747,New Kent,Hanover,exact_hist,Historical county match,2.7224342576647587,True,True
+11056,II_11_2593,97.47474747474747,Surry,Sussex,exact_hist,Historical county match,7.689881437183304,True,True
+6057,II_10_1636,97.45762711864408,Henrico,Goochland,exact_hist,Historical county match,4.612647097589935,True,True
+7517,II_14_5060,97.41379310344828,Hanover,Louisa,exact_hist,Historical county match,1.878844101313613,True,True
+6602,II_11_2356,97.36842105263158,Hanover,Hanover,exact_hist,Historical county match,4.452657582530051,True,True
+6769,II_14_5270,97.22222222222224,Hanover,Hanover,exact_hist,Historical county match,2.642357554111231,True,True
+6720,II_13_3983,97.2,Hanover,Hanover,exact_hist,Historical county match,2.4525902970783444,True,True
+6190,II_13_4357,97.16981132075472,Goochland,Goochland,exact_hist,Historical county match,8.592885319730343,True,True
+7413,II_12_3284,97.15447154471543,Hanover,Louisa,exact_hist,Historical county match,1.4448703876487483,True,True
+7557,II_14_5354,97.14285714285714,Hanover,Louisa,exact_hist,Historical county match,2.328200940198414,True,True
+7513,II_14_4996,97.05882352941175,Hanover,Louisa,exact_hist,Historical county match,6.830356302017535,True,True
+5051,II_12_2737,96.98795180722892,Henrico,Chesterfield,exact_hist,Historical county match,330.55197679224545,True,False
+6642,II_11_2486,96.91358024691358,Hanover,Hanover,exact_hist,Historical county match,1.5036476423512397,True,True
+8840,II_11_2626,96.875,Spotsylvania,Orange,exact_hist,Historical county match,17.244178367306812,True,True
+10937,II_10_1224,96.83544303797468,Surry,Sussex,exact_hist,Historical county match,8.357075646142846,True,True
+6743,II_13_4436,96.7741935483871,Hanover,Hanover,exact_hist,Historical county match,5.15756139035949,True,True
+7508,II_14_4988,96.72131147540983,Hanover,Louisa,exact_hist,Historical county match,2.501419125610056,True,True
+6752,II_13_4592,96.5909090909091,Hanover,Hanover,exact_hist,Historical county match,2.052051637979881,True,True
+6775,II_14_5358,96.58385093167702,Hanover,Hanover,exact_hist,Historical county match,6.452272752986232,True,True
+10920,II_10_1092,96.57534246575342,Surry,Sussex,exact_hist,Historical county match,31.842985252557398,True,False
+6754,II_14_4999,96.55172413793105,Hanover,Louisa,exact_hist,Historical county match,3.3998168938988016,True,True
+11001,II_11_2143,96.4788732394366,Surry,Sussex,exact_hist,Historical county match,31.25063374805122,True,False
+9547,II_10_1399,96.46464646464646,Isle Of Wight,Southampton,exact_hist,Historical county match,1.9118833844107244,True,True
+6710,II_12_3113,96.42857142857144,Hanover,Hanover,exact_hist,Historical county match,48.53388947279214,True,False
+6244,II_14_5307,96.3768115942029,Goochland,Goochland,exact_hist,Historical county match,10.148882594321297,True,True
+7540,II_14_5049,96.36363636363636,Hanover,Louisa,exact_hist,Historical county match,1.0451492252980898,True,True
+4938,II_9_723,96.34146341463416,Henrico,Chesterfield,exact_hist,Historical county match,59.745434904158415,True,False
+7488,II_13_4534,96.2962962962963,Hanover,Louisa,exact_hist,Historical county match,3.693937563942976,True,True
+7459,II_13_4105,96.2264150943396,Hanover,Louisa,exact_hist,Historical county match,2.225030998942429,True,True
+6636,II_11_2485,96.21848739495798,Hanover,Hanover,exact_hist,Historical county match,41.67661787446205,True,False
+6129,II_12_3376,96.21212121212122,Henrico,Goochland,exact_hist,Historical county match,1.0441341121830927,True,True
+7378,II_11_2353,96.15384615384616,Hanover,Louisa,exact_hist,Historical county match,22.75598403696748,True,True
+13,II_13_4403,96.15384615384616,Goochland,Albemarle,exact_hist,Historical county match,2.712289459264062,True,True
+7493,II_14_4909,96.15384615384616,Hanover,Louisa,exact_hist,Historical county match,3.481483654831237,True,True
+5403,II_14_5363,96.15384615384616,Goochland,Fluvanna,exact_hist,Historical county match,1.5490696433006548,True,True
+7483,II_13_4392,96.08695652173913,Hanover,Louisa,exact_hist,Historical county match,7.566664990181607,True,True
+7491,II_13_4578,96.05321507760532,,Louisa,boundary_tol,≤50.0 m outside hist polygon (HANOVER),0.2930785587113007,True,True
+6052,II_10_1721,96.03174603174602,Henrico,Goochland,exact_hist,Historical county match,3.432766179794242,True,True
+9251,II_12_3176,96.01769911504424,Prince George,Prince George,exact_hist,Historical county match,0.0439073770530992,True,True
+9683,II_12_3431,96.0,Isle Of Wight,Southampton,exact_hist,Historical county match,2.441700038591783,True,True
+7529,II_14_5031,96.0,Hanover,Louisa,exact_hist,Historical county match,4.162232876142781,True,True
+9514,II_10_1133,95.97701149425288,Surry,Sussex,exact_hist,Historical county match,16.543817966504268,True,True
+7468,II_13_4512,95.97701149425288,Hanover,Louisa,exact_hist,Historical county match,3.2932109544759385,True,True
+6499,II_9_328,95.94594594594594,New Kent,Hanover,exact_hist,Historical county match,25.196588215180725,True,True
+4989,II_10_1717,95.94594594594594,Henrico,Chesterfield,exact_hist,Historical county match,65.27497072036638,True,False
+6600,II_11_2183,95.94594594594594,Hanover,Hanover,exact_modern,Centroid in stated county (modern),6.970628254823012,False,True
+6683,II_12_3289,95.94520547945206,Hanover,Hanover,exact_hist,Historical county match,5.140695579572366,True,True
+7549,II_14_5230,95.91836734693877,Hanover,Louisa,exact_hist,Historical county match,17.715216914614956,True,True
+6532,II_10_1318,95.83333333333334,New Kent,Hanover,exact_hist,Historical county match,21.208034516581836,True,True
+6695,II_12_3280,95.83333333333334,Hanover,Hanover,exact_hist,Historical county match,1.100763288920021,True,True
+11126,II_13_3737,95.79439252336448,Surry,Sussex,exact_hist,Historical county match,10.824895788237924,True,True
+6716,II_12_3089,95.78313253012048,Hanover,Hanover,exact_hist,Historical county match,8.254627031125155,True,True
+7444,II_13_3806,95.78313253012048,Hanover,Louisa,exact_hist,Historical county match,18.31283948012644,True,True
+6599,II_11_2185,95.679012345679,Hanover,Hanover,exact_modern,Centroid in stated county (modern),2.38878461829286,False,True
+7511,II_14_5008,95.6140350877193,Hanover,Louisa,exact_hist,Historical county match,0.7042821004996682,True,True
+8851,II_12_3533,95.56962025316456,Spotsylvania,Orange,exact_hist,Historical county match,1.874440283448524,True,True
+7471,II_13_4151,95.55555555555556,Hanover,Louisa,exact_hist,Historical county match,1.8537584352765604,True,True
+6641,II_11_2483,95.51656920077971,Hanover,Hanover,exact_hist,Historical county match,2.3112234046914324,True,True
+6068,II_10_1948,95.45454545454544,Henrico,Goochland,exact_hist,Historical county match,0.4011465955951223,True,True
+9620,II_11_2533,95.45454545454544,Isle Of Wight,Southampton,exact_hist,Historical county match,2.967111424839146,True,True
+6139,II_12_3097,95.45454545454544,Henrico,Goochland,exact_hist,Historical county match,58.34541656731136,True,False
+7425,II_12_3109,95.45454545454544,Hanover,Louisa,exact_hist,Historical county match,21.59853065181086,True,True
+7446,II_13_3808,95.45454545454544,Hanover,Louisa,exact_hist,Historical county match,0.3575193190072667,True,True
+6734,II_13_4149,95.45454545454544,,Hanover,boundary_tol,≤50.0 m outside hist polygon (HANOVER),2.9102646574690567,True,True
+5396,II_14_5134,95.45454545454544,Goochland,Fluvanna,exact_hist,Historical county match,0.027708091370286,True,True
+8869,II_13_3912,95.37037037037037,Spotsylvania,Orange,exact_hist,Historical county match,0.184389827022491,True,True
+7554,II_14_5316,95.37037037037037,Hanover,Louisa,exact_hist,Historical county match,0.009134088515168,True,True
+10948,II_10_1421,95.3125,Surry,Sussex,exact_hist,Historical county match,4.308547868152246,True,True
+7476,II_13_4425,95.2991452991453,Hanover,Louisa,exact_hist,Historical county match,1.0052445048498695,True,True
+6639,II_11_2467,95.28301886792453,Hanover,Hanover,exact_hist,Historical county match,2.7197368514027715,True,True
+6130,II_12_3054,95.28301886792453,Henrico,Goochland,exact_hist,Historical county match,15.277061044778364,True,True
+11140,II_13_4053,95.28301886792453,Surry,Sussex,exact_hist,Historical county match,5.026339996576421,True,True
+7382,II_11_2349,95.23809523809524,Hanover,Louisa,exact_hist,Historical county match,6.1219030101051,True,True
+6616,II_11_2676,95.16129032258064,Hanover,Louisa,exact_hist,Historical county match,1.821117614247953,True,True
+10793,II_13_4054,95.1219512195122,Surry,Surry,exact_hist,Historical county match,13.426688301748015,True,True
+7484,II_13_4390,95.1219512195122,Hanover,Louisa,exact_hist,Historical county match,9.127443278566574,True,True
+6674,II_12_2758,95.1113051069402,Hanover,Hanover,exact_hist,Historical county match,13.89151799837775,True,True
+9431,II_9_450,95.09803921568628,,Southampton,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),15.22907376918971,True,True
+10283,II_10_1391,95.0,King & Queen,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),0.2125631207048144,True,True
+7404,II_12_2926,95.0,Hanover,Louisa,exact_hist,Historical county match,44.19885349860601,True,False
+10368,II_12_3556,95.0,King & Queen,Caroline,adjacent_modern,Centroid in adjacent county (modern),64.52988686919923,False,False
+7506,II_14_5005,95.0,Hanover,Louisa,exact_hist,Historical county match,11.54773606649792,True,True
+5404,II_14_5367,95.0,Goochland,Fluvanna,exact_hist,Historical county match,1.742022230615831,True,True
+6970,II_13_3773,94.94252873563218,Henrico,Henrico,exact_hist,Historical county match,16.729709265278004,True,True
+6193,II_14_4917,94.92753623188406,Goochland,Goochland,exact_hist,Historical county match,12.385539971471346,True,True
+6766,II_14_5272,94.92753623188406,Hanover,Hanover,exact_hist,Historical county match,3.361913247939128,True,True
+11053,II_11_2597,94.89795918367346,Surry,Sussex,exact_hist,Historical county match,1.6966023537059984,True,True
+11069,II_12_2882,94.89795918367346,Surry,Sussex,exact_hist,Historical county match,12.414917212735514,True,True
+6739,II_13_4442,94.89795918367346,Hanover,Hanover,exact_hist,Historical county match,1.9446120866161731,True,True
+6559,II_10_1883,94.87179487179486,New Kent,Hanover,exact_hist,Historical county match,1.0029306271090093,True,True
+7408,II_12_3333,94.87179487179486,Hanover,Louisa,exact_hist,Historical county match,0.6915180976995657,True,True
+7520,II_14_5043,94.82758620689656,Hanover,Louisa,exact_hist,Historical county match,1.199082742714225,True,True
+7552,II_14_5236,94.82758620689656,,Louisa,boundary_tol,≤50.0 m outside hist polygon (HANOVER),10.511557067237945,True,True
+11103,II_12_3444,94.76190476190476,Surry,Sussex,exact_hist,Historical county match,2.3423010788844008,True,True
+15,II_13_4464,94.73684210526316,Hanover,Albemarle,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),1.039535440616277,True,True
+9553,II_10_1468,94.68085106382978,Prince George,Southampton,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),5.208372671259383,True,True
+6083,II_11_2340,94.66019417475728,Henrico,Goochland,exact_hist,Historical county match,3.076946571860037,True,True
+9528,II_10_1113,94.64285714285714,Isle Of Wight,Southampton,exact_hist,Historical county match,2.563295320946815,True,True
+10335,II_11_2630,94.6236559139785,King William,Caroline,exact_hist,Historical county match,17.253310309210992,True,True
+7412,II_12_3338,94.6153846153846,Hanover,Louisa,exact_hist,Historical county match,1.814678229184565,True,True
+9714,II_13_4039,94.5945945945946,Isle Of Wight,Southampton,exact_hist,Historical county match,15.928289570865076,True,True
+11159,II_13_4397,94.5945945945946,Surry,Sussex,exact_hist,Historical county match,36.089968720793216,True,False
+7512,II_14_5013,94.5945945945946,Hanover,Louisa,exact_hist,Historical county match,4.25277994397166,True,True
+9742,II_14_5102,94.5945945945946,Isle Of Wight,Southampton,exact_hist,Historical county match,2.3655382050178213,True,True
+4933,II_9_667,94.44444444444444,Henrico,Chesterfield,exact_hist,Historical county match,1061.3182428106593,True,False
+6931,II_10_1258,94.44444444444444,Henrico,Henrico,exact_hist,Historical county match,4.242090112604799,True,True
+6588,II_11_2060,94.44444444444444,New Kent,Hanover,exact_hist,Historical county match,1.29274416399154,True,True
+11078,II_12_2889,94.44444444444444,Surry,Sussex,exact_hist,Historical county match,2.1599083503359826,True,True
+11080,II_12_2896,94.44444444444444,Surry,Sussex,exact_hist,Historical county match,3.9840268141651527,True,True
+7423,II_12_3107,94.44444444444444,Hanover,Louisa,exact_hist,Historical county match,3.1075210481449176,True,True
+7353,II_12_3466,94.44444444444444,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,11.102595934779156,True,True
+10391,II_13_4074,94.44444444444444,Spotsylvania,Caroline,adjacent_modern,Centroid in adjacent county (modern),0.6712023669953471,False,True
+6222,II_14_4958,94.44444444444444,Goochland,Goochland,exact_hist,Historical county match,9.602886525805644,True,True
+7528,II_14_5054,94.44444444444444,Hanover,Louisa,exact_hist,Historical county match,0.2561728085307067,True,True
+7514,II_14_5079,94.44444444444444,Goochland,Goochland,exact_modern,Centroid in stated county (modern),9.604373374091438,False,True
+9746,II_14_5099,94.44444444444444,,Southampton,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),2.581569326316894,True,True
+7524,II_14_5139,94.44444444444444,Hanover,Louisa,exact_hist,Historical county match,2.6895569289254224,True,True
+10295,II_10_2005,94.30379746835445,Essex,Spotsylvania,exact_hist,Historical county match,19.157699252837457,True,True
+5380,II_12_3242,94.30379746835445,Henrico,Fluvanna,exact_hist,Historical county match,18.46996317117234,True,True
+10953,II_10_1471,94.28571428571428,Surry,Sussex,exact_hist,Historical county match,0.0959892996754121,True,True
+7439,II_13_3682,94.21052631578948,Hanover,Louisa,exact_hist,Historical county match,0.5488946421452567,True,True
+6092,II_11_2527,94.18604651162792,Henrico,Goochland,exact_hist,Historical county match,26.470491771341067,True,True
+6189,II_13_4331,94.18604651162792,Goochland,Goochland,exact_hist,Historical county match,1.1094485592360042,True,True
+6194,II_14_4932,94.18604651162792,Goochland,Goochland,exact_hist,Historical county match,10.32620585251296,True,True
+6195,II_14_4939,94.18604651162792,Goochland,Goochland,exact_hist,Historical county match,2.061982131245614,True,True
+6738,II_13_4119,94.15584415584416,Hanover,Hanover,exact_hist,Historical county match,0.3879420671918296,True,True
+6058,II_10_1926,94.14414414414416,Henrico,Goochland,exact_hist,Historical county match,12.704116994719575,True,True
+7505,II_14_5140,94.08602150537637,Hanover,Louisa,exact_hist,Historical county match,1.2084345217677566,True,True
+7564,II_14_5348,94.0677966101695,Hanover,Louisa,exact_hist,Historical county match,9.628527363762524,True,True
+6758,II_14_5057,94.0,Hanover,Louisa,exact_hist,Historical county match,4.535004899071666,True,True
+6060,II_10_1833,93.98148148148148,Henrico,Goochland,exact_hist,Historical county match,13.319103117744802,True,True
+4963,II_10_1158,93.9799331103679,Henrico,Chesterfield,exact_hist,Historical county match,95.25589665709208,True,False
+7428,II_12_3096,93.97081413210446,Hanover,Louisa,exact_hist,Historical county match,16.009381081048033,True,True
+10887,II_9_544,93.9655172413793,Charles City,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),0.3023115215314647,True,True
+7482,II_13_4369,93.95604395604396,Hanover,Louisa,exact_hist,Historical county match,0.6594163669491314,True,True
+10305,II_11_2065,93.92523364485982,Essex,Spotsylvania,exact_hist,Historical county match,2.1297585414092266,True,True
+8896,II_13_4294,93.91891891891892,Spotsylvania,Orange,exact_hist,Historical county match,24.892172126649783,True,True
+5010,II_10_2008,93.90243902439023,Henrico,Chesterfield,exact_hist,Historical county match,86.07808465733224,True,False
+10354,II_12_3523,93.90243902439023,Spotsylvania,Spotsylvania,exact_hist,Historical county match,1.6752767861873428,True,True
+6200,II_14_4935,93.90243902439023,Hanover,Goochland,adjacent_modern,Centroid in adjacent county (modern),0.4196225108902069,False,True
+6907,II_9_163,93.859649122807,Henrico,Henrico,exact_hist,Historical county match,0.7785494576799709,True,True
+10764,II_10_1329,93.859649122807,Surry,Surry,exact_hist,Historical county match,14.753743922413609,True,True
+6093,II_11_2526,93.859649122807,Henrico,Goochland,exact_hist,Historical county match,25.021250782464985,True,True
+10794,II_14_4685,93.82022471910112,Surry,Surry,exact_hist,Historical county match,49.94857280263328,True,False
+6768,II_14_5259,93.80165289256198,Hanover,Hanover,exact_hist,Historical county match,2.8861300289554066,True,True
+6765,II_14_5226,93.78378378378378,Hanover,Louisa,exact_hist,Historical county match,9.02939625294881,True,True
+6649,II_11_2479,93.75,Hanover,Hanover,exact_hist,Historical county match,43.08772774314197,True,False
+6647,II_11_2484,93.75,Hanover,Hanover,exact_hist,Historical county match,2.101899702481281,True,True
+6675,II_12_2763,93.75,Hanover,Hanover,exact_hist,Historical county match,5.881555262230961,True,True
+6677,II_12_2766,93.75,Hanover,Hanover,exact_hist,Historical county match,1.5255131626123417,True,True
+6678,II_12_2776,93.75,Hanover,Hanover,exact_hist,Historical county match,2.3117819332098906,True,True
+5375,II_12_3195,93.75,Henrico,Fluvanna,exact_hist,Historical county match,3.885827504566748,True,True
+6709,II_12_3340,93.75,Hanover,Hanover,exact_hist,Historical county match,44.8630898637164,True,False
+8891,II_13_4266,93.75,Spotsylvania,Orange,exact_hist,Historical county match,0.2760209054116299,True,True
+6216,II_13_4541,93.75,Hanover,Louisa,exact_hist,Historical county match,2.0390537592136044,True,True
+9677,II_12_3450,93.66197183098592,Isle Of Wight,Southampton,exact_hist,Historical county match,1.541386510097211,True,True
+4952,II_9_958,93.65079365079364,Henrico,Chesterfield,exact_hist,Historical county match,103.58411199838378,True,False
+6628,II_11_2481,93.61702127659576,Hanover,Hanover,exact_hist,Historical county match,2.3966015370539444,True,True
+4993,II_10_1718,93.5897435897436,Henrico,Powhatan,exact_hist,Historical county match,47.66907661630082,True,False
+6740,II_13_4517,93.56435643564356,Hanover,Hanover,exact_hist,Historical county match,12.519891447663312,True,True
+7384,II_11_2670,93.5483870967742,Hanover,Louisa,exact_hist,Historical county match,23.10554513488056,True,True
+10429,II_14_4865,93.5483870967742,Spotsylvania,Spotsylvania,exact_hist,Historical county match,6.92663814627108,True,True
+7352,II_12_2861,93.52941176470588,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,3.2492020421591263,True,True
+6605,II_11_2350,93.50904799370576,Hanover,Hanover,exact_hist,Historical county match,0.126078776820492,True,True
+6644,II_11_2490,93.47826086956522,Hanover,Hanover,exact_hist,Historical county match,7.542216084443411,True,True
+11032,II_11_2649,93.47826086956522,Surry,Sussex,exact_hist,Historical county match,43.20497099291477,True,False
+6117,II_12_3261,93.47826086956522,Henrico,Goochland,exact_hist,Historical county match,1.9160518818716523,True,True
+11133,II_13_3865,93.47826086956522,Surry,Sussex,exact_hist,Historical county match,4.093917527660939,True,True
+6983,II_14_5195,93.47826086956522,Henrico,Henrico,exact_hist,Historical county match,53.80610424237437,True,False
+7409,II_13_3642,93.43434343434345,Hanover,Louisa,exact_hist,Historical county match,0.3470524018552225,True,True
+6924,II_9_808,93.42105263157896,Henrico,Henrico,exact_hist,Historical county match,8.663893525214242,True,True
+6547,II_10_1641,93.39622641509432,New Kent,Hanover,exact_hist,Historical county match,28.01766693988769,True,True
+6736,II_13_4516,93.39622641509432,Hanover,Hanover,exact_hist,Historical county match,6.293779496542286,True,True
+7386,II_11_2477,93.38709677419357,Hanover,Louisa,exact_hist,Historical county match,9.118835802005592,True,True
+10918,II_10_1107,93.3734939759036,Surry,Sussex,exact_hist,Historical county match,6.521909061539143,True,True
+11071,II_12_2898,93.3734939759036,Surry,Sussex,exact_hist,Historical county match,0.8862569047611947,True,True
+9435,II_9_452,93.33333333333334,,Southampton,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),47.46159726661849,True,False
+9616,II_11_2558,93.33333333333334,Isle Of Wight,Southampton,exact_hist,Historical county match,2.458835827804726,True,True
+7406,II_12_3281,93.33333333333334,Hanover,Louisa,exact_hist,Historical county match,4.433386141309128,True,True
+10342,II_12_3343,93.33333333333334,,Caroline,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),1.0227777959935338,True,True
+7405,II_12_3635,93.33333333333334,Hanover,Louisa,exact_hist,Historical county match,2.8491815971452894,True,True
+7545,II_14_5148,93.33333333333334,Hanover,Louisa,exact_hist,Historical county match,6.141223679142499,True,True
+11007,II_11_2404,93.28358208955224,Surry,Sussex,exact_hist,Historical county match,3.620011057005783,True,True
+11149,II_13_4025,93.26241134751773,Surry,Sussex,exact_hist,Historical county match,2.5361363406791173,True,True
+6137,II_12_3101,93.24324324324324,Henrico,Goochland,exact_hist,Historical county match,12.538358978343595,True,True
+6169,II_13_4007,93.24324324324324,Henrico,Goochland,exact_hist,Historical county match,4.16682511423447,True,True
+10265,II_9_902,93.20987654320987,King & Queen,Caroline,adjacent_modern,Centroid in adjacent county (modern),0.795775103751435,False,True
+9615,II_11_2546,93.20987654320987,Isle Of Wight,Southampton,exact_hist,Historical county match,0.3812775213823632,True,True
+11000,II_10_1993,93.1818181818182,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),21.550688470235517,True,True
+7397,II_12_2951,93.1818181818182,Hanover,Louisa,exact_hist,Historical county match,40.34360742961466,True,False
+11049,II_11_2587,93.10344827586206,Surry,Sussex,exact_hist,Historical county match,2.3806423426804355,True,True
+14,II_14_4771,93.02325581395348,Goochland,Nelson,exact_hist,Historical county match,22.30993205655446,True,True
+11108,II_12_3474,92.96875,Surry,Sussex,exact_hist,Historical county match,9.594016766009611,True,True
+6623,II_11_2674,92.91871921182266,Hanover,Hanover,exact_hist,Historical county match,13.892467725317957,True,True
+9502,II_10_1102,92.85714285714286,Isle Of Wight,Southampton,exact_hist,Historical county match,2.610803570109488,True,True
+10978,II_10_1780,92.85714285714286,Surry,Sussex,exact_hist,Historical county match,1.7764392217406615,True,True
+5005,II_10_1835,92.85714285714286,Henrico,Chesterfield,exact_hist,Historical county match,75.35650893163456,True,False
+10996,II_10_1911,92.85714285714286,Surry,Sussex,exact_hist,Historical county match,1.4542454780484926,True,True
+6654,II_12_2948,92.85714285714286,Hanover,Hanover,exact_hist,Historical county match,0.0662156734462797,True,True
+5059,II_12_3318,92.85714285714286,Henrico,Chesterfield,exact_hist,Historical county match,0.6938101883921632,True,True
+6707,II_12_3487,92.85714285714286,Hanover,Hanover,exact_hist,Historical county match,19.259813779590417,True,True
+6143,II_13_3647,92.85714285714286,Henrico,Goochland,exact_hist,Historical county match,1.6072893845523148,True,True
+5121,II_13_4556,92.85714285714286,Henrico,Chesterfield,exact_hist,Historical county match,2.154697362123372,True,True
+5122,II_13_4608,92.85714285714286,Henrico,Chesterfield,exact_hist,Historical county match,427.0569153797247,True,False
+7533,II_14_5038,92.85714285714286,Hanover,Louisa,exact_hist,Historical county match,2.80430689826062,True,True
+7414,II_12_3490,92.74809160305344,Hanover,Louisa,exact_hist,Historical county match,8.303508696902298,True,True
+7561,II_14_5351,92.73504273504273,Hanover,Louisa,exact_hist,Historical county match,0.7519280081997977,True,True
+11038,II_11_2586,92.71844660194176,Surry,Sussex,exact_hist,Historical county match,0.655861414293801,True,True
+11104,II_12_3473,92.69662921348316,Surry,Sussex,exact_hist,Historical county match,74.01174081813876,True,False
+7539,II_14_5047,92.6829268292683,Hanover,Louisa,exact_hist,Historical county match,1.3712423178897808,True,True
+25,II_14_5219,92.6829268292683,Goochland,Albemarle,exact_hist,Historical county match,11.825556503489183,True,True
+6591,II_11_2073,92.66666666666666,New Kent,Hanover,exact_hist,Historical county match,5.937852802994087,True,True
+9200,II_9_672,92.64705882352942,Charles City,Prince George,adjacent_modern,Centroid in adjacent county (modern),11.534027842112964,False,True
+10995,II_10_1908,92.62295081967213,Surry,Sussex,exact_hist,Historical county match,3.956685840609686,True,True
+10406,II_13_4178,92.62295081967213,Spotsylvania,Orange,exact_hist,Historical county match,10.738709683821298,True,True
+6712,II_12_3232,92.5925925925926,Hanover,Hanover,exact_hist,Historical county match,0.0698849972119811,True,True
+6688,II_12_3264,92.5925925925926,Hanover,Louisa,exact_hist,Historical county match,1.4863713631550013,True,True
+7429,II_12_3112,92.57425742574256,Hanover,Louisa,exact_hist,Historical county match,0.0677819831551687,True,True
+10433,II_13_4427,92.53731343283582,Spotsylvania,Spotsylvania,exact_hist,Historical county match,2.10166458645834,True,True
+10312,II_11_2117,92.52873563218392,King William,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),0.4003813884294004,True,True
+10278,II_10_1270,92.5,,Caroline,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),23.344866274926225,True,True
+11085,II_12_2897,92.5,Surry,Sussex,exact_hist,Historical county match,1.124198134320617,True,True
+11162,II_13_4376,92.5,Surry,Sussex,exact_hist,Historical county match,0.8041438182445404,True,True
+39,II_14_5249,92.5,Hanover,Albemarle,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),11.360659384727398,True,True
+6105,II_12_2935,92.42424242424242,Henrico,Goochland,exact_hist,Historical county match,2.007820271006286,True,True
+9702,II_13_3848,92.42424242424242,Isle Of Wight,Southampton,exact_hist,Historical county match,25.51225000686684,True,True
+6176,II_13_4238,92.42424242424242,Henrico,Goochland,exact_hist,Historical county match,4.0677267859134325,True,True
+9448,II_9_681,92.3913043478261,Isle Of Wight,Southampton,exact_hist,Historical county match,28.841745042667903,True,True
+10737,II_9_368,92.3728813559322,Surry,Southampton,adjacent_modern,Centroid in adjacent county (modern),1243.9001006525698,False,False
+7543,II_14_5146,92.3728813559322,Hanover,Louisa,exact_hist,Historical county match,0.7832081193432449,True,True
+9583,II_10_1838,92.35294117647058,Isle Of Wight,Southampton,exact_hist,Historical county match,0.6430110263580847,True,True
+9439,II_9_539,92.3076923076923,,Southampton,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),1.74720690926452,True,True
+6759,II_14_5032,92.3076923076923,Hanover,Hanover,exact_hist,Historical county match,0.0032282515450309,True,True
+6711,II_12_3117,92.28571428571428,,Hanover,boundary_tol,≤50.0 m outside hist polygon (HANOVER),12.943395565109242,True,True
+6242,II_14_5297,92.22222222222224,Goochland,Goochland,exact_hist,Historical county match,0.4597734580763273,True,True
+11082,II_12_2879,92.16867469879516,Surry,Sussex,exact_hist,Historical county match,29.169905938048537,True,True
+6741,II_13_4514,92.16867469879516,Hanover,Hanover,exact_hist,Historical county match,0.6100923252218801,True,True
+9,II_11_2695,92.15686274509804,Henrico,Albemarle,mismatch,Hist=None; modern=Albemarle; stated=Henrico,23.45473600665381,False,True
+9260,II_13_3720,92.15686274509804,Prince George,Prince George,exact_hist,Historical county match,1.3100364931780268,True,True
+10989,II_10_1868,92.10526315789474,Surry,Sussex,exact_hist,Historical county match,3.668648952408129,True,True
+9612,II_11_2536,92.10526315789474,Isle Of Wight,Southampton,exact_hist,Historical county match,2.441965184023407,True,True
+36,II_14_5231,92.10526315789474,Goochland,Albemarle,exact_hist,Historical county match,6.991327017772249,True,True
+7547,II_14_5298,92.10526315789474,Hanover,Louisa,exact_hist,Historical county match,8.55525180995933,True,True
+11092,II_12_2918,92.06896551724138,Surry,Greensville,exact_hist,Historical county match,0.0249368538299572,True,True
+7426,II_12_3110,92.04545454545456,Hanover,Louisa,exact_hist,Historical county match,0.6151943479066063,True,True
+9572,II_10_1752,92.02898550724638,Isle Of Wight,Southampton,exact_hist,Historical county match,7.558071925368267,True,True
+6958,II_12_3372,92.02898550724638,Henrico,Henrico,exact_hist,Historical county match,4.053321607431698,True,True
+10875,II_9_468,92.0,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),11.859788132161247,True,True
+6412,II_11_2314,92.0,Hanover,Hanover,exact_hist,Historical county match,27.50878109387884,True,True
+10890,II_9_535,91.97530864197532,Charles City,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),79.68775364035552,True,False
+9684,II_12_3433,91.97530864197532,Isle Of Wight,Southampton,exact_hist,Historical county match,0.8055262931788258,True,True
+6749,II_13_4387,91.97530864197532,Hanover,Hanover,exact_hist,Historical county match,0.1980772296116523,True,True
+6212,II_13_4559,91.93341869398208,Goochland,Goochland,exact_hist,Historical county match,36.97204667358824,True,False
+6506,II_9_564,91.89944134078212,New Kent,Hanover,exact_hist,Historical county match,17.705893188383058,True,True
+40,II_14_5283,91.89189189189187,Goochland,Albemarle,exact_hist,Historical county match,21.74002077569807,True,True
+11081,II_12_2899,91.88034188034187,Surry,Sussex,exact_hist,Historical county match,1.6301067296063825,True,True
+9631,II_12_3083,91.86046511627907,Isle Of Wight,Southampton,exact_hist,Historical county match,1.0327539383558817,True,True
+6606,II_11_2357,91.83673469387756,Hanover,Hanover,exact_hist,Historical county match,0.6624384349807428,True,True
+7441,II_13_3988,91.77215189873418,Hanover,Louisa,exact_hist,Historical county match,0.0059661597329522,True,True
+9718,II_13_4144,91.77215189873418,Isle Of Wight,Southampton,exact_hist,Historical county match,14.96286595743078,True,True
+4984,II_10_1522,91.76788124156543,Henrico,Chesterfield,exact_hist,Historical county match,2.503936223345,True,True
+11150,II_13_4049,91.7391304347826,Surry,Sussex,exact_hist,Historical county match,0.2220733490164385,True,True
+4929,II_9_600,91.66666666666666,Henrico,Chesterfield,exact_hist,Historical county match,101.95727374891216,True,False
+6593,II_11_2180,91.66666666666666,Hanover,Hanover,exact_modern,Centroid in stated county (modern),3.077631972670521,False,True
+6594,II_11_2182,91.66666666666666,Hanover,Hanover,exact_modern,Centroid in stated county (modern),4.67612754505694,False,True
+10333,II_11_2627,91.66666666666666,Spotsylvania,Caroline,adjacent_modern,Centroid in adjacent county (modern),0.3566407769036481,False,True
+9635,II_12_3030,91.66666666666666,Isle Of Wight,Southampton,exact_hist,Historical county match,34.91444537426111,True,False
+9669,II_12_3429,91.66666666666666,Isle Of Wight,Southampton,exact_hist,Historical county match,0.9250588749933836,True,True
+9672,II_12_3447,91.66666666666666,Isle Of Wight,Southampton,exact_hist,Historical county match,6.013605663708701,True,True
+6689,II_13_3636,91.66666666666666,Hanover,Hanover,exact_hist,Historical county match,2.0062053530770925,True,True
+7479,II_13_4389,91.66666666666666,Hanover,Louisa,exact_hist,Historical county match,3.397771651347347,True,True
+11171,II_14_4890,91.66666666666666,Surry,Sussex,exact_hist,Historical county match,13.149721379252885,True,True
+6237,II_14_5276,91.66666666666666,Goochland,Goochland,exact_hist,Historical county match,3.7990226702005288,True,True
+5401,II_14_5295,91.66666666666666,Goochland,Fluvanna,exact_hist,Historical county match,1.2281129209626729,True,True
+9265,II_13_4628,91.6243654822335,Prince George,Prince George,exact_hist,Historical county match,0.7358246060275064,True,True
+4961,II_9_1080,91.54761904761904,Henrico,Chesterfield,exact_hist,Historical county match,95.7398608182596,True,False
+6554,II_10_1836,91.53846153846156,Henrico,Goochland,exact_hist,Historical county match,16.339013890658087,True,True
+11029,II_11_2334,91.53846153846156,,Dinwiddie,boundary_tol,≤50.0 m outside hist polygon (PRINCE GEORGE),3.655378024085565,True,True
+6180,II_13_4162,91.53846153846156,Goochland,Goochland,near_split,Near-split HENRICO ⇄ Goochland (±2 yr),17.568820443384105,True,True
+6046,II_10_1359,91.47474747474747,Henrico,Goochland,exact_hist,Historical county match,38.67351442502847,True,False
+10744,II_9_718,91.46341463414636,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),183.03879667725255,True,False
+6071,II_11_2116,91.46341463414636,Henrico,Goochland,exact_hist,Historical county match,1.0592310611591955,True,True
+9681,II_12_3425,91.46341463414636,Isle Of Wight,Southampton,exact_hist,Historical county match,2.6670266180544218,True,True
+6721,II_13_3984,91.44144144144144,Hanover,Louisa,exact_hist,Historical county match,6.892482198394627,True,True
+10990,II_10_1867,91.42857142857144,Surry,Sussex,exact_hist,Historical county match,66.05431292439175,True,False
+6232,II_14_5158,91.3793103448276,Goochland,Goochland,exact_hist,Historical county match,4.1126366007926745,True,True
+6723,II_13_3798,91.34099616858236,Hanover,Hanover,exact_hist,Historical county match,10.779086667395504,True,True
+6672,II_12_2751,91.30434782608695,Hanover,Hanover,exact_hist,Historical county match,11.3307027341143,True,True
+6658,II_12_2956,91.30434782608695,Hanover,Hanover,exact_hist,Historical county match,9.85613403527703,True,True
+7436,II_12_3116,91.30434782608695,Hanover,Louisa,exact_hist,Historical county match,0.8954600832848739,True,True
+7504,II_14_5222,91.30434782608695,Hanover,Louisa,exact_hist,Historical county match,12.629566836062736,True,True
+7516,II_14_5056,91.28440366972475,Hanover,Louisa,exact_hist,Historical county match,5.919388472795953,True,True
+6945,II_11_2528,91.26984126984128,Henrico,Henrico,exact_hist,Historical county match,4.702842564927892,True,True
+11192,II_14_5413,91.26984126984128,Surry,Sussex,exact_hist,Historical county match,2.887317420933576,True,True
+9712,II_13_4036,91.25,Isle Of Wight,,mismatch,Hist=None; modern=nan; stated=Isle of Wight,7.082781690077468,False,True
+9730,II_13_4609,91.25,Isle Of Wight,Southampton,exact_hist,Historical county match,4.0587155873893925,True,True
+6512,II_9_903,91.23711340206184,New Kent,Hanover,exact_hist,Historical county match,58.374392896346464,True,False
+6221,II_14_4970,91.22222222222224,Goochland,Goochland,exact_hist,Historical county match,19.26390342019674,True,True
+6084,II_11_2211,91.20553359683794,Henrico,Goochland,exact_hist,Historical county match,7.8981189768858675,True,True
+5124,II_14_5094,91.20553359683794,Goochland,Chesterfield,adjacent_modern,Centroid in adjacent county (modern),646.4502203137238,False,False
+9505,II_10_1130,91.17647058823528,Isle Of Wight,Southampton,exact_hist,Historical county match,0.8247547481217748,True,True
+9212,II_10_1217,91.17647058823528,Prince George,Prince George,exact_hist,Historical county match,16.378340275834045,True,True
+10286,II_10_1628,91.17647058823528,,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),3.3850431243929413,True,True
+10991,II_10_1866,91.17647058823528,Surry,Sussex,exact_hist,Historical county match,24.197066664204133,True,True
+6774,II_14_5366,91.17647058823528,Hanover,Hanover,exact_hist,Historical county match,12.666307341986183,True,True
+6562,II_11_2042,91.1214953271028,New Kent,Hanover,exact_hist,Historical county match,9.819353455220355,True,True
+10314,II_11_2172,91.1214953271028,,Caroline,boundary_tol,≤50.0 m outside hist polygon (ESSEX),1.0321878400066025,True,True
+9571,II_10_1580,91.0958904109589,Isle Of Wight,Southampton,exact_hist,Historical county match,2.2005695547968416,True,True
+10301,II_11_2055,91.0958904109589,King & Queen,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),62.138403545426414,True,False
+10791,II_12_3396,91.0958904109589,Surry,Surry,exact_hist,Historical county match,80.07199007604186,True,False
+9738,II_14_4956,91.0958904109589,Isle Of Wight,Southampton,exact_hist,Historical county match,8.090537015242049,True,True
+6564,II_11_2040,91.08527131782948,New Kent,Hanover,exact_hist,Historical county match,0.504451443755346,True,True
+6957,II_12_3253,91.07142857142858,Henrico,Henrico,exact_hist,Historical county match,12.40382021882302,True,True
+5390,II_14_4761,91.07142857142856,Goochland,Fluvanna,exact_hist,Historical county match,3.294730084973992,True,True
+9576,II_10_1673,91.05263157894736,Nansemond,Southampton,boundary_tol,≤50.0 m outside hist polygon (NANSEMOND (ext)),44.346438514842674,True,False
+9562,II_10_1400,91.02564102564102,Isle Of Wight,Southampton,exact_hist,Historical county match,0.6080214450903156,True,True
+9550,II_10_1406,91.02564102564102,Isle Of Wight,,mismatch,Hist=None; modern=nan; stated=Isle of Wight,8.672698343546891,False,True
+6056,II_10_1659,91.02564102564102,Henrico,Goochland,exact_hist,Historical county match,11.249552882636166,True,True
+7381,II_11_2354,91.02564102564102,Hanover,Louisa,exact_hist,Historical county match,0.2244346828366588,True,True
+9621,II_11_2540,91.02564102564102,Isle Of Wight,Southampton,exact_hist,Historical county match,2.660096724162074,True,True
+11035,II_11_2652,91.02564102564102,Surry,Sussex,exact_hist,Historical county match,20.012650385847326,True,True
+9648,II_12_3073,91.02564102564102,Isle Of Wight,Southampton,exact_hist,Historical county match,15.431110376773589,True,True
+9667,II_12_3256,91.02564102564102,Isle Of Wight,,mismatch,Hist=None; modern=nan; stated=Isle of Wight,10.97293848430614,False,True
+6172,II_13_3902,91.02564102564102,Henrico,Fluvanna,exact_hist,Historical county match,11.030346444519484,True,True
+10430,II_13_4240,91.02564102564102,Spotsylvania,Spotsylvania,exact_hist,Historical county match,8.009465022090701,True,True
+9721,II_13_4316,91.02564102564102,Isle Of Wight,Southampton,exact_hist,Historical county match,1.730840950577145,True,True
+6112,II_12_2749,90.98360655737704,,Goochland,boundary_tol,≤50.0 m outside hist polygon (HENRICO),2.764311336894508,True,True
+7420,II_12_3273,90.98360655737704,Hanover,Louisa,exact_hist,Historical county match,3.102548208980892,True,True
+6566,II_11_2043,90.96385542168674,New Kent,Hanover,exact_hist,Historical county match,18.057328408565738,True,True
+10927,II_10_1132,90.9090909090909,Surry,Sussex,exact_hist,Historical county match,65.05085567552183,True,False
+7400,II_12_2755,90.9090909090909,Hanover,Louisa,exact_hist,Historical county match,3.921163832335608,True,True
+8853,II_12_3535,90.9090909090909,Spotsylvania,Orange,exact_hist,Historical county match,12.64977507070524,True,True
+9428,II_9_464,90.85714285714286,Charles City,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),6.507447665569723,True,True
+6207,II_13_4658,90.8466819221968,Goochland,Goochland,exact_hist,Historical county match,4.321115485638911,True,True
+7470,II_13_4515,90.84507042253522,Hanover,Louisa,exact_hist,Historical county match,2.4045487988754104,True,True
+9732,II_13_4615,90.84507042253522,Isle Of Wight,Southampton,exact_hist,Historical county match,27.374170433429345,True,True
+9744,II_14_5025,90.84507042253522,Isle Of Wight,Southampton,exact_hist,Historical county match,1.4346411592285715,True,True
+9750,II_14_5228,90.84507042253522,Isle Of Wight,Southampton,exact_hist,Historical county match,0.0025907933649753,True,True
+6746,II_13_4393,90.77480490523968,Hanover,Hanover,exact_hist,Historical county match,7.481465359456423,True,True
+6128,II_12_3350,90.75324675324676,Henrico,Goochland,exact_hist,Historical county match,6.331572943991574,True,True
+9444,II_9_639,90.74074074074072,Isle Of Wight,Franklin,exact_hist,Historical county match,4.37813768815651,True,True
+9445,II_9_640,90.74074074074072,Isle Of Wight,Southampton,exact_hist,Historical county match,36.26734351302795,True,False
+6541,II_10_1581,90.74074074074072,New Kent,Hanover,exact_hist,Historical county match,15.210299530189936,True,True
+6557,II_10_1879,90.74074074074072,New Kent,Hanover,exact_hist,Historical county match,10.149748554294604,True,True
+6118,II_12_3383,90.74074074074072,Henrico,Goochland,exact_hist,Historical county match,0.8810708532122788,True,True
+6726,II_13_3880,90.74074074074072,,Hanover,boundary_tol,≤50.0 m outside hist polygon (HANOVER),5.420444714676137,True,True
+6751,II_13_4543,90.74074074074072,Hanover,Hanover,exact_hist,Historical county match,8.90325518704727,True,True
+6753,II_14_4770,90.74074074074072,New Kent,Hanover,adjacent_modern,Centroid in adjacent county (modern),7.155090560013575,False,True
+6206,II_14_4934,90.74074074074072,Goochland,Goochland,exact_hist,Historical county match,3.636734072154571,True,True
+11195,II_14_5408,90.74074074074072,Surry,Sussex,exact_hist,Historical county match,13.101109685999756,True,True
+6770,II_14_5263,90.7079646017699,Hanover,Goochland,adjacent_modern,Centroid in adjacent county (modern),2.0469862155071827,False,True
+9540,II_10_1395,90.69767441860463,Isle Of Wight,Southampton,exact_hist,Historical county match,0.6109363583499459,True,True
+5398,II_14_5244,90.67796610169492,Goochland,Fluvanna,exact_hist,Historical county match,1.9225330423061424,True,True
+6182,II_13_4282,90.66666666666666,Goochland,Goochland,exact_hist,Historical county match,0.5252259481203794,True,True
+6184,II_13_4340,90.66666666666666,Henrico,Goochland,near_split,Near-split GOOCHLAND ⇄ Henrico (±2 yr),3.823267105782392,True,True
+10341,II_12_2924,90.625,King William,Caroline,adjacent_modern,Centroid in adjacent county (modern),31.921241314767556,False,False
+7544,II_14_5160,90.625,Hanover,Louisa,exact_hist,Historical county match,17.392315809203808,True,True
+7560,II_14_5361,90.625,Hanover,Louisa,exact_hist,Historical county match,1.8652449308939083,True,True
+6977,II_14_5002,90.58441558441558,Henrico,Henrico,exact_hist,Historical county match,1.156551158355967,True,True
+6230,II_14_5164,90.57971014492752,Henrico,Goochland,adjacent_modern,Centroid in adjacent county (modern),5.227957061344327,False,True
+6201,II_13_4657,90.54945054945054,Goochland,Goochland,exact_hist,Historical county match,1.58653665890607,True,True
+10987,II_10_1598,90.54054054054056,Surry,Sussex,exact_hist,Historical county match,1.6200317370783357,True,True
+5009,II_10_1872,90.54054054054056,Henrico,Chesterfield,exact_hist,Historical county match,83.46251325638728,True,False
+10298,II_11_2034,90.54054054054056,King William,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),35.4621694969144,True,False
+10998,II_11_2051,90.54054054054056,Surry,Sussex,exact_hist,Historical county match,9.382075783298149,True,True
+6601,II_11_2187,90.54054054054056,Hanover,Hanover,exact_modern,Centroid in stated county (modern),0.2398532678384271,False,True
+5022,II_11_2642,90.54054054054056,Henrico,Chesterfield,exact_hist,Historical county match,15.832300674635706,True,True
+9661,II_12_2865,90.54054054054056,Isle Of Wight,Southampton,exact_hist,Historical county match,33.95055576711284,True,False
+9685,II_12_3470,90.54054054054056,Isle Of Wight,Southampton,exact_hist,Historical county match,37.570788828471485,True,False
+6699,II_13_3639,90.54054054054056,Hanover,Hanover,exact_hist,Historical county match,44.14668014932844,True,False
+9696,II_13_3692,90.54054054054056,Isle Of Wight,Southampton,exact_hist,Historical county match,1.4668350565272654,True,True
+9697,II_13_3709,90.54054054054056,Isle Of Wight,Southampton,exact_hist,Historical county match,29.25297667324048,True,True
+9704,II_13_3852,90.54054054054056,Isle Of Wight,Southampton,exact_hist,Historical county match,0.7262393600130679,True,True
+6732,II_13_3952,90.54054054054056,Hanover,Hanover,exact_hist,Historical county match,4.385816394153039,True,True
+11146,II_13_4060,90.54054054054056,Surry,Sussex,exact_hist,Historical county match,24.854910889755928,True,True
+7481,II_13_4381,90.54054054054056,Hanover,Louisa,exact_hist,Historical county match,17.75557830657202,True,True
+11160,II_13_4395,90.51724137931036,Surry,Sussex,exact_hist,Historical county match,11.504990729453098,True,True
+10932,II_10_1199,90.50632911392404,Surry,Sussex,exact_hist,Historical county match,2.183679045554256,True,True
+7383,II_11_2313,90.50632911392404,Hanover,Louisa,exact_hist,Historical county match,41.99406330445864,True,False
+9662,II_12_2874,90.50632911392404,Isle Of Wight,Southampton,exact_hist,Historical county match,22.594141851797914,True,True
+11090,II_12_2901,90.50632911392404,Surry,Sussex,exact_hist,Historical county match,1.698110396492359,True,True
+9726,II_13_4574,90.50632911392404,Isle Of Wight,Southampton,exact_hist,Historical county match,9.974780506108052,True,True
+5071,II_12_3222,90.47619047619048,Henrico,Chesterfield,exact_hist,Historical county match,43.22204315123279,True,False
+7474,II_13_4509,90.47619047619048,Hanover,Louisa,exact_hist,Historical county match,4.642022801886563,True,True
+6240,II_14_5291,90.44444444444444,Hanover,Goochland,adjacent_modern,Centroid in adjacent county (modern),7.536401575272063,False,True
+8908,II_14_4847,90.44117647058825,Spotsylvania,Orange,exact_hist,Historical county match,0.3793331536840464,True,True
+9650,II_12_2847,90.42792792792793,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,7.280137965012103,True,True
+10961,II_10_1461,90.4255319148936,Surry,Sussex,exact_hist,Historical county match,5.674929591409839,True,True
+11084,II_12_2883,90.4255319148936,Surry,Sussex,exact_hist,Historical county match,3.800640027796908,True,True
+6100,II_11_2622,90.3846153846154,Henrico,Goochland,exact_hist,Historical county match,0.0722192364020486,True,True
+7556,II_14_5346,90.3846153846154,Hanover,Louisa,exact_hist,Historical county match,0.7661134873739996,True,True
+5097,II_12_3203,90.35714285714286,Henrico,Chesterfield,exact_hist,Historical county match,87.50427199802994,True,False
+5102,II_12_3207,90.35714285714286,Henrico,Chesterfield,exact_hist,Historical county match,38.813434591168026,True,False
+6493,II_9_310,90.34998301053346,New Kent,Hanover,exact_hist,Historical county match,14.725411310231223,True,True
+11048,II_11_2581,90.32258064516128,Surry,Sussex,exact_hist,Historical county match,1.4309481375963728,True,True
+9437,II_9_525,90.29850746268656,,Southampton,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),27.757469283521814,True,True
+9600,II_11_2378,90.29850746268656,Isle Of Wight,Southampton,exact_hist,Historical county match,9.483473138389002,True,True
+9629,II_12_3068,90.29850746268656,Isle Of Wight,Southampton,exact_hist,Historical county match,2.9225383198793904,True,True
+9557,II_10_1472,90.27777777777776,Isle Of Wight,Greensville,exact_hist,Historical county match,7.59104760208492,True,True
+11026,II_11_2311,90.27777777777776,Surry,Sussex,exact_hist,Historical county match,1.7018020306087531,True,True
+9623,II_11_2542,90.27777777777776,Isle Of Wight,Southampton,exact_hist,Historical county match,8.830455981287173,True,True
+9687,II_12_3469,90.27777777777776,Isle Of Wight,Southampton,exact_hist,Historical county match,0.6960044817869516,True,True
+9703,II_13_3849,90.27777777777776,Isle Of Wight,Southampton,exact_hist,Historical county match,5.677200089066753,True,True
+10800,II_14_5399,90.27777777777776,Surry,Sussex,exact_hist,Historical county match,74.20125635767053,True,False
+9442,II_9_581,90.25974025974024,Isle Of Wight,Southampton,exact_hist,Historical county match,49.56237517668904,True,False
+9441,II_9_605,90.25974025974024,Isle Of Wight,Southampton,exact_hist,Historical county match,9.458145629912735,True,True
+10942,II_10_1327,90.25974025974024,Surry,Sussex,exact_hist,Historical county match,0.1288777093181339,True,True
+11122,II_12_3158,90.25974025974024,Surry,Sussex,exact_hist,Historical county match,0.2010733302548268,True,True
+11153,II_13_4051,90.25974025974024,Surry,Sussex,exact_hist,Historical county match,2.844458685276228,True,True
+10276,II_10_1125,90.2439024390244,,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),8.797287543504607,True,True
+10797,II_14_4904,90.21739130434784,Surry,Surry,exact_hist,Historical county match,16.809665002988094,True,True
+6113,II_12_2745,90.01937984496124,Henrico,Goochland,exact_hist,Historical county match,3.772536850085345,True,True
+6199,II_14_4941,90.01937984496124,Goochland,Goochland,exact_hist,Historical county match,2.2863106762236924,True,True
+9559,II_10_1408,90.0,Isle Of Wight,Southampton,exact_hist,Historical county match,18.237578731769773,True,True
+10960,II_10_1426,90.0,Surry,Sussex,exact_hist,Historical county match,23.92617521797247,True,True
+6596,II_11_2179,90.0,Hanover,Hanover,exact_modern,Centroid in stated county (modern),0.2078619098951862,False,True
+9609,II_11_2539,90.0,Isle Of Wight,Southampton,exact_hist,Historical county match,12.072949961181346,True,True
+11063,II_11_2614,90.0,Surry,Sussex,exact_hist,Historical county match,0.0922182606153228,True,True
+10777,II_12_2969,90.0,Surry,Surry,exact_hist,Historical county match,74.65429827017542,True,False
+9636,II_12_3040,90.0,Isle Of Wight,Southampton,exact_hist,Historical county match,22.660043820076453,True,True
+9642,II_12_3060,90.0,Isle Of Wight,Southampton,exact_hist,Historical county match,5.052560897110349,True,True
+5376,II_12_3100,90.0,Henrico,Fluvanna,exact_hist,Historical county match,17.290180730225856,True,True
+10356,II_12_3529,90.0,Spotsylvania,Spotsylvania,exact_hist,Historical county match,3.196125430642444,True,True
+6719,II_13_3660,90.0,Hanover,Hanover,exact_hist,Historical county match,2.38878461829286,True,True
+6149,II_13_3774,90.0,Henrico,Goochland,exact_hist,Historical county match,11.4666958912298,True,True
+9708,II_13_4027,90.0,Isle Of Wight,Southampton,exact_hist,Historical county match,1.0301364669826365,True,True
+9709,II_13_4030,90.0,Isle Of Wight,Southampton,exact_hist,Historical county match,3.7928949035577126,True,True
+6733,II_13_4513,90.0,Hanover,Hanover,exact_hist,Historical county match,0.3862898416949628,True,True
+9727,II_13_4573,90.0,Isle Of Wight,Southampton,exact_hist,Historical county match,9.156771260400074,True,True
+9262,II_14_4687,90.0,Prince George,Prince George,exact_hist,Historical county match,3.2532706200843364,True,True
+8905,II_14_4796,90.0,Spotsylvania,Orange,exact_hist,Historical county match,8.371634076984083,True,True
+5393,II_14_4983,90.0,Goochland,Fluvanna,exact_hist,Historical county match,24.60744036492399,True,True
+7525,II_14_5039,90.0,Hanover,Louisa,exact_hist,Historical county match,0.3916562301868396,True,True
+7541,II_14_5059,90.0,Hanover,Louisa,exact_hist,Historical county match,0.6477506307624026,True,True
+5127,II_14_5163,90.0,Henrico,Chesterfield,exact_hist,Historical county match,14.489201895704316,True,True
+7563,II_14_5364,90.0,Hanover,Louisa,exact_hist,Historical county match,2.4238207290956155,True,True
+9224,II_11_2107,89.89071038251366,Prince George,Prince George,exact_hist,Historical county match,17.444161985452812,True,True
+6055,II_10_1645,89.85507246376812,Henrico,Goochland,exact_hist,Historical county match,6.741231089788803,True,True
+6136,II_12_3182,89.85507246376812,Henrico,Goochland,exact_hist,Historical county match,4.603016504242987,True,True
+6735,II_13_4152,89.82300884955752,Hanover,Hanover,exact_hist,Historical county match,0.3579687182821232,True,True
+5392,II_14_5090,89.82300884955752,Goochland,Fluvanna,exact_hist,Historical county match,19.229066194983066,True,True
+6035,II_10_1259,89.80392156862746,Henrico,Goochland,exact_hist,Historical county match,15.72028762902812,True,True
+9527,II_10_1141,89.79591836734694,Isle Of Wight,Southampton,exact_hist,Historical county match,65.41372083370469,True,False
+6626,II_11_2671,89.79591836734694,Hanover,Hanover,exact_hist,Historical county match,0.9298006653459224,True,True
+7388,II_12_2944,89.79591836734694,Hanover,Louisa,exact_hist,Historical county match,12.83333869573461,True,True
+10994,II_10_1863,89.77272727272728,Surry,Sussex,exact_hist,Historical county match,1.8340708552895084,True,True
+9679,II_12_3467,89.77272727272728,Isle Of Wight,Southampton,exact_hist,Historical county match,5.651878088242517,True,True
+11142,II_13_4059,89.77272727272728,Surry,Sussex,exact_hist,Historical county match,0.0134702008729822,True,True
+31,II_14_5202,89.75903614457832,Hanover,Albemarle,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),3.552664473223402,True,True
+11206,II_14_5446,89.75903614457832,Surry,Sussex,exact_hist,Historical county match,3.1321545644424056,True,True
+6622,II_11_2675,89.74358974358975,Hanover,Hanover,exact_hist,Historical county match,5.343811143130528,True,True
+9263,II_13_4315,89.74358974358975,Prince George,Prince George,exact_hist,Historical county match,4.904468340804121,True,True
+10921,II_10_1157,89.65517241379311,Surry,Sussex,exact_hist,Historical county match,126.41883321167404,True,False
+9659,II_12_2868,89.65517241379311,Isle Of Wight,Southampton,exact_hist,Historical county match,11.02476646554796,True,True
+6922,II_9_809,89.6057347670251,Henrico,Henrico,exact_hist,Historical county match,20.580955487112348,True,True
+6047,II_10_1345,89.58333333333334,Henrico,Goochland,exact_hist,Historical county match,0.8813490086043145,True,True
+9591,II_10_1961,89.58333333333334,Isle Of Wight,Southampton,exact_hist,Historical county match,4.838828609653191,True,True
+7433,II_12_3095,89.58333333333334,Hanover,Louisa,exact_hist,Historical county match,2.575934026740456,True,True
+10893,II_9_532,89.53488372093022,Charles City,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),31.2651123684734,True,False
+10922,II_10_1202,89.47368421052632,Surry,Sussex,exact_hist,Historical county match,13.296272639786858,True,True
+10967,II_10_1553,89.47368421052632,Surry,Sussex,exact_hist,Historical county match,7.337695087389562,True,True
+9254,II_12_3160,89.47368421052632,Prince George,Prince George,exact_hist,Historical county match,1.740548556849055,True,True
+7472,II_13_4431,89.47368421052632,Hanover,Louisa,exact_hist,Historical county match,0.2581738807916025,True,True
+7499,II_14_4922,89.47368421052632,Goochland,Goochland,exact_hist,Historical county match,0.4188478990799637,True,True
+6161,II_13_3769,89.45578231292517,Henrico,Goochland,exact_hist,Historical county match,0.4497151886053387,True,True
+6608,II_11_2359,89.43661971830986,Hanover,Hanover,exact_hist,Historical county match,7.080716553404538,True,True
+6632,II_11_2472,89.43661971830986,Hanover,Hanover,exact_hist,Historical county match,0.2972547831373475,True,True
+8852,II_12_3534,89.43661971830986,Spotsylvania,Orange,exact_hist,Historical county match,0.0526361165481424,True,True
+11152,II_13_4055,89.43661971830986,Surry,Sussex,exact_hist,Historical county match,0.916159426910382,True,True
+4958,II_9_1013,89.39708939708939,Henrico,Powhatan,exact_hist,Historical county match,138.56570879290246,True,False
+9443,II_9_632,89.39393939393939,Isle Of Wight,Franklin,exact_hist,Historical county match,1.1601307373382987,True,True
+10268,II_9_1005,89.39393939393939,Essex,Caroline,exact_hist,Historical county match,5.428908722698454,True,True
+10358,II_12_3538,89.39393939393939,Spotsylvania,Spotsylvania,exact_hist,Historical county match,23.112719493274128,True,True
+11,II_13_3811,89.39393939393939,Hanover,Albemarle,exact_hist,Historical county match,16.51951303669039,True,True
+6223,II_14_5084,89.3569844789357,,Goochland,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),2.239426373521013,True,True
+6713,II_12_3092,89.31623931623932,Hanover,Hanover,exact_hist,Historical county match,6.682589518596458,True,True
+6966,II_12_3181,89.27507447864946,Henrico,Henrico,exact_hist,Historical county match,0.1614175008475589,True,True
+5129,II_14_5214,89.25729442970822,Henrico,Chesterfield,exact_hist,Historical county match,70.90274155128559,True,False
+6099,II_11_2529,89.24050632911393,Henrico,Goochland,exact_hist,Historical county match,1.9141420391566115,True,True
+6620,II_11_2672,89.24050632911393,Hanover,Hanover,exact_hist,Historical county match,20.75168791686953,True,True
+5073,II_12_3202,89.24050632911393,Henrico,Chesterfield,exact_hist,Historical county match,99.86076694295406,True,False
+7445,II_13_3807,89.24050632911393,Hanover,Louisa,exact_hist,Historical county match,8.81809836394109,True,True
+9758,II_14_5453,89.24050632911393,Isle Of Wight,Southampton,exact_hist,Historical county match,0.1849806316940856,True,True
+6954,II_12_2748,89.23809523809524,Henrico,Henrico,exact_hist,Historical county match,0.4916579111039709,True,True
+9728,II_13_4572,89.2156862745098,Isle Of Wight,Southampton,exact_hist,Historical county match,0.9648778161038812,True,True
+6603,II_11_2345,89.1891891891892,,Hanover,boundary_tol,≤50.0 m outside hist polygon (HANOVER),0.3827268622983553,True,True
+8879,II_13_4201,89.1891891891892,Spotsylvania,Orange,exact_hist,Historical county match,3.1775329781499524,True,True
+9580,II_10_1711,89.13043478260869,Isle Of Wight,Southampton,exact_hist,Historical county match,1.852217566313435,True,True
+11059,II_11_2569,89.13043478260869,Surry,Sussex,exact_hist,Historical county match,1.539690784310163,True,True
+11030,II_11_2579,89.13043478260869,Surry,Sussex,exact_hist,Historical county match,9.400965303263492,True,True
+11060,II_11_2580,89.13043478260869,Surry,Sussex,exact_hist,Historical county match,2.9840441046369603,True,True
+8845,II_12_3330,89.13043478260869,Spotsylvania,Orange,exact_hist,Historical county match,2.9752281919778167,True,True
+11135,II_13_3870,89.13043478260869,Surry,Sussex,exact_hist,Historical county match,26.37493613320032,True,True
+10992,II_10_1869,89.0625,Surry,Sussex,exact_hist,Historical county match,15.40421792136418,True,True
+6563,II_11_2045,89.0625,New Kent,Hanover,exact_hist,Historical county match,11.800216587192551,True,True
+5049,II_12_2732,89.0625,Henrico,Chesterfield,exact_hist,Historical county match,17.262970287216035,True,True
+11073,II_12_2873,89.0625,Surry,Sussex,exact_hist,Historical county match,4.031055043082821,True,True
+11145,II_13_4046,89.0625,Surry,Sussex,exact_hist,Historical county match,52.093556769993874,True,False
+9434,II_9_456,89.02439024390245,,Southampton,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),18.539027282979028,True,True
+5054,II_12_3353,89.01098901098901,Henrico,Chesterfield,exact_hist,Historical county match,120.94002853876157,True,False
+10337,II_11_2634,89.0,Spotsylvania,Spotsylvania,exact_hist,Historical county match,10.602802044262194,True,True
+6239,II_14_5280,88.99835796387521,Goochland,Goochland,exact_hist,Historical county match,5.783413271581523,True,True
+6178,II_13_4273,88.98305084745763,Goochland,Goochland,near_split,Near-split HENRICO ⇄ Goochland (±2 yr),33.18641709382118,True,False
+9545,II_10_1443,88.96103896103895,Isle Of Wight,Southampton,exact_hist,Historical county match,29.01766422198481,True,True
+11148,II_13_4047,88.94736842105263,Surry,Sussex,exact_hist,Historical county match,1.6192413469707505,True,True
+5103,II_12_3185,88.93280632411067,Henrico,Chesterfield,exact_hist,Historical county match,0.4668203170812858,True,True
+6985,II_14_5467,88.90374331550802,Henrico,Henrico,exact_hist,Historical county match,37.56797699729617,True,False
+6094,II_11_2438,88.88888888888889,Henrico,Goochland,exact_hist,Historical county match,18.966886329222167,True,True
+11062,II_11_2589,88.88888888888889,Surry,Sussex,exact_hist,Historical county match,0.7168615362431637,True,True
+11083,II_12_2878,88.88888888888889,Surry,Sussex,exact_hist,Historical county match,0.6871408237880559,True,True
+10782,II_12_3006,88.88888888888889,Surry,Surry,exact_hist,Historical county match,9.998236319852642,True,True
+9638,II_12_3042,88.88888888888889,Isle Of Wight,Southampton,exact_hist,Historical county match,9.558540605523936,True,True
+9639,II_12_3046,88.88888888888889,Isle Of Wight,Southampton,exact_hist,Historical county match,1.8671856977344528,True,True
+11127,II_13_3723,88.88888888888889,Surry,Sussex,exact_hist,Historical county match,1.634191058853512,True,True
+9713,II_13_4037,88.88888888888889,Isle Of Wight,Southampton,exact_hist,Historical county match,10.83758402026755,True,True
+7467,II_13_4508,88.88888888888889,Hanover,Louisa,exact_hist,Historical county match,0.2312325624029653,True,True
+7354,II_13_3658,88.83495145631068,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,0.0344897085501504,True,True
+9618,II_11_2552,88.82352941176471,Isle Of Wight,Southampton,exact_hist,Historical county match,24.174744914631678,True,True
+9585,II_10_2013,88.80597014925374,Isle Of Wight,Southampton,exact_hist,Historical county match,3.922384281026623,True,True
+9664,II_12_2854,88.80597014925374,Isle Of Wight,Southampton,exact_hist,Historical county match,17.816846681061794,True,True
+9658,II_12_2856,88.80597014925374,Isle Of Wight,Southampton,exact_hist,Historical county match,8.33081594301638,True,True
+6635,II_11_2471,88.77551020408163,Hanover,Hanover,exact_hist,Historical county match,4.110627549609138,True,True
+6984,II_14_5161,88.75103391232423,Henrico,Henrico,exact_hist,Historical county match,50.516665055384216,True,False
+10954,II_10_1473,88.75,Surry,Sussex,exact_hist,Historical county match,24.82392051837833,True,True
+4992,II_10_1716,88.75,Henrico,Chesterfield,exact_hist,Historical county match,69.97340792036341,True,False
+10297,II_11_2029,88.75,King William,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),54.00917230034984,True,False
+6610,II_11_2352,88.70967741935485,Hanover,Hanover,exact_hist,Historical county match,0.1161538452637387,True,True
+4926,II_9_381,88.69318181818181,Henrico,Chesterfield,exact_hist,Historical county match,309.2235128369063,True,False
+6192,II_13_4562,88.69047619047619,Goochland,Goochland,exact_hist,Historical county match,1.775284749128071,True,True
+9647,II_12_3028,88.66666666666666,Isle Of Wight,Southampton,exact_hist,Historical county match,5.004510259371623,True,True
+10369,II_12_3408,88.66666666666666,King William,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (SPOTSYLVANIA),0.205639928128979,True,True
+9759,II_14_5440,88.61386138613861,Isle Of Wight,Southampton,exact_hist,Historical county match,5.826112159903098,True,True
+10979,II_10_1781,88.59649122807018,Surry,Sussex,exact_hist,Historical county match,13.711524032824512,True,True
+11079,II_12_2891,88.59649122807018,Surry,Sussex,exact_hist,Historical county match,2.6734152521348817,True,True
+5001,II_10_1918,88.58329008822002,Henrico,Chesterfield,exact_hist,Historical county match,32.609428436684645,True,False
+10434,II_13_4460,88.57142857142857,Caroline,Caroline,exact_hist,Historical county match,7.375766067457061,True,True
+6935,II_10_1350,88.47826086956522,Henrico,Henrico,exact_hist,Historical county match,0.5891098131133958,True,True
+11006,II_11_2120,88.46153846153845,Surry,Sussex,exact_hist,Historical county match,2.7154585993316447,True,True
+7387,II_11_2500,88.46153846153845,New Kent,Louisa,boundary_tol,≤50.0 m outside hist polygon (HANOVER),0.0444669884830307,True,True
+6090,II_11_2699,88.46153846153845,Henrico,Goochland,exact_hist,Historical county match,1.594906717279272,True,True
+9700,II_13_3846,88.46153846153845,Isle Of Wight,Southampton,exact_hist,Historical county match,25.077296068786424,True,True
+6908,II_9_189,88.43085106382978,Henrico,Henrico,exact_hist,Historical county match,12.836522299726582,True,True
+6510,II_9_824,88.38383838383838,New Kent,Henrico,adjacent_modern,Centroid in adjacent county (modern),0.0352862965616824,False,True
+4953,II_9_980,88.37622005323868,Henrico,Chesterfield,exact_hist,Historical county match,1.3591281347768878,True,True
+10986,II_10_1612,88.37209302325581,Surry,Sussex,exact_hist,Historical county match,14.922279001885116,True,True
+10798,II_14_4905,88.35616438356165,Surry,Surry,exact_hist,Historical county match,20.40266366326209,True,True
+10438,II_14_5142,88.34586466165413,Spotsylvania,Spotsylvania,exact_hist,Historical county match,17.826960890430215,True,True
+6967,II_12_3193,88.33333333333334,Henrico,Henrico,exact_hist,Historical county match,5.027716400319923,True,True
+7546,II_14_5250,88.33333333333334,Hanover,Louisa,exact_hist,Historical county match,2.4649945791628904,True,True
+11191,II_14_5398,88.29787234042553,Surry,Sussex,exact_hist,Historical county match,41.183440161251625,True,False
+10885,II_9_534,88.23529411764706,Charles City,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),15.48612449103076,True,True
+9215,II_10_1590,88.23529411764706,Prince George,Prince George,exact_hist,Historical county match,2.003063515343932,True,True
+9234,II_11_2285,88.23529411764706,Prince George,Prince George,exact_hist,Historical county match,8.39901929355805,True,True
+9256,II_12_3168,88.23529411764706,Prince George,Prince George,exact_hist,Historical county match,13.625098247112952,True,True
+10347,II_12_3307,88.23529411764706,Spotsylvania,Caroline,adjacent_modern,Centroid in adjacent county (modern),17.525425381943776,False,True
+11205,II_14_5403,88.15789473684211,Surry,Sussex,exact_hist,Historical county match,4.905492465832424,True,True
+6152,II_13_3777,88.15384615384616,Henrico,Goochland,exact_hist,Historical county match,4.249386530902825,True,True
+6530,II_10_1263,88.0952380952381,New Kent,Hanover,exact_hist,Historical county match,0.7364330166400195,True,True
+6560,II_10_1876,88.0952380952381,New Kent,Hanover,exact_hist,Historical county match,27.7500447167095,True,True
+11019,II_11_2397,88.0952380952381,Surry,Sussex,exact_hist,Historical county match,2.362528148367551,True,True
+11058,II_11_2570,88.0952380952381,Surry,Sussex,exact_hist,Historical county match,6.681888893715453,True,True
+9660,II_12_2855,88.0952380952381,Isle Of Wight,Southampton,exact_hist,Historical county match,0.4876570891145051,True,True
+9655,II_12_2872,88.0952380952381,Isle Of Wight,Southampton,exact_hist,Historical county match,24.981386824716648,True,True
+8844,II_12_3326,88.0952380952381,Spotsylvania,Orange,exact_hist,Historical county match,1.854016269673895,True,True
+11109,II_12_3476,88.0952380952381,Surry,Sussex,exact_hist,Historical county match,2.4266724639872157,True,True
+9710,II_13_4031,88.0952380952381,Isle Of Wight,Southampton,exact_hist,Historical county match,4.130716167730862,True,True
+11198,II_14_5437,88.0952380952381,Surry,Sussex,exact_hist,Historical county match,2.989697200694904,True,True
+10398,II_14_4880,88.04347826086956,Spotsylvania,Spotsylvania,exact_hist,Historical county match,1.8073563259727168,True,True
+10375,II_13_3783,88.00904977375566,Spotsylvania,Spotsylvania,exact_hist,Historical county match,7.716264916372825,True,True
+11043,II_11_2584,88.0,Surry,Sussex,exact_hist,Historical county match,7.388084508289125,True,True
+9637,II_12_3041,88.0,Isle Of Wight,Southampton,exact_hist,Historical county match,11.680123037737252,True,True
+6214,II_13_4602,88.0,Goochland,Goochland,exact_hist,Historical county match,35.4134126028781,True,False
+9541,II_10_1433,87.9746835443038,Isle Of Wight,Southampton,exact_hist,Historical county match,16.680031582056248,True,True
+9657,II_12_2846,87.93103448275862,Isle Of Wight,Southampton,exact_hist,Historical county match,0.0244328075597763,True,True
+9652,II_12_2853,87.93103448275862,Isle Of Wight,Southampton,exact_hist,Historical county match,1.5207421277953808,True,True
+6215,II_14_4944,87.93103448275862,Goochland,Goochland,exact_hist,Historical county match,8.0288448650471,True,True
+9743,II_14_5100,87.93103448275862,Isle Of Wight,Southampton,exact_hist,Historical county match,4.389997438209653,True,True
+11188,II_14_5261,87.93103448275862,Surry,Sussex,exact_hist,Historical county match,2.008451445026128,True,True
+9622,II_11_2541,87.90322580645162,Isle Of Wight,Southampton,exact_hist,Historical county match,1.7495101692101116,True,True
+9561,II_10_1404,87.89473684210526,Isle Of Wight,Southampton,exact_hist,Historical county match,0.8995879151535556,True,True
+4920,II_9_216,87.87878787878788,Henrico,Chesterfield,exact_hist,Historical county match,63.18919496891739,True,False
+6555,II_10_1878,87.87878787878788,New Kent,Hanover,exact_hist,Historical county match,5.319620955976888,True,True
+6089,II_11_2701,87.87878787878788,Henrico,Henrico,exact_hist,Historical county match,1.1431504007742888,True,True
+4939,II_9_813,87.83783783783784,Henrico,Chesterfield,exact_hist,Historical county match,23.714191682951384,True,True
+10760,II_10_1098,87.83783783783784,Surry,Surry,exact_hist,Historical county match,35.194868173885375,True,False
+10959,II_10_1458,87.83783783783784,Surry,Sussex,exact_hist,Historical county match,5.76495654832946,True,True
+11175,II_14_4891,87.83783783783784,Surry,Sussex,exact_hist,Historical county match,4.84888026892266,True,True
+7526,II_14_5055,87.83783783783784,Hanover,Louisa,exact_hist,Historical county match,8.774153305422232,True,True
+6125,II_12_3356,87.78205833791965,Henrico,Goochland,exact_hist,Historical county match,6.296285775948631,True,True
+5060,II_12_3348,87.77777777777777,Henrico,Chesterfield,exact_hist,Historical county match,5.950100973522083,True,True
+4930,II_9_598,87.7432712215321,Henrico,Chesterfield,exact_hist,Historical county match,1.468020242528544,True,True
+4943,II_9_887,87.73584905660377,Henrico,Chesterfield,exact_hist,Historical county match,117.359963851869,True,False
+4983,II_10_1532,87.72727272727272,Henrico,Chesterfield,exact_hist,Historical county match,30.06391064669694,True,False
+7453,II_13_3887,87.70491803278688,Hanover,Louisa,exact_hist,Historical county match,6.925033192621712,True,True
+6197,II_14_4918,87.68809849521203,Goochland,Goochland,exact_hist,Historical county match,0.1510521444348143,True,True
+4979,II_10_1494,87.6847290640394,Henrico,Chesterfield,exact_hist,Historical county match,272.18640558703606,True,False
+5085,II_12_3197,87.6847290640394,Henrico,Chesterfield,exact_hist,Historical county match,71.053553355795,True,False
+6151,II_13_3885,87.6847290640394,Charles City,Goochland,boundary_tol,≤50.0 m outside hist polygon (HENRICO),6.80218389625864,True,True
+7532,II_14_5058,87.68115942028986,Hanover,Louisa,exact_hist,Historical county match,2.977551867784109,True,True
+6226,II_14_5088,87.66430738119313,Goochland,Goochland,exact_hist,Historical county match,1.8205290024334173,True,True
+9717,II_13_4070,87.66233766233766,Isle Of Wight,Southampton,exact_hist,Historical county match,24.17972694741876,True,True
+6737,II_14_4664,87.66233766233766,Hanover,Hanover,exact_hist,Historical county match,0.737369291638337,True,True
+10980,II_10_1788,87.64705882352942,Surry,Surry,exact_hist,Historical county match,1.2703045920375722,True,True
+9671,II_12_3441,87.64705882352942,Isle Of Wight,Southampton,exact_hist,Historical county match,0.913271676280416,True,True
+9676,II_12_3445,87.64705882352942,Isle Of Wight,Southampton,exact_hist,Historical county match,3.0322372430310907,True,True
+9678,II_12_3452,87.64705882352942,Isle Of Wight,Southampton,exact_hist,Historical county match,6.65772761215446,True,True
+6502,II_9_355,87.5,New Kent,Hanover,exact_hist,Historical county match,12.541440309491488,True,True
+7340,II_9_418,87.5,,Suffolk,boundary_tol,≤50.0 m outside hist polygon (NANSEMOND (ext)),3.677797558245694,True,True
+10999,II_10_1992,87.5,Surry,Sussex,exact_hist,Historical county match,11.0965155902774,True,True
+9226,II_11_2198,87.5,Prince George,Prince George,exact_hist,Historical county match,12.625219985155368,True,True
+5039,II_12_2721,87.5,Henrico,Chesterfield,exact_hist,Historical county match,25.819681161901865,True,True
+9248,II_12_2812,87.5,Prince George,Prince George,exact_hist,Historical county match,2.9452624484274064,True,True
+5062,II_12_3413,87.5,Henrico,Chesterfield,exact_hist,Historical county match,173.38663426448474,True,False
+11097,II_12_3414,87.5,Surry,Sussex,exact_hist,Historical county match,23.076328942510507,True,True
+10360,II_12_3541,87.5,Spotsylvania,Spotsylvania,exact_hist,Historical county match,29.817803524115604,True,True
+6203,II_14_4776,87.5,Goochland,Goochland,exact_hist,Historical county match,3.235178907053381,True,True
+6245,II_14_5322,87.5,Goochland,Goochland,exact_hist,Historical county match,29.230322144209563,True,True
+11176,II_14_4893,87.39837398373984,Surry,Sussex,exact_hist,Historical county match,0.0717387056889009,True,True
+6939,II_10_1917,87.39622641509433,Henrico,Henrico,exact_hist,Historical county match,16.800411215039887,True,True
+8914,II_14_4873,87.38317757009347,Spotsylvania,Orange,exact_hist,Historical county match,5.804723458639648,True,True
+4999,II_10_1646,87.38069989395547,Henrico,Chesterfield,exact_hist,Historical county match,77.24863578898693,True,False
+10396,II_13_4423,87.35632183908046,Spotsylvania,Spotsylvania,exact_hist,Historical county match,10.742364978405568,True,True
+10955,II_10_1474,87.34939759036145,Surry,Sussex,exact_hist,Historical county match,0.0590822396292651,True,True
+10981,II_10_1782,87.34939759036145,Surry,Sussex,exact_hist,Historical county match,4.665079609550258,True,True
+6976,II_14_5220,87.34335839598998,Henrico,Henrico,exact_hist,Historical county match,1.4485455673968488,True,True
+10983,II_10_1792,87.33333333333334,Prince George,Sussex,adjacent_modern,Centroid in adjacent county (modern),16.82483743184351,False,True
+9249,II_12_2823,87.33333333333334,Prince George,Prince George,exact_hist,Historical county match,0.0679374169717891,True,True
+6691,II_13_3641,87.33333333333334,Hanover,Hanover,exact_hist,Historical county match,1.6500787239306631,True,True
+6020,II_9_979,87.31473408892764,Henrico,Henrico,exact_hist,Historical county match,4.903806666291809,True,True
+7424,II_12_3108,87.31343283582089,Hanover,Louisa,exact_hist,Historical county match,3.878205368085946,True,True
+11086,II_12_2894,87.28813559322035,Surry,Sussex,exact_hist,Historical county match,0.8971210820530395,True,True
+6609,II_11_2348,87.27272727272728,Hanover,Hanover,exact_hist,Historical county match,38.77797175259568,True,False
+10745,II_9_916,87.25490196078431,Surry,Surry,exact_hist,Historical county match,65.71756892309193,True,False
+6085,II_11_2246,87.25490196078431,Henrico,Goochland,exact_hist,Historical county match,2.147970126415552,True,True
+9733,II_13_4610,87.25490196078431,Isle Of Wight,Southampton,exact_hist,Historical county match,3.279410806123299,True,True
+11203,II_14_5391,87.25490196078431,Surry,Sussex,exact_hist,Historical county match,2.6232260055277075,True,True
+7337,II_9_248,87.17948717948718,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,0.4123773481962681,True,True
+7443,II_13_3795,87.17948717948718,Hanover,Louisa,exact_hist,Historical county match,2.4360402272058765,True,True
+6916,II_9_587,87.16791979949875,Henrico,Henrico,exact_hist,Historical county match,70.13339323068571,True,False
+9725,II_14_4672,87.14285714285714,Isle Of Wight,Southampton,exact_hist,Historical county match,0.5422895005133991,True,True
+9270,II_14_5342,87.14285714285714,Prince George,Prince George,exact_hist,Historical county match,12.35577703340224,True,True
+9216,II_10_1723,87.09677419354838,Prince George,Prince George,exact_hist,Historical county match,0.3172969960331537,True,True
+9227,II_11_2197,87.09677419354838,Prince George,Prince George,exact_hist,Historical county match,8.11332275288775,True,True
+10316,II_11_2217,87.09677419354838,Spotsylvania,Spotsylvania,exact_hist,Historical county match,11.757213726444032,True,True
+6164,II_13_4005,87.09677419354838,Henrico,Goochland,exact_hist,Historical county match,9.704703482870642,True,True
+29,II_14_5197,87.09677419354838,Hanover,Albemarle,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),0.4483368387835469,True,True
+7489,II_13_4535,87.07865168539325,Hanover,Louisa,exact_hist,Historical county match,1.307783922010681,True,True
+5015,II_10_1947,87.04318936877075,Henrico,Chesterfield,exact_hist,Historical county match,38.20151231592814,True,False
+6236,II_14_5258,87.04318936877075,Goochland,Goochland,exact_hist,Historical county match,1.7750881254988966,True,True
+10945,II_10_1413,87.03703703703704,Surry,Sussex,exact_hist,Historical county match,0.1694969385070521,True,True
+11077,II_12_2875,87.03703703703704,Surry,Sussex,exact_hist,Historical county match,3.9558406382665257,True,True
+11106,II_12_3319,87.03703703703704,Surry,Sussex,exact_hist,Historical county match,0.3745476913056677,True,True
+7455,II_13_3804,87.03703703703704,Hanover,Louisa,exact_hist,Historical county match,1.0007475602444489,True,True
+11208,II_14_5394,87.03703703703704,Surry,Sussex,exact_hist,Historical county match,8.742297882004344,True,True
+10888,II_9_533,86.98630136986301,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),3.5034177421571258,True,True
+11011,II_11_2409,86.98630136986301,Surry,Sussex,exact_hist,Historical county match,17.98126399309507,True,True
+7338,II_9_284,86.95652173913044,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,102.89969352241935,True,False
+9269,II_14_5380,86.9047619047619,Prince George,Prince George,exact_hist,Historical county match,5.635404124746031,True,True
+10896,II_9_677,86.88311688311688,Surry,Sussex,exact_hist,Historical county match,47.18818169916276,True,False
+9238,II_11_2297,86.84210526315789,Prince George,Prince George,exact_hist,Historical county match,0.3112008252729547,True,True
+11017,II_11_2396,86.84210526315789,Surry,Sussex,exact_hist,Historical county match,75.12338263158355,True,False
+11021,II_11_2419,86.84210526315789,Surry,Sussex,exact_hist,Historical county match,0.6893658179353821,True,True
+11055,II_11_2592,86.84210526315789,Surry,Sussex,exact_hist,Historical county match,49.11563879742105,True,False
+6104,II_12_2934,86.84210526315789,Henrico,Goochland,exact_hist,Historical county match,13.921111202888628,True,True
+7422,II_12_3334,86.84210526315789,Hanover,Louisa,exact_hist,Historical county match,1.0008654327465791,True,True
+11110,II_12_3480,86.84210526315789,Surry,Sussex,exact_hist,Historical county match,12.479479307634913,True,True
+11130,II_13_3868,86.84210526315789,Surry,Sussex,exact_hist,Historical county match,20.185032451444656,True,True
+11151,II_13_4061,86.84210526315789,Surry,Sussex,exact_hist,Historical county match,26.51192131024896,True,True
+11156,II_13_4180,86.84210526315789,Surry,Sussex,exact_hist,Historical county match,1.0167319914932165,True,True
+11154,II_13_4203,86.84210526315789,Surry,Sussex,exact_hist,Historical county match,1.7900397349651482,True,True
+11178,II_14_5020,86.84210526315789,Surry,Sussex,exact_hist,Historical county match,2.0020295154136627,True,True
+8862,II_13_3786,86.8,Spotsylvania,Orange,exact_hist,Historical county match,0.3248866074090765,True,True
+10285,II_10_1745,86.79245283018868,Essex,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),11.026037652454727,True,True
+6040,II_10_1281,86.78611422172452,Henrico,Goochland,exact_hist,Historical county match,13.077770326667814,True,True
+6495,II_9_338,86.7816091954023,New Kent,Hanover,exact_hist,Historical county match,3.775719398322477,True,True
+6134,II_12_3180,86.76470588235293,Henrico,Goochland,exact_hist,Historical county match,4.777008980561789,True,True
+6070,II_10_1950,86.66666666666666,Henrico,Goochland,exact_hist,Historical county match,8.730710432685347,True,True
+8900,II_13_4421,86.66666666666666,Spotsylvania,Orange,exact_hist,Historical county match,19.77604618818241,True,True
+6175,II_13_4248,86.60714285714286,Henrico,Goochland,exact_hist,Historical county match,32.508243712203864,True,False
+9542,II_10_1435,86.58536585365854,Isle Of Wight,Franklin,exact_hist,Historical county match,0.526067682013781,True,True
+6213,II_14_4755,86.57534246575342,Goochland,Hanover,adjacent_modern,Centroid in adjacent county (modern),11.091055359185097,False,True
+4995,II_10_1790,86.53846153846155,Henrico,Chesterfield,exact_hist,Historical county match,34.9067690057109,True,False
+5067,II_12_3302,86.49425287356323,Henrico,Chesterfield,exact_hist,Historical county match,12.397400731470483,True,True
+9522,II_10_1174,86.48648648648648,Isle Of Wight,Southampton,exact_hist,Historical county match,16.322567128095116,True,True
+9523,II_10_1175,86.48648648648648,Isle Of Wight,Southampton,exact_hist,Historical county match,3.829934956923907,True,True
+9536,II_10_1325,86.48648648648648,Surry,Surry,exact_hist,Historical county match,6.5267100131739255,True,True
+9539,II_10_1337,86.48648648648648,Isle Of Wight,Southampton,exact_hist,Historical county match,67.68580113530128,True,False
+5028,II_11_2513,86.44688644688645,Henrico,Chesterfield,exact_hist,Historical county match,80.18481992205612,True,False
+5098,II_12_3231,86.44688644688645,Henrico,Chesterfield,exact_hist,Historical county match,53.94066383855486,True,False
+6158,II_13_3778,86.44444444444444,Henrico,Goochland,exact_hist,Historical county match,42.126543160781466,True,False
+6191,II_14_4940,86.42424242424242,Goochland,Goochland,exact_hist,Historical county match,1.3359990511414708,True,True
+5027,II_11_2514,86.40906062624917,Henrico,Chesterfield,exact_hist,Historical county match,121.20020214669827,True,False
+6911,II_9_330,86.39385126713752,Henrico,Chesterfield,exact_hist,Historical county match,79.62594754027857,True,False
+10966,II_10_1513,86.36363636363636,Surry,Sussex,exact_hist,Historical county match,8.653819195019443,True,True
+10331,II_11_2619,86.36363636363636,King & Queen,Caroline,adjacent_modern,Centroid in adjacent county (modern),1.658911649444983,False,True
+6116,II_12_2925,86.36363636363636,Henrico,Goochland,exact_hist,Historical county match,39.921297050924544,True,False
+6708,II_12_3339,86.36363636363636,Hanover,Louisa,exact_hist,Historical county match,2.0443402309777525,True,True
+11120,II_12_3424,86.36363636363636,Surry,Sussex,exact_hist,Historical county match,4.476204705193003,True,True
+10432,II_14_4772,86.36363636363636,Spotsylvania,Spotsylvania,exact_hist,Historical county match,2.9042649790096284,True,True
+6054,II_10_1597,86.33540372670808,Henrico,Goochland,exact_hist,Historical county match,0.2482455296897612,True,True
+5126,II_14_5165,86.28205128205127,Henrico,Chesterfield,exact_hist,Historical county match,55.68639667118944,True,False
+6114,II_12_2777,86.27450980392156,Hanover,Louisa,exact_hist,Historical county match,17.474972580781568,True,True
+11163,II_14_4899,86.26373626373626,Surry,Sussex,exact_hist,Historical county match,0.6805666147008225,True,True
+9510,II_10_1206,86.25,Isle Of Wight,Southampton,exact_hist,Historical county match,6.415423012864631,True,True
+7469,II_13_4193,86.24303232998885,Hanover,Louisa,exact_hist,Historical county match,22.714076629459957,True,True
+10952,II_10_1459,86.23188405797102,Surry,Sussex,exact_hist,Historical county match,21.52996121629436,True,True
+7415,II_13_3644,86.23188405797102,Hanover,Louisa,exact_hist,Historical county match,0.6262905169176918,True,True
+8898,II_13_4406,86.23188405797102,Spotsylvania,Orange,exact_hist,Historical county match,1.9683022863802333,True,True
+11167,II_14_4906,86.23188405797102,Surry,Sussex,exact_hist,Historical county match,1.2739215969969109,True,True
+9597,II_11_2422,86.14457831325302,Isle Of Wight,Southampton,exact_hist,Historical county match,15.149222693583802,True,True
+5400,II_14_5255,86.12565445026178,Goochland,Fluvanna,exact_hist,Historical county match,1.0828810488271614,True,True
+10886,II_9_531,86.11111111111111,Charles City,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),22.72899150986164,True,True
+9593,II_11_2119,86.11111111111111,Isle Of Wight,Southampton,exact_hist,Historical county match,9.661933273051307,True,True
+9601,II_11_2377,86.11111111111111,Isle Of Wight,Southampton,exact_hist,Historical county match,0.4384394542078477,True,True
+9690,II_12_3468,86.11111111111111,Isle Of Wight,Southampton,exact_hist,Historical county match,2.836006747345604,True,True
+10415,II_13_4291,86.11111111111111,Spotsylvania,Orange,exact_hist,Historical county match,6.655502039108773,True,True
+9722,II_13_4410,86.11111111111111,Isle Of Wight,Southampton,exact_hist,Historical county match,2.842850712090243,True,True
+6209,II_13_4606,86.11111111111111,Henrico,Goochland,near_split,Near-split GOOCHLAND ⇄ Henrico (±2 yr),9.904012797977822,True,True
+9264,II_13_4638,86.11111111111111,Prince George,Prince George,exact_hist,Historical county match,23.45393103688842,True,True
+6122,II_12_3377,86.00770218228499,Henrico,Goochland,exact_hist,Historical county match,13.679612503028224,True,True
+10974,II_10_1714,86.0,Surry,Sussex,exact_hist,Historical county match,17.36958421860436,True,True
+10973,II_10_1733,86.0,Surry,Sussex,exact_hist,Historical county match,26.7034270485505,True,True
+11009,II_11_2427,86.0,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),4.793890605715612,True,True
+10328,II_11_2430,86.0,Spotsylvania,Spotsylvania,exact_hist,Historical county match,61.90403220251128,True,False
+5107,II_12_3130,86.0,Henrico,Chesterfield,exact_hist,Historical county match,100.84290139592024,True,False
+9691,II_12_3149,86.0,Isle Of Wight,Southampton,exact_hist,Historical county match,1.0190408447742054,True,True
+6119,II_12_3381,86.0,Henrico,Goochland,exact_hist,Historical county match,32.46884410272288,True,False
+9694,II_13_3710,86.0,Isle Of Wight,Southampton,exact_hist,Historical county match,1.7517549035364746,True,True
+10388,II_13_3911,86.0,Spotsylvania,Spotsylvania,exact_hist,Historical county match,10.602639370215504,True,True
+5391,II_13_4603,86.0,,Fluvanna,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),3.5235668951514185,True,True
+7530,II_14_5053,86.0,Hanover,Louisa,exact_hist,Historical county match,0.099719366463816,True,True
+6103,II_12_2933,85.99439775910363,Henrico,Goochland,exact_hist,Historical county match,0.2552461456997292,True,True
+6514,II_9_964,85.97014925373134,New Kent,Hanover,exact_hist,Historical county match,16.973978130220065,True,True
+10892,II_9_512,85.96491228070175,Charles City,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),16.236889898232988,True,True
+10924,II_10_1106,85.9608745684695,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),27.3161903429385,True,True
+10962,II_10_1419,85.9375,Surry,Sussex,exact_hist,Historical county match,9.58352049810756,True,True
+9588,II_10_1956,85.9375,Isle Of Wight,Franklin,exact_hist,Historical county match,18.43514453568148,True,True
+5099,II_12_3187,85.91331269349845,Henrico,Chesterfield,exact_hist,Historical county match,164.71712264562763,True,False
+5053,II_12_3412,85.85585585585585,Henrico,Chesterfield,exact_hist,Historical county match,16.137434849734575,True,True
+9452,II_9_712,85.84905660377359,,Southampton,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),7.365201632622701,True,True
+4936,II_9_719,85.84905660377359,Henrico,Chesterfield,exact_hist,Historical county match,62.31128991916914,True,False
+5389,II_14_4751,85.84905660377359,,Fluvanna,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),29.50608895281266,True,True
+6246,II_14_5335,85.82375478927203,Goochland,Goochland,exact_hist,Historical county match,6.612673089621726,True,True
+10269,II_9_1007,85.82089552238806,Essex,Caroline,exact_hist,Historical county match,8.646938194664163,True,True
+9586,II_10_2012,85.78947368421052,Isle Of Wight,Southampton,exact_hist,Historical county match,3.234779109065429,True,True
+11180,II_14_5022,85.77981651376146,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),0.6450886143779139,True,True
+9192,II_9_159,85.71428571428572,Charles City,Prince George,adjacent_modern,Centroid in adjacent county (modern),3.2845534845373154,False,True
+10956,II_10_1460,85.71428571428572,Surry,Sussex,exact_hist,Historical county match,17.69399528057023,True,True
+9619,II_11_2554,85.71428571428572,Isle Of Wight,Southampton,exact_hist,Historical county match,44.210638721409474,True,False
+6106,II_12_2936,85.71428571428572,Henrico,Goochland,exact_hist,Historical county match,23.281326253597065,True,True
+9253,II_12_3167,85.71428571428572,,Prince George,boundary_tol,≤50.0 m outside hist polygon (PRINCE GEORGE),11.566704810404769,True,True
+8861,II_13_3646,85.71428571428572,Spotsylvania,Orange,exact_hist,Historical county match,3.428348429615178,True,True
+9707,II_13_4022,85.71428571428572,Isle Of Wight,Southampton,exact_hist,Historical county match,3.0767530216659287,True,True
+11170,II_14_4884,85.71428571428572,Surry,Sussex,exact_hist,Historical county match,5.475629854132213,True,True
+6111,II_12_2729,85.69500674763833,Henrico,Goochland,exact_hist,Historical county match,63.51758996251585,True,False
+7473,II_13_4507,85.64356435643565,Hanover,Louisa,exact_hist,Historical county match,5.823644076765135,True,True
+11027,II_11_2312,85.61643835616438,Surry,Sussex,exact_hist,Historical county match,60.4134648069988,True,False
+9610,II_11_2532,85.61643835616438,Isle Of Wight,Southampton,exact_hist,Historical county match,19.49514720014463,True,True
+6625,II_11_2647,85.61643835616438,New Kent,Hanover,adjacent_modern,Centroid in adjacent county (modern),5.441378151070623,False,True
+10287,II_10_1640,85.55555555555556,Essex,Spotsylvania,exact_hist,Historical county match,0.3998682219785092,True,True
+11168,II_13_4625,85.52631578947368,Surry,Sussex,exact_hist,Historical county match,4.238400003114079,True,True
+6038,II_10_1279,85.48387096774194,Henrico,Goochland,exact_hist,Historical county match,6.570485312354762,True,True
+9554,II_10_1423,85.48387096774194,Isle Of Wight,Greensville,boundary_tol,≤50.0 m outside hist polygon (SURRY),32.320036791594525,True,False
+11054,II_11_2618,85.48387096774194,Surry,Sussex,exact_hist,Historical county match,1.3567652065607518,True,True
+6064,II_10_1829,85.47008547008546,Henrico,Goochland,exact_hist,Historical county match,27.71841718628693,True,True
+6763,II_14_5147,85.45454545454545,Hanover,Hanover,exact_hist,Historical county match,19.733482580218176,True,True
+9214,II_10_1574,85.41666666666666,Prince George,Prince George,exact_hist,Historical county match,4.565548620774858,True,True
+10395,II_13_4234,85.41666666666666,Spotsylvania,Spotsylvania,exact_hist,Historical county match,51.39004842677805,True,False
+10889,II_9_528,85.3658536585366,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),0.8280409178188153,True,True
+10339,II_12_2788,85.35353535353535,King William,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (SPOTSYLVANIA),5.520161690354996,True,True
+6174,II_13_4292,85.34850640113798,Henrico,Goochland,exact_hist,Historical county match,11.63696850272254,True,True
+6969,II_13_3768,85.30434782608695,Henrico,Henrico,exact_hist,Historical county match,5.974824341574812,True,True
+9518,II_10_1156,85.29411764705883,Isle Of Wight,Southampton,exact_hist,Historical county match,10.230658601649532,True,True
+9565,II_10_1356,85.29411764705883,Isle Of Wight,Southampton,exact_hist,Historical county match,1.6452074867729771,True,True
+9548,II_10_1401,85.29411764705883,Isle Of Wight,Southampton,exact_hist,Historical county match,47.38338172274405,True,False
+9598,II_11_2362,85.29411764705883,Isle Of Wight,Southampton,exact_hist,Historical county match,28.34426472795573,True,True
+11065,II_11_2567,85.29411764705883,Surry,Sussex,exact_hist,Historical county match,7.653248118322222,True,True
+9606,II_11_2658,85.29411764705883,Isle Of Wight,Southampton,exact_hist,Historical county match,25.024628458512275,True,True
+8846,II_12_3492,85.29411764705883,Spotsylvania,Orange,exact_hist,Historical county match,0.1055762247410569,True,True
+3352,II_13_4401,85.29411764705883,Goochland,Buckingham,exact_hist,Historical county match,6.736496018856582,True,True
+9267,II_13_4569,85.25179856115108,Prince George,Prince George,exact_hist,Historical county match,7.136362949292028,True,True
+10982,II_10_1809,85.2112676056338,Surry,Sussex,exact_hist,Historical county match,0.2264390132338814,True,True
+6665,II_12_2768,85.2112676056338,Hanover,Hanover,exact_hist,Historical county match,12.836586347230863,True,True
+9674,II_12_3456,85.2112676056338,Isle Of Wight,Southampton,exact_hist,Historical county match,5.337448840298952,True,True
+11101,II_12_3478,85.2112676056338,Surry,Sussex,exact_hist,Historical county match,3.281629138569916,True,True
+10366,II_12_3554,85.2,Spotsylvania,Spotsylvania,exact_hist,Historical county match,8.416129752869313,True,True
+10404,II_13_4143,85.18518518518519,Spotsylvania,Spotsylvania,exact_hist,Historical county match,3.480292811921077,True,True
+5018,II_11_2150,85.16483516483515,Henrico,Chesterfield,exact_hist,Historical county match,15.051173531663268,True,True
+6947,II_11_2523,85.14492753623188,Henrico,Henrico,exact_hist,Historical county match,6.254425510471834,True,True
+6673,II_12_2761,85.12820512820512,Hanover,Hanover,exact_hist,Historical county match,14.342603204813328,True,True
+9197,II_9_545,85.1145038167939,Charles City,Prince George,adjacent_modern,Centroid in adjacent county (modern),20.48510346697185,False,True
+6155,II_13_3765,85.09803921568627,Henrico,Goochland,exact_hist,Historical county match,5.653225109247803,True,True
+10759,II_10_1094,85.08771929824562,Surry,Surry,exact_hist,Historical county match,27.438221977648205,True,True
+4996,II_10_1603,85.08771929824562,Henrico,Chesterfield,exact_hist,Historical county match,31.8091671333624,True,False
+11098,II_12_3418,85.06493506493507,Surry,Sussex,exact_hist,Historical county match,3.546214520825872,True,True
+5002,II_10_1925,85.04273504273505,Henrico,Chesterfield,exact_hist,Historical county match,15.29858810099603,True,True
+5037,II_12_2728,85.02581755593803,Henrico,Chesterfield,exact_hist,Historical county match,66.20367995316812,True,False
+5019,II_11_2171,85.01984126984127,Henrico,Chesterfield,exact_hist,Historical county match,83.95939327827524,True,False
+10957,II_10_1477,85.0,Surry,Sussex,exact_hist,Historical county match,22.17706205829421,True,True
+11022,II_11_2306,85.0,Surry,Sussex,exact_hist,Historical county match,32.100063290722765,True,False
+11100,II_12_3448,85.0,Surry,Sussex,exact_hist,Historical county match,11.833513277981757,True,True
+11128,II_13_3749,85.0,Surry,Sussex,exact_hist,Historical county match,18.559546312248145,True,True
+11157,II_13_4259,85.0,Surry,Sussex,exact_hist,Historical county match,28.563512957759457,True,True
+5013,II_10_2006,84.9624060150376,Henrico,Chesterfield,exact_hist,Historical county match,12.737301032381918,True,True
+9194,II_9_462,84.93975903614458,Charles City,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),13.875161839445168,True,True
+7390,II_12_2946,84.92063492063492,Hanover,Louisa,exact_hist,Historical county match,1.7349824667162277,True,True
+8897,II_13_4314,84.90566037735849,Spotsylvania,Orange,exact_hist,Historical county match,0.8786743186467901,True,True
+6561,II_11_2041,84.88372093023256,New Kent,Hanover,exact_hist,Historical county match,3.0698596583236197,True,True
+6,II_11_2214,84.88372093023256,Spotsylvania,Greene,exact_hist,Historical county match,3.2412424569920404,True,True
+5087,II_12_3220,84.88372093023256,Henrico,Chesterfield,exact_hist,Historical county match,2.462332079743201,True,True
+5083,II_12_3228,84.88372093023256,Henrico,Chesterfield,exact_hist,Historical county match,39.634582701469526,True,False
+9556,II_10_1475,84.84848484848484,Isle Of Wight,Southampton,exact_hist,Historical county match,18.066686870648667,True,True
+9225,II_11_2106,84.84848484848484,Prince George,Prince George,exact_hist,Historical county match,12.829917346232325,True,True
+9242,II_11_2440,84.84848484848484,Prince George,Prince George,exact_hist,Historical county match,2.258078368001755,True,True
+9627,II_11_2551,84.84848484848484,Isle Of Wight,Southampton,exact_hist,Historical county match,19.26795927703151,True,True
+9688,II_12_3437,84.84848484848484,Isle Of Wight,Southampton,exact_hist,Historical county match,30.792465659608894,True,False
+10902,II_9_1091,84.83146067415731,Prince George,Sussex,adjacent_modern,Centroid in adjacent county (modern),8.04181439756524,False,True
+6077,II_11_2148,84.81159420289856,Henrico,Goochland,exact_hist,Historical county match,60.46823588030635,True,False
+6505,II_9_549,84.78260869565217,New Kent,Hanover,exact_hist,Historical county match,5.353391586985545,True,True
+10958,II_10_1417,84.78260869565217,Surry,Sussex,exact_hist,Historical county match,10.046441736238664,True,True
+9665,II_12_2845,84.78260869565217,Isle Of Wight,Southampton,exact_hist,Historical county match,1.0813836184901189,True,True
+6247,II_14_5362,84.78260869565217,Goochland,Goochland,exact_hist,Historical county match,25.830649334714156,True,True
+10281,II_10_1348,84.72222222222223,,Caroline,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),13.360692921505926,True,True
+6535,II_10_1352,84.6938775510204,New Kent,Hanover,exact_hist,Historical county match,27.684365696669307,True,True
+6548,II_10_1637,84.6938775510204,New Kent,Hanover,exact_hist,Historical county match,5.91897081852771,True,True
+6546,II_10_1652,84.6938775510204,New Kent,Hanover,exact_hist,Historical county match,4.328213021476056,True,True
+8880,II_13_4195,84.6938775510204,Spotsylvania,Orange,exact_hist,Historical county match,0.5113410107500749,True,True
+10949,II_10_1424,84.66666666666666,Surry,Sussex,exact_hist,Historical county match,1.28344164552,True,True
+6108,II_12_2747,84.66386554621849,Henrico,Goochland,exact_hist,Historical county match,1.842427859206694,True,True
+9245,II_11_2464,84.61538461538461,Prince George,Prince George,exact_hist,Historical county match,0.0717865915870106,True,True
+10421,II_13_4478,84.61538461538461,Spotsylvania,Spotsylvania,exact_hist,Historical county match,23.363026194431875,True,True
+11117,II_12_3399,84.5679012345679,Surry,Sussex,exact_hist,Historical county match,9.449705752470706,True,True
+6162,II_13_3761,84.55882352941177,Henrico,Goochland,exact_hist,Historical county match,2.9939994323309334,True,True
+6048,II_10_1547,84.54968944099379,Henrico,Henrico,exact_hist,Historical county match,12.3944312248764,True,True
+6198,II_14_4921,84.54545454545455,Goochland,Goochland,exact_hist,Historical county match,1.8143310888591768,True,True
+10413,II_13_4267,84.48275862068965,Spotsylvania,Spotsylvania,exact_hist,Historical county match,5.709050510205603,True,True
+10923,II_10_1207,84.44444444444444,Surry,Sussex,exact_hist,Historical county match,26.608540517057943,True,True
+10871,II_9_460,84.40251572327044,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),11.459541569882727,True,True
+11070,II_12_2904,84.375,Surry,Sussex,exact_hist,Historical county match,2.5634551266904704,True,True
+8874,II_13_4131,84.375,Spotsylvania,Orange,exact_hist,Historical county match,3.0948653311649426,True,True
+5397,II_14_5154,84.375,Goochland,Fluvanna,exact_hist,Historical county match,2.632559280002667,True,True
+10284,II_10_1548,84.32835820895522,King & Queen,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (ESSEX),2.4816938823630874,True,True
+5088,II_12_3198,84.32835820895522,Henrico,Chesterfield,exact_hist,Historical county match,73.49117256556849,True,False
+11193,II_14_5405,84.32835820895522,Surry,Sussex,exact_hist,Historical county match,1.459428173351888,True,True
+6173,II_13_4457,84.29172510518934,Goochland,Goochland,near_split,Near-split HENRICO ⇄ Goochland (±2 yr),12.060348726256125,True,True
+9244,II_11_2441,84.2904290429043,Prince George,Prince George,exact_hist,Historical county match,0.1378016438668889,True,True
+4950,II_9_891,84.28571428571428,Henrico,Chesterfield,exact_hist,Historical county match,38.14037970424624,True,False
+9603,II_11_2367,84.28571428571428,Isle Of Wight,Southampton,exact_hist,Historical county match,2.557196997772568,True,True
+5025,II_11_2518,84.28571428571428,Henrico,Chesterfield,exact_hist,Historical county match,19.74117591772581,True,True
+9605,II_11_2661,84.28571428571428,Isle Of Wight,Southampton,exact_hist,Historical county match,5.997029467531567,True,True
+10300,II_11_2038,84.26573426573427,King & Queen,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),0.0022726827503873,True,True
+9567,II_10_1389,84.24657534246575,Isle Of Wight,Southampton,exact_hist,Historical county match,29.56050872989,True,True
+9624,II_11_2535,84.24657534246575,Isle Of Wight,Southampton,exact_hist,Historical county match,2.7240527096242637,True,True
+10436,II_13_4542,84.24657534246575,Spotsylvania,Spotsylvania,exact_hist,Historical county match,4.235359859594439,True,True
+9735,II_14_4953,84.24657534246575,Isle Of Wight,Southampton,exact_hist,Historical county match,5.474540673937625,True,True
+7518,II_14_4972,84.21052631578948,Hanover,Louisa,exact_hist,Historical county match,1.9391899107856003,True,True
+4964,II_10_1198,84.18803418803418,Henrico,Chesterfield,exact_hist,Historical county match,232.47887445572485,True,False
+6120,II_12_3300,84.18604651162791,Henrico,Goochland,exact_hist,Historical county match,2.3203321004757527,True,True
+9530,II_10_1231,84.17721518987341,Isle Of Wight,Southampton,exact_hist,Historical county match,3.5912588835174906,True,True
+6960,II_12_3378,84.15622697126014,Henrico,Henrico,exact_hist,Historical county match,0.3626295906401253,True,True
+4934,II_9_745,84.14634146341464,Henrico,Chesterfield,exact_hist,Historical county match,94.58157506291192,True,False
+8906,II_14_4843,84.14634146341464,Spotsylvania,Orange,exact_hist,Historical county match,6.4909952992640605,True,True
+9241,II_11_2436,84.04255319148936,Prince George,Prince George,exact_hist,Historical county match,2.707626683940262,True,True
+11136,II_13_3871,84.04255319148936,Surry,Sussex,exact_hist,Historical county match,0.1043908633618214,True,True
+6613,II_11_2209,84.0,New Kent,Hanover,adjacent_modern,Centroid in adjacent county (modern),2.8860372142414628,False,True
+10780,II_12_3002,84.0,Surry,Surry,exact_hist,Historical county match,65.45152052335946,True,False
+44,II_14_5339,84.0,Goochland,Albemarle,exact_hist,Historical county match,15.154721254599393,True,True
+10364,II_12_3551,83.98058252427185,Spotsylvania,Caroline,adjacent_modern,Centroid in adjacent county (modern),2.4952579669384427,False,True
+8842,II_12_3305,83.9622641509434,Spotsylvania,Orange,exact_hist,Historical county match,1.933739141094736,True,True
+8883,II_13_4168,83.9622641509434,Spotsylvania,Orange,exact_hist,Historical county match,7.260114515696614,True,True
+8917,II_14_4872,83.92857142857143,Spotsylvania,Madison,exact_hist,Historical county match,2.7044828278040463,True,True
+10774,II_11_2657,83.89830508474576,Surry,Surry,exact_hist,Historical county match,25.553945217066783,True,True
+9723,II_14_4671,83.89830508474576,Isle Of Wight,Southampton,exact_hist,Historical county match,14.10100825157225,True,True
+9211,II_10_1218,83.88429752066116,Prince George,Prince George,exact_hist,Historical county match,0.5802395108424303,True,True
+9573,II_10_1811,83.87096774193549,Isle Of Wight,Southampton,exact_hist,Historical county match,2.514639247153412,True,True
+5043,II_12_2746,83.87096774193549,Henrico,Chesterfield,exact_hist,Historical county match,48.935588375018526,True,False
+11102,II_12_3411,83.84615384615384,Surry,Sussex,exact_hist,Historical county match,0.2032702174417095,True,True
+11141,II_13_4052,83.84615384615384,Surry,Sussex,exact_hist,Historical county match,2.068398135805813,True,True
+11201,II_14_5412,83.84615384615384,Surry,Sussex,exact_hist,Historical county match,46.02497637379569,True,False
+9240,II_11_2457,83.80281690140845,Prince George,Dinwiddie,exact_hist,Historical county match,1.947635870196956,True,True
+9724,II_14_4674,83.80281690140845,Isle Of Wight,Southampton,exact_hist,Historical county match,0.0029672795433064,True,True
+7523,II_14_5035,83.80281690140845,Hanover,Louisa,exact_hist,Historical county match,4.49838822797486,True,True
+8870,II_13_3914,83.78378378378378,Spotsylvania,Orange,exact_hist,Historical county match,1.912737789637644,True,True
+3354,II_14_5368,83.77676833225178,Goochland,Buckingham,exact_hist,Historical county match,2.81901735457123,True,True
+6034,II_10_1257,83.7719298245614,Henrico,Henrico,exact_hist,Historical county match,21.59207868484923,True,True
+6074,II_11_2109,83.75603864734299,Henrico,Goochland,exact_hist,Historical county match,9.003676395034203,True,True
+10931,II_10_1146,83.75,Surry,Sussex,exact_hist,Historical county match,2.1867047275409486,True,True
+11050,II_11_2599,83.75,Surry,Sussex,exact_hist,Historical county match,0.0294398757997242,True,True
+9630,II_12_3018,83.75,Isle Of Wight,Franklin,exact_hist,Historical county match,11.909287969852487,True,True
+9695,II_13_3686,83.75,Isle Of Wight,Southampton,exact_hist,Historical county match,0.2074681037088765,True,True
+11132,II_13_3862,83.75,Surry,Sussex,exact_hist,Historical county match,1.1231218128620906,True,True
+7438,II_13_3683,83.72093023255815,Hanover,Louisa,exact_hist,Historical county match,1.9897428500121064,True,True
+7553,II_14_5229,83.70786516853933,Hanover,Louisa,exact_hist,Historical county match,1.4370025758007756,True,True
+6102,II_12_2937,83.70221327967806,Henrico,Goochland,exact_hist,Historical county match,1.9847416549350212,True,True
+10362,II_12_3545,83.69565217391305,Spotsylvania,Spotsylvania,exact_hist,Historical county match,7.900867187486682,True,True
+5092,II_12_3205,83.68983957219251,Henrico,Chesterfield,exact_hist,Historical county match,3.567250720829947,True,True
+6762,II_14_5034,83.59375,Hanover,Hanover,exact_hist,Historical county match,2.166703946718982,True,True
+6491,II_9_236,83.5811452072129,New Kent,Hanover,exact_hist,Historical county match,7.066795995031666,True,True
+10307,II_11_2123,83.56643356643357,King & Queen,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),55.60094132681268,True,False
+8867,II_13_3900,83.5650623885918,Spotsylvania,Orange,exact_hist,Historical county match,10.06371553624091,True,True
+11057,II_11_2613,83.55263157894737,Surry,Sussex,exact_hist,Historical county match,0.5963447153041415,True,True
+6095,II_11_2516,83.47826086956522,Henrico,Goochland,exact_hist,Historical county match,21.527737395879047,True,True
+3344,II_12_3371,83.47826086956522,,Buckingham,boundary_tol,≤50.0 m outside hist polygon (HENRICO),0.136727531268761,True,True
+7342,II_9_560,83.45588235294117,Isle Of Wight,Suffolk,adjacent_modern,Centroid in adjacent county (modern),1.986032964337964,False,True
+5017,II_11_2112,83.3976833976834,Henrico,Chesterfield,exact_hist,Historical county match,19.113880034124577,True,True
+10939,II_10_1222,83.33333333333333,Surry,Sussex,exact_hist,Historical county match,9.406884108542773,True,True
+9532,II_10_1233,83.33333333333333,Isle Of Wight,Southampton,exact_hist,Historical county match,5.134278597997763,True,True
+10944,II_10_1422,83.33333333333333,Surry,Greensville,exact_hist,Historical county match,0.060718139140641,True,True
+10969,II_10_1566,83.33333333333333,Surry,Sussex,exact_hist,Historical county match,2.061686778934099,True,True
+4998,II_10_1658,83.33333333333333,Henrico,Chesterfield,exact_hist,Historical county match,6.953132404057874,True,True
+10997,II_10_1910,83.33333333333333,Surry,Sussex,exact_hist,Historical county match,37.88309395640869,True,False
+10311,II_11_2072,83.33333333333333,King & Queen,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),5.420583048659713,True,True
+6597,II_11_2186,83.33333333333333,Hanover,Hanover,exact_modern,Centroid in stated county (modern),4.723626442279624,False,True
+9231,II_11_2192,83.33333333333333,Prince George,Prince George,exact_hist,Historical county match,3.313012746130539,True,True
+11037,II_11_2576,83.33333333333333,Surry,Sussex,exact_hist,Historical county match,0.6913269909480588,True,True
+7395,II_12_2949,83.33333333333333,Hanover,Louisa,exact_hist,Historical county match,15.53423506077594,True,True
+11112,II_12_3420,83.33333333333333,Surry,Sussex,exact_hist,Historical county match,5.355968087582349,True,True
+10409,II_13_4184,83.33333333333333,Spotsylvania,Spotsylvania,exact_hist,Historical county match,9.820945190764268,True,True
+6185,II_13_4332,83.33333333333333,Goochland,Goochland,exact_hist,Historical county match,2.69965957772348,True,True
+10428,II_14_4861,83.33333333333333,Spotsylvania,Spotsylvania,exact_hist,Historical county match,12.187946415244769,True,True
+11177,II_14_4965,83.33333333333333,Surry,Sussex,exact_hist,Historical county match,1.9755507101374068,True,True
+11185,II_14_5182,83.33333333333333,Surry,Sussex,exact_hist,Historical county match,2.513996663793847,True,True
+11207,II_14_5409,83.33333333333333,Surry,Sussex,exact_hist,Historical county match,37.72048317371927,True,False
+6228,II_14_5156,83.23232323232324,Goochland,Goochland,exact_hist,Historical county match,2.94510057811587,True,True
+10397,II_13_4424,83.125,Spotsylvania,Spotsylvania,exact_hist,Historical county match,54.558068102076206,True,False
+6589,II_11_2075,83.0952380952381,New Kent,Hanover,exact_hist,Historical county match,13.657963936834207,True,True
+10309,II_11_2058,83.05084745762711,King & Queen,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (ESSEX),1.2146368258889355,True,True
+9604,II_11_2375,83.03571428571428,Isle Of Wight,Southampton,exact_hist,Historical county match,45.50098393097595,True,False
+11143,II_13_4058,83.0,Surry,Sussex,exact_hist,Historical county match,1.533051584019273,True,True
+8894,II_13_4285,82.97872340425532,Spotsylvania,Orange,exact_hist,Historical county match,1.702042467373945,True,True
+10325,II_11_2330,82.9608938547486,Spotsylvania,Spotsylvania,exact_hist,Historical county match,43.87385649770845,True,False
+6123,II_12_3373,82.95033358042996,Henrico,Goochland,exact_hist,Historical county match,7.479682053281849,True,True
+9535,II_10_1303,82.92682926829268,Isle Of Wight,Southampton,exact_hist,Historical county match,14.763702138760818,True,True
+9555,II_10_1476,82.9113924050633,Isle Of Wight,Southampton,exact_hist,Historical county match,16.745309196102447,True,True
+10338,II_11_2637,82.89473684210526,Spotsylvania,Spotsylvania,exact_hist,Historical county match,18.127666663339163,True,True
+11202,II_14_5402,82.87671232876713,Surry,Sussex,exact_hist,Historical county match,16.450644669904396,True,True
+6086,II_11_2245,82.85714285714286,Henrico,Goochland,exact_hist,Historical county match,10.320943977282406,True,True
+6168,II_13_4010,82.85714285714286,Henrico,Goochland,exact_hist,Historical county match,1.9977304804899487,True,True
+6211,II_14_4763,82.85714285714286,Goochland,Goochland,exact_hist,Historical county match,4.725721181129941,True,True
+7537,II_14_5042,82.85714285714286,Hanover,Louisa,exact_hist,Historical county match,14.55870462011329,True,True
+9229,II_11_2195,82.83582089552239,Prince George,Prince George,exact_hist,Historical county match,1.0375647639128955,True,True
+8882,II_13_4165,82.83582089552239,Spotsylvania,Orange,exact_hist,Historical county match,1.1822615768811489,True,True
+9720,II_13_4190,82.83582089552239,Isle Of Wight,Southampton,exact_hist,Historical county match,6.949429432548997,True,True
+9266,II_14_4943,82.83582089552239,Prince George,Prince George,exact_hist,Historical county match,1.2432769845675518,True,True
+5076,II_12_3199,82.8125,Henrico,Chesterfield,exact_hist,Historical county match,37.396987879124815,True,False
+6556,II_10_1882,82.79220779220779,New Kent,Hanover,exact_hist,Historical county match,5.719163064967627,True,True
+7336,II_9_244,82.78688524590164,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,13.072781305096004,True,True
+6938,II_10_1791,82.78688524590164,Henrico,Henrico,exact_hist,Historical county match,7.96962369904054,True,True
+6637,II_11_2487,82.78688524590164,Hanover,Hanover,exact_hist,Historical county match,16.874309581798673,True,True
+10788,II_12_2884,82.78688524590164,Surry,Surry,exact_hist,Historical county match,20.018201808301257,True,True
+11165,II_14_4902,82.75862068965517,Surry,Sussex,exact_hist,Historical county match,8.454556001863125,True,True
+9582,II_10_1841,82.71028037383178,Isle Of Wight,Southampton,exact_hist,Historical county match,2.365960284549149,True,True
+6059,II_10_1834,82.69394714407503,Henrico,Goochland,exact_hist,Historical county match,7.332741511561736,True,True
+10879,II_9_470,82.6923076923077,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),29.07311242237015,True,True
+6627,II_11_2474,82.6923076923077,Hanover,Hanover,exact_hist,Historical county match,15.01445204646197,True,True
+11047,II_11_2573,82.6923076923077,Surry,Sussex,exact_hist,Historical county match,1.4024950138658028,True,True
+6624,II_11_2646,82.66666666666667,New Kent,Hanover,adjacent_modern,Centroid in adjacent county (modern),13.563999323338107,False,True
+6042,II_10_1363,82.66129032258064,Henrico,Goochland,exact_hist,Historical county match,1.4942618347644725,True,True
+4921,II_9_230,82.6086956521739,Henrico,Chesterfield,exact_hist,Historical county match,12.391491173401809,True,True
+9560,II_10_1448,82.6086956521739,Isle Of Wight,Southampton,exact_hist,Historical county match,3.99950815253617,True,True
+6917,II_9_682,82.55813953488372,Henrico,Henrico,exact_hist,Historical county match,11.849868788282665,True,True
+6517,II_9_985,82.55813953488372,New Kent,Hanover,exact_hist,Historical county match,11.155393583168982,True,True
+6528,II_10_1265,82.55813953488372,New Kent,Hanover,exact_hist,Historical county match,2.0615316464598425,True,True
+6539,II_10_1554,82.55813953488372,New Kent,Hanover,exact_hist,Historical county match,5.019173388235714,True,True
+6558,II_10_1881,82.55813953488372,New Kent,Hanover,exact_hist,Historical county match,36.02000107291593,True,False
+10310,II_11_2068,82.55813953488372,Essex,Spotsylvania,exact_hist,Historical county match,0.2477864497316062,True,True
+6233,II_14_5209,82.51533742331289,Goochland,Goochland,exact_hist,Historical county match,2.6516482226499534,True,True
+10736,II_9_40,82.5,Surry,Surry,exact_hist,Historical county match,82.23471701737756,True,False
+9626,II_11_2557,82.5,Isle Of Wight,Southampton,exact_hist,Historical county match,1.6553320923989787,True,True
+10761,II_10_1122,82.46753246753246,Surry,Surry,exact_hist,Historical county match,29.115909266141397,True,True
+5110,II_13_3659,82.46376811594203,Henrico,Chesterfield,exact_hist,Historical county match,101.78213821990272,True,False
+10306,II_10_2000,82.45614035087719,King & Queen,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),7.897890789757608,True,True
+9752,II_14_5461,82.45614035087719,Isle Of Wight,Southampton,exact_hist,Historical county match,8.577968255385503,True,True
+5044,II_12_2727,82.3943661971831,Henrico,Chesterfield,exact_hist,Historical county match,19.9250666559156,True,True
+10783,II_12_3007,82.3943661971831,Surry,Surry,exact_hist,Historical county match,118.62637698696724,True,False
+8858,II_12_3550,82.3699421965318,Spotsylvania,Orange,exact_hist,Historical county match,7.392034700551435,True,True
+5034,II_12_2730,82.3671497584541,Henrico,Chesterfield,exact_hist,Historical county match,19.112411081487096,True,True
+6188,II_13_4358,82.33082706766916,Goochland,Goochland,exact_hist,Historical county match,18.011786555727056,True,True
+4980,II_10_1559,82.29166666666667,Henrico,Chesterfield,exact_hist,Historical county match,72.04644267006908,True,False
+4946,II_9_892,82.25806451612902,Henrico,Chesterfield,exact_hist,Historical county match,139.35815280305718,True,False
+6061,II_10_1825,82.25806451612902,Henrico,Goochland,exact_hist,Historical county match,0.9779494519238592,True,True
+9235,II_11_2293,82.25806451612902,Prince George,Prince George,exact_hist,Historical county match,5.347871217723882,True,True
+9243,II_11_2459,82.25806451612902,Prince George,Prince George,exact_hist,Historical county match,13.821379494999457,True,True
+3353,II_13_4588,82.25806451612902,Goochland,Buckingham,exact_hist,Historical county match,19.588035613600294,True,True
+5109,II_13_3678,82.25108225108224,Henrico,Chesterfield,exact_hist,Historical county match,92.7721076184221,True,False
+6550,II_10_1929,82.23479490806224,New Kent,Hanover,exact_hist,Historical county match,16.065779521565048,True,True
+5105,II_12_3226,82.22222222222223,Henrico,Chesterfield,exact_hist,Historical county match,9.381169212088253,True,True
+9268,II_14_5266,82.22222222222223,Prince George,Dinwiddie,exact_hist,Historical county match,1.3050515851670357,True,True
+11187,II_14_5240,82.20338983050847,Surry,Sussex,exact_hist,Historical county match,2.734603493537312,True,True
+5061,II_12_3311,82.18029350104823,Henrico,Chesterfield,exact_hist,Historical county match,45.76546558027683,True,False
+11144,II_13_4057,82.14285714285714,Surry,Sussex,exact_hist,Historical county match,3.088288995103241,True,True
+6170,II_13_4002,82.11572180011689,Henrico,Goochland,exact_hist,Historical county match,0.628160793490423,True,True
+6592,II_11_2181,82.10526315789474,Hanover,Hanover,exact_modern,Centroid in stated county (modern),4.776484813471657,False,True
+5023,II_11_2644,82.10526315789474,Henrico,Chesterfield,exact_hist,Historical county match,37.64530446965725,True,False
+6567,II_11_2047,82.0754716981132,New Kent,Hanover,exact_hist,Historical county match,9.959653004543204,True,True
+6653,II_12_2959,82.05128205128204,Hanover,Hanover,exact_hist,Historical county match,13.261522302166709,True,True
+10403,II_13_4141,82.0,Spotsylvania,Spotsylvania,exact_hist,Historical county match,6.680158952223925,True,True
+10416,II_13_4293,82.0,Spotsylvania,Spotsylvania,exact_hist,Historical county match,6.499112124817043,True,True
+7515,II_14_5051,82.0,Hanover,Louisa,exact_hist,Historical county match,2.1295062759461416,True,True
+5123,II_14_4949,81.98529411764706,Henrico,Powhatan,adjacent_modern,Centroid in adjacent county (modern),94.00248154864514,False,False
+9239,II_11_2688,81.94444444444444,Prince George,Prince George,exact_hist,Historical county match,6.869683002349948,True,True
+6126,II_12_3385,81.93979933110367,Henrico,Goochland,exact_hist,Historical county match,12.824769968873673,True,True
+3355,II_14_5329,81.93979933110367,Goochland,Buckingham,exact_hist,Historical county match,2.5250978056496365,True,True
+10319,II_11_2220,81.86813186813187,Spotsylvania,Spotsylvania,exact_hist,Historical county match,19.483837614382708,True,True
+4981,II_10_1575,81.84885290148449,Henrico,Chesterfield,exact_hist,Historical county match,36.81655845135391,True,False
+6982,II_14_5162,81.84019370460048,Henrico,Henrico,exact_hist,Historical county match,1.318286583808046,True,True
+4968,II_10_1502,81.83333333333334,Henrico,Chesterfield,exact_hist,Historical county match,74.93702907888455,True,False
+6496,II_9_313,81.81818181818181,New Kent,Hanover,exact_hist,Historical county match,5.522371398995168,True,True
+6504,II_9_407,81.81818181818181,New Kent,Hanover,exact_hist,Historical county match,15.59266022242779,True,True
+6115,II_12_2712,81.81818181818181,Henrico,Louisa,boundary_tol,≤50.0 m outside hist polygon (HANOVER),0.3965092253224775,True,True
+6051,II_10_1578,81.77777777777777,Henrico,Goochland,exact_hist,Historical county match,2.7712513906448666,True,True
+3347,II_13_3654,81.77083333333334,Henrico,Buckingham,exact_hist,Historical county match,0.0130935897587392,True,True
+4990,II_10_1722,81.70731707317073,Henrico,Chesterfield,exact_hist,Historical county match,75.23779130785617,True,False
+6590,II_11_2074,81.70731707317073,,Hanover,boundary_tol,≤50.0 m outside hist polygon (NEW KENT),0.0570269458649335,True,True
+9614,II_11_2548,81.70731707317073,Isle Of Wight,Southampton,exact_hist,Historical county match,3.6006956470916838,True,True
+5040,II_12_2725,81.70731707317073,Henrico,Chesterfield,exact_hist,Historical county match,2.026917283268176,True,True
+5089,II_12_3223,81.70731707317073,Henrico,Chesterfield,exact_hist,Historical county match,205.67451765885855,True,False
+10781,II_12_3003,81.66666666666667,Surry,Surry,exact_hist,Historical county match,19.4554813868492,True,True
+9529,II_10_1229,81.64556962025317,Isle Of Wight,Southampton,exact_hist,Historical county match,0.5677901148538069,True,True
+10795,II_13_4409,81.64556962025317,Surry,Surry,exact_hist,Historical county match,1.099357211123182,True,True
+10308,II_11_2130,81.63265306122449,King William,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (KING AND QUEEN),0.0769060481582215,True,True
+9680,II_12_3457,81.61764705882354,Isle Of Wight,Southampton,exact_hist,Historical county match,42.301355949028405,True,False
+9558,II_10_1439,81.57894736842105,Isle Of Wight,Southampton,exact_hist,Historical county match,2.425496629968709,True,True
+10768,II_10_1715,81.57894736842105,Surry,Surry,exact_hist,Historical county match,82.01728729796001,True,False
+6135,II_12_3102,81.57894736842105,Henrico,Goochland,exact_hist,Historical county match,2.533906259897321,True,True
+8868,II_13_3909,81.57894736842105,Spotsylvania,Orange,exact_hist,Historical county match,1.357015716601802,True,True
+11169,II_14_4886,81.57894736842105,Surry,Sussex,exact_hist,Historical county match,1.6587417351448963,True,True
+11184,II_14_5188,81.57894736842105,Surry,Sussex,exact_hist,Historical county match,6.912557287994034,True,True
+9754,II_14_5438,81.57894736842105,Isle Of Wight,Southampton,exact_hist,Historical county match,48.25363661357437,True,False
+9748,II_14_5181,81.56565656565657,Isle Of Wight,Southampton,exact_hist,Historical county match,4.638096142835836,True,True
+4931,II_9_683,81.5581253804017,Henrico,Chesterfield,exact_hist,Historical county match,61.97535821917336,True,False
+9223,II_10_1707,81.5068493150685,Prince George,Prince George,exact_hist,Historical county match,2.288590390908018,True,True
+5031,II_12_2724,81.5,Henrico,Chesterfield,exact_hist,Historical county match,2.6094888631127686,True,True
+6962,II_12_3374,81.5,Henrico,Henrico,exact_hist,Historical county match,3.37487782594799,True,True
+5026,II_11_2519,81.49920255183413,Henrico,Chesterfield,exact_hist,Historical county match,71.8008410721454,True,False
+9594,II_11_2363,81.45161290322581,Isle Of Wight,Southampton,exact_hist,Historical county match,0.6444556216067383,True,True
+9201,II_9_720,81.42857142857143,Charles City,Prince George,adjacent_modern,Centroid in adjacent county (modern),6.935718959083519,False,True
+9203,II_9_822,81.42857142857142,Charles City,Prince George,adjacent_modern,Centroid in adjacent county (modern),2.526566077888293,False,True
+6025,II_10_1124,81.40929535232384,Henrico,Goochland,exact_hist,Historical county match,1.3140763250143694,True,True
+10419,II_13_4455,81.40495867768595,Spotsylvania,Spotsylvania,exact_hist,Historical county match,1.815894265343412,True,True
+11005,II_11_2121,81.3953488372093,Surry,Sussex,exact_hist,Historical county match,0.1284039851274423,True,True
+6961,II_12_3379,81.39097744360902,Henrico,Henrico,exact_hist,Historical county match,0.9328846291857076,True,True
+8886,II_13_4214,81.36363636363636,Spotsylvania,Orange,exact_hist,Historical county match,3.976712149174933,True,True
+5079,II_12_3188,81.33333333333334,Henrico,Chesterfield,exact_hist,Historical county match,9.787196849580477,True,True
+7465,II_14_4668,81.32530120481928,Hanover,Louisa,exact_hist,Historical county match,0.8162021093126556,True,True
+6920,II_9_715,81.28813559322035,Henrico,Henrico,exact_hist,Historical county match,3.569628087081441,True,True
+10938,II_10_1221,81.25,Surry,Sussex,exact_hist,Historical county match,35.56417294546843,True,False
+10968,II_10_1561,81.25,Surry,Sussex,exact_hist,Historical county match,0.6692029513513233,True,True
+11010,II_11_2401,81.25,Surry,Sussex,exact_hist,Historical county match,5.972777452946032,True,True
+11044,II_11_2606,81.25,Surry,Sussex,exact_hist,Historical county match,1.126829335951129,True,True
+11033,II_11_2653,81.25,Surry,Sussex,exact_hist,Historical county match,36.418126079545175,True,False
+11111,II_12_3477,81.25,Surry,Sussex,exact_hist,Historical county match,4.159474817915089,True,True
+10425,II_14_4757,81.25,Spotsylvania,Spotsylvania,exact_hist,Historical county match,2.098918791011158,True,True
+11199,II_14_5404,81.25,Surry,Sussex,exact_hist,Historical county match,1.0519701213046346,True,True
+9757,II_14_5451,81.25,Isle Of Wight,Southampton,exact_hist,Historical county match,0.3932812195445004,True,True
+9653,II_12_2857,81.16883116883116,Isle Of Wight,Southampton,exact_hist,Historical county match,14.899120009302464,True,True
+5082,II_12_3186,81.14754098360656,Henrico,Chesterfield,exact_hist,Historical county match,26.286098465565534,True,True
+5094,II_12_3192,81.0958904109589,Henrico,Chesterfield,exact_hist,Historical county match,30.319504724972813,True,False
+9210,II_10_1111,81.09243697478992,Prince George,Prince George,exact_hist,Historical county match,0.3798312929857383,True,True
+9230,II_11_2199,81.05263157894737,Prince George,Prince George,exact_hist,Historical county match,7.108710020818876,True,True
+6513,II_9_947,81.0344827586207,New Kent,Hanover,exact_hist,Historical county match,33.31670114197195,True,False
+10965,II_10_1365,81.0344827586207,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),3.997499300472656,True,True
+6968,II_13_3780,81.0344827586207,Henrico,Goochland,exact_hist,Historical county match,28.551810388470823,True,True
+6930,II_10_1193,80.97826086956522,Henrico,Henrico,exact_hist,Historical county match,2.6413526534344305,True,True
+6147,II_13_3764,80.97826086956522,Henrico,Goochland,exact_hist,Historical county match,3.107271377284661,True,True
+41,II_14_5289,80.95238095238095,Goochland,Albemarle,exact_hist,Historical county match,0.4179951485374715,True,True
+35,II_14_5233,80.9278350515464,Goochland,Albemarle,exact_hist,Historical county match,11.906570295560826,True,True
+9608,II_11_2665,80.9090909090909,Isle Of Wight,Southampton,exact_hist,Historical county match,19.813999441240213,True,True
+9250,II_12_3471,80.88235294117646,Prince George,Prince George,exact_hist,Historical county match,0.7318568129792011,True,True
+9737,II_14_4955,80.88235294117646,Isle Of Wight,Southampton,exact_hist,Historical county match,5.638049320052261,True,True
+9196,II_9_526,80.76923076923077,Charles City,Prince George,adjacent_modern,Centroid in adjacent county (modern),47.52878001805818,False,False
+8878,II_13_4127,80.76923076923077,Spotsylvania,Orange,exact_hist,Historical county match,11.761620496264982,True,True
+6948,II_12_2942,80.68760611205434,,Henrico,boundary_tol,≤50.0 m outside hist polygon (HENRICO),8.6453896939326,True,True
+11099,II_12_3421,80.66666666666667,Surry,Sussex,exact_hist,Historical county match,6.921777305827486,True,True
+10380,II_13_3788,80.66666666666667,Spotsylvania,Spotsylvania,exact_hist,Historical county match,0.6329677912975598,True,True
+9611,II_11_2534,80.65693430656934,Isle Of Wight,Southampton,exact_hist,Historical county match,15.977798368780569,True,True
+8872,II_13_4197,80.65693430656934,Spotsylvania,Orange,exact_hist,Historical county match,2.911090236039402,True,True
+10771,II_11_2411,80.55555555555556,Surry,Sussex,exact_hist,Historical county match,13.782059165862393,True,True
+9552,II_10_1441,80.54187192118226,Isle Of Wight,Southampton,exact_hist,Historical county match,38.53911345049855,True,False
+10766,II_10_1456,80.50847457627118,Surry,Surry,exact_hist,Historical county match,22.542017621684597,True,True
+6536,II_10_1370,80.43478260869566,New Kent,Hanover,exact_hist,Historical county match,5.9956014385615,True,True
+4975,II_10_1486,80.43478260869566,Henrico,Chesterfield,exact_hist,Historical county match,82.19740019058781,True,False
+4972,II_10_1496,80.43478260869566,Henrico,Chesterfield,exact_hist,Historical county match,10.694658284128442,True,True
+4973,II_10_1499,80.43478260869566,Henrico,Chesterfield,exact_hist,Historical county match,30.169361659361098,True,False
+4985,II_10_1529,80.43478260869566,Henrico,Chesterfield,exact_hist,Historical county match,14.7333908233792,True,True
+5000,II_10_1660,80.43478260869566,Henrico,Chesterfield,exact_hist,Historical county match,268.239279221528,True,False
+7407,II_12_3401,80.43478260869566,Hanover,Louisa,exact_hist,Historical county match,0.3970778406821561,True,True
+9734,II_13_4619,80.43478260869566,Isle Of Wight,Southampton,exact_hist,Historical county match,1.3458109565143868,True,True
+10778,II_12_2996,80.37974683544303,Surry,Surry,exact_hist,Historical county match,9.521105925328328,True,True
+10340,II_12_2803,80.35714285714286,King William,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (SPOTSYLVANIA),5.109402465442827,True,True
+6166,II_13_4001,80.34188034188034,Henrico,Goochland,exact_hist,Historical county match,3.5143371762086413,True,True
+5042,II_12_2723,80.33826638477801,Henrico,Chesterfield,exact_hist,Historical county match,0.1592987154327545,True,True
+6604,II_11_2346,80.33707865168539,Hanover,Hanover,exact_hist,Historical county match,0.4895386785858448,True,True
+7466,II_14_4669,80.32714412024757,Hanover,Louisa,exact_hist,Historical county match,1.103662576217829,True,True
+10765,II_10_1444,80.30303030303031,Surry,Surry,exact_hist,Historical county match,70.21898198943745,True,False
+9579,II_10_1709,80.30303030303031,Isle Of Wight,Southampton,exact_hist,Historical county match,0.1443922821700673,True,True
+11046,II_11_2611,80.30303030303031,Surry,Sussex,exact_hist,Historical county match,3.994499079586674,True,True
+4941,II_9_896,80.15873015873015,Henrico,Chesterfield,exact_hist,Historical county match,1.5379551263512057,True,True
+3348,II_13_4176,80.07518796992481,Goochland,Buckingham,exact_hist,Historical county match,20.14353393977315,True,True
+9199,II_9_671,80.0,Charles City,Prince George,adjacent_modern,Centroid in adjacent county (modern),2.028419089315719,False,True
+10943,II_10_1418,80.0,Surry,Sussex,exact_hist,Historical county match,2.808458745476852,True,True
+9217,II_10_1724,80.0,Prince George,Prince George,exact_hist,Historical county match,20.89176523600488,True,True
+6073,II_11_2113,80.0,Henrico,Goochland,exact_hist,Historical county match,4.825081391511134,True,True
+11039,II_11_2590,80.0,Surry,Sussex,exact_hist,Historical county match,8.052389934233549,True,True
+5020,II_11_2242,79.94884910485933,Henrico,Chesterfield,exact_hist,Historical county match,666.5267560960223,True,False
+8871,II_13_3961,79.93197278911565,Spotsylvania,Orange,exact_hist,Historical county match,12.71358638352305,True,True
+5117,II_13_4612,79.88372093023256,Henrico,Chesterfield,exact_hist,Historical county match,78.07287259134105,True,False
+11076,II_12_2902,79.85074626865672,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),4.04052884631214,True,True
+6949,II_12_2941,79.84344422700588,Henrico,Henrico,exact_hist,Historical county match,3.762511897066503,True,True
+5112,II_13_4009,79.84313725490196,Henrico,Powhatan,exact_hist,Historical county match,71.3088366376396,True,False
+7341,II_9_558,79.8076923076923,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,6.192861822081994,True,True
+6663,II_12_2759,79.78290366350068,Hanover,Hanover,exact_hist,Historical county match,0.2239902904387634,True,True
+5111,II_13_3956,79.72972972972973,Henrico,Chesterfield,exact_hist,Historical county match,31.23455408592676,True,False
+7448,II_13_3802,79.71014492753623,Hanover,Louisa,exact_hist,Historical county match,12.26219479919436,True,True
+6045,II_10_1349,79.70588235294117,Henrico,Goochland,exact_hist,Historical county match,9.405831530136023,True,True
+4927,II_9_546,79.63800904977376,Henrico,Chesterfield,exact_hist,Historical county match,42.80872658159793,True,False
+6595,II_11_2184,79.62962962962963,Hanover,Hanover,exact_modern,Centroid in stated county (modern),23.610474432641336,False,True
+10394,II_13_4125,79.62962962962963,Spotsylvania,Spotsylvania,exact_hist,Historical county match,3.442228446034028,True,True
+8911,II_14_4856,79.62962962962963,Spotsylvania,Orange,exact_hist,Historical county match,17.13733429181174,True,True
+6912,II_9_384,79.60526315789474,Henrico,Charles City,adjacent_modern,Centroid in adjacent county (modern),36.84834373439422,False,False
+11045,II_11_2602,79.6,Surry,Sussex,exact_hist,Historical county match,14.7536021159188,True,True
+9537,II_10_1328,79.48717948717949,Isle Of Wight,Southampton,exact_hist,Historical county match,1.641420911202767,True,True
+9595,II_11_2366,79.48717948717949,Isle Of Wight,Southampton,exact_hist,Historical county match,4.31439381491856,True,True
+11115,II_12_3397,79.48717948717949,Surry,Sussex,exact_hist,Historical county match,16.70961160431805,True,True
+5084,II_12_3196,79.47368421052632,Henrico,Chesterfield,exact_hist,Historical county match,29.017883178903148,True,True
+9549,II_10_1438,79.41176470588235,Isle Of Wight,Southampton,exact_hist,Historical county match,1.6041149889744706,True,True
+11051,II_11_2603,79.41176470588235,Surry,Sussex,exact_hist,Historical county match,9.733218703009632,True,True
+11091,II_12_2917,79.41176470588235,Surry,Greensville,exact_hist,Historical county match,9.635838217027157,True,True
+9634,II_12_3016,79.41176470588235,Isle Of Wight,Southampton,exact_hist,Historical county match,3.866000148204437,True,True
+11118,II_12_3416,79.41176470588235,Surry,Sussex,exact_hist,Historical county match,3.252496879827248,True,True
+11161,II_13_4399,79.41176470588235,Surry,Sussex,exact_hist,Historical county match,6.084113519574657,True,True
+11174,II_14_4750,79.41176470588235,Surry,Sussex,exact_hist,Historical county match,0.1741558068624305,True,True
+11179,II_14_5024,79.41176470588235,Surry,Sussex,exact_hist,Historical county match,8.440288523049688,True,True
+10878,II_9_463,79.37254901960785,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),29.7465168275861,True,True
+5093,II_12_3206,79.328165374677,Henrico,Chesterfield,exact_hist,Historical county match,27.319744092391343,True,True
+5091,II_12_3211,79.28073000536769,Henrico,Chesterfield,exact_hist,Historical county match,114.57845329994664,True,False
+7345,II_9_807,79.24528301886792,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,0.5472555717930275,True,True
+6133,II_12_3224,79.16666666666666,Henrico,Goochland,exact_hist,Historical county match,7.927053932519058,True,True
+5395,II_14_4948,79.15632754342433,Goochland,Fluvanna,exact_hist,Historical county match,19.23128412623141,True,True
+9218,II_10_1784,79.0909090909091,Prince George,Prince George,exact_hist,Historical county match,2.106938535599666,True,True
+10320,II_11_2221,79.0909090909091,Spotsylvania,Spotsylvania,exact_hist,Historical county match,6.239680712806679,True,True
+6179,II_13_4204,79.03225806451613,Goochland,Goochland,near_split,Near-split HENRICO ⇄ Goochland (±2 yr),8.505372494653605,True,True
+5387,II_13_4359,79.03225806451613,Goochland,Fluvanna,exact_hist,Historical county match,1.5098808282383374,True,True
+11075,II_12_2887,78.98550724637681,Surry,Sussex,exact_hist,Historical county match,1.5276616435095098,True,True
+9507,II_10_1208,78.94736842105263,Isle Of Wight,Southampton,exact_hist,Historical county match,1.0104553995840972,True,True
+9449,II_9_643,78.91566265060241,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,14.834326729199995,True,True
+5125,II_14_5215,78.88372093023256,Henrico,Chesterfield,exact_hist,Historical county match,85.48781088209235,True,False
+4986,II_10_1519,78.85714285714286,Henrico,Richmond,exact_hist,Historical county match,169.53555131053676,True,False
+4994,II_10_1789,78.84615384615384,Henrico,Chesterfield,exact_hist,Historical county match,120.38145526826712,True,False
+10363,II_12_3547,78.84615384615384,Spotsylvania,Spotsylvania,exact_hist,Historical county match,3.955510914364901,True,True
+11031,II_11_2654,78.8135593220339,Surry,Sussex,exact_hist,Historical county match,9.06468921948446,True,True
+8854,II_12_3536,78.76712328767124,Spotsylvania,Orange,exact_hist,Historical county match,30.375644018340648,True,False
+6618,II_11_2673,78.75615763546799,Hanover,Hanover,exact_hist,Historical county match,21.22966099507157,True,True
+6582,II_10_1952,78.71198568872987,New Kent,Hanover,exact_hist,Historical county match,0.9015290024913416,True,True
+6919,II_9_670,78.62165963431787,Henrico,Henrico,exact_hist,Historical county match,61.16545926580152,True,False
+9587,II_10_1955,78.57142857142857,Isle Of Wight,Southampton,exact_hist,Historical county match,0.1095470459441035,True,True
+9233,II_11_2394,78.57142857142857,Prince George,Prince George,exact_hist,Historical county match,4.83599924965651,True,True
+6109,II_12_2718,78.57142857142857,Henrico,Goochland,exact_hist,Historical county match,6.432396574326731,True,True
+8888,II_13_4235,78.57142857142857,,Orange,boundary_tol,≤50.0 m outside hist polygon (SPOTSYLVANIA),2.4680223101981253,True,True
+9739,II_14_4976,78.57142857142857,Isle Of Wight,Southampton,exact_hist,Historical county match,9.14341467492754,True,True
+6934,II_10_1386,78.39889579020014,Henrico,Henrico,exact_hist,Historical county match,4.398041485343044,True,True
+4997,II_10_1634,78.36879432624113,Henrico,Chesterfield,exact_hist,Historical county match,0.0793725637031798,True,True
+5041,II_12_2744,78.36198179979777,Henrico,Chesterfield,exact_hist,Historical county match,35.12462907193551,True,False
+9566,II_10_1358,78.35820895522389,Isle Of Wight,Southampton,exact_hist,Historical county match,7.477968417126108,True,True
+8893,II_13_4281,78.35820895522389,Spotsylvania,Orange,exact_hist,Historical county match,0.0361544750196117,True,True
+11114,II_12_3407,78.33333333333333,Surry,Sussex,exact_hist,Historical county match,89.41185211973051,True,False
+7330,II_9_28,78.30188679245283,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,2.783557481676368,True,True
+10313,II_11_2153,78.26086956521739,Essex,Spotsylvania,exact_hist,Historical county match,22.40440845104137,True,True
+11183,II_14_5021,78.26086956521739,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),6.53913291429709,True,True
+6511,II_9_871,78.25278810408922,New Kent,Hanover,exact_hist,Historical county match,18.0258826488098,True,True
+6165,II_13_3991,78.14492753623188,Henrico,Goochland,exact_hist,Historical county match,4.528134460632316,True,True
+11107,II_12_3417,78.125,Surry,Sussex,exact_hist,Historical county match,20.71077358976564,True,True
+9261,II_13_3718,78.125,Prince George,Prince George,exact_hist,Historical county match,1.1256679513884509,True,True
+5128,II_14_5216,78.06873977086744,Henrico,Chesterfield,exact_hist,Historical county match,193.667633842612,True,False
+9715,II_13_4062,78.06201550387597,Isle Of Wight,Southampton,exact_hist,Historical county match,0.8166537595886816,True,True
+6913,II_9_431,78.02887633396108,Henrico,Henrico,exact_hist,Historical county match,0.2101504128429307,True,True
+10345,II_12_3271,78.02197802197801,Spotsylvania,Caroline,adjacent_modern,Centroid in adjacent county (modern),3.0671791272356472,False,True
+10769,II_10_1731,77.90697674418604,Surry,Surry,exact_hist,Historical county match,16.35382445545562,True,True
+10899,II_9_1059,77.88461538461539,Surry,Sussex,exact_hist,Historical county match,4.865808357884134,True,True
+4956,II_9_1090,77.85714285714286,Henrico,Chesterfield,exact_hist,Historical county match,95.63819765377934,True,False
+10427,II_14_4849,77.82608695652173,Spotsylvania,Spotsylvania,exact_hist,Historical county match,32.78457366642412,True,False
+6075,II_11_2111,77.77777777777777,Henrico,Goochland,exact_hist,Historical county match,1.6483003281962778,True,True
+10936,II_10_1214,77.6923076923077,Prince George,Sussex,adjacent_modern,Centroid in adjacent county (modern),14.762414372102247,False,True
+9625,II_11_2556,77.6923076923077,Isle Of Wight,Southampton,exact_hist,Historical county match,8.556818100126057,True,True
+5045,II_12_2722,77.6923076923077,Henrico,Chesterfield,exact_hist,Historical county match,1.700559689317032,True,True
+9747,II_14_5171,77.6923076923077,Isle Of Wight,Southampton,exact_hist,Historical county match,1.2609458384052428,True,True
+11008,II_11_2426,77.65957446808511,Surry,Sussex,exact_hist,Historical county match,1.1583781353757217,True,True
+6925,II_9_897,77.63975155279502,Henrico,Henrico,exact_hist,Historical county match,1.699504774451505,True,True
+7335,II_9_206,77.63157894736842,Isle Of Wight,Suffolk,adjacent_modern,Centroid in adjacent county (modern),1.0532139072444755,False,True
+6937,II_10_1552,77.61824324324324,Henrico,Henrico,exact_hist,Historical county match,18.136469782189373,True,True
+5003,II_10_1927,77.58620689655172,Henrico,Chesterfield,exact_hist,Historical county match,127.51161220161362,True,False
+6926,II_9_901,77.5,Henrico,Henrico,exact_hist,Historical county match,11.052773003007166,True,True
+5119,II_13_4547,77.5,Henrico,Chesterfield,exact_hist,Historical county match,37.1930958205024,True,False
+9193,II_9_314,77.45098039215686,Charles City,Prince George,adjacent_modern,Centroid in adjacent county (modern),17.994041973528287,False,True
+9506,II_10_1153,77.45098039215685,Isle Of Wight,Southampton,exact_hist,Historical county match,17.267436824080935,True,True
+6196,II_14_4936,77.44052502050862,Goochland,Goochland,exact_hist,Historical county match,7.586055258564371,True,True
+6972,II_13_4000,77.42424242424244,Henrico,Henrico,exact_hist,Historical county match,15.39555879335742,True,True
+10950,II_10_1451,77.41935483870968,Surry,Sussex,exact_hist,Historical county match,3.9648510115558366,True,True
+8902,II_13_4472,77.4074074074074,Spotsylvania,Orange,exact_hist,Historical county match,10.103162157732127,True,True
+10402,II_13_4126,77.3972602739726,Spotsylvania,Spotsylvania,exact_hist,Historical county match,2.455112263825072,True,True
+5132,II_14_5430,77.16186252771618,Henrico,Chesterfield,exact_hist,Historical county match,3.795565864531298,True,True
+20,II_13_4467,77.1523178807947,Hanover,Albemarle,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),1.012656071402148,True,True
+5069,II_12_3225,77.10526315789474,Henrico,Chesterfield,exact_hist,Historical county match,68.3884893914589,True,False
+5012,II_10_2010,77.10144927536231,Henrico,Chesterfield,exact_hist,Historical county match,67.39504303219633,True,False
+4982,II_10_1560,77.08333333333333,Henrico,Chesterfield,exact_hist,Historical county match,45.869992549857976,True,False
+10747,II_9_889,77.02702702702703,Surry,Surry,exact_hist,Historical county match,52.86560315463882,True,False
+11093,II_12_2915,76.98412698412699,Surry,Sussex,exact_hist,Historical county match,0.3710996478735637,True,True
+6932,II_10_1112,76.94444444444444,Henrico,Henrico,exact_hist,Historical county match,1.1112140777348791,True,True
+6062,II_10_1831,76.94444444444444,Henrico,Goochland,exact_hist,Historical county match,6.579545082704443,True,True
+8884,II_13_4172,76.92307692307692,Spotsylvania,Orange,exact_hist,Historical county match,2.821057299837608,True,True
+8889,II_13_4236,76.88679245283019,Spotsylvania,Orange,exact_hist,Historical county match,0.539049063572827,True,True
+38,II_14_5264,76.85714285714286,Hanover,Albemarle,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),0.5091060469251829,True,True
+6067,II_10_1953,76.82926829268293,Henrico,Goochland,exact_hist,Historical county match,7.340204211253799,True,True
+10877,II_9_455,76.81159420289855,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),7.041586823757717,True,True
+8920,II_14_5311,76.7515923566879,Spotsylvania,Greene,exact_hist,Historical county match,8.043327250427247,True,True
+8915,II_14_4882,76.73969072164948,Spotsylvania,Orange,exact_hist,Historical county match,3.648796572790876,True,True
+6148,II_13_3771,76.66666666666667,Henrico,Goochland,exact_hist,Historical county match,11.266873934300392,True,True
+11134,II_13_3869,76.66666666666667,Surry,Sussex,exact_hist,Historical county match,16.673890456074773,True,True
+8919,II_13_4531,76.66666666666667,Spotsylvania,Orange,exact_hist,Historical county match,1.082499979187746,True,True
+6023,II_10_1134,76.64285714285714,Henrico,Goochland,exact_hist,Historical county match,86.60381062448009,True,False
+10439,II_14_5458,76.59574468085106,,Spotsylvania,boundary_tol,≤50.0 m outside hist polygon (SPOTSYLVANIA),30.18437057470065,True,False
+7521,II_14_5052,76.54867256637168,Hanover,Louisa,exact_hist,Historical county match,0.7634867992019423,True,True
+10353,II_12_3494,76.3681592039801,Spotsylvania,Spotsylvania,exact_hist,Historical county match,26.95868304506726,True,True
+6953,II_12_2742,76.26514611546686,Henrico,Henrico,exact_hist,Historical county match,3.760679345778741,True,True
+9222,II_10_1692,76.22950819672131,Prince George,Prince George,exact_hist,Historical county match,0.1513549794697559,True,True
+6959,II_12_3384,76.19047619047618,Henrico,Henrico,exact_hist,Historical county match,3.239007641049525,True,True
+6043,II_10_1343,76.08695652173913,Henrico,Goochland,exact_hist,Historical county match,13.578270967317586,True,True
+9646,II_12_3077,76.08695652173913,Isle Of Wight,Southampton,exact_hist,Historical county match,28.46281813395558,True,True
+7402,II_12_2756,76.01626016260163,Hanover,Louisa,exact_hist,Historical county match,4.710349883500143,True,True
+9596,II_11_2374,75.92592592592592,Isle Of Wight,Southampton,exact_hist,Historical county match,71.40650429051897,True,False
+4976,II_10_1498,75.88932806324111,Henrico,Chesterfield,exact_hist,Historical county match,62.3421667354948,True,False
+7501,II_14_4741,75.84415584415585,Hanover,Louisa,exact_hist,Historical county match,0.1724226431271489,True,True
+10408,II_13_4183,75.75757575757575,Spotsylvania,Spotsylvania,exact_hist,Historical county match,2.0065597007619886,True,True
+4951,II_9_886,75.73632538569424,Henrico,Chesterfield,exact_hist,Historical county match,50.25618334823427,True,False
+10424,II_14_4756,75.72815533980582,Spotsylvania,Spotsylvania,exact_hist,Historical county match,24.45140901228558,True,True
+8890,II_13_4239,75.71428571428572,Spotsylvania,Orange,exact_hist,Historical county match,11.46715705814445,True,True
+10420,II_13_4456,75.71428571428572,Spotsylvania,Spotsylvania,exact_hist,Historical county match,2.501336458378148,True,True
+4944,II_9_894,75.70731707317073,Henrico,Chesterfield,exact_hist,Historical county match,81.93314751016555,True,False
+7475,II_13_4163,75.69493941553813,Hanover,Louisa,exact_hist,Historical county match,1.0002012105302072,True,True
+6978,II_14_5006,75.69296375266524,Henrico,Henrico,exact_hist,Historical county match,10.741830281103034,True,True
+6127,II_12_3347,75.64102564102564,Henrico,Goochland,exact_hist,Historical county match,3.099934251143281,True,True
+7478,II_13_4391,75.64102564102564,Hanover,Louisa,exact_hist,Historical county match,0.3497696283249157,True,True
+9544,II_10_1447,75.60975609756098,Isle Of Wight,Southampton,exact_hist,Historical county match,5.584104983431957,True,True
+9570,II_10_1514,75.60975609756098,Isle Of Wight,Southampton,exact_hist,Historical county match,3.045620423665426,True,True
+7477,II_13_4380,75.55555555555554,Hanover,Louisa,exact_hist,Historical county match,14.707164127646626,True,True
+9613,II_11_2537,75.53191489361703,Isle Of Wight,Southampton,exact_hist,Historical county match,1.1453573120667289,True,True
+6973,II_13_4288,75.46583850931677,Henrico,Goochland,exact_hist,Historical county match,95.26637576246026,True,False
+10372,II_13_3664,75.45454545454545,Spotsylvania,Spotsylvania,exact_hist,Historical county match,0.2972534339268805,True,True
+6971,II_13_4101,75.43859649122807,Henrico,Henrico,exact_hist,Historical county match,78.00845215375904,True,False
+6235,II_14_5468,75.3931544865865,Goochland,Goochland,exact_hist,Historical county match,15.915833822090326,True,True
+9666,II_12_2862,75.35211267605634,Isle Of Wight,Southampton,exact_hist,Historical county match,14.0339069111194,True,True
+9220,II_10_1638,75.34246575342466,Prince George,Prince George,exact_hist,Historical county match,9.235816908330357,True,True
+4991,II_10_1720,75.18557794273595,Henrico,Chesterfield,exact_hist,Historical county match,14.06410051893959,True,True
+5074,II_12_3208,75.01665556295804,Henrico,Chesterfield,exact_hist,Historical county match,0.6625762144491745,True,True
+10972,II_10_1728,75.0,Surry,Sussex,exact_hist,Historical county match,0.8420684936549735,True,True
+6565,II_11_2044,75.0,New Kent,Hanover,exact_hist,Historical county match,0.157276322021706,True,True
+11061,II_11_2609,75.0,Surry,Sussex,exact_hist,Historical county match,8.062812537072523,True,True
+11119,II_12_3415,75.0,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),1.6509497903383237,True,True
+10378,II_13_3797,75.0,Hanover,Spotsylvania,adjacent_modern,Centroid in adjacent county (modern),0.0545838265697824,False,True
+7461,II_13_3959,75.0,Hanover,Louisa,exact_hist,Historical county match,3.497281593497437,True,True
+10882,II_9_466,74.90683229813665,,Sussex,boundary_tol,≤50.0 m outside hist polygon (SURRY),0.8571645498269566,True,True
+5113,II_13_4003,74.81751824817519,,Chesterfield,boundary_tol,≤50.0 m outside hist polygon (HENRICO),129.6389076110235,True,False
+11088,II_12_2890,74.81203007518798,Surry,Sussex,exact_hist,Historical county match,0.1984992117479331,True,True
+10318,II_11_2219,74.64454976303318,Spotsylvania,Spotsylvania,exact_hist,Historical county match,17.818195616542607,True,True
+10387,II_13_3908,74.62311557788945,Spotsylvania,Spotsylvania,exact_hist,Historical county match,1.4990586506631698,True,True
+11164,II_14_4887,74.56140350877193,Surry,Sussex,exact_hist,Historical county match,4.546351132858841,True,True
+6087,II_11_2645,74.54545454545455,Henrico,Goochland,exact_hist,Historical county match,2.525353723880812,True,True
+9564,II_10_1436,74.51923076923077,Isle Of Wight,Southampton,exact_hist,Historical county match,35.20987407916595,True,False
+6664,II_12_2762,74.48979591836735,Hanover,Hanover,exact_hist,Historical county match,13.440582186170955,True,True
+8855,II_12_3537,74.48979591836735,Spotsylvania,Orange,exact_hist,Historical county match,41.87199287889624,True,False
+10379,II_13_3787,74.45241199478488,Spotsylvania,Spotsylvania,exact_hist,Historical county match,12.911461945300829,True,True
+4987,II_10_1526,74.43478260869566,Henrico,Chesterfield,exact_hist,Historical county match,44.52205465021996,True,False
+6572,II_10_1965,74.43181818181819,New Kent,Hanover,exact_hist,Historical county match,0.7750113859754322,True,True
+6952,II_12_2740,74.39024390243902,Henrico,Henrico,exact_hist,Historical county match,1.11593490807401,True,True
+10770,II_10_1795,74.32432432432432,Surry,Surry,exact_hist,Historical county match,71.16000646665955,True,False
+5056,II_12_3349,74.32432432432432,Henrico,Chesterfield,exact_hist,Historical county match,78.16638603269543,True,False
+10930,II_10_1093,74.18300653594771,Surry,Sussex,exact_hist,Historical county match,22.28232275137069,True,True
+9628,II_11_2538,74.13793103448276,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,0.3855001242778257,True,True
+5115,II_13_4590,74.12820512820512,Henrico,Chesterfield,exact_hist,Historical county match,3.908701819107109,True,True
+9705,II_13_3855,74.11764705882354,Isle Of Wight,Southampton,exact_hist,Historical county match,43.931389286415175,True,False
+5004,II_10_1837,74.04255319148936,Henrico,Chesterfield,exact_hist,Historical county match,86.40087717424228,True,False
+5075,II_12_3212,74.04255319148936,Henrico,Chesterfield,exact_hist,Historical county match,67.86018306464376,True,False
+4942,II_9_899,73.8295318127251,Henrico,Chesterfield,exact_hist,Historical county match,12.37532292773493,True,True
+5077,II_12_3213,73.81258023106547,Henrico,Chesterfield,exact_hist,Historical county match,77.84380967182595,True,False
+6980,II_14_5194,73.6842105263158,Henrico,Henrico,exact_hist,Historical county match,6.211570158635112,True,True
+8907,II_14_4845,73.66863905325444,Spotsylvania,Orange,exact_hist,Historical county match,5.771850563257301,True,True
+9509,II_10_1204,73.52941176470588,Isle Of Wight,Southampton,exact_hist,Historical county match,2.8899134449250616,True,True
+8913,II_14_4868,73.52941176470588,Spotsylvania,Orange,exact_hist,Historical county match,37.21336730726941,True,False
+4924,II_9_231,73.46428571428572,Henrico,Chesterfield,exact_hist,Historical county match,78.67833431330531,True,False
+9736,II_14_4954,73.4375,Isle Of Wight,Southampton,exact_hist,Historical county match,1.4474866628326453,True,True
+7346,II_9_1079,73.40425531914894,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,119.91449773425684,True,False
+5116,II_13_4577,73.33333333333334,Henrico,Chesterfield,exact_hist,Historical county match,485.745029124299,True,False
+11015,II_11_2416,73.33333333333333,Surry,Sussex,exact_hist,Historical county match,0.992746020871132,True,True
+11052,II_11_2604,73.33333333333333,Surry,Sussex,exact_hist,Historical county match,0.0952841236612037,True,True
+5050,II_12_2739,73.33333333333333,Henrico,Chesterfield,exact_hist,Historical county match,35.47924807447629,True,False
+4969,II_10_1383,73.2919254658385,Henrico,Chesterfield,exact_hist,Historical county match,20.278275754644746,True,True
+4977,II_10_1384,73.2919254658385,Henrico,Powhatan,exact_hist,Historical county match,9.09840204282516,True,True
+5011,II_10_2009,73.2919254658385,Henrico,Chesterfield,exact_hist,Historical county match,12.566613902173565,True,True
+6097,II_11_2521,73.21867321867322,Henrico,Hanover,adjacent_modern,Centroid in adjacent county (modern),1.365189529929168,False,True
+9644,II_12_3067,73.07692307692308,Isle Of Wight,Southampton,exact_hist,Historical county match,3.297065599943524,True,True
+7417,II_12_3262,73.07692307692308,Hanover,Louisa,exact_hist,Historical county match,1.484749877299393,True,True
+6132,II_12_3210,72.91666666666667,Henrico,Goochland,exact_hist,Historical county match,1.4723199093856465,True,True
+5033,II_12_2750,72.88378766140602,Henrico,Chesterfield,exact_hist,Historical county match,31.681217203214263,True,False
+10977,II_10_1726,72.76422764227642,Surry,Sussex,exact_hist,Historical county match,16.048825451042813,True,True
+10750,II_9_1066,72.72727272727272,Surry,Surry,exact_hist,Historical county match,3.3352406656282105,True,True
+10993,II_10_1862,72.72727272727272,Surry,Sussex,exact_hist,Historical county match,13.30812365348573,True,True
+8904,II_13_4480,72.58064516129032,Spotsylvania,Orange,exact_hist,Historical county match,1.2414170925277972,True,True
+10357,II_12_3530,72.46696035242292,Spotsylvania,Spotsylvania,exact_hist,Historical county match,7.350585104035065,True,True
+7328,II_9_26,72.44897959183673,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,2.205360361959411,True,True
+10423,II_14_4716,72.44897959183673,Spotsylvania,Orange,exact_hist,Historical county match,2.4670113794524697,True,True
+5058,II_12_3317,72.2051282051282,Henrico,Chesterfield,exact_hist,Historical county match,140.76520343320067,True,False
+6684,II_12_3283,72.16748768472905,Hanover,Louisa,exact_hist,Historical county match,3.925945941763372,True,True
+8860,II_13_3663,72.14765100671141,Spotsylvania,Orange,exact_hist,Historical county match,0.1113359255368347,True,True
+5016,II_11_2115,72.12885154061624,Henrico,Chesterfield,exact_hist,Historical county match,10.614066908352925,True,True
+7534,II_14_5036,72.10526315789474,,Louisa,boundary_tol,≤50.0 m outside hist polygon (HANOVER),0.2211251104082663,True,True
+11025,II_11_2307,72.06896551724138,Surry,Sussex,exact_hist,Historical county match,2.065631310699095,True,True
+6915,II_9_527,72.04968944099379,Henrico,Henrico,exact_hist,Historical county match,54.92159230192527,True,False
+7331,II_9_101,72.0,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,0.660463478166679,True,True
+7558,II_14_5356,72.0,Hanover,Louisa,exact_hist,Historical county match,9.298493248500222,True,True
+4978,II_10_1392,71.96029776674938,Henrico,Powhatan,exact_hist,Historical county match,57.27473345006943,True,False
+8843,II_12_3306,71.95121951219512,Spotsylvania,Orange,exact_hist,Historical county match,1.4525361496831284,True,True
+10374,II_13_3904,71.93548387096774,Spotsylvania,Spotsylvania,exact_hist,Historical county match,0.5852446193500214,True,True
+10292,II_10_1843,71.81818181818181,King William,Caroline,adjacent_modern,Centroid in adjacent county (modern),1.866402801629809,False,True
+8865,II_13_3791,71.73913043478261,Spotsylvania,Culpeper,exact_hist,Historical county match,4.886920034442414,True,True
+4919,II_9_232,71.73524150268337,Henrico,Chesterfield,exact_hist,Historical county match,91.38441565329256,True,False
+18,II_13_4465,71.51898734177215,Hanover,Albemarle,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),69.97960373978209,True,False
+6044,II_10_1388,71.47147147147147,Henrico,Goochland,exact_hist,Historical county match,0.2144708990216796,True,True
+16,II_13_4466,71.42857142857143,Hanover,Albemarle,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),2.384155456988396,True,True
+17,II_13_4468,71.42857142857143,Hanover,Albemarle,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),2.596214983217209,True,True
+9745,II_14_5096,71.42857142857143,Isle Of Wight,Southampton,exact_hist,Historical county match,0.9732428324833484,True,True
+7339,II_9_269,71.38364779874215,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,130.05687974817062,True,False
+10789,II_12_2893,71.38364779874215,Surry,Isle of Wight,adjacent_modern,Centroid in adjacent county (modern),30.560210968151548,False,False
+11003,II_11_2144,71.05263157894737,Surry,Sussex,exact_hist,Historical county match,0.7081114128639903,True,True
+9651,II_12_2851,71.02272727272728,Isle Of Wight,Southampton,exact_hist,Historical county match,5.770677253109554,True,True
+7398,II_12_2769,70.98765432098766,Hanover,Louisa,exact_hist,Historical county match,2.6338176486227525,True,True
+30,II_14_5198,70.95238095238095,Hanover,Albemarle,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),0.550323004612892,True,True
+3342,II_11_2696,70.83333333333334,Henrico,Buckingham,exact_hist,Historical county match,9.967770086562496,True,True
+11004,II_11_2145,70.83333333333333,Surry,Sussex,exact_hist,Historical county match,19.721608434601507,True,True
+10963,II_10_1420,70.51282051282051,Surry,Sussex,exact_hist,Historical county match,3.935524041354256,True,True
+10315,II_11_2339,70.51282051282051,Spotsylvania,Spotsylvania,exact_hist,Historical county match,58.988878931866175,True,False
+10346,II_12_3308,70.39473684210526,Spotsylvania,Spotsylvania,exact_modern,Centroid in stated county (modern),2.624799091108855,False,True
+9617,II_11_2559,70.37037037037037,Isle Of Wight,Southampton,exact_hist,Historical county match,0.736680929826889,True,True
+8859,II_12_3405,70.37037037037037,Spotsylvania,Orange,exact_hist,Historical county match,0.8670822506610615,True,True
+6975,II_14_5205,70.3157894736842,Henrico,Henrico,exact_hist,Historical county match,42.6699457641148,True,False
+5008,II_10_1871,70.30303030303031,Henrico,Chesterfield,exact_hist,Historical county match,42.11555247400453,True,False
+21,II_13_4469,70.25316455696202,Hanover,Albemarle,boundary_tol,≤50.0 m outside hist polygon (GOOCHLAND),23.676535304559323,True,True
+10373,II_13_3753,70.13888888888889,Spotsylvania,Spotsylvania,exact_hist,Historical county match,21.254154722121847,True,True
+6577,II_10_1967,70.0,New Kent,Hanover,exact_hist,Historical county match,14.692915870763793,True,True
+6072,II_11_2108,70.0,Henrico,Goochland,exact_hist,Historical county match,9.299697012965147,True,True
+5048,II_12_2738,70.0,Henrico,Chesterfield,exact_hist,Historical county match,3.781015200062001,True,True
+7403,II_12_2914,70.0,Hanover,Louisa,exact_hist,Historical county match,32.80122572550624,True,False
+6140,II_12_3088,70.0,Henrico,Goochland,exact_hist,Historical county match,27.86197675050634,True,True
+11018,II_11_2398,69.73684210526315,Surry,Sussex,exact_hist,Historical county match,1.0505319834149986,True,True
+10407,II_13_4182,69.51219512195122,Spotsylvania,Spotsylvania,exact_hist,Historical county match,23.849609963587355,True,True
+10411,II_13_4215,69.47368421052632,Spotsylvania,Spotsylvania,exact_hist,Historical county match,74.63768023512552,True,False
+10365,II_12_3552,69.45701357466064,Spotsylvania,Caroline,adjacent_modern,Centroid in adjacent county (modern),3.683362623902859,False,True
+9453,II_9_1069,69.35483870967742,Surry,Southampton,adjacent_modern,Centroid in adjacent county (modern),4.882032771258389,False,True
+11023,II_11_2292,69.35483870967742,Prince George,Sussex,adjacent_modern,Centroid in adjacent county (modern),22.064926917803724,False,True
+5120,II_13_4589,69.33862433862434,Henrico,Chesterfield,exact_hist,Historical county match,2.384926138464124,True,True
+6144,II_13_3648,69.2982456140351,Henrico,Goochland,exact_hist,Historical county match,1.5967405882931565,True,True
+6110,II_12_2719,69.27710843373494,Henrico,Goochland,exact_hist,Historical county match,3.088358214015261,True,True
+11172,II_14_4897,69.14893617021276,Surry,Sussex,exact_hist,Historical county match,2.5727059094286258,True,True
+6910,II_9_265,69.13696060037523,Henrico,Henrico,exact_hist,Historical county match,37.2784909872828,True,False
+11020,II_11_2420,69.0909090909091,Surry,Sussex,exact_hist,Historical county match,2.3862858382414105,True,True
+5038,II_12_2720,69.08665105386416,Henrico,Chesterfield,exact_hist,Historical county match,27.005944312731906,True,True
+6187,II_13_4329,69.04761904761905,Goochland,Goochland,exact_hist,Historical county match,36.85286667804351,True,False
+11182,II_14_5026,69.04761904761905,Surry,Sussex,exact_hist,Historical county match,18.114128184393323,True,True
+3349,II_13_4177,68.9655172413793,Goochland,Buckingham,exact_hist,Historical county match,0.0059745252348335,True,True
+6943,II_11_2702,68.94736842105263,Henrico,Henrico,exact_hist,Historical county match,1.1430289869622356,True,True
+6524,II_10_1183,68.75,,Hanover,boundary_tol,≤50.0 m outside hist polygon (NEW KENT),11.292470942071008,True,True
+9221,II_10_1704,68.75,Prince George,Prince George,exact_hist,Historical county match,17.763526933090375,True,True
+10779,II_12_3001,68.75,Surry,Surry,exact_hist,Historical county match,78.73852557018029,True,False
+7334,II_9_192,68.6046511627907,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,3.896148171963821,True,True
+10304,II_10_1996,68.6046511627907,Essex,Fredericksburg,exact_hist,Historical county match,14.649962441504808,True,True
+10740,II_9_465,68.58974358974359,,Surry,boundary_tol,≤50.0 m outside hist polygon (SURRY),129.69380412627,True,False
+6069,II_10_1954,68.57142857142857,Henrico,Goochland,exact_hist,Historical county match,3.355275415220987,True,True
+10389,II_13_3953,68.51851851851852,Spotsylvania,Spotsylvania,exact_hist,Historical county match,19.53034007160268,True,True
+4922,II_9_217,68.47826086956522,Henrico,Chesterfield,exact_hist,Historical county match,1205.107697198223,True,False
+8921,II_14_5308,68.42105263157895,Spotsylvania,Greene,exact_hist,Historical county match,74.03084468168531,True,False
+7327,II_9_25,68.37837837837839,,Isle of Wight,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),13.926632656787968,True,True
+5068,II_12_3128,68.35748792270532,Henrico,Chesterfield,exact_hist,Historical county match,37.731672461595565,True,False
+10303,II_11_2062,68.18181818181819,Essex,Spotsylvania,exact_hist,Historical county match,4.330726048939729,True,True
+7450,II_13_3801,68.18181818181819,Hanover,Louisa,exact_hist,Historical county match,14.0264367090264,True,True
+5057,II_12_3351,68.03118908382066,,Chesterfield,boundary_tol,≤50.0 m outside hist polygon (HENRICO),60.02728519972368,True,False
+5114,II_13_4222,67.91171477079797,Henrico,Chesterfield,exact_hist,Historical county match,48.92132268247264,True,False
+5029,II_11_2636,67.80258519388954,Henrico,Chesterfield,exact_hist,Historical county match,71.36391130769036,True,False
+6667,II_12_2753,67.77777777777777,Hanover,Hanover,exact_hist,Historical county match,3.0291656161637093,True,True
+7389,II_12_2945,67.54385964912281,Hanover,Louisa,exact_hist,Historical county match,3.388244126744496,True,True
+7329,II_9_27,67.52262166788947,Isle Of Wight,Isle of Wight,exact_hist,Historical county match,2.25154675979272,True,True
+5133,II_14_5431,67.43032593292395,,Chesterfield,boundary_tol,≤50.0 m outside hist polygon (HENRICO),68.75176289090658,True,False
+10352,II_12_3361,67.3972602739726,Spotsylvania,Caroline,adjacent_modern,Centroid in adjacent county (modern),10.279492279811814,False,True
+6082,II_11_2343,66.66666666666667,Henrico,Goochland,exact_hist,Historical county match,3.0246196509080505,True,True
+3343,II_11_2697,66.17231638418079,Henrico,Buckingham,exact_hist,Historical county match,7.8332518521530545,True,True
+6950,II_12_2743,65.13098464317977,Henrico,Henrico,exact_hist,Historical county match,26.96494184731493,True,True
+8850,II_12_3528,65.0,Spotsylvania,Orange,exact_hist,Historical county match,1.6918764504056802,True,True
+9432,II_9_454,64.72222222222223,,Southampton,boundary_tol,≤50.0 m outside hist polygon (ISLE OF WIGHT),13.086697915721274,True,True
+3351,II_13_4186,63.63636363636364,Goochland,Buckingham,exact_hist,Historical county match,0.4323844891555382,True,True
+6159,II_13_3779,62.77777777777777,Henrico,Goochland,exact_hist,Historical county match,9.876348521235755,True,True
+6909,II_9_264,61.96116504854369,,Henrico,boundary_tol,≤50.0 m outside hist polygon (HENRICO),26.96287235840993,True,True
+5118,II_13_4548,61.53846153846154,Henrico,Chesterfield,exact_hist,Historical county match,18.751713751367006,True,True
