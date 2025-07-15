@@ -1,0 +1,21 @@
+Manual-Only Tier-2 Positional Accuracy Analysis
+==================================================
+Sample size: 100
+Median: 3.94 km
+90th percentile: 38.91 km
+
+Bootstrap 95% CI for 90th percentile:
+  90th percentile: 38.91 km (95% CI 32.14–46.59 km)
+
+Assessment:
+  ✗ Upper CI bound (46.59 km) > 10 km threshold
+  More manual anchors needed to strengthen the confidence interval.
+
+Full sample statistics:
+  Min:    0.43 km
+  Q25:    1.84 km
+  Median: 3.94 km
+  Q75:    31.75 km
+  Max:    46.59 km
+  Mean:   15.45 km
+  Std:    16.46 km
