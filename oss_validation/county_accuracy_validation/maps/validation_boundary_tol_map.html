@@ -1,0 +1,2698 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7462065f1b8c788977e179e5f38b28c6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    <h4 style='position:absolute; top:10px; left:10px; z-index:9999; background:rgba(255,255,255,0.8); padding:4px 8px;'>≤50 m outside historical county boundary</h4>
+    
+            <div class="folium-map" id="map_7462065f1b8c788977e179e5f38b28c6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7462065f1b8c788977e179e5f38b28c6 = L.map(
+                "map_7462065f1b8c788977e179e5f38b28c6",
+                {
+                    center: [37.5, -78.7],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_85d3beb8ea0a5f3dfad02dd4c6b24663 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_85d3beb8ea0a5f3dfad02dd4c6b24663.addTo(map_7462065f1b8c788977e179e5f38b28c6);
+        
+    
+            var pane_a99b3512b3a075c02330443431f0679a = map_7462065f1b8c788977e179e5f38b28c6.createPane(
+                "labels");
+            pane_a99b3512b3a075c02330443431f0679a.style.zIndex = 625;
+            
+                pane_a99b3512b3a075c02330443431f0679a.style.pointerEvents = 'none';
+            
+        
+    
+            var marker_cluster_e1e9edd3c90eb03686b8b34c49cca829 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_0c9de0e7d6fe7968b795547ba6ad3468 = L.circleMarker(
+                [36.83858570271805, -76.88406716502541],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_570c9d8daa5f8415aa219fc07ce8cf05 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a7b1a1b4e2d270c0c642749b4b9bde84 = $(`<div id="html_a7b1a1b4e2d270c0c642749b4b9bde84" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9438<br><b>CP ID:</b> II_9_524<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (ISLE OF WIGHT)<br><b>Confidence:</b> 100.0</div>`)[0];
+                popup_570c9d8daa5f8415aa219fc07ce8cf05.setContent(html_a7b1a1b4e2d270c0c642749b4b9bde84);
+            
+        
+
+        circle_marker_0c9de0e7d6fe7968b795547ba6ad3468.bindPopup(popup_570c9d8daa5f8415aa219fc07ce8cf05)
+        ;
+
+        
+    
+    
+            var circle_marker_687b7c2ee8b36897e737ce6e2211eee2 = L.circleMarker(
+                [38.219154299831104, -77.70096790366591],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_4c04b1af6d2a1153a901546a0bd18352 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6be28394f98dcc7b5ec157031fd4ad73 = $(`<div id="html_6be28394f98dcc7b5ec157031fd4ad73" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10302<br><b>CP ID:</b> II_10_1943<br><b>Year:</b> None<br><b>Stated County:</b> King William<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 100.0</div>`)[0];
+                popup_4c04b1af6d2a1153a901546a0bd18352.setContent(html_6be28394f98dcc7b5ec157031fd4ad73);
+            
+        
+
+        circle_marker_687b7c2ee8b36897e737ce6e2211eee2.bindPopup(popup_4c04b1af6d2a1153a901546a0bd18352)
+        ;
+
+        
+    
+    
+            var circle_marker_8c4429bf3bb019c76ef1d5a0e1b80f4f = L.circleMarker(
+                [36.91526508351685, -76.93579872815934],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_ed50db8944dacec9fa88481537064114 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4953beb4ec82d40904f0c49f19f7e6e6 = $(`<div id="html_4953beb4ec82d40904f0c49f19f7e6e6" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9430<br><b>CP ID:</b> II_9_503<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (ISLE OF WIGHT)<br><b>Confidence:</b> 99.0</div>`)[0];
+                popup_ed50db8944dacec9fa88481537064114.setContent(html_4953beb4ec82d40904f0c49f19f7e6e6);
+            
+        
+
+        circle_marker_8c4429bf3bb019c76ef1d5a0e1b80f4f.bindPopup(popup_ed50db8944dacec9fa88481537064114)
+        ;
+
+        
+    
+    
+            var circle_marker_0e9c8fe5bf89c84e0c414fb9b55ef397 = L.circleMarker(
+                [36.9820432127741, -76.87600258591593],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_01e1187f09e127c17cead42257d40540 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d1514bffe19177197eecc0f6e09a97c7 = $(`<div id="html_d1514bffe19177197eecc0f6e09a97c7" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9440<br><b>CP ID:</b> II_9_608<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (ISLE OF WIGHT)<br><b>Confidence:</b> 98.8</div>`)[0];
+                popup_01e1187f09e127c17cead42257d40540.setContent(html_d1514bffe19177197eecc0f6e09a97c7);
+            
+        
+
+        circle_marker_0e9c8fe5bf89c84e0c414fb9b55ef397.bindPopup(popup_01e1187f09e127c17cead42257d40540)
+        ;
+
+        
+    
+    
+            var circle_marker_1fb1b542471d73071ca97d938cb8b0c4 = L.circleMarker(
+                [37.816204958691955, -77.73492680249903],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_6719b16b236b607f6b01565fa1d611e3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_92a6eff4a921f9614434a1eb4eb98497 = $(`<div id="html_92a6eff4a921f9614434a1eb4eb98497" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6686<br><b>CP ID:</b> II_12_3486<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HANOVER)<br><b>Confidence:</b> 98.8</div>`)[0];
+                popup_6719b16b236b607f6b01565fa1d611e3.setContent(html_92a6eff4a921f9614434a1eb4eb98497);
+            
+        
+
+        circle_marker_1fb1b542471d73071ca97d938cb8b0c4.bindPopup(popup_6719b16b236b607f6b01565fa1d611e3)
+        ;
+
+        
+    
+    
+            var circle_marker_5bd453634d4facad2b33d10df5f5ff8e = L.circleMarker(
+                [37.636701353434745, -77.24943151800107],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_3ea408bccea41778e66f3958b6fb40d8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c29cb7001951a9760db493109097d9aa = $(`<div id="html_c29cb7001951a9760db493109097d9aa" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6501<br><b>CP ID:</b> II_9_353<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (NEW KENT)<br><b>Confidence:</b> 98.7</div>`)[0];
+                popup_3ea408bccea41778e66f3958b6fb40d8.setContent(html_c29cb7001951a9760db493109097d9aa);
+            
+        
+
+        circle_marker_5bd453634d4facad2b33d10df5f5ff8e.bindPopup(popup_3ea408bccea41778e66f3958b6fb40d8)
+        ;
+
+        
+    
+    
+            var circle_marker_3719b4dc7ae4aa6d6cec6e01a7976dc6 = L.circleMarker(
+                [37.7788313985003, -78.18555732980506],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_0ff838f43832fd8b9cbebc6a84c0aac0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c5727211b1282451fb7edb8c340dc898 = $(`<div id="html_c5727211b1282451fb7edb8c340dc898" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 5378<br><b>CP ID:</b> II_12_3239<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HENRICO)<br><b>Confidence:</b> 98.7</div>`)[0];
+                popup_0ff838f43832fd8b9cbebc6a84c0aac0.setContent(html_c5727211b1282451fb7edb8c340dc898);
+            
+        
+
+        circle_marker_3719b4dc7ae4aa6d6cec6e01a7976dc6.bindPopup(popup_0ff838f43832fd8b9cbebc6a84c0aac0)
+        ;
+
+        
+    
+    
+            var circle_marker_156fbbf63eb3ed0d75a25e7cf473707a = L.circleMarker(
+                [36.955069968504304, -76.99199409367182],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_c12ff4c1d939deca388bf7ef882ad997 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6fec76d5c772db08059fb58be26049c3 = $(`<div id="html_6fec76d5c772db08059fb58be26049c3" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10873<br><b>CP ID:</b> II_9_448<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 98.6</div>`)[0];
+                popup_c12ff4c1d939deca388bf7ef882ad997.setContent(html_6fec76d5c772db08059fb58be26049c3);
+            
+        
+
+        circle_marker_156fbbf63eb3ed0d75a25e7cf473707a.bindPopup(popup_c12ff4c1d939deca388bf7ef882ad997)
+        ;
+
+        
+    
+    
+            var circle_marker_98906e0be720f889d6d719800bedac46 = L.circleMarker(
+                [37.945276338182495, -77.72709349128277],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_436f55bebdaf3b9bb3f2d831923f8d9e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_05bc64f32b75e17149ebd547bb57c93e = $(`<div id="html_05bc64f32b75e17149ebd547bb57c93e" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 7410<br><b>CP ID:</b> II_12_3282<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HANOVER)<br><b>Confidence:</b> 98.6</div>`)[0];
+                popup_436f55bebdaf3b9bb3f2d831923f8d9e.setContent(html_05bc64f32b75e17149ebd547bb57c93e);
+            
+        
+
+        circle_marker_98906e0be720f889d6d719800bedac46.bindPopup(popup_436f55bebdaf3b9bb3f2d831923f8d9e)
+        ;
+
+        
+    
+    
+            var circle_marker_d8a11e2111f64e4f9fe9f7390bbd6677 = L.circleMarker(
+                [38.04358990500015, -77.59703694812217],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_638251c3521ca39c29cba85da4f19387 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_29d9db319740275a0cc981e288e4604f = $(`<div id="html_29d9db319740275a0cc981e288e4604f" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10367<br><b>CP ID:</b> II_12_3555<br><b>Year:</b> None<br><b>Stated County:</b> King William<br><b>Notes:</b> ≤50.0 m outside hist polygon (SPOTSYLVANIA)<br><b>Confidence:</b> 98.5</div>`)[0];
+                popup_638251c3521ca39c29cba85da4f19387.setContent(html_29d9db319740275a0cc981e288e4604f);
+            
+        
+
+        circle_marker_d8a11e2111f64e4f9fe9f7390bbd6677.bindPopup(popup_638251c3521ca39c29cba85da4f19387)
+        ;
+
+        
+    
+    
+            var circle_marker_202b3e889e72c3c36792fbebd6c8b13a = L.circleMarker(
+                [36.91345474059385, -76.90409244239838],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_41255a71dcf8b20ae8ea645c0c47d068 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0bb064a7d92a28195692aaa8542656cd = $(`<div id="html_0bb064a7d92a28195692aaa8542656cd" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9436<br><b>CP ID:</b> II_9_451<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (ISLE OF WIGHT)<br><b>Confidence:</b> 98.1</div>`)[0];
+                popup_41255a71dcf8b20ae8ea645c0c47d068.setContent(html_0bb064a7d92a28195692aaa8542656cd);
+            
+        
+
+        circle_marker_202b3e889e72c3c36792fbebd6c8b13a.bindPopup(popup_41255a71dcf8b20ae8ea645c0c47d068)
+        ;
+
+        
+    
+    
+            var circle_marker_4721044f6a5636d8c3af6e0dcbfcc68a = L.circleMarker(
+                [36.964193910370696, -77.14389726273646],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_ea7d80bf1f674ea73cac7a2dc1bc974b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_98d449b147bb2d46a003e81c843ffaa7 = $(`<div id="html_98d449b147bb2d46a003e81c843ffaa7" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10872<br><b>CP ID:</b> II_9_459<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 98.1</div>`)[0];
+                popup_ea7d80bf1f674ea73cac7a2dc1bc974b.setContent(html_98d449b147bb2d46a003e81c843ffaa7);
+            
+        
+
+        circle_marker_4721044f6a5636d8c3af6e0dcbfcc68a.bindPopup(popup_ea7d80bf1f674ea73cac7a2dc1bc974b)
+        ;
+
+        
+    
+    
+            var circle_marker_1a13b01af83b958cb15c8323fe8e4271 = L.circleMarker(
+                [36.96240224366865, -77.00087482605882],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_565cd1236ed8fa3af7c7f23858555b9d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3a114c2c1ce282e94cb85b77664adc7c = $(`<div id="html_3a114c2c1ce282e94cb85b77664adc7c" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10874<br><b>CP ID:</b> II_9_457<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 97.9</div>`)[0];
+                popup_565cd1236ed8fa3af7c7f23858555b9d.setContent(html_3a114c2c1ce282e94cb85b77664adc7c);
+            
+        
+
+        circle_marker_1a13b01af83b958cb15c8323fe8e4271.bindPopup(popup_565cd1236ed8fa3af7c7f23858555b9d)
+        ;
+
+        
+    
+    
+            var circle_marker_4352c1ec39225790a9d2f8cc440d4ecf = L.circleMarker(
+                [36.991176854728096, -77.06513480310052],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_d1ee2145e704dc546833ffffa7016de6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_be7846af11c3e4400cb12eeb1f28758b = $(`<div id="html_be7846af11c3e4400cb12eeb1f28758b" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10880<br><b>CP ID:</b> II_9_458<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 97.9</div>`)[0];
+                popup_d1ee2145e704dc546833ffffa7016de6.setContent(html_be7846af11c3e4400cb12eeb1f28758b);
+            
+        
+
+        circle_marker_4352c1ec39225790a9d2f8cc440d4ecf.bindPopup(popup_d1ee2145e704dc546833ffffa7016de6)
+        ;
+
+        
+    
+    
+            var circle_marker_595693a772d900b96b57ba342b668eeb = L.circleMarker(
+                [37.965765984462706, -77.8816035262135],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_80d2e49c4bff53674f4e1de9fdd15b1c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f8b713389007d55502690b9e50e06d88 = $(`<div id="html_f8b713389007d55502690b9e50e06d88" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 7491<br><b>CP ID:</b> II_13_4578<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HANOVER)<br><b>Confidence:</b> 96.1</div>`)[0];
+                popup_80d2e49c4bff53674f4e1de9fdd15b1c.setContent(html_f8b713389007d55502690b9e50e06d88);
+            
+        
+
+        circle_marker_595693a772d900b96b57ba342b668eeb.bindPopup(popup_80d2e49c4bff53674f4e1de9fdd15b1c)
+        ;
+
+        
+    
+    
+            var circle_marker_4aaed35961f3c55ca08b0f9878987f1d = L.circleMarker(
+                [37.969538916987446, -77.68734812142529],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_7f9182d98b8265e6548b7a9f5647208e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_17df34391147b50fd2b5419e4d7faba9 = $(`<div id="html_17df34391147b50fd2b5419e4d7faba9" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6734<br><b>CP ID:</b> II_13_4149<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HANOVER)<br><b>Confidence:</b> 95.5</div>`)[0];
+                popup_7f9182d98b8265e6548b7a9f5647208e.setContent(html_17df34391147b50fd2b5419e4d7faba9);
+            
+        
+
+        circle_marker_4aaed35961f3c55ca08b0f9878987f1d.bindPopup(popup_7f9182d98b8265e6548b7a9f5647208e)
+        ;
+
+        
+    
+    
+            var circle_marker_cf064525e47da3eb4a73c4ef7595fa5a = L.circleMarker(
+                [36.931829369379955, -76.9270962929925],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_48e3815e3b3dfd2769476d1f244b7b45 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_89ba6539eab90d2ffedfb5a66ee341bb = $(`<div id="html_89ba6539eab90d2ffedfb5a66ee341bb" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9431<br><b>CP ID:</b> II_9_450<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (ISLE OF WIGHT)<br><b>Confidence:</b> 95.1</div>`)[0];
+                popup_48e3815e3b3dfd2769476d1f244b7b45.setContent(html_89ba6539eab90d2ffedfb5a66ee341bb);
+            
+        
+
+        circle_marker_cf064525e47da3eb4a73c4ef7595fa5a.bindPopup(popup_48e3815e3b3dfd2769476d1f244b7b45)
+        ;
+
+        
+    
+    
+            var circle_marker_402eace637be5170b6d2d582ec3a9d4c = L.circleMarker(
+                [38.14680439385775, -77.49174766763373],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_71feb32cd28ac61997d882e6edba0822 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1f6eed5120266c57c5d77dc6171f5721 = $(`<div id="html_1f6eed5120266c57c5d77dc6171f5721" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10283<br><b>CP ID:</b> II_10_1391<br><b>Year:</b> None<br><b>Stated County:</b> King & Queen<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 95.0</div>`)[0];
+                popup_71feb32cd28ac61997d882e6edba0822.setContent(html_1f6eed5120266c57c5d77dc6171f5721);
+            
+        
+
+        circle_marker_402eace637be5170b6d2d582ec3a9d4c.bindPopup(popup_71feb32cd28ac61997d882e6edba0822)
+        ;
+
+        
+    
+    
+            var circle_marker_35e85b22778783c65add571519a662b6 = L.circleMarker(
+                [37.89782870418145, -77.90739110420239],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_dac05fa1106ff7f30467990ad96afb2a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dd4437b85a9dfad01611c2b83411852e = $(`<div id="html_dd4437b85a9dfad01611c2b83411852e" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 7552<br><b>CP ID:</b> II_14_5236<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HANOVER)<br><b>Confidence:</b> 94.8</div>`)[0];
+                popup_dac05fa1106ff7f30467990ad96afb2a.setContent(html_dd4437b85a9dfad01611c2b83411852e);
+            
+        
+
+        circle_marker_35e85b22778783c65add571519a662b6.bindPopup(popup_dac05fa1106ff7f30467990ad96afb2a)
+        ;
+
+        
+    
+    
+            var circle_marker_e1858f456a4c78ca6f19dbc73c47416b = L.circleMarker(
+                [38.093557720862194, -78.44789299831095],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_7092bfbd7131265453a74b36fbdc660d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_659aee86fdf76102bf08dd53ed33dbc5 = $(`<div id="html_659aee86fdf76102bf08dd53ed33dbc5" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 15<br><b>CP ID:</b> II_13_4464<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> ≤50.0 m outside hist polygon (GOOCHLAND)<br><b>Confidence:</b> 94.7</div>`)[0];
+                popup_7092bfbd7131265453a74b36fbdc660d.setContent(html_659aee86fdf76102bf08dd53ed33dbc5);
+            
+        
+
+        circle_marker_e1858f456a4c78ca6f19dbc73c47416b.bindPopup(popup_7092bfbd7131265453a74b36fbdc660d)
+        ;
+
+        
+    
+    
+            var circle_marker_e148213e1094b0187b804eb27d488913 = L.circleMarker(
+                [36.71587074628795, -77.38552152624395],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_32ad668042d48a003c9cc4f2d2a660b7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_503469c3516b7ff259abec78fb49d008 = $(`<div id="html_503469c3516b7ff259abec78fb49d008" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9553<br><b>CP ID:</b> II_10_1468<br><b>Year:</b> None<br><b>Stated County:</b> Prince George<br><b>Notes:</b> ≤50.0 m outside hist polygon (ISLE OF WIGHT)<br><b>Confidence:</b> 94.7</div>`)[0];
+                popup_32ad668042d48a003c9cc4f2d2a660b7.setContent(html_503469c3516b7ff259abec78fb49d008);
+            
+        
+
+        circle_marker_e148213e1094b0187b804eb27d488913.bindPopup(popup_32ad668042d48a003c9cc4f2d2a660b7)
+        ;
+
+        
+    
+    
+            var circle_marker_8917d3926f3db41316fa3e148131f6e9 = L.circleMarker(
+                [36.6723872483229, -77.07601435766469],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_d3dc67ddc2ba86acf17e9324963dce07 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6e093402dce355b69fd80ea64fc3a1cc = $(`<div id="html_6e093402dce355b69fd80ea64fc3a1cc" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9746<br><b>CP ID:</b> II_14_5099<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (ISLE OF WIGHT)<br><b>Confidence:</b> 94.4</div>`)[0];
+                popup_d3dc67ddc2ba86acf17e9324963dce07.setContent(html_6e093402dce355b69fd80ea64fc3a1cc);
+            
+        
+
+        circle_marker_8917d3926f3db41316fa3e148131f6e9.bindPopup(popup_d3dc67ddc2ba86acf17e9324963dce07)
+        ;
+
+        
+    
+    
+            var circle_marker_3de28f4668d91a2795323fd4277201c6 = L.circleMarker(
+                [37.0244189986879, -77.3173411800405],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_c369a260f6149b732293976845a06be2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_358798d5badc80a54d5f38ed2ddfecd6 = $(`<div id="html_358798d5badc80a54d5f38ed2ddfecd6" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10887<br><b>CP ID:</b> II_9_544<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 94.0</div>`)[0];
+                popup_c369a260f6149b732293976845a06be2.setContent(html_358798d5badc80a54d5f38ed2ddfecd6);
+            
+        
+
+        circle_marker_3de28f4668d91a2795323fd4277201c6.bindPopup(popup_c369a260f6149b732293976845a06be2)
+        ;
+
+        
+    
+    
+            var circle_marker_3f8b9f0f18c18910098085f6799e1c29 = L.circleMarker(
+                [36.83178635365735, -76.86246825358086],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_82ee2919a397d00010d80d8f630d2506 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2bd5fc7430d42cbf331438440b4060df = $(`<div id="html_2bd5fc7430d42cbf331438440b4060df" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9435<br><b>CP ID:</b> II_9_452<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (ISLE OF WIGHT)<br><b>Confidence:</b> 93.3</div>`)[0];
+                popup_82ee2919a397d00010d80d8f630d2506.setContent(html_2bd5fc7430d42cbf331438440b4060df);
+            
+        
+
+        circle_marker_3f8b9f0f18c18910098085f6799e1c29.bindPopup(popup_82ee2919a397d00010d80d8f630d2506)
+        ;
+
+        
+    
+    
+            var circle_marker_b724ba3c25b76c58ad0970f22df7c3d4 = L.circleMarker(
+                [38.071156575016, -77.45730384186388],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_c9c26f3ccb385eace06d022f7ce51b2f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f2d9d66ff6cfb6bc51c25ef01d5e7f15 = $(`<div id="html_f2d9d66ff6cfb6bc51c25ef01d5e7f15" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10342<br><b>CP ID:</b> II_12_3343<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 93.3</div>`)[0];
+                popup_c9c26f3ccb385eace06d022f7ce51b2f.setContent(html_f2d9d66ff6cfb6bc51c25ef01d5e7f15);
+            
+        
+
+        circle_marker_b724ba3c25b76c58ad0970f22df7c3d4.bindPopup(popup_c9c26f3ccb385eace06d022f7ce51b2f)
+        ;
+
+        
+    
+    
+            var circle_marker_839a7a7e27e11f37bbddb2aea5241601 = L.circleMarker(
+                [36.890680512795456, -77.42134518847195],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_828880793303fb570e8d8a52970b85fa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8284c3fa01272793584fb00e66c682df = $(`<div id="html_8284c3fa01272793584fb00e66c682df" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 11000<br><b>CP ID:</b> II_10_1993<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 93.2</div>`)[0];
+                popup_828880793303fb570e8d8a52970b85fa.setContent(html_8284c3fa01272793584fb00e66c682df);
+            
+        
+
+        circle_marker_839a7a7e27e11f37bbddb2aea5241601.bindPopup(popup_828880793303fb570e8d8a52970b85fa)
+        ;
+
+        
+    
+    
+            var circle_marker_3bd382ecc650c91250e54ca08aaa57df = L.circleMarker(
+                [38.11059613965015, -77.61558563374467],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_81ff66121a98fabf604a4cdad0259728 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6cf18f59ad926d10952ce64450406c42 = $(`<div id="html_6cf18f59ad926d10952ce64450406c42" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10312<br><b>CP ID:</b> II_11_2117<br><b>Year:</b> None<br><b>Stated County:</b> King William<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 92.5</div>`)[0];
+                popup_81ff66121a98fabf604a4cdad0259728.setContent(html_6cf18f59ad926d10952ce64450406c42);
+            
+        
+
+        circle_marker_3bd382ecc650c91250e54ca08aaa57df.bindPopup(popup_81ff66121a98fabf604a4cdad0259728)
+        ;
+
+        
+    
+    
+            var circle_marker_b289c02b8499c81bba76ed44f0e16776 = L.circleMarker(
+                [38.08378611558685, -77.46374054904294],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_2c9d0f872e4fc3d9645e69b87231d4d6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1019fe4f159e9ebd7098e8cf98e33070 = $(`<div id="html_1019fe4f159e9ebd7098e8cf98e33070" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10278<br><b>CP ID:</b> II_10_1270<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 92.5</div>`)[0];
+                popup_2c9d0f872e4fc3d9645e69b87231d4d6.setContent(html_1019fe4f159e9ebd7098e8cf98e33070);
+            
+        
+
+        circle_marker_b289c02b8499c81bba76ed44f0e16776.bindPopup(popup_2c9d0f872e4fc3d9645e69b87231d4d6)
+        ;
+
+        
+    
+    
+            var circle_marker_9a946d4d5d31ba533559be7bb8ec3f9a = L.circleMarker(
+                [38.07851150455235, -78.3790698016682],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_5d489b5c5e6e05a2b81356045698d356 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ba565aa2e594e919525f090eb2a4b409 = $(`<div id="html_ba565aa2e594e919525f090eb2a4b409" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 39<br><b>CP ID:</b> II_14_5249<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> ≤50.0 m outside hist polygon (GOOCHLAND)<br><b>Confidence:</b> 92.5</div>`)[0];
+                popup_5d489b5c5e6e05a2b81356045698d356.setContent(html_ba565aa2e594e919525f090eb2a4b409);
+            
+        
+
+        circle_marker_9a946d4d5d31ba533559be7bb8ec3f9a.bindPopup(popup_5d489b5c5e6e05a2b81356045698d356)
+        ;
+
+        
+    
+    
+            var circle_marker_cb2f53a3f1d85899fa0974010c050cca = L.circleMarker(
+                [36.82275109438755, -76.89087225798691],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_e72bdd52ffa5b1f1c6bfffee28be76cd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6a0eec94ce9f0064aec620afeb1ed1ae = $(`<div id="html_6a0eec94ce9f0064aec620afeb1ed1ae" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9439<br><b>CP ID:</b> II_9_539<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (ISLE OF WIGHT)<br><b>Confidence:</b> 92.3</div>`)[0];
+                popup_e72bdd52ffa5b1f1c6bfffee28be76cd.setContent(html_6a0eec94ce9f0064aec620afeb1ed1ae);
+            
+        
+
+        circle_marker_cb2f53a3f1d85899fa0974010c050cca.bindPopup(popup_e72bdd52ffa5b1f1c6bfffee28be76cd)
+        ;
+
+        
+    
+    
+            var circle_marker_8c5300de31836a5c0d57a17bd8a900d2 = L.circleMarker(
+                [37.92671057917995, -77.7097178068625],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_d998ec0ff59d43b0a44efc82ee78b307 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_04d4b496befd5bff29cbe292fc48d29d = $(`<div id="html_04d4b496befd5bff29cbe292fc48d29d" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6711<br><b>CP ID:</b> II_12_3117<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HANOVER)<br><b>Confidence:</b> 92.3</div>`)[0];
+                popup_d998ec0ff59d43b0a44efc82ee78b307.setContent(html_04d4b496befd5bff29cbe292fc48d29d);
+            
+        
+
+        circle_marker_8c5300de31836a5c0d57a17bd8a900d2.bindPopup(popup_d998ec0ff59d43b0a44efc82ee78b307)
+        ;
+
+        
+    
+    
+            var circle_marker_42f3b2ef1c704152156e9643f795698e = L.circleMarker(
+                [36.96287728940545, -77.00968441231808],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_ae5e7961d307a0b66edf4c2300f16ea2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_217e737ad3143a460f1a164f83871381 = $(`<div id="html_217e737ad3143a460f1a164f83871381" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10875<br><b>CP ID:</b> II_9_468<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 92.0</div>`)[0];
+                popup_ae5e7961d307a0b66edf4c2300f16ea2.setContent(html_217e737ad3143a460f1a164f83871381);
+            
+        
+
+        circle_marker_42f3b2ef1c704152156e9643f795698e.bindPopup(popup_ae5e7961d307a0b66edf4c2300f16ea2)
+        ;
+
+        
+    
+    
+            var circle_marker_e09043258f5fe12d6fcf26f1cf32da10 = L.circleMarker(
+                [36.986973710818205, -77.26718253426438],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_4015e1c6659b74b990e8262fe0595765 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_81cca74ea899dd28f4510f3a4490ba36 = $(`<div id="html_81cca74ea899dd28f4510f3a4490ba36" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10890<br><b>CP ID:</b> II_9_535<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 92.0</div>`)[0];
+                popup_4015e1c6659b74b990e8262fe0595765.setContent(html_81cca74ea899dd28f4510f3a4490ba36);
+            
+        
+
+        circle_marker_e09043258f5fe12d6fcf26f1cf32da10.bindPopup(popup_4015e1c6659b74b990e8262fe0595765)
+        ;
+
+        
+    
+    
+            var circle_marker_45c5cce0cbaabb65b4ba6d58bedc3d03 = L.circleMarker(
+                [36.88020058843645, -77.6181796912322],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_3e4c7c37e2caf17e5086edf46159c596 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dc11dbeaeb527a76ebef66175923f5cd = $(`<div id="html_dc11dbeaeb527a76ebef66175923f5cd" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 11029<br><b>CP ID:</b> II_11_2334<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (PRINCE GEORGE)<br><b>Confidence:</b> 91.5</div>`)[0];
+                popup_3e4c7c37e2caf17e5086edf46159c596.setContent(html_dc11dbeaeb527a76ebef66175923f5cd);
+            
+        
+
+        circle_marker_45c5cce0cbaabb65b4ba6d58bedc3d03.bindPopup(popup_3e4c7c37e2caf17e5086edf46159c596)
+        ;
+
+        
+    
+    
+            var circle_marker_5476c090e324c84f38a8cb69cd28b294 = L.circleMarker(
+                [37.01143978956465, -77.02917852464255],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_54a688e9c95dfbd62eb038f685d9e437 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e28757c75319f403029065a5694d25c6 = $(`<div id="html_e28757c75319f403029065a5694d25c6" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10744<br><b>CP ID:</b> II_9_718<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 91.5</div>`)[0];
+                popup_54a688e9c95dfbd62eb038f685d9e437.setContent(html_e28757c75319f403029065a5694d25c6);
+            
+        
+
+        circle_marker_5476c090e324c84f38a8cb69cd28b294.bindPopup(popup_54a688e9c95dfbd62eb038f685d9e437)
+        ;
+
+        
+    
+    
+            var circle_marker_f409577618236f0d76706cfda7c63ae1 = L.circleMarker(
+                [38.1187263122196, -77.52757155417561],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_9bdb2a4c86bec9d547ae30803b938bd4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_97ea174a4f8e92f0bde6f694560e56f0 = $(`<div id="html_97ea174a4f8e92f0bde6f694560e56f0" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10286<br><b>CP ID:</b> II_10_1628<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 91.2</div>`)[0];
+                popup_9bdb2a4c86bec9d547ae30803b938bd4.setContent(html_97ea174a4f8e92f0bde6f694560e56f0);
+            
+        
+
+        circle_marker_f409577618236f0d76706cfda7c63ae1.bindPopup(popup_9bdb2a4c86bec9d547ae30803b938bd4)
+        ;
+
+        
+    
+    
+            var circle_marker_f191244feaf15204e42bd60a75d91b1a = L.circleMarker(
+                [38.151606557296844, -77.36148394568457],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_ac2ee573aae84fc13ab082a7733e8179 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c0279231db9b5d1b034145f7679285f3 = $(`<div id="html_c0279231db9b5d1b034145f7679285f3" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10314<br><b>CP ID:</b> II_11_2172<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (ESSEX)<br><b>Confidence:</b> 91.1</div>`)[0];
+                popup_ac2ee573aae84fc13ab082a7733e8179.setContent(html_c0279231db9b5d1b034145f7679285f3);
+            
+        
+
+        circle_marker_f191244feaf15204e42bd60a75d91b1a.bindPopup(popup_ac2ee573aae84fc13ab082a7733e8179)
+        ;
+
+        
+    
+    
+            var circle_marker_ba2a604edd7381de37fcb8d54e01771e = L.circleMarker(
+                [38.232535566163506, -77.65729593939474],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_e846aa7662fdd9fec078324933ce8674 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4731b1abac70e14e3642cf977a7033b4 = $(`<div id="html_4731b1abac70e14e3642cf977a7033b4" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10301<br><b>CP ID:</b> II_11_2055<br><b>Year:</b> None<br><b>Stated County:</b> King & Queen<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 91.1</div>`)[0];
+                popup_e846aa7662fdd9fec078324933ce8674.setContent(html_4731b1abac70e14e3642cf977a7033b4);
+            
+        
+
+        circle_marker_ba2a604edd7381de37fcb8d54e01771e.bindPopup(popup_e846aa7662fdd9fec078324933ce8674)
+        ;
+
+        
+    
+    
+            var circle_marker_f0547ed5bc468e5b71e0569210bded03 = L.circleMarker(
+                [36.6222152508332, -76.91949866551099],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_dff56b5b7fafbdebd8b18a61b41342ed = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8400948bd6a063f102674ca36a34a407 = $(`<div id="html_8400948bd6a063f102674ca36a34a407" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9576<br><b>CP ID:</b> II_10_1673<br><b>Year:</b> None<br><b>Stated County:</b> Nansemond<br><b>Notes:</b> ≤50.0 m outside hist polygon (NANSEMOND (ext))<br><b>Confidence:</b> 91.1</div>`)[0];
+                popup_dff56b5b7fafbdebd8b18a61b41342ed.setContent(html_8400948bd6a063f102674ca36a34a407);
+            
+        
+
+        circle_marker_f0547ed5bc468e5b71e0569210bded03.bindPopup(popup_dff56b5b7fafbdebd8b18a61b41342ed)
+        ;
+
+        
+    
+    
+            var circle_marker_08634dca509a13263464b1c9a64a336f = L.circleMarker(
+                [37.613997376178006, -77.68622995313248],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_f0a52d90f56f82b3deda994776c64d0e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_51df081c3fec6489f0489af1960de7a9 = $(`<div id="html_51df081c3fec6489f0489af1960de7a9" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6112<br><b>CP ID:</b> II_12_2749<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HENRICO)<br><b>Confidence:</b> 91.0</div>`)[0];
+                popup_f0a52d90f56f82b3deda994776c64d0e.setContent(html_51df081c3fec6489f0489af1960de7a9);
+            
+        
+
+        circle_marker_08634dca509a13263464b1c9a64a336f.bindPopup(popup_f0a52d90f56f82b3deda994776c64d0e)
+        ;
+
+        
+    
+    
+            var circle_marker_1ade786751ba601db188c7bf2fb6eeb6 = L.circleMarker(
+                [36.938693195784396, -76.96782710563461],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_4e62e8ab5b2eddee80f1d2a3939befa1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_54cac3e4017640fc40c370ea34a11990 = $(`<div id="html_54cac3e4017640fc40c370ea34a11990" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9428<br><b>CP ID:</b> II_9_464<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 90.9</div>`)[0];
+                popup_4e62e8ab5b2eddee80f1d2a3939befa1.setContent(html_54cac3e4017640fc40c370ea34a11990);
+            
+        
+
+        circle_marker_1ade786751ba601db188c7bf2fb6eeb6.bindPopup(popup_4e62e8ab5b2eddee80f1d2a3939befa1)
+        ;
+
+        
+    
+    
+            var circle_marker_4c59f396c0e7bfc20b57c2bef37266eb = L.circleMarker(
+                [37.825622299429654, -77.52450787066944],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_02b9c2e768e5d9275ea7539d003980bf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_90925909bcd86a3e4a05ea3e521b8497 = $(`<div id="html_90925909bcd86a3e4a05ea3e521b8497" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6726<br><b>CP ID:</b> II_13_3880<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HANOVER)<br><b>Confidence:</b> 90.7</div>`)[0];
+                popup_02b9c2e768e5d9275ea7539d003980bf.setContent(html_90925909bcd86a3e4a05ea3e521b8497);
+            
+        
+
+        circle_marker_4c59f396c0e7bfc20b57c2bef37266eb.bindPopup(popup_02b9c2e768e5d9275ea7539d003980bf)
+        ;
+
+        
+    
+    
+            var circle_marker_a4764a748e3324948906f3d4f76a7b12 = L.circleMarker(
+                [38.2183697308285, -77.67171930033271],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_49fb3a9f8e4fe2bd97696e01463f04f9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fa2c41a21c5ad921cad532c4361eb314 = $(`<div id="html_fa2c41a21c5ad921cad532c4361eb314" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10298<br><b>CP ID:</b> II_11_2034<br><b>Year:</b> None<br><b>Stated County:</b> King William<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 90.5</div>`)[0];
+                popup_49fb3a9f8e4fe2bd97696e01463f04f9.setContent(html_fa2c41a21c5ad921cad532c4361eb314);
+            
+        
+
+        circle_marker_a4764a748e3324948906f3d4f76a7b12.bindPopup(popup_49fb3a9f8e4fe2bd97696e01463f04f9)
+        ;
+
+        
+    
+    
+            var circle_marker_efb167bfe85f6d9f3c981f433ec11c4c = L.circleMarker(
+                [36.765081919794795, -76.90334689799387],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_de287c7865940ef92478718017da763c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b705e7820cdbc5a33e0e3b549e9c47a5 = $(`<div id="html_b705e7820cdbc5a33e0e3b549e9c47a5" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9437<br><b>CP ID:</b> II_9_525<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (ISLE OF WIGHT)<br><b>Confidence:</b> 90.3</div>`)[0];
+                popup_de287c7865940ef92478718017da763c.setContent(html_b705e7820cdbc5a33e0e3b549e9c47a5);
+            
+        
+
+        circle_marker_efb167bfe85f6d9f3c981f433ec11c4c.bindPopup(popup_de287c7865940ef92478718017da763c)
+        ;
+
+        
+    
+    
+            var circle_marker_2972b3b84f0e07525543b141916b3b88 = L.circleMarker(
+                [38.10586469574915, -77.53297108356828],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_fd189d764f894c5f129e5f23ec014f59 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ac0033ac7d4024eec55ee363a1f43610 = $(`<div id="html_ac0033ac7d4024eec55ee363a1f43610" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10276<br><b>CP ID:</b> II_10_1125<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 90.2</div>`)[0];
+                popup_fd189d764f894c5f129e5f23ec014f59.setContent(html_ac0033ac7d4024eec55ee363a1f43610);
+            
+        
+
+        circle_marker_2972b3b84f0e07525543b141916b3b88.bindPopup(popup_fd189d764f894c5f129e5f23ec014f59)
+        ;
+
+        
+    
+    
+            var circle_marker_4be28e1942f78c16dda9d7aca669b5de = L.circleMarker(
+                [38.0964488951005, -78.36424087597479],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_21104c2b65e1adcd418ded524df92b1a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dd150777c1f8a374dd84f30ac511e681 = $(`<div id="html_dd150777c1f8a374dd84f30ac511e681" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 31<br><b>CP ID:</b> II_14_5202<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> ≤50.0 m outside hist polygon (GOOCHLAND)<br><b>Confidence:</b> 89.8</div>`)[0];
+                popup_21104c2b65e1adcd418ded524df92b1a.setContent(html_dd150777c1f8a374dd84f30ac511e681);
+            
+        
+
+        circle_marker_4be28e1942f78c16dda9d7aca669b5de.bindPopup(popup_21104c2b65e1adcd418ded524df92b1a)
+        ;
+
+        
+    
+    
+            var circle_marker_e0584acd015ecb429d08fc01b5273d56 = L.circleMarker(
+                [37.00089267685565, -77.27068293449473],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_7d52ca167d9d62730ccf02fd4c787bab = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d585f3d21ff65b27ccaf4d49d3029be4 = $(`<div id="html_d585f3d21ff65b27ccaf4d49d3029be4" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10893<br><b>CP ID:</b> II_9_532<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 89.5</div>`)[0];
+                popup_7d52ca167d9d62730ccf02fd4c787bab.setContent(html_d585f3d21ff65b27ccaf4d49d3029be4);
+            
+        
+
+        circle_marker_e0584acd015ecb429d08fc01b5273d56.bindPopup(popup_7d52ca167d9d62730ccf02fd4c787bab)
+        ;
+
+        
+    
+    
+            var circle_marker_c6243b7c6cc9623f580ee307853ac6ff = L.circleMarker(
+                [37.8242451410505, -77.9937672866159],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_f9635c186d12f14ceb0946bcf7b44cc5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e5fe1eb6a4bc0659aec657f242d9957c = $(`<div id="html_e5fe1eb6a4bc0659aec657f242d9957c" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6223<br><b>CP ID:</b> II_14_5084<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (GOOCHLAND)<br><b>Confidence:</b> 89.4</div>`)[0];
+                popup_f9635c186d12f14ceb0946bcf7b44cc5.setContent(html_e5fe1eb6a4bc0659aec657f242d9957c);
+            
+        
+
+        circle_marker_c6243b7c6cc9623f580ee307853ac6ff.bindPopup(popup_f9635c186d12f14ceb0946bcf7b44cc5)
+        ;
+
+        
+    
+    
+            var circle_marker_cbb21905e5b17976e5cf7590d5ea72e9 = L.circleMarker(
+                [37.92119880163345, -77.58397074627693],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_f293a18c2aa85b4ff2ea68e4d092e051 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_54bd9406e72af3ddc1ebbde34638dbb6 = $(`<div id="html_54bd9406e72af3ddc1ebbde34638dbb6" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6603<br><b>CP ID:</b> II_11_2345<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HANOVER)<br><b>Confidence:</b> 89.2</div>`)[0];
+                popup_f293a18c2aa85b4ff2ea68e4d092e051.setContent(html_54bd9406e72af3ddc1ebbde34638dbb6);
+            
+        
+
+        circle_marker_cbb21905e5b17976e5cf7590d5ea72e9.bindPopup(popup_f293a18c2aa85b4ff2ea68e4d092e051)
+        ;
+
+        
+    
+    
+            var circle_marker_6a03f5b21b5b15a809e44b6984246872 = L.circleMarker(
+                [36.939851362500406, -76.8648887727101],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_9cdafa6bbda0e2a9382e72c182c52d3e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d91dc4f071f1766aae0b1ae21ecd3a40 = $(`<div id="html_d91dc4f071f1766aae0b1ae21ecd3a40" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9434<br><b>CP ID:</b> II_9_456<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (ISLE OF WIGHT)<br><b>Confidence:</b> 89.0</div>`)[0];
+                popup_9cdafa6bbda0e2a9382e72c182c52d3e.setContent(html_d91dc4f071f1766aae0b1ae21ecd3a40);
+            
+        
+
+        circle_marker_6a03f5b21b5b15a809e44b6984246872.bindPopup(popup_9cdafa6bbda0e2a9382e72c182c52d3e)
+        ;
+
+        
+    
+    
+            var circle_marker_c032e40cbc6942ec5e33323df3335165 = L.circleMarker(
+                [38.1991815582324, -77.63857510259996],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_4c00e70446c9c51d49f2172a240ff995 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c844cb614844fdbf01179ddac2f348c3 = $(`<div id="html_c844cb614844fdbf01179ddac2f348c3" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10297<br><b>CP ID:</b> II_11_2029<br><b>Year:</b> None<br><b>Stated County:</b> King William<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 88.8</div>`)[0];
+                popup_4c00e70446c9c51d49f2172a240ff995.setContent(html_c844cb614844fdbf01179ddac2f348c3);
+            
+        
+
+        circle_marker_c032e40cbc6942ec5e33323df3335165.bindPopup(popup_4c00e70446c9c51d49f2172a240ff995)
+        ;
+
+        
+    
+    
+            var circle_marker_b449eaf15ca4c8b147f614669d2dd380 = L.circleMarker(
+                [38.1789738813396, -77.69821709549342],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_bf52d35f4d86f1ee90ae3b2b2e85d57e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e786dd98d9f1a14736ab48365e94f4e9 = $(`<div id="html_e786dd98d9f1a14736ab48365e94f4e9" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10369<br><b>CP ID:</b> II_12_3408<br><b>Year:</b> None<br><b>Stated County:</b> King William<br><b>Notes:</b> ≤50.0 m outside hist polygon (SPOTSYLVANIA)<br><b>Confidence:</b> 88.7</div>`)[0];
+                popup_bf52d35f4d86f1ee90ae3b2b2e85d57e.setContent(html_e786dd98d9f1a14736ab48365e94f4e9);
+            
+        
+
+        circle_marker_b449eaf15ca4c8b147f614669d2dd380.bindPopup(popup_bf52d35f4d86f1ee90ae3b2b2e85d57e)
+        ;
+
+        
+    
+    
+            var circle_marker_297f93e59dbcdfa94d9ebce521d89842 = L.circleMarker(
+                [37.785084270023106, -77.86158324473286],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_93757aece2ee6bb08b57d7405e770402 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a25e86f9b944c0ff144472bfb8593eba = $(`<div id="html_a25e86f9b944c0ff144472bfb8593eba" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 7387<br><b>CP ID:</b> II_11_2500<br><b>Year:</b> None<br><b>Stated County:</b> New Kent<br><b>Notes:</b> ≤50.0 m outside hist polygon (HANOVER)<br><b>Confidence:</b> 88.5</div>`)[0];
+                popup_93757aece2ee6bb08b57d7405e770402.setContent(html_a25e86f9b944c0ff144472bfb8593eba);
+            
+        
+
+        circle_marker_297f93e59dbcdfa94d9ebce521d89842.bindPopup(popup_93757aece2ee6bb08b57d7405e770402)
+        ;
+
+        
+    
+    
+            var circle_marker_8381b62abbdf0fa387131d29cbd2e77a = L.circleMarker(
+                [36.97115272496835, -77.26620816960231],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_11c9c412b4615004734ead2f4dc1f3e2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_435aa192a3e83ede76f5547dee781ad5 = $(`<div id="html_435aa192a3e83ede76f5547dee781ad5" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10885<br><b>CP ID:</b> II_9_534<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 88.2</div>`)[0];
+                popup_11c9c412b4615004734ead2f4dc1f3e2.setContent(html_435aa192a3e83ede76f5547dee781ad5);
+            
+        
+
+        circle_marker_8381b62abbdf0fa387131d29cbd2e77a.bindPopup(popup_11c9c412b4615004734ead2f4dc1f3e2)
+        ;
+
+        
+    
+    
+            var circle_marker_962c0d3cae2969ec5c958da8b4725831 = L.circleMarker(
+                [37.733356182342, -77.89428509898734],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_0b9753bf0bdb2bf8e768c70e6a94e10e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8fe2b8606f29136e67a9e8b75259b546 = $(`<div id="html_8fe2b8606f29136e67a9e8b75259b546" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6151<br><b>CP ID:</b> II_13_3885<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> ≤50.0 m outside hist polygon (HENRICO)<br><b>Confidence:</b> 87.7</div>`)[0];
+                popup_0b9753bf0bdb2bf8e768c70e6a94e10e.setContent(html_8fe2b8606f29136e67a9e8b75259b546);
+            
+        
+
+        circle_marker_962c0d3cae2969ec5c958da8b4725831.bindPopup(popup_0b9753bf0bdb2bf8e768c70e6a94e10e)
+        ;
+
+        
+    
+    
+            var circle_marker_e95ef7bd8a817585cdf0b4606c7bb40b = L.circleMarker(
+                [36.7814161181594, -76.70248901580436],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_a0baff8d782acdd17642bdf934cd8460 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_526ce034d7bc239746472a942317d68d = $(`<div id="html_526ce034d7bc239746472a942317d68d" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 7340<br><b>CP ID:</b> II_9_418<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (NANSEMOND (ext))<br><b>Confidence:</b> 87.5</div>`)[0];
+                popup_a0baff8d782acdd17642bdf934cd8460.setContent(html_526ce034d7bc239746472a942317d68d);
+            
+        
+
+        circle_marker_e95ef7bd8a817585cdf0b4606c7bb40b.bindPopup(popup_a0baff8d782acdd17642bdf934cd8460)
+        ;
+
+        
+    
+    
+            var circle_marker_6a022817a5a509b0efbce123d8ba8b56 = L.circleMarker(
+                [38.08814779918165, -78.36630879254818],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_bac4c7f5ecb7ac8448b517400a2e8f30 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ad1214fcf219d749cf87e15405d830b3 = $(`<div id="html_ad1214fcf219d749cf87e15405d830b3" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 29<br><b>CP ID:</b> II_14_5197<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> ≤50.0 m outside hist polygon (GOOCHLAND)<br><b>Confidence:</b> 87.1</div>`)[0];
+                popup_bac4c7f5ecb7ac8448b517400a2e8f30.setContent(html_ad1214fcf219d749cf87e15405d830b3);
+            
+        
+
+        circle_marker_6a022817a5a509b0efbce123d8ba8b56.bindPopup(popup_bac4c7f5ecb7ac8448b517400a2e8f30)
+        ;
+
+        
+    
+    
+            var circle_marker_990116f05dc15892905810df5e7661d1 = L.circleMarker(
+                [36.99717088068165, -77.32727590291722],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_f4ccd1607795ecb6e0c23c0072a36779 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e7d7e1ea1cd9d8a981cccd76e02abb1b = $(`<div id="html_e7d7e1ea1cd9d8a981cccd76e02abb1b" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10888<br><b>CP ID:</b> II_9_533<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 87.0</div>`)[0];
+                popup_f4ccd1607795ecb6e0c23c0072a36779.setContent(html_e7d7e1ea1cd9d8a981cccd76e02abb1b);
+            
+        
+
+        circle_marker_990116f05dc15892905810df5e7661d1.bindPopup(popup_f4ccd1607795ecb6e0c23c0072a36779)
+        ;
+
+        
+    
+    
+            var circle_marker_601f5eadca2cbf5a1275ebb6e0cef082 = L.circleMarker(
+                [38.30392375872455, -77.68885500971865],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_2a178a012deee6e12e9f928682548a0f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aee0b6497dec61315d58619da3a03f03 = $(`<div id="html_aee0b6497dec61315d58619da3a03f03" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10285<br><b>CP ID:</b> II_10_1745<br><b>Year:</b> None<br><b>Stated County:</b> Essex<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 86.8</div>`)[0];
+                popup_2a178a012deee6e12e9f928682548a0f.setContent(html_aee0b6497dec61315d58619da3a03f03);
+            
+        
+
+        circle_marker_601f5eadca2cbf5a1275ebb6e0cef082.bindPopup(popup_2a178a012deee6e12e9f928682548a0f)
+        ;
+
+        
+    
+    
+            var circle_marker_99289f4c081a6884c0bc06aa31653f5b = L.circleMarker(
+                [36.9594540924325, -77.35039554598646],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_e6ccd2eaf215340edae9e8cd14a9124d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fcbb962e5a8f42859d678b871a7f6894 = $(`<div id="html_fcbb962e5a8f42859d678b871a7f6894" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10886<br><b>CP ID:</b> II_9_531<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 86.1</div>`)[0];
+                popup_e6ccd2eaf215340edae9e8cd14a9124d.setContent(html_fcbb962e5a8f42859d678b871a7f6894);
+            
+        
+
+        circle_marker_99289f4c081a6884c0bc06aa31653f5b.bindPopup(popup_e6ccd2eaf215340edae9e8cd14a9124d)
+        ;
+
+        
+    
+    
+            var circle_marker_f4eea31be632c57d64667904c308b773 = L.circleMarker(
+                [36.82163818110725, -77.25268536410452],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_a79a5d5aac89ddc8d06cd7d0b52ec773 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_73aa51dd24da06ddd5289192c0874614 = $(`<div id="html_73aa51dd24da06ddd5289192c0874614" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 11009<br><b>CP ID:</b> II_11_2427<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 86.0</div>`)[0];
+                popup_a79a5d5aac89ddc8d06cd7d0b52ec773.setContent(html_73aa51dd24da06ddd5289192c0874614);
+            
+        
+
+        circle_marker_f4eea31be632c57d64667904c308b773.bindPopup(popup_a79a5d5aac89ddc8d06cd7d0b52ec773)
+        ;
+
+        
+    
+    
+            var circle_marker_03d49bb8cc9f3a20c624e01cc58bf97f = L.circleMarker(
+                [37.843094303859104, -78.27152101946253],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_8270cb55ccb4da5bdfa86326c88badb2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c737d83a7b84b71e72e7aad7d7be0893 = $(`<div id="html_c737d83a7b84b71e72e7aad7d7be0893" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 5391<br><b>CP ID:</b> II_13_4603<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (GOOCHLAND)<br><b>Confidence:</b> 86.0</div>`)[0];
+                popup_8270cb55ccb4da5bdfa86326c88badb2.setContent(html_c737d83a7b84b71e72e7aad7d7be0893);
+            
+        
+
+        circle_marker_03d49bb8cc9f3a20c624e01cc58bf97f.bindPopup(popup_8270cb55ccb4da5bdfa86326c88badb2)
+        ;
+
+        
+    
+    
+            var circle_marker_a71bff9ec236d86cc1025bd2f5fe6257 = L.circleMarker(
+                [36.970239697703946, -77.21962967478896],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_d09fe53487ce5f257bfe6c9c95e6cb5a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_51d4362665a990db851bb323cf31578f = $(`<div id="html_51d4362665a990db851bb323cf31578f" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10892<br><b>CP ID:</b> II_9_512<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 86.0</div>`)[0];
+                popup_d09fe53487ce5f257bfe6c9c95e6cb5a.setContent(html_51d4362665a990db851bb323cf31578f);
+            
+        
+
+        circle_marker_a71bff9ec236d86cc1025bd2f5fe6257.bindPopup(popup_d09fe53487ce5f257bfe6c9c95e6cb5a)
+        ;
+
+        
+    
+    
+            var circle_marker_857823060039c141b8dcc7309554392f = L.circleMarker(
+                [37.044274038366254, -76.97392611678495],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_a7ced67ad37336c337b04898fb4b4790 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6aff0c6a7805952e8898783f7bd10f56 = $(`<div id="html_6aff0c6a7805952e8898783f7bd10f56" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10924<br><b>CP ID:</b> II_10_1106<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 86.0</div>`)[0];
+                popup_a7ced67ad37336c337b04898fb4b4790.setContent(html_6aff0c6a7805952e8898783f7bd10f56);
+            
+        
+
+        circle_marker_857823060039c141b8dcc7309554392f.bindPopup(popup_a7ced67ad37336c337b04898fb4b4790)
+        ;
+
+        
+    
+    
+            var circle_marker_3c9180a643e3236e95e171b08034f4a5 = L.circleMarker(
+                [36.72861458349625, -77.00621370452222],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_8073d4aab482568d586084db3607979a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c0d9a29f1c17f48cf7ecfed1912ac195 = $(`<div id="html_c0d9a29f1c17f48cf7ecfed1912ac195" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9452<br><b>CP ID:</b> II_9_712<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (ISLE OF WIGHT)<br><b>Confidence:</b> 85.8</div>`)[0];
+                popup_8073d4aab482568d586084db3607979a.setContent(html_c0d9a29f1c17f48cf7ecfed1912ac195);
+            
+        
+
+        circle_marker_3c9180a643e3236e95e171b08034f4a5.bindPopup(popup_8073d4aab482568d586084db3607979a)
+        ;
+
+        
+    
+    
+            var circle_marker_0efc6651191be290da2dfdef960f5558 = L.circleMarker(
+                [37.7311838420607, -78.35325007664908],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_d23fa1dd57204a7bb63d0ca40ebc9e44 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_20dc6eac5cb1c877a4dabf56fbef0100 = $(`<div id="html_20dc6eac5cb1c877a4dabf56fbef0100" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 5389<br><b>CP ID:</b> II_14_4751<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (GOOCHLAND)<br><b>Confidence:</b> 85.8</div>`)[0];
+                popup_d23fa1dd57204a7bb63d0ca40ebc9e44.setContent(html_20dc6eac5cb1c877a4dabf56fbef0100);
+            
+        
+
+        circle_marker_0efc6651191be290da2dfdef960f5558.bindPopup(popup_d23fa1dd57204a7bb63d0ca40ebc9e44)
+        ;
+
+        
+    
+    
+            var circle_marker_ee94c0d6c36a5d73a35f0655263fdfbe = L.circleMarker(
+                [36.8790289426816, -77.52122758624499],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_edb5784ef33b54d74d1be6db0659cf78 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4518ab7db5590dd2efe85c52126872fb = $(`<div id="html_4518ab7db5590dd2efe85c52126872fb" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 11180<br><b>CP ID:</b> II_14_5022<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 85.8</div>`)[0];
+                popup_edb5784ef33b54d74d1be6db0659cf78.setContent(html_4518ab7db5590dd2efe85c52126872fb);
+            
+        
+
+        circle_marker_ee94c0d6c36a5d73a35f0655263fdfbe.bindPopup(popup_edb5784ef33b54d74d1be6db0659cf78)
+        ;
+
+        
+    
+    
+            var circle_marker_0ac32c8cd3b9dfd528f023c07be98f5e = L.circleMarker(
+                [37.08603891211615, -77.3822465934688],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_b55eab5c07a663da76a5f71abc518d70 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4302e353b26fdef2f988ed534545c8b1 = $(`<div id="html_4302e353b26fdef2f988ed534545c8b1" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9253<br><b>CP ID:</b> II_12_3167<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (PRINCE GEORGE)<br><b>Confidence:</b> 85.7</div>`)[0];
+                popup_b55eab5c07a663da76a5f71abc518d70.setContent(html_4302e353b26fdef2f988ed534545c8b1);
+            
+        
+
+        circle_marker_0ac32c8cd3b9dfd528f023c07be98f5e.bindPopup(popup_b55eab5c07a663da76a5f71abc518d70)
+        ;
+
+        
+    
+    
+            var circle_marker_63f21944676d6515872e62ef58ef0dbe = L.circleMarker(
+                [36.673401444371194, -77.49783220189889],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_561b6021d753e7d4e8e87baa243d848c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_73d36a218bd46301186349d0a3c5fc61 = $(`<div id="html_73d36a218bd46301186349d0a3c5fc61" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9554<br><b>CP ID:</b> II_10_1423<br><b>Year:</b> None<br><b>Stated County:</b> Isle Of Wight<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 85.5</div>`)[0];
+                popup_561b6021d753e7d4e8e87baa243d848c.setContent(html_73d36a218bd46301186349d0a3c5fc61);
+            
+        
+
+        circle_marker_63f21944676d6515872e62ef58ef0dbe.bindPopup(popup_561b6021d753e7d4e8e87baa243d848c)
+        ;
+
+        
+    
+    
+            var circle_marker_2ab8e6bd2b732b34b2b3fb7cda36399c = L.circleMarker(
+                [36.928799107342996, -77.18694398153194],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_0f6539d4b028fe7adafca4c64f020e3e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_93689a96ce950ad48cfd5b8bf7aa1307 = $(`<div id="html_93689a96ce950ad48cfd5b8bf7aa1307" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10889<br><b>CP ID:</b> II_9_528<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 85.4</div>`)[0];
+                popup_0f6539d4b028fe7adafca4c64f020e3e.setContent(html_93689a96ce950ad48cfd5b8bf7aa1307);
+            
+        
+
+        circle_marker_2ab8e6bd2b732b34b2b3fb7cda36399c.bindPopup(popup_0f6539d4b028fe7adafca4c64f020e3e)
+        ;
+
+        
+    
+    
+            var circle_marker_a4f7abfacd1373d63855476f391aa2f3 = L.circleMarker(
+                [38.12623796166265, -77.51439030892672],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_cb5b430ea2fa2ebf9758ddefbdd4d37f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1c943561f44d1f60ef65c76a599feb94 = $(`<div id="html_1c943561f44d1f60ef65c76a599feb94" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10339<br><b>CP ID:</b> II_12_2788<br><b>Year:</b> None<br><b>Stated County:</b> King William<br><b>Notes:</b> ≤50.0 m outside hist polygon (SPOTSYLVANIA)<br><b>Confidence:</b> 85.4</div>`)[0];
+                popup_cb5b430ea2fa2ebf9758ddefbdd4d37f.setContent(html_1c943561f44d1f60ef65c76a599feb94);
+            
+        
+
+        circle_marker_a4f7abfacd1373d63855476f391aa2f3.bindPopup(popup_cb5b430ea2fa2ebf9758ddefbdd4d37f)
+        ;
+
+        
+    
+    
+            var circle_marker_a74cded204ec875080b0a4c6ce635db0 = L.circleMarker(
+                [37.028774724723846, -77.27731818018752],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_1c12d09dcc1ba5f8dd267f755f4f8726 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1d463903db8fc6093e1dba98d5680c2d = $(`<div id="html_1d463903db8fc6093e1dba98d5680c2d" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9194<br><b>CP ID:</b> II_9_462<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 84.9</div>`)[0];
+                popup_1c12d09dcc1ba5f8dd267f755f4f8726.setContent(html_1d463903db8fc6093e1dba98d5680c2d);
+            
+        
+
+        circle_marker_a74cded204ec875080b0a4c6ce635db0.bindPopup(popup_1c12d09dcc1ba5f8dd267f755f4f8726)
+        ;
+
+        
+    
+    
+            var circle_marker_6d8a79f51ed90134de27d9620917a497 = L.circleMarker(
+                [38.12479985263115, -77.44001190250255],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_86d79fc1cca841f8f2a7db4d14bd368c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cc2d78df78028c465e6e2f20bbf5266b = $(`<div id="html_cc2d78df78028c465e6e2f20bbf5266b" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10281<br><b>CP ID:</b> II_10_1348<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 84.7</div>`)[0];
+                popup_86d79fc1cca841f8f2a7db4d14bd368c.setContent(html_cc2d78df78028c465e6e2f20bbf5266b);
+            
+        
+
+        circle_marker_6d8a79f51ed90134de27d9620917a497.bindPopup(popup_86d79fc1cca841f8f2a7db4d14bd368c)
+        ;
+
+        
+    
+    
+            var circle_marker_0f25c27dadb48722d2ccd2c6f2099a7a = L.circleMarker(
+                [37.079972298282996, -77.10118788127446],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_d21344595eb91c057794b94403f74a0f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_da587039f218d8a7cb942cb310b0333e = $(`<div id="html_da587039f218d8a7cb942cb310b0333e" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10871<br><b>CP ID:</b> II_9_460<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 84.4</div>`)[0];
+                popup_d21344595eb91c057794b94403f74a0f.setContent(html_da587039f218d8a7cb942cb310b0333e);
+            
+        
+
+        circle_marker_0f25c27dadb48722d2ccd2c6f2099a7a.bindPopup(popup_d21344595eb91c057794b94403f74a0f)
+        ;
+
+        
+    
+    
+            var circle_marker_3610848f86591eb657f835b407a0f58a = L.circleMarker(
+                [38.1709535681527, -77.46771685453885],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_ccf348c189cc24bba268bbdab3bd28bf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_34199aa18e5b8e5b47a971a360d11922 = $(`<div id="html_34199aa18e5b8e5b47a971a360d11922" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10284<br><b>CP ID:</b> II_10_1548<br><b>Year:</b> None<br><b>Stated County:</b> King & Queen<br><b>Notes:</b> ≤50.0 m outside hist polygon (ESSEX)<br><b>Confidence:</b> 84.3</div>`)[0];
+                popup_ccf348c189cc24bba268bbdab3bd28bf.setContent(html_34199aa18e5b8e5b47a971a360d11922);
+            
+        
+
+        circle_marker_3610848f86591eb657f835b407a0f58a.bindPopup(popup_ccf348c189cc24bba268bbdab3bd28bf)
+        ;
+
+        
+    
+    
+            var circle_marker_e9998264f38f6ed5c8387446f928bd03 = L.circleMarker(
+                [38.277593905634305, -77.69615920450403],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_25692c18e26ae2688fa97d5b3be34a68 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f528dc000cfbfcdaf4145afba9567239 = $(`<div id="html_f528dc000cfbfcdaf4145afba9567239" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10300<br><b>CP ID:</b> II_11_2038<br><b>Year:</b> None<br><b>Stated County:</b> King & Queen<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 84.3</div>`)[0];
+                popup_25692c18e26ae2688fa97d5b3be34a68.setContent(html_f528dc000cfbfcdaf4145afba9567239);
+            
+        
+
+        circle_marker_e9998264f38f6ed5c8387446f928bd03.bindPopup(popup_25692c18e26ae2688fa97d5b3be34a68)
+        ;
+
+        
+    
+    
+            var circle_marker_4e8f3033a6adfa7e81696ae7471397c5 = L.circleMarker(
+                [38.143282188272394, -77.49104264021575],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_eea3c52052bdbbfd3b23255019a1a9b7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f6df56e0f49e16d2e0ad95c844461686 = $(`<div id="html_f6df56e0f49e16d2e0ad95c844461686" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10307<br><b>CP ID:</b> II_11_2123<br><b>Year:</b> None<br><b>Stated County:</b> King & Queen<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 83.6</div>`)[0];
+                popup_eea3c52052bdbbfd3b23255019a1a9b7.setContent(html_f6df56e0f49e16d2e0ad95c844461686);
+            
+        
+
+        circle_marker_4e8f3033a6adfa7e81696ae7471397c5.bindPopup(popup_eea3c52052bdbbfd3b23255019a1a9b7)
+        ;
+
+        
+    
+    
+            var circle_marker_5925a22d4bbe69524b5114a32913ef81 = L.circleMarker(
+                [37.70547750603215, -78.29884504200521],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_d62966d25f4e275a06e230cb4fe123b9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e8dc80051a4a2fd4cc058ac1bbf2658d = $(`<div id="html_e8dc80051a4a2fd4cc058ac1bbf2658d" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 3344<br><b>CP ID:</b> II_12_3371<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HENRICO)<br><b>Confidence:</b> 83.5</div>`)[0];
+                popup_d62966d25f4e275a06e230cb4fe123b9.setContent(html_e8dc80051a4a2fd4cc058ac1bbf2658d);
+            
+        
+
+        circle_marker_5925a22d4bbe69524b5114a32913ef81.bindPopup(popup_d62966d25f4e275a06e230cb4fe123b9)
+        ;
+
+        
+    
+    
+            var circle_marker_043261b2183ecfad476cfcee36cc771c = L.circleMarker(
+                [38.15596883264555, -77.51453532001514],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_13f854bbdc20a4569a38383c8b43fc5d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_11061eda0304e78f2a9228070c5f2907 = $(`<div id="html_11061eda0304e78f2a9228070c5f2907" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10311<br><b>CP ID:</b> II_11_2072<br><b>Year:</b> None<br><b>Stated County:</b> King & Queen<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 83.3</div>`)[0];
+                popup_13f854bbdc20a4569a38383c8b43fc5d.setContent(html_11061eda0304e78f2a9228070c5f2907);
+            
+        
+
+        circle_marker_043261b2183ecfad476cfcee36cc771c.bindPopup(popup_13f854bbdc20a4569a38383c8b43fc5d)
+        ;
+
+        
+    
+    
+            var circle_marker_b8bae2b7799a0f2ec5aaa81d143ee976 = L.circleMarker(
+                [38.1852694265928, -77.46632264014771],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_a85f62c22e9aac41f630b68fd810a862 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7fae089820f40dbaa7d12917fe8fcd1f = $(`<div id="html_7fae089820f40dbaa7d12917fe8fcd1f" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10309<br><b>CP ID:</b> II_11_2058<br><b>Year:</b> None<br><b>Stated County:</b> King & Queen<br><b>Notes:</b> ≤50.0 m outside hist polygon (ESSEX)<br><b>Confidence:</b> 83.1</div>`)[0];
+                popup_a85f62c22e9aac41f630b68fd810a862.setContent(html_7fae089820f40dbaa7d12917fe8fcd1f);
+            
+        
+
+        circle_marker_b8bae2b7799a0f2ec5aaa81d143ee976.bindPopup(popup_a85f62c22e9aac41f630b68fd810a862)
+        ;
+
+        
+    
+    
+            var circle_marker_5de66e3cba1df12dc396542a989d86cb = L.circleMarker(
+                [37.05932291666935, -77.03569269233014],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_2ac9fc4991f99d1749c3a57c6e20f1b6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fb51487703f701ce318316cd23cb3ee0 = $(`<div id="html_fb51487703f701ce318316cd23cb3ee0" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10879<br><b>CP ID:</b> II_9_470<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 82.7</div>`)[0];
+                popup_2ac9fc4991f99d1749c3a57c6e20f1b6.setContent(html_fb51487703f701ce318316cd23cb3ee0);
+            
+        
+
+        circle_marker_5de66e3cba1df12dc396542a989d86cb.bindPopup(popup_2ac9fc4991f99d1749c3a57c6e20f1b6)
+        ;
+
+        
+    
+    
+            var circle_marker_1208cec78bda41a848511f1a74fdaa56 = L.circleMarker(
+                [38.2478883249363, -77.68936994193913],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_cb02a953566d3260f285f074e60128de = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_341c5e534325dc1c9461340e1ef2370c = $(`<div id="html_341c5e534325dc1c9461340e1ef2370c" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10306<br><b>CP ID:</b> II_10_2000<br><b>Year:</b> None<br><b>Stated County:</b> King & Queen<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 82.5</div>`)[0];
+                popup_cb02a953566d3260f285f074e60128de.setContent(html_341c5e534325dc1c9461340e1ef2370c);
+            
+        
+
+        circle_marker_1208cec78bda41a848511f1a74fdaa56.bindPopup(popup_cb02a953566d3260f285f074e60128de)
+        ;
+
+        
+    
+    
+            var circle_marker_c34560969cdcc41f31da2798305dfa78 = L.circleMarker(
+                [37.73741897940245, -77.80173199084965],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_3fb024dadeeb2ae771fe15d4c8efe525 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_10846e726905742eedd57bb5bb3a7e89 = $(`<div id="html_10846e726905742eedd57bb5bb3a7e89" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6115<br><b>CP ID:</b> II_12_2712<br><b>Year:</b> None<br><b>Stated County:</b> Henrico<br><b>Notes:</b> ≤50.0 m outside hist polygon (HANOVER)<br><b>Confidence:</b> 81.8</div>`)[0];
+                popup_3fb024dadeeb2ae771fe15d4c8efe525.setContent(html_10846e726905742eedd57bb5bb3a7e89);
+            
+        
+
+        circle_marker_c34560969cdcc41f31da2798305dfa78.bindPopup(popup_3fb024dadeeb2ae771fe15d4c8efe525)
+        ;
+
+        
+    
+    
+            var circle_marker_71cdf78e45fdc78f77c5b96210951dc4 = L.circleMarker(
+                [37.853853724020254, -77.45217036472505],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_d3b201b0e814ae18d04cf77933b99bb9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a1b016b3a81b078528e2a4dbf1396707 = $(`<div id="html_a1b016b3a81b078528e2a4dbf1396707" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6590<br><b>CP ID:</b> II_11_2074<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (NEW KENT)<br><b>Confidence:</b> 81.7</div>`)[0];
+                popup_d3b201b0e814ae18d04cf77933b99bb9.setContent(html_a1b016b3a81b078528e2a4dbf1396707);
+            
+        
+
+        circle_marker_71cdf78e45fdc78f77c5b96210951dc4.bindPopup(popup_d3b201b0e814ae18d04cf77933b99bb9)
+        ;
+
+        
+    
+    
+            var circle_marker_7e190e37b88a0e574694aca53aec9efd = L.circleMarker(
+                [38.0834092803141, -77.67668976746876],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_c17e5b6e854bab8d3dfc3216f0885b63 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2bb7458ced37cf498b42940c25db6245 = $(`<div id="html_2bb7458ced37cf498b42940c25db6245" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10308<br><b>CP ID:</b> II_11_2130<br><b>Year:</b> None<br><b>Stated County:</b> King William<br><b>Notes:</b> ≤50.0 m outside hist polygon (KING AND QUEEN)<br><b>Confidence:</b> 81.6</div>`)[0];
+                popup_c17e5b6e854bab8d3dfc3216f0885b63.setContent(html_2bb7458ced37cf498b42940c25db6245);
+            
+        
+
+        circle_marker_7e190e37b88a0e574694aca53aec9efd.bindPopup(popup_c17e5b6e854bab8d3dfc3216f0885b63)
+        ;
+
+        
+    
+    
+            var circle_marker_c3b1c4a6927720e8d8f5e9b94906ddc0 = L.circleMarker(
+                [36.918545673644005, -77.17528715331694],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_bf2b45d5c07ac6daace990dce1baf095 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2141bbcafd0307fd9af49b30b8623069 = $(`<div id="html_2141bbcafd0307fd9af49b30b8623069" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10965<br><b>CP ID:</b> II_10_1365<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 81.0</div>`)[0];
+                popup_bf2b45d5c07ac6daace990dce1baf095.setContent(html_2141bbcafd0307fd9af49b30b8623069);
+            
+        
+
+        circle_marker_c3b1c4a6927720e8d8f5e9b94906ddc0.bindPopup(popup_bf2b45d5c07ac6daace990dce1baf095)
+        ;
+
+        
+    
+    
+            var circle_marker_3cca74c5f49bd7a1b3ab08baacfa4f84 = L.circleMarker(
+                [37.592302753019695, -77.48854439965035],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_465cc26446cd6a607bb2d928aa00d830 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_abdf599b852ae9c34970cce22141b4ae = $(`<div id="html_abdf599b852ae9c34970cce22141b4ae" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6948<br><b>CP ID:</b> II_12_2942<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HENRICO)<br><b>Confidence:</b> 80.7</div>`)[0];
+                popup_465cc26446cd6a607bb2d928aa00d830.setContent(html_abdf599b852ae9c34970cce22141b4ae);
+            
+        
+
+        circle_marker_3cca74c5f49bd7a1b3ab08baacfa4f84.bindPopup(popup_465cc26446cd6a607bb2d928aa00d830)
+        ;
+
+        
+    
+    
+            var circle_marker_cb4935247c58fccd6a37828cd0396bec = L.circleMarker(
+                [38.0859996380729, -77.73652669788582],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_b55bf445681a1116acebac8accda6d59 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_256fe031172e4c975f91337661fb0b61 = $(`<div id="html_256fe031172e4c975f91337661fb0b61" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10340<br><b>CP ID:</b> II_12_2803<br><b>Year:</b> None<br><b>Stated County:</b> King William<br><b>Notes:</b> ≤50.0 m outside hist polygon (SPOTSYLVANIA)<br><b>Confidence:</b> 80.4</div>`)[0];
+                popup_b55bf445681a1116acebac8accda6d59.setContent(html_256fe031172e4c975f91337661fb0b61);
+            
+        
+
+        circle_marker_cb4935247c58fccd6a37828cd0396bec.bindPopup(popup_b55bf445681a1116acebac8accda6d59)
+        ;
+
+        
+    
+    
+            var circle_marker_bf90a63e547e72435633811f5df5b29b = L.circleMarker(
+                [37.04154670306795, -77.08763893083784],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_fc06363b3dfef251108b0378599fd01d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7a173af408ee94827e2c89111bc21465 = $(`<div id="html_7a173af408ee94827e2c89111bc21465" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 11076<br><b>CP ID:</b> II_12_2902<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 79.9</div>`)[0];
+                popup_fc06363b3dfef251108b0378599fd01d.setContent(html_7a173af408ee94827e2c89111bc21465);
+            
+        
+
+        circle_marker_bf90a63e547e72435633811f5df5b29b.bindPopup(popup_fc06363b3dfef251108b0378599fd01d)
+        ;
+
+        
+    
+    
+            var circle_marker_555a4f50d4f3e28f1abd53906b10fac6 = L.circleMarker(
+                [37.06034352128655, -77.07096352853753],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_f36cee7790f932d077d91cf93e47f5e6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8de420bee41dfcaad3a0712517c37a9e = $(`<div id="html_8de420bee41dfcaad3a0712517c37a9e" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10878<br><b>CP ID:</b> II_9_463<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 79.4</div>`)[0];
+                popup_f36cee7790f932d077d91cf93e47f5e6.setContent(html_8de420bee41dfcaad3a0712517c37a9e);
+            
+        
+
+        circle_marker_555a4f50d4f3e28f1abd53906b10fac6.bindPopup(popup_f36cee7790f932d077d91cf93e47f5e6)
+        ;
+
+        
+    
+    
+            var circle_marker_55935cd50b3cea4a6ae7c28b6d5f896b = L.circleMarker(
+                [38.22894944621005, -77.90424427539531],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_8a4ca389596880671dde26916c07a879 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_387d43e7757c13e314b66129cb578d47 = $(`<div id="html_387d43e7757c13e314b66129cb578d47" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 8888<br><b>CP ID:</b> II_13_4235<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SPOTSYLVANIA)<br><b>Confidence:</b> 78.6</div>`)[0];
+                popup_8a4ca389596880671dde26916c07a879.setContent(html_387d43e7757c13e314b66129cb578d47);
+            
+        
+
+        circle_marker_55935cd50b3cea4a6ae7c28b6d5f896b.bindPopup(popup_8a4ca389596880671dde26916c07a879)
+        ;
+
+        
+    
+    
+            var circle_marker_a8db73892391ebfd4e111fe462a5caa4 = L.circleMarker(
+                [36.937177907834254, -77.25909780743625],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_b852dad77e54cc5808d42b4a2b0d7a18 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9e48de57d8a8311cc5462ba07161eb84 = $(`<div id="html_9e48de57d8a8311cc5462ba07161eb84" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 11183<br><b>CP ID:</b> II_14_5021<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 78.3</div>`)[0];
+                popup_b852dad77e54cc5808d42b4a2b0d7a18.setContent(html_9e48de57d8a8311cc5462ba07161eb84);
+            
+        
+
+        circle_marker_a8db73892391ebfd4e111fe462a5caa4.bindPopup(popup_b852dad77e54cc5808d42b4a2b0d7a18)
+        ;
+
+        
+    
+    
+            var circle_marker_824368d9ded6e2a018e56149a838e4f8 = L.circleMarker(
+                [38.1351337028082, -78.3920195417322],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_0efb13aa4558242f2df523f8c5f349c3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_17ac124557c8d4b7dfadda3e5c8c6ee7 = $(`<div id="html_17ac124557c8d4b7dfadda3e5c8c6ee7" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 20<br><b>CP ID:</b> II_13_4467<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> ≤50.0 m outside hist polygon (GOOCHLAND)<br><b>Confidence:</b> 77.2</div>`)[0];
+                popup_0efb13aa4558242f2df523f8c5f349c3.setContent(html_17ac124557c8d4b7dfadda3e5c8c6ee7);
+            
+        
+
+        circle_marker_824368d9ded6e2a018e56149a838e4f8.bindPopup(popup_0efb13aa4558242f2df523f8c5f349c3)
+        ;
+
+        
+    
+    
+            var circle_marker_3d5b4582b1ed266f387bc00f338fb3e6 = L.circleMarker(
+                [38.062880084998, -78.4189482594228],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_553249d54caf75b9c4fabcf6afdad0e6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d51d257d263ce766852fa41592ff5534 = $(`<div id="html_d51d257d263ce766852fa41592ff5534" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 38<br><b>CP ID:</b> II_14_5264<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> ≤50.0 m outside hist polygon (GOOCHLAND)<br><b>Confidence:</b> 76.9</div>`)[0];
+                popup_553249d54caf75b9c4fabcf6afdad0e6.setContent(html_d51d257d263ce766852fa41592ff5534);
+            
+        
+
+        circle_marker_3d5b4582b1ed266f387bc00f338fb3e6.bindPopup(popup_553249d54caf75b9c4fabcf6afdad0e6)
+        ;
+
+        
+    
+    
+            var circle_marker_8ccb3176846855ec7ad7e71265247f39 = L.circleMarker(
+                [37.0610003433912, -77.08428696899122],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_4219d150b8d7f3a7e2255fa2f509ba1d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a6dae1fa00c92bb051df48a9e155135e = $(`<div id="html_a6dae1fa00c92bb051df48a9e155135e" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10877<br><b>CP ID:</b> II_9_455<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 76.8</div>`)[0];
+                popup_4219d150b8d7f3a7e2255fa2f509ba1d.setContent(html_a6dae1fa00c92bb051df48a9e155135e);
+            
+        
+
+        circle_marker_8ccb3176846855ec7ad7e71265247f39.bindPopup(popup_4219d150b8d7f3a7e2255fa2f509ba1d)
+        ;
+
+        
+    
+    
+            var circle_marker_820ca129cfcd556862f14d3c9267052e = L.circleMarker(
+                [38.0498641650992, -77.6643751121029],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_4d40e9a679e1b73399202711d1a41b15 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_951999a3460d6fb93ba2a016247c996a = $(`<div id="html_951999a3460d6fb93ba2a016247c996a" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10439<br><b>CP ID:</b> II_14_5458<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SPOTSYLVANIA)<br><b>Confidence:</b> 76.6</div>`)[0];
+                popup_4d40e9a679e1b73399202711d1a41b15.setContent(html_951999a3460d6fb93ba2a016247c996a);
+            
+        
+
+        circle_marker_820ca129cfcd556862f14d3c9267052e.bindPopup(popup_4d40e9a679e1b73399202711d1a41b15)
+        ;
+
+        
+    
+    
+            var circle_marker_69cd98fb76a12b6fe1d5095add00a4c1 = L.circleMarker(
+                [36.90950800284215, -77.2711406530612],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_ac90ead1c4ae07f329d6e149f32f14e5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a1c47daf5e68de774650c95e5df15604 = $(`<div id="html_a1c47daf5e68de774650c95e5df15604" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 11119<br><b>CP ID:</b> II_12_3415<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 75.0</div>`)[0];
+                popup_ac90ead1c4ae07f329d6e149f32f14e5.setContent(html_a1c47daf5e68de774650c95e5df15604);
+            
+        
+
+        circle_marker_69cd98fb76a12b6fe1d5095add00a4c1.bindPopup(popup_ac90ead1c4ae07f329d6e149f32f14e5)
+        ;
+
+        
+    
+    
+            var circle_marker_1916b1e89b9f993feb8e86cf9e897d00 = L.circleMarker(
+                [36.9011536171458, -77.16739206485269],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_54671f6f7dd76b6e1334f1a78f17bb45 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_53259bfab3c36bef72b9797b67a27f6b = $(`<div id="html_53259bfab3c36bef72b9797b67a27f6b" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10882<br><b>CP ID:</b> II_9_466<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 74.9</div>`)[0];
+                popup_54671f6f7dd76b6e1334f1a78f17bb45.setContent(html_53259bfab3c36bef72b9797b67a27f6b);
+            
+        
+
+        circle_marker_1916b1e89b9f993feb8e86cf9e897d00.bindPopup(popup_54671f6f7dd76b6e1334f1a78f17bb45)
+        ;
+
+        
+    
+    
+            var circle_marker_81120f10d55371cded376616cdc7dd6c = L.circleMarker(
+                [37.269818067050196, -77.60239142171034],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_6d3d460e44482ad70f1d7887a4d450cc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e020df7f9b4587be503a6bcccba1da86 = $(`<div id="html_e020df7f9b4587be503a6bcccba1da86" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 5113<br><b>CP ID:</b> II_13_4003<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HENRICO)<br><b>Confidence:</b> 74.8</div>`)[0];
+                popup_6d3d460e44482ad70f1d7887a4d450cc.setContent(html_e020df7f9b4587be503a6bcccba1da86);
+            
+        
+
+        circle_marker_81120f10d55371cded376616cdc7dd6c.bindPopup(popup_6d3d460e44482ad70f1d7887a4d450cc)
+        ;
+
+        
+    
+    
+            var circle_marker_790057859f406cf3812dac41a08d978c = L.circleMarker(
+                [37.943769669334856, -77.92246651267055],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_6761d26914df5e3cb2f4630190b19fa5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_919c8d1a7e0dc8b64455a39bb83934ac = $(`<div id="html_919c8d1a7e0dc8b64455a39bb83934ac" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 7534<br><b>CP ID:</b> II_14_5036<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HANOVER)<br><b>Confidence:</b> 72.1</div>`)[0];
+                popup_6761d26914df5e3cb2f4630190b19fa5.setContent(html_919c8d1a7e0dc8b64455a39bb83934ac);
+            
+        
+
+        circle_marker_790057859f406cf3812dac41a08d978c.bindPopup(popup_6761d26914df5e3cb2f4630190b19fa5)
+        ;
+
+        
+    
+    
+            var circle_marker_a6c3e91c227e16e8e07903257c1e1144 = L.circleMarker(
+                [38.0778952953816, -78.43832719413399],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_ee8c41b3e1f930a3f35d3694f7c56cca = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a26d61864b484e1f4762b019c0912543 = $(`<div id="html_a26d61864b484e1f4762b019c0912543" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 18<br><b>CP ID:</b> II_13_4465<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> ≤50.0 m outside hist polygon (GOOCHLAND)<br><b>Confidence:</b> 71.5</div>`)[0];
+                popup_ee8c41b3e1f930a3f35d3694f7c56cca.setContent(html_a26d61864b484e1f4762b019c0912543);
+            
+        
+
+        circle_marker_a6c3e91c227e16e8e07903257c1e1144.bindPopup(popup_ee8c41b3e1f930a3f35d3694f7c56cca)
+        ;
+
+        
+    
+    
+            var circle_marker_4d338d28f14c9f16095653c679bd0c8f = L.circleMarker(
+                [38.10311744631315, -78.45704868482329],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_377ad3acf1da2a3e63fbbbc52a3ecc4b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f6931dba0dc21a89c1572e731e68db30 = $(`<div id="html_f6931dba0dc21a89c1572e731e68db30" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 16<br><b>CP ID:</b> II_13_4466<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> ≤50.0 m outside hist polygon (GOOCHLAND)<br><b>Confidence:</b> 71.4</div>`)[0];
+                popup_377ad3acf1da2a3e63fbbbc52a3ecc4b.setContent(html_f6931dba0dc21a89c1572e731e68db30);
+            
+        
+
+        circle_marker_4d338d28f14c9f16095653c679bd0c8f.bindPopup(popup_377ad3acf1da2a3e63fbbbc52a3ecc4b)
+        ;
+
+        
+    
+    
+            var circle_marker_213ccdb2b6bfbedfd39232091e05c8a7 = L.circleMarker(
+                [38.07859036160595, -78.44699739040752],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_e51e4487c129449730aab2dee17a6960 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_84a86fdafceee6b03e7da279c4d88932 = $(`<div id="html_84a86fdafceee6b03e7da279c4d88932" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 17<br><b>CP ID:</b> II_13_4468<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> ≤50.0 m outside hist polygon (GOOCHLAND)<br><b>Confidence:</b> 71.4</div>`)[0];
+                popup_e51e4487c129449730aab2dee17a6960.setContent(html_84a86fdafceee6b03e7da279c4d88932);
+            
+        
+
+        circle_marker_213ccdb2b6bfbedfd39232091e05c8a7.bindPopup(popup_e51e4487c129449730aab2dee17a6960)
+        ;
+
+        
+    
+    
+            var circle_marker_d5148661029c41bc04a0630a4015a77d = L.circleMarker(
+                [38.0838152145006, -78.37382790515338],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_bf80a8ccc0f6ae2ba950624ba56137ad = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4cd13cf01e8ee5c4df5be0e66a8733eb = $(`<div id="html_4cd13cf01e8ee5c4df5be0e66a8733eb" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 30<br><b>CP ID:</b> II_14_5198<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> ≤50.0 m outside hist polygon (GOOCHLAND)<br><b>Confidence:</b> 71.0</div>`)[0];
+                popup_bf80a8ccc0f6ae2ba950624ba56137ad.setContent(html_4cd13cf01e8ee5c4df5be0e66a8733eb);
+            
+        
+
+        circle_marker_d5148661029c41bc04a0630a4015a77d.bindPopup(popup_bf80a8ccc0f6ae2ba950624ba56137ad)
+        ;
+
+        
+    
+    
+            var circle_marker_90331e819f14404f5cb6aef97415f985 = L.circleMarker(
+                [38.1206526514987, -78.40336097736036],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_1fa4781af820abb8413ab4aa69d0a689 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_58576ca8900d85f10b0611c2e262b42d = $(`<div id="html_58576ca8900d85f10b0611c2e262b42d" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 21<br><b>CP ID:</b> II_13_4469<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> ≤50.0 m outside hist polygon (GOOCHLAND)<br><b>Confidence:</b> 70.3</div>`)[0];
+                popup_1fa4781af820abb8413ab4aa69d0a689.setContent(html_58576ca8900d85f10b0611c2e262b42d);
+            
+        
+
+        circle_marker_90331e819f14404f5cb6aef97415f985.bindPopup(popup_1fa4781af820abb8413ab4aa69d0a689)
+        ;
+
+        
+    
+    
+            var circle_marker_1a248aa66b781871562b08233e4563d0 = L.circleMarker(
+                [37.73855238733285, -77.61794514146402],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_aed5bb58704679a0dc6e8b88b8e4904c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_11fe81bd18044f3ba92e1cd3cb593ff6 = $(`<div id="html_11fe81bd18044f3ba92e1cd3cb593ff6" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6524<br><b>CP ID:</b> II_10_1183<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (NEW KENT)<br><b>Confidence:</b> 68.8</div>`)[0];
+                popup_aed5bb58704679a0dc6e8b88b8e4904c.setContent(html_11fe81bd18044f3ba92e1cd3cb593ff6);
+            
+        
+
+        circle_marker_1a248aa66b781871562b08233e4563d0.bindPopup(popup_aed5bb58704679a0dc6e8b88b8e4904c)
+        ;
+
+        
+    
+    
+            var circle_marker_16d1e1801ce83622740881fadcd61657 = L.circleMarker(
+                [36.9867650559626, -76.89781476160711],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_63d715e9a83f4dc5921b775a07c83169 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_37a14a91f84bba4a55a37608cda8b264 = $(`<div id="html_37a14a91f84bba4a55a37608cda8b264" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10740<br><b>CP ID:</b> II_9_465<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (SURRY)<br><b>Confidence:</b> 68.6</div>`)[0];
+                popup_63d715e9a83f4dc5921b775a07c83169.setContent(html_37a14a91f84bba4a55a37608cda8b264);
+            
+        
+
+        circle_marker_16d1e1801ce83622740881fadcd61657.bindPopup(popup_63d715e9a83f4dc5921b775a07c83169)
+        ;
+
+        
+    
+    
+            var circle_marker_6d27b98568fd01d74e3ee90acdc450d8 = L.circleMarker(
+                [36.802401372275554, -76.76602044606616],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_2e14e5da8f6c648ab3908996b032f6f9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_528d5556f94cc04b447782d1c97db9e7 = $(`<div id="html_528d5556f94cc04b447782d1c97db9e7" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 7327<br><b>CP ID:</b> II_9_25<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (ISLE OF WIGHT)<br><b>Confidence:</b> 68.4</div>`)[0];
+                popup_2e14e5da8f6c648ab3908996b032f6f9.setContent(html_528d5556f94cc04b447782d1c97db9e7);
+            
+        
+
+        circle_marker_6d27b98568fd01d74e3ee90acdc450d8.bindPopup(popup_2e14e5da8f6c648ab3908996b032f6f9)
+        ;
+
+        
+    
+    
+            var circle_marker_baf87f4d6f4b9e978ddecf342ffdb8df = L.circleMarker(
+                [37.39062833942635, -77.6274971895213],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_1ead8bc874c2e5a94f5e139f78a81b72 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4aaaed628aecd2b5c461989a9400387f = $(`<div id="html_4aaaed628aecd2b5c461989a9400387f" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 5057<br><b>CP ID:</b> II_12_3351<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HENRICO)<br><b>Confidence:</b> 68.0</div>`)[0];
+                popup_1ead8bc874c2e5a94f5e139f78a81b72.setContent(html_4aaaed628aecd2b5c461989a9400387f);
+            
+        
+
+        circle_marker_baf87f4d6f4b9e978ddecf342ffdb8df.bindPopup(popup_1ead8bc874c2e5a94f5e139f78a81b72)
+        ;
+
+        
+    
+    
+            var circle_marker_84fbe60d08cf7a40118ff56f0dcd1e9c = L.circleMarker(
+                [37.546999295231345, -77.62005765692612],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_dd0417cde8cf0b821576047187681bc2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_668535de504bcced50119b0b1cfb59ea = $(`<div id="html_668535de504bcced50119b0b1cfb59ea" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 5133<br><b>CP ID:</b> II_14_5431<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HENRICO)<br><b>Confidence:</b> 67.4</div>`)[0];
+                popup_dd0417cde8cf0b821576047187681bc2.setContent(html_668535de504bcced50119b0b1cfb59ea);
+            
+        
+
+        circle_marker_84fbe60d08cf7a40118ff56f0dcd1e9c.bindPopup(popup_dd0417cde8cf0b821576047187681bc2)
+        ;
+
+        
+    
+    
+            var circle_marker_8f0d7b9db855c3f32c5ad0592031ca6b = L.circleMarker(
+                [36.8681856270151, -76.85898657143416],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_58ba0a873cb16f83e2a619d15364f0f6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2f48f7927ac6ff3644aed2e0d73ca67a = $(`<div id="html_2f48f7927ac6ff3644aed2e0d73ca67a" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9432<br><b>CP ID:</b> II_9_454<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (ISLE OF WIGHT)<br><b>Confidence:</b> 64.7</div>`)[0];
+                popup_58ba0a873cb16f83e2a619d15364f0f6.setContent(html_2f48f7927ac6ff3644aed2e0d73ca67a);
+            
+        
+
+        circle_marker_8f0d7b9db855c3f32c5ad0592031ca6b.bindPopup(popup_58ba0a873cb16f83e2a619d15364f0f6)
+        ;
+
+        
+    
+    
+            var circle_marker_7a2eddc14f3dee6ad16938a75967ba5f = L.circleMarker(
+                [37.667348648421395, -77.44551919621871],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_e1e9edd3c90eb03686b8b34c49cca829);
+        
+    
+        var popup_c97fb6bb5d69869f6d388643d0e5a927 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5a3bbb795abc75dd180f612703c35332 = $(`<div id="html_5a3bbb795abc75dd180f612703c35332" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6909<br><b>CP ID:</b> II_9_264<br><b>Year:</b> None<br><b>Stated County:</b> nan<br><b>Notes:</b> ≤50.0 m outside hist polygon (HENRICO)<br><b>Confidence:</b> 62.0</div>`)[0];
+                popup_c97fb6bb5d69869f6d388643d0e5a927.setContent(html_5a3bbb795abc75dd180f612703c35332);
+            
+        
+
+        circle_marker_7a2eddc14f3dee6ad16938a75967ba5f.bindPopup(popup_c97fb6bb5d69869f6d388643d0e5a927)
+        ;
+
+        
+    
+    
+            marker_cluster_e1e9edd3c90eb03686b8b34c49cca829.addTo(map_7462065f1b8c788977e179e5f38b28c6);
+        
+</script>
+</html>

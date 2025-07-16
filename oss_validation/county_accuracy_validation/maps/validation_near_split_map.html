@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7365803439fa256304be1f95482c3d1b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    <h4 style='position:absolute; top:10px; left:10px; z-index:9999; background:rgba(255,255,255,0.8); padding:4px 8px;'>Grant near county split (±2 yr)</h4>
+    
+            <div class="folium-map" id="map_7365803439fa256304be1f95482c3d1b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7365803439fa256304be1f95482c3d1b = L.map(
+                "map_7365803439fa256304be1f95482c3d1b",
+                {
+                    center: [37.5, -78.7],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1276a7e41a009853163d35268c6b6bcf = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1276a7e41a009853163d35268c6b6bcf.addTo(map_7365803439fa256304be1f95482c3d1b);
+        
+    
+            var pane_8e51566040b7347db9c34c1935d64c38 = map_7365803439fa256304be1f95482c3d1b.createPane(
+                "labels");
+            pane_8e51566040b7347db9c34c1935d64c38.style.zIndex = 625;
+            
+                pane_8e51566040b7347db9c34c1935d64c38.style.pointerEvents = 'none';
+            
+        
+    
+            var marker_cluster_b9c249b178049a0d50f34d7145ba60de = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_328be6111922020bd5cb4aa77eab8363 = L.circleMarker(
+                [37.7164718219171, -77.9170994540583],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b9c249b178049a0d50f34d7145ba60de);
+        
+    
+        var popup_03c9a4c9761dde29cef75123cba938b4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_32ff5dcee602a9a309e0af0450d1e0a4 = $(`<div id="html_32ff5dcee602a9a309e0af0450d1e0a4" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6180<br><b>CP ID:</b> II_13_4162<br><b>Year:</b> None<br><b>Stated County:</b> Goochland<br><b>Notes:</b> Near-split HENRICO ⇄ Goochland (±2 yr)<br><b>Confidence:</b> 91.5</div>`)[0];
+                popup_03c9a4c9761dde29cef75123cba938b4.setContent(html_32ff5dcee602a9a309e0af0450d1e0a4);
+            
+        
+
+        circle_marker_328be6111922020bd5cb4aa77eab8363.bindPopup(popup_03c9a4c9761dde29cef75123cba938b4)
+        ;
+
+        
+    
+    
+            var circle_marker_c314f43b490905e76f0a2420df3362af = L.circleMarker(
+                [37.8558971437882, -78.03268311039628],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b9c249b178049a0d50f34d7145ba60de);
+        
+    
+        var popup_89efa9664f885ca512a877f435e00afe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_24f31ec284d49fe446b076e429f8148a = $(`<div id="html_24f31ec284d49fe446b076e429f8148a" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6184<br><b>CP ID:</b> II_13_4340<br><b>Year:</b> None<br><b>Stated County:</b> Henrico<br><b>Notes:</b> Near-split GOOCHLAND ⇄ Henrico (±2 yr)<br><b>Confidence:</b> 90.7</div>`)[0];
+                popup_89efa9664f885ca512a877f435e00afe.setContent(html_24f31ec284d49fe446b076e429f8148a);
+            
+        
+
+        circle_marker_c314f43b490905e76f0a2420df3362af.bindPopup(popup_89efa9664f885ca512a877f435e00afe)
+        ;
+
+        
+    
+    
+            var circle_marker_212423ff8fbb9845b7a5dcf969ccfdfb = L.circleMarker(
+                [37.67697796116405, -77.65836251716722],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b9c249b178049a0d50f34d7145ba60de);
+        
+    
+        var popup_a785ac1d46605e6f7e838da22e0cbb8b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c66f7883f50825afff59e16d5e9eaaa1 = $(`<div id="html_c66f7883f50825afff59e16d5e9eaaa1" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6178<br><b>CP ID:</b> II_13_4273<br><b>Year:</b> None<br><b>Stated County:</b> Goochland<br><b>Notes:</b> Near-split HENRICO ⇄ Goochland (±2 yr)<br><b>Confidence:</b> 89.0</div>`)[0];
+                popup_a785ac1d46605e6f7e838da22e0cbb8b.setContent(html_c66f7883f50825afff59e16d5e9eaaa1);
+            
+        
+
+        circle_marker_212423ff8fbb9845b7a5dcf969ccfdfb.bindPopup(popup_a785ac1d46605e6f7e838da22e0cbb8b)
+        ;
+
+        
+    
+    
+            var circle_marker_468f13ad28d9ed22a1319f9954b379d0 = L.circleMarker(
+                [37.79336847262695, -77.98000059177363],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b9c249b178049a0d50f34d7145ba60de);
+        
+    
+        var popup_652855fea259dea5396abfec7fd1d6db = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bb5b3ccc9b49dee9bc4fa7e892db2949 = $(`<div id="html_bb5b3ccc9b49dee9bc4fa7e892db2949" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6209<br><b>CP ID:</b> II_13_4606<br><b>Year:</b> None<br><b>Stated County:</b> Henrico<br><b>Notes:</b> Near-split GOOCHLAND ⇄ Henrico (±2 yr)<br><b>Confidence:</b> 86.1</div>`)[0];
+                popup_652855fea259dea5396abfec7fd1d6db.setContent(html_bb5b3ccc9b49dee9bc4fa7e892db2949);
+            
+        
+
+        circle_marker_468f13ad28d9ed22a1319f9954b379d0.bindPopup(popup_652855fea259dea5396abfec7fd1d6db)
+        ;
+
+        
+    
+    
+            var circle_marker_1f4b7639da2172421818916c21605655 = L.circleMarker(
+                [37.7509704392844, -78.00913774030228],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b9c249b178049a0d50f34d7145ba60de);
+        
+    
+        var popup_7007f8439898a5efa8f029d9b2794ed7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_919188be67d5c6bbec1efb8332fbaebd = $(`<div id="html_919188be67d5c6bbec1efb8332fbaebd" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6173<br><b>CP ID:</b> II_13_4457<br><b>Year:</b> None<br><b>Stated County:</b> Goochland<br><b>Notes:</b> Near-split HENRICO ⇄ Goochland (±2 yr)<br><b>Confidence:</b> 84.3</div>`)[0];
+                popup_7007f8439898a5efa8f029d9b2794ed7.setContent(html_919188be67d5c6bbec1efb8332fbaebd);
+            
+        
+
+        circle_marker_1f4b7639da2172421818916c21605655.bindPopup(popup_7007f8439898a5efa8f029d9b2794ed7)
+        ;
+
+        
+    
+    
+            var circle_marker_cb107b2e41b693361ad37a80aadd7330 = L.circleMarker(
+                [37.758031218116244, -78.13255044463925],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_b9c249b178049a0d50f34d7145ba60de);
+        
+    
+        var popup_d219c03ac946ec5fa3862f76e1684672 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ac5057c1103877329c5f11f2dded929c = $(`<div id="html_ac5057c1103877329c5f11f2dded929c" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6179<br><b>CP ID:</b> II_13_4204<br><b>Year:</b> None<br><b>Stated County:</b> Goochland<br><b>Notes:</b> Near-split HENRICO ⇄ Goochland (±2 yr)<br><b>Confidence:</b> 79.0</div>`)[0];
+                popup_d219c03ac946ec5fa3862f76e1684672.setContent(html_ac5057c1103877329c5f11f2dded929c);
+            
+        
+
+        circle_marker_cb107b2e41b693361ad37a80aadd7330.bindPopup(popup_d219c03ac946ec5fa3862f76e1684672)
+        ;
+
+        
+    
+    
+            marker_cluster_b9c249b178049a0d50f34d7145ba60de.addTo(map_7365803439fa256304be1f95482c3d1b);
+        
+</script>
+</html>

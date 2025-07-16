@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6521929a333efa365f87ce595c0e4c87 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    <h4 style='position:absolute; top:10px; left:10px; z-index:9999; background:rgba(255,255,255,0.8); padding:4px 8px;'>Centroid in adjacent modern county</h4>
+    
+            <div class="folium-map" id="map_6521929a333efa365f87ce595c0e4c87" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6521929a333efa365f87ce595c0e4c87 = L.map(
+                "map_6521929a333efa365f87ce595c0e4c87",
+                {
+                    center: [37.5, -78.7],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a55f8d6f6131dcaa96c2a4278cf3ab4e = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a55f8d6f6131dcaa96c2a4278cf3ab4e.addTo(map_6521929a333efa365f87ce595c0e4c87);
+        
+    
+            var pane_55253b5d47d1213746c6bbdf3e5aba7a = map_6521929a333efa365f87ce595c0e4c87.createPane(
+                "labels");
+            pane_55253b5d47d1213746c6bbdf3e5aba7a.style.zIndex = 625;
+            
+                pane_55253b5d47d1213746c6bbdf3e5aba7a.style.pointerEvents = 'none';
+            
+        
+    
+            var marker_cluster_f2b7021004b21b2109f711b0257b8563 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_229793b9098d697ed0ff83f9dfe0a2a5 = L.circleMarker(
+                [37.1943941834449, -77.24968964623929],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_d9fcf23e12fa362ec3463b4ae951e1b7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b6b5668fc72ebd8fd782cfc84a1819dc = $(`<div id="html_b6b5668fc72ebd8fd782cfc84a1819dc" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9202<br><b>CP ID:</b> II_9_803<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 100.0</div>`)[0];
+                popup_d9fcf23e12fa362ec3463b4ae951e1b7.setContent(html_b6b5668fc72ebd8fd782cfc84a1819dc);
+            
+        
+
+        circle_marker_229793b9098d697ed0ff83f9dfe0a2a5.bindPopup(popup_d9fcf23e12fa362ec3463b4ae951e1b7)
+        ;
+
+        
+    
+    
+            var circle_marker_b7691aedb5d0fd600ed36a3b738e6fe8 = L.circleMarker(
+                [37.7175650778161, -77.70030152910277],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_0eb5d9f1d02e637a97dfa019f3b8e883 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5f1e1d37bde9379f4b81225f369829a1 = $(`<div id="html_5f1e1d37bde9379f4b81225f369829a1" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6553<br><b>CP ID:</b> II_10_1928<br><b>Year:</b> None<br><b>Stated County:</b> Henrico<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 98.3</div>`)[0];
+                popup_0eb5d9f1d02e637a97dfa019f3b8e883.setContent(html_5f1e1d37bde9379f4b81225f369829a1);
+            
+        
+
+        circle_marker_b7691aedb5d0fd600ed36a3b738e6fe8.bindPopup(popup_0eb5d9f1d02e637a97dfa019f3b8e883)
+        ;
+
+        
+    
+    
+            var circle_marker_beefa28da9fdea352c21fffac3f94b79 = L.circleMarker(
+                [38.130543819391804, -77.43881889907382],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_5bbee5d6ff6ec6ff59ed23cb9aa48f18 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fbd139d6bcb0392af40bc597844c119b = $(`<div id="html_fbd139d6bcb0392af40bc597844c119b" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10368<br><b>CP ID:</b> II_12_3556<br><b>Year:</b> None<br><b>Stated County:</b> King & Queen<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 95.0</div>`)[0];
+                popup_5bbee5d6ff6ec6ff59ed23cb9aa48f18.setContent(html_fbd139d6bcb0392af40bc597844c119b);
+            
+        
+
+        circle_marker_beefa28da9fdea352c21fffac3f94b79.bindPopup(popup_5bbee5d6ff6ec6ff59ed23cb9aa48f18)
+        ;
+
+        
+    
+    
+            var circle_marker_222d60ce352684288499aeb65c31b541 = L.circleMarker(
+                [37.99192338355735, -77.60804913175645],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_d67c34f66532f843cd4999e2d20c7b4e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_801b6a24a8df91d23fb2e73c724e3325 = $(`<div id="html_801b6a24a8df91d23fb2e73c724e3325" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10391<br><b>CP ID:</b> II_13_4074<br><b>Year:</b> None<br><b>Stated County:</b> Spotsylvania<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 94.4</div>`)[0];
+                popup_d67c34f66532f843cd4999e2d20c7b4e.setContent(html_801b6a24a8df91d23fb2e73c724e3325);
+            
+        
+
+        circle_marker_222d60ce352684288499aeb65c31b541.bindPopup(popup_d67c34f66532f843cd4999e2d20c7b4e)
+        ;
+
+        
+    
+    
+            var circle_marker_ac561bb65f78870b3b30bb562dd9205d = L.circleMarker(
+                [37.8099073530919, -77.93508739387423],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_1a434f0ac97a3a8bf155962acaf798e9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_18a65286e50601c6df2d552fdc4237dc = $(`<div id="html_18a65286e50601c6df2d552fdc4237dc" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6200<br><b>CP ID:</b> II_14_4935<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 93.9</div>`)[0];
+                popup_1a434f0ac97a3a8bf155962acaf798e9.setContent(html_18a65286e50601c6df2d552fdc4237dc);
+            
+        
+
+        circle_marker_ac561bb65f78870b3b30bb562dd9205d.bindPopup(popup_1a434f0ac97a3a8bf155962acaf798e9)
+        ;
+
+        
+    
+    
+            var circle_marker_ff0e9248485edb5bfd08e4711b61b8a9 = L.circleMarker(
+                [38.040595819091806, -77.36026093640547],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_1e1b290f8f85d6c0ce0a9c391f4a6ab3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c0436fe1cccf0a2fb61b645736c3fac8 = $(`<div id="html_c0436fe1cccf0a2fb61b645736c3fac8" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10265<br><b>CP ID:</b> II_9_902<br><b>Year:</b> None<br><b>Stated County:</b> King & Queen<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 93.2</div>`)[0];
+                popup_1e1b290f8f85d6c0ce0a9c391f4a6ab3.setContent(html_c0436fe1cccf0a2fb61b645736c3fac8);
+            
+        
+
+        circle_marker_ff0e9248485edb5bfd08e4711b61b8a9.bindPopup(popup_1e1b290f8f85d6c0ce0a9c391f4a6ab3)
+        ;
+
+        
+    
+    
+            var circle_marker_70704f132da21ceed530ec668993a7bc = L.circleMarker(
+                [37.0591849961907, -77.34082612102495],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_86e30644ce541f15937eb5a9163f91dd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_47eea90f7dbf3399ffcc8be1bf40a1dc = $(`<div id="html_47eea90f7dbf3399ffcc8be1bf40a1dc" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9200<br><b>CP ID:</b> II_9_672<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 92.6</div>`)[0];
+                popup_86e30644ce541f15937eb5a9163f91dd.setContent(html_47eea90f7dbf3399ffcc8be1bf40a1dc);
+            
+        
+
+        circle_marker_70704f132da21ceed530ec668993a7bc.bindPopup(popup_86e30644ce541f15937eb5a9163f91dd)
+        ;
+
+        
+    
+    
+            var circle_marker_0ddab13adc452872154474f3ac34cdd2 = L.circleMarker(
+                [36.98549836535735, -76.85653904472328],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_5e04e8ed6e25c7f9c1b85e319786eea4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8e66e98bf4f51ef7273f4b5a03a1e6b9 = $(`<div id="html_8e66e98bf4f51ef7273f4b5a03a1e6b9" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10737<br><b>CP ID:</b> II_9_368<br><b>Year:</b> None<br><b>Stated County:</b> Surry<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 92.4</div>`)[0];
+                popup_5e04e8ed6e25c7f9c1b85e319786eea4.setContent(html_8e66e98bf4f51ef7273f4b5a03a1e6b9);
+            
+        
+
+        circle_marker_0ddab13adc452872154474f3ac34cdd2.bindPopup(popup_5e04e8ed6e25c7f9c1b85e319786eea4)
+        ;
+
+        
+    
+    
+            var circle_marker_081a9483a604e1d9658603e26dd6f340 = L.circleMarker(
+                [37.9951112077161, -77.61803923692909],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_106148298f5db05202368780e3101524 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e80f0411fb05d2f34ef6bde7568bbfd1 = $(`<div id="html_e80f0411fb05d2f34ef6bde7568bbfd1" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10333<br><b>CP ID:</b> II_11_2627<br><b>Year:</b> None<br><b>Stated County:</b> Spotsylvania<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 91.7</div>`)[0];
+                popup_106148298f5db05202368780e3101524.setContent(html_e80f0411fb05d2f34ef6bde7568bbfd1);
+            
+        
+
+        circle_marker_081a9483a604e1d9658603e26dd6f340.bindPopup(popup_106148298f5db05202368780e3101524)
+        ;
+
+        
+    
+    
+            var circle_marker_86db5f99f182014176678fc9ab8ec4aa = L.circleMarker(
+                [37.3842690174013, -77.62394111673277],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_0ad480efda8723858072553f24d85aa6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a0eac2842e92a1dec1dbc648c0561bec = $(`<div id="html_a0eac2842e92a1dec1dbc648c0561bec" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 5124<br><b>CP ID:</b> II_14_5094<br><b>Year:</b> None<br><b>Stated County:</b> Goochland<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 91.2</div>`)[0];
+                popup_0ad480efda8723858072553f24d85aa6.setContent(html_a0eac2842e92a1dec1dbc648c0561bec);
+            
+        
+
+        circle_marker_86db5f99f182014176678fc9ab8ec4aa.bindPopup(popup_0ad480efda8723858072553f24d85aa6)
+        ;
+
+        
+    
+    
+            var circle_marker_0deee86a03f3a22d6d34255c8bc08c6e = L.circleMarker(
+                [37.740800455027, -77.4414916617605],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_9e3de40e1e4d797ceac8d938521f360a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6be81da34cf58e68e2dbfadcaac1fb65 = $(`<div id="html_6be81da34cf58e68e2dbfadcaac1fb65" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6753<br><b>CP ID:</b> II_14_4770<br><b>Year:</b> None<br><b>Stated County:</b> New Kent<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 90.7</div>`)[0];
+                popup_9e3de40e1e4d797ceac8d938521f360a.setContent(html_6be81da34cf58e68e2dbfadcaac1fb65);
+            
+        
+
+        circle_marker_0deee86a03f3a22d6d34255c8bc08c6e.bindPopup(popup_9e3de40e1e4d797ceac8d938521f360a)
+        ;
+
+        
+    
+    
+            var circle_marker_360dcb5f01773f60dab1e60a1b3225a5 = L.circleMarker(
+                [37.702198510402994, -77.7132152068153],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_5d0ed5e48998d2933991003d0d85401d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c255410de87c940828da03ecd908e93d = $(`<div id="html_c255410de87c940828da03ecd908e93d" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6770<br><b>CP ID:</b> II_14_5263<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 90.7</div>`)[0];
+                popup_5d0ed5e48998d2933991003d0d85401d.setContent(html_c255410de87c940828da03ecd908e93d);
+            
+        
+
+        circle_marker_360dcb5f01773f60dab1e60a1b3225a5.bindPopup(popup_5d0ed5e48998d2933991003d0d85401d)
+        ;
+
+        
+    
+    
+            var circle_marker_be5e87a1280ab3bc0ff268d7c5347e91 = L.circleMarker(
+                [38.086217065815, -77.46487205518847],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_b388fa1f6f97c9e5d10f9adc60e09d50 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_96819ef2d92dfe79a1d4baa5e0073b4f = $(`<div id="html_96819ef2d92dfe79a1d4baa5e0073b4f" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10341<br><b>CP ID:</b> II_12_2924<br><b>Year:</b> None<br><b>Stated County:</b> King William<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 90.6</div>`)[0];
+                popup_b388fa1f6f97c9e5d10f9adc60e09d50.setContent(html_96819ef2d92dfe79a1d4baa5e0073b4f);
+            
+        
+
+        circle_marker_be5e87a1280ab3bc0ff268d7c5347e91.bindPopup(popup_b388fa1f6f97c9e5d10f9adc60e09d50)
+        ;
+
+        
+    
+    
+            var circle_marker_9fdc19756bb41d866129932ee0d3a1b2 = L.circleMarker(
+                [37.7575851984482, -78.03130216467297],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_e4ba4789489d595bb0a7edd96c70b429 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6bc2dded2090ae60ae832b957c3b342b = $(`<div id="html_6bc2dded2090ae60ae832b957c3b342b" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6230<br><b>CP ID:</b> II_14_5164<br><b>Year:</b> None<br><b>Stated County:</b> Henrico<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 90.6</div>`)[0];
+                popup_e4ba4789489d595bb0a7edd96c70b429.setContent(html_6bc2dded2090ae60ae832b957c3b342b);
+            
+        
+
+        circle_marker_9fdc19756bb41d866129932ee0d3a1b2.bindPopup(popup_e4ba4789489d595bb0a7edd96c70b429)
+        ;
+
+        
+    
+    
+            var circle_marker_365b0115239d0aa0f15625699ac4b23f = L.circleMarker(
+                [37.80076236574065, -78.02087250453027],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_4679cf9f8f6a2d9f32094e55d0a02be8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d76b3fa6625673ff1898718c82e1a183 = $(`<div id="html_d76b3fa6625673ff1898718c82e1a183" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6240<br><b>CP ID:</b> II_14_5291<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 90.4</div>`)[0];
+                popup_4679cf9f8f6a2d9f32094e55d0a02be8.setContent(html_d76b3fa6625673ff1898718c82e1a183);
+            
+        
+
+        circle_marker_365b0115239d0aa0f15625699ac4b23f.bindPopup(popup_4679cf9f8f6a2d9f32094e55d0a02be8)
+        ;
+
+        
+    
+    
+            var circle_marker_04c08fbb7d2fb1e019731d389da7d241 = L.circleMarker(
+                [37.69614788606615, -77.50197778868086],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_fd2f724a1c78344066ebda11a9a956d3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_79fdc290630056f233daf818a8b8f384 = $(`<div id="html_79fdc290630056f233daf818a8b8f384" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6510<br><b>CP ID:</b> II_9_824<br><b>Year:</b> None<br><b>Stated County:</b> New Kent<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 88.4</div>`)[0];
+                popup_fd2f724a1c78344066ebda11a9a956d3.setContent(html_79fdc290630056f233daf818a8b8f384);
+            
+        
+
+        circle_marker_04c08fbb7d2fb1e019731d389da7d241.bindPopup(popup_fd2f724a1c78344066ebda11a9a956d3)
+        ;
+
+        
+    
+    
+            var circle_marker_268371c98fcfc34b14a98ce426220dd1 = L.circleMarker(
+                [38.082034912081596, -77.53308648720157],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_76b14ceaba73557ed2b616b96efbea4d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_89b42c7eec30119dac87f56e3f65e34b = $(`<div id="html_89b42c7eec30119dac87f56e3f65e34b" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10347<br><b>CP ID:</b> II_12_3307<br><b>Year:</b> None<br><b>Stated County:</b> Spotsylvania<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 88.2</div>`)[0];
+                popup_76b14ceaba73557ed2b616b96efbea4d.setContent(html_89b42c7eec30119dac87f56e3f65e34b);
+            
+        
+
+        circle_marker_268371c98fcfc34b14a98ce426220dd1.bindPopup(popup_76b14ceaba73557ed2b616b96efbea4d)
+        ;
+
+        
+    
+    
+            var circle_marker_7ddd65fef77c261c2d4cc3ec3395e83a = L.circleMarker(
+                [36.91066657200475, -77.38475960824317],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_8add9d099cbf81998929f3d3331fdb20 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b68a798c69aba85d857cc598257051bb = $(`<div id="html_b68a798c69aba85d857cc598257051bb" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10983<br><b>CP ID:</b> II_10_1792<br><b>Year:</b> None<br><b>Stated County:</b> Prince George<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 87.3</div>`)[0];
+                popup_8add9d099cbf81998929f3d3331fdb20.setContent(html_b68a798c69aba85d857cc598257051bb);
+            
+        
+
+        circle_marker_7ddd65fef77c261c2d4cc3ec3395e83a.bindPopup(popup_8add9d099cbf81998929f3d3331fdb20)
+        ;
+
+        
+    
+    
+            var circle_marker_a6281e650dbc4b9a8db4711ed31f1c5c = L.circleMarker(
+                [37.7251970574483, -77.78116427206608],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_6b12b70a002bb3d932b0e7a2edfab3d3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_910b5d6f8ba90c7092fd6eba181e65ab = $(`<div id="html_910b5d6f8ba90c7092fd6eba181e65ab" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6213<br><b>CP ID:</b> II_14_4755<br><b>Year:</b> None<br><b>Stated County:</b> Goochland<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 86.6</div>`)[0];
+                popup_6b12b70a002bb3d932b0e7a2edfab3d3.setContent(html_910b5d6f8ba90c7092fd6eba181e65ab);
+            
+        
+
+        circle_marker_a6281e650dbc4b9a8db4711ed31f1c5c.bindPopup(popup_6b12b70a002bb3d932b0e7a2edfab3d3)
+        ;
+
+        
+    
+    
+            var circle_marker_0d865ec8768cbf2ee553dfaf26ffd766 = L.circleMarker(
+                [38.12718743125505, -77.36807623112493],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_9c12a24aeca2c448b156188b0d138d48 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5497a16a71cfa52ae8f14a35ecede20e = $(`<div id="html_5497a16a71cfa52ae8f14a35ecede20e" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10331<br><b>CP ID:</b> II_11_2619<br><b>Year:</b> None<br><b>Stated County:</b> King & Queen<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 86.4</div>`)[0];
+                popup_9c12a24aeca2c448b156188b0d138d48.setContent(html_5497a16a71cfa52ae8f14a35ecede20e);
+            
+        
+
+        circle_marker_0d865ec8768cbf2ee553dfaf26ffd766.bindPopup(popup_9c12a24aeca2c448b156188b0d138d48)
+        ;
+
+        
+    
+    
+            var circle_marker_193ee1b56aae0d3d7c804234dc4d3dd8 = L.circleMarker(
+                [37.14416826890055, -77.13801649291456],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_bf144d4af2b68ec90c82a6512fbbd1b2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_06e793d8baed5526058f66995a1541fe = $(`<div id="html_06e793d8baed5526058f66995a1541fe" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9192<br><b>CP ID:</b> II_9_159<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 85.7</div>`)[0];
+                popup_bf144d4af2b68ec90c82a6512fbbd1b2.setContent(html_06e793d8baed5526058f66995a1541fe);
+            
+        
+
+        circle_marker_193ee1b56aae0d3d7c804234dc4d3dd8.bindPopup(popup_bf144d4af2b68ec90c82a6512fbbd1b2)
+        ;
+
+        
+    
+    
+            var circle_marker_a7570ed54eb783b7b8d5f765ae4f5b90 = L.circleMarker(
+                [37.89170103537455, -77.67340152452454],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_6e339a481fcd1a83aa59755668e0c07e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7309737cff123b4bf9a31dfbebc78624 = $(`<div id="html_7309737cff123b4bf9a31dfbebc78624" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6625<br><b>CP ID:</b> II_11_2647<br><b>Year:</b> None<br><b>Stated County:</b> New Kent<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 85.6</div>`)[0];
+                popup_6e339a481fcd1a83aa59755668e0c07e.setContent(html_7309737cff123b4bf9a31dfbebc78624);
+            
+        
+
+        circle_marker_a7570ed54eb783b7b8d5f765ae4f5b90.bindPopup(popup_6e339a481fcd1a83aa59755668e0c07e)
+        ;
+
+        
+    
+    
+            var circle_marker_3a2b693bcb7e1c6eabbea753100c1db7 = L.circleMarker(
+                [37.117908371823944, -77.36291914884396],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_92bff99fc7a84973c19bdb21b7aaf5f5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c546eed43f4a2bf7198286935a129293 = $(`<div id="html_c546eed43f4a2bf7198286935a129293" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9197<br><b>CP ID:</b> II_9_545<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 85.1</div>`)[0];
+                popup_92bff99fc7a84973c19bdb21b7aaf5f5.setContent(html_c546eed43f4a2bf7198286935a129293);
+            
+        
+
+        circle_marker_3a2b693bcb7e1c6eabbea753100c1db7.bindPopup(popup_92bff99fc7a84973c19bdb21b7aaf5f5)
+        ;
+
+        
+    
+    
+            var circle_marker_715e76c322bd15729d8046a4042de9a5 = L.circleMarker(
+                [36.85644743015485, -77.5548396158708],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_bab8882449ea8c4b1171159c970030ea = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7388e07230c99db022adb963da30fadc = $(`<div id="html_7388e07230c99db022adb963da30fadc" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10902<br><b>CP ID:</b> II_9_1091<br><b>Year:</b> None<br><b>Stated County:</b> Prince George<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 84.8</div>`)[0];
+                popup_bab8882449ea8c4b1171159c970030ea.setContent(html_7388e07230c99db022adb963da30fadc);
+            
+        
+
+        circle_marker_715e76c322bd15729d8046a4042de9a5.bindPopup(popup_bab8882449ea8c4b1171159c970030ea)
+        ;
+
+        
+    
+    
+            var circle_marker_02c903fa49cdb8ad6bb776f6b18248c9 = L.circleMarker(
+                [37.7849106181306, -77.4615039917841],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_b101357037bd208a2b5e40e4a6ce4edd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1d40e46cc846d90a0e19dd4ec30edbaa = $(`<div id="html_1d40e46cc846d90a0e19dd4ec30edbaa" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6613<br><b>CP ID:</b> II_11_2209<br><b>Year:</b> None<br><b>Stated County:</b> New Kent<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 84.0</div>`)[0];
+                popup_b101357037bd208a2b5e40e4a6ce4edd.setContent(html_1d40e46cc846d90a0e19dd4ec30edbaa);
+            
+        
+
+        circle_marker_02c903fa49cdb8ad6bb776f6b18248c9.bindPopup(popup_b101357037bd208a2b5e40e4a6ce4edd)
+        ;
+
+        
+    
+    
+            var circle_marker_49be85915f773edf22662990e1c2bf43 = L.circleMarker(
+                [38.1738875739524, -77.42448678647406],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_6dc17f62517e3cace7d5cb56e9a0bea1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f8605ee522fd1a1031fb8c4e6ac028cd = $(`<div id="html_f8605ee522fd1a1031fb8c4e6ac028cd" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10364<br><b>CP ID:</b> II_12_3551<br><b>Year:</b> None<br><b>Stated County:</b> Spotsylvania<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 84.0</div>`)[0];
+                popup_6dc17f62517e3cace7d5cb56e9a0bea1.setContent(html_f8605ee522fd1a1031fb8c4e6ac028cd);
+            
+        
+
+        circle_marker_49be85915f773edf22662990e1c2bf43.bindPopup(popup_6dc17f62517e3cace7d5cb56e9a0bea1)
+        ;
+
+        
+    
+    
+            var circle_marker_24e0c7ebf3b2f9eb816a11c15fdaa930 = L.circleMarker(
+                [36.8428665143282, -76.61376109129594],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_376edc0ce2962a2b3896a5c709dade12 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_14082d7b306c7b2cd297117c0d4bac2f = $(`<div id="html_14082d7b306c7b2cd297117c0d4bac2f" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 7342<br><b>CP ID:</b> II_9_560<br><b>Year:</b> None<br><b>Stated County:</b> Isle Of Wight<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 83.5</div>`)[0];
+                popup_376edc0ce2962a2b3896a5c709dade12.setContent(html_14082d7b306c7b2cd297117c0d4bac2f);
+            
+        
+
+        circle_marker_24e0c7ebf3b2f9eb816a11c15fdaa930.bindPopup(popup_376edc0ce2962a2b3896a5c709dade12)
+        ;
+
+        
+    
+    
+            var circle_marker_6de9fdeac99989d4dc4feb2925b94e0e = L.circleMarker(
+                [37.876627842550946, -77.68904869093654],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_faa335de2d0ed824a53ba2709a711c7d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_93282e22fdc589a5c227f59c3812c357 = $(`<div id="html_93282e22fdc589a5c227f59c3812c357" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6624<br><b>CP ID:</b> II_11_2646<br><b>Year:</b> None<br><b>Stated County:</b> New Kent<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 82.7</div>`)[0];
+                popup_faa335de2d0ed824a53ba2709a711c7d.setContent(html_93282e22fdc589a5c227f59c3812c357);
+            
+        
+
+        circle_marker_6de9fdeac99989d4dc4feb2925b94e0e.bindPopup(popup_faa335de2d0ed824a53ba2709a711c7d)
+        ;
+
+        
+    
+    
+            var circle_marker_7357c08b10b06e3dab30c617f52ae9b1 = L.circleMarker(
+                [37.551090728504406, -77.67639643542945],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_967a0ca1200e1c9adc300ea3ea9577fa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c1e0ab8c6aa4354f7ea758870de96e33 = $(`<div id="html_c1e0ab8c6aa4354f7ea758870de96e33" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 5123<br><b>CP ID:</b> II_14_4949<br><b>Year:</b> None<br><b>Stated County:</b> Henrico<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 82.0</div>`)[0];
+                popup_967a0ca1200e1c9adc300ea3ea9577fa.setContent(html_c1e0ab8c6aa4354f7ea758870de96e33);
+            
+        
+
+        circle_marker_7357c08b10b06e3dab30c617f52ae9b1.bindPopup(popup_967a0ca1200e1c9adc300ea3ea9577fa)
+        ;
+
+        
+    
+    
+            var circle_marker_bc000f43c9215544b2b85076146ce75b = L.circleMarker(
+                [37.10862803065915, -77.30422435081641],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_716bb388c5fef6c4c695e267e68f8142 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f848907fed82f6795cf1d7b44d5db07 = $(`<div id="html_6f848907fed82f6795cf1d7b44d5db07" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9201<br><b>CP ID:</b> II_9_720<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 81.4</div>`)[0];
+                popup_716bb388c5fef6c4c695e267e68f8142.setContent(html_6f848907fed82f6795cf1d7b44d5db07);
+            
+        
+
+        circle_marker_bc000f43c9215544b2b85076146ce75b.bindPopup(popup_716bb388c5fef6c4c695e267e68f8142)
+        ;
+
+        
+    
+    
+            var circle_marker_18527a8f779dcf841f277b3666cfbe7f = L.circleMarker(
+                [37.11407543518325, -77.17845644044354],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_18327fc59ac97fdce95bcdc53f3904a5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3f528be765df7065d760da309062ea04 = $(`<div id="html_3f528be765df7065d760da309062ea04" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9203<br><b>CP ID:</b> II_9_822<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 81.4</div>`)[0];
+                popup_18327fc59ac97fdce95bcdc53f3904a5.setContent(html_3f528be765df7065d760da309062ea04);
+            
+        
+
+        circle_marker_18527a8f779dcf841f277b3666cfbe7f.bindPopup(popup_18327fc59ac97fdce95bcdc53f3904a5)
+        ;
+
+        
+    
+    
+            var circle_marker_520ee90f970448a45d9655a315523c99 = L.circleMarker(
+                [37.13985141965735, -77.22001848565765],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_fb9f61c36fb537af31287a8f9c2d92ba = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_457c88ff10a5258efd3320eed2aea85a = $(`<div id="html_457c88ff10a5258efd3320eed2aea85a" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9196<br><b>CP ID:</b> II_9_526<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 80.8</div>`)[0];
+                popup_fb9f61c36fb537af31287a8f9c2d92ba.setContent(html_457c88ff10a5258efd3320eed2aea85a);
+            
+        
+
+        circle_marker_520ee90f970448a45d9655a315523c99.bindPopup(popup_fb9f61c36fb537af31287a8f9c2d92ba)
+        ;
+
+        
+    
+    
+            var circle_marker_e7cfd8436a847de449ae28b82b18064b = L.circleMarker(
+                [37.10791071430805, -77.22254614179027],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_3b0bd2cea17676723088909dd3cb6029 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0ed3b3bcb0934d9f9c47206dc47cf3cf = $(`<div id="html_0ed3b3bcb0934d9f9c47206dc47cf3cf" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9199<br><b>CP ID:</b> II_9_671<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 80.0</div>`)[0];
+                popup_3b0bd2cea17676723088909dd3cb6029.setContent(html_0ed3b3bcb0934d9f9c47206dc47cf3cf);
+            
+        
+
+        circle_marker_e7cfd8436a847de449ae28b82b18064b.bindPopup(popup_3b0bd2cea17676723088909dd3cb6029)
+        ;
+
+        
+    
+    
+            var circle_marker_3036480188cb2288639e167953e32385 = L.circleMarker(
+                [37.37378159359575, -77.23316434653893],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_8cac073d313c34f425c947fd438f679d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0472dda52f1794aa67ebb06330cf0c23 = $(`<div id="html_0472dda52f1794aa67ebb06330cf0c23" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6912<br><b>CP ID:</b> II_9_384<br><b>Year:</b> None<br><b>Stated County:</b> Henrico<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 79.6</div>`)[0];
+                popup_8cac073d313c34f425c947fd438f679d.setContent(html_0472dda52f1794aa67ebb06330cf0c23);
+            
+        
+
+        circle_marker_3036480188cb2288639e167953e32385.bindPopup(popup_8cac073d313c34f425c947fd438f679d)
+        ;
+
+        
+    
+    
+            var circle_marker_72e76fdb10a2784b17e23a82ba575462 = L.circleMarker(
+                [38.0596686325014, -77.55493448025781],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_74de6dea76641aaab1358d0220d578d6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fa32bbf947dfe523a9b62848a3418678 = $(`<div id="html_fa32bbf947dfe523a9b62848a3418678" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10345<br><b>CP ID:</b> II_12_3271<br><b>Year:</b> None<br><b>Stated County:</b> Spotsylvania<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 78.0</div>`)[0];
+                popup_74de6dea76641aaab1358d0220d578d6.setContent(html_fa32bbf947dfe523a9b62848a3418678);
+            
+        
+
+        circle_marker_72e76fdb10a2784b17e23a82ba575462.bindPopup(popup_74de6dea76641aaab1358d0220d578d6)
+        ;
+
+        
+    
+    
+            var circle_marker_074c5353534497d136f89b46b10b033e = L.circleMarker(
+                [36.99099299013445, -77.30327624612066],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_ff1630cc06ad173da62e2f1305004861 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a5054005f71f17462e9192ff205d7a22 = $(`<div id="html_a5054005f71f17462e9192ff205d7a22" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10936<br><b>CP ID:</b> II_10_1214<br><b>Year:</b> None<br><b>Stated County:</b> Prince George<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 77.7</div>`)[0];
+                popup_ff1630cc06ad173da62e2f1305004861.setContent(html_a5054005f71f17462e9192ff205d7a22);
+            
+        
+
+        circle_marker_074c5353534497d136f89b46b10b033e.bindPopup(popup_ff1630cc06ad173da62e2f1305004861)
+        ;
+
+        
+    
+    
+            var circle_marker_991adc325e1eea992bdc7a11cb3e0db5 = L.circleMarker(
+                [36.77153532124815, -76.70990830508842],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_88f280e78991c26cd0a87ebfc7f55819 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_42973ade8b18dcedd0a93bb2866116a8 = $(`<div id="html_42973ade8b18dcedd0a93bb2866116a8" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 7335<br><b>CP ID:</b> II_9_206<br><b>Year:</b> None<br><b>Stated County:</b> Isle Of Wight<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 77.6</div>`)[0];
+                popup_88f280e78991c26cd0a87ebfc7f55819.setContent(html_42973ade8b18dcedd0a93bb2866116a8);
+            
+        
+
+        circle_marker_991adc325e1eea992bdc7a11cb3e0db5.bindPopup(popup_88f280e78991c26cd0a87ebfc7f55819)
+        ;
+
+        
+    
+    
+            var circle_marker_92d0bd32c6598c28cbd3459cdc76d079 = L.circleMarker(
+                [37.170192765733546, -77.11124462949252],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_2cedb648ad12a2cd45e275f22c8b2870 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e412e4e113751204ef70d42d77c9bfe4 = $(`<div id="html_e412e4e113751204ef70d42d77c9bfe4" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9193<br><b>CP ID:</b> II_9_314<br><b>Year:</b> None<br><b>Stated County:</b> Charles City<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 77.5</div>`)[0];
+                popup_2cedb648ad12a2cd45e275f22c8b2870.setContent(html_e412e4e113751204ef70d42d77c9bfe4);
+            
+        
+
+        circle_marker_92d0bd32c6598c28cbd3459cdc76d079.bindPopup(popup_2cedb648ad12a2cd45e275f22c8b2870)
+        ;
+
+        
+    
+    
+            var circle_marker_d5b1db5fd32ce2575476a1da6399cd86 = L.circleMarker(
+                [38.0672283529562, -77.67006244792358],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_46e7574144d7dd83ea6c5ea0fdd3d60c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_43cc44cacf29167c7b1db9d79148f185 = $(`<div id="html_43cc44cacf29167c7b1db9d79148f185" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10378<br><b>CP ID:</b> II_13_3797<br><b>Year:</b> None<br><b>Stated County:</b> Hanover<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 75.0</div>`)[0];
+                popup_46e7574144d7dd83ea6c5ea0fdd3d60c.setContent(html_43cc44cacf29167c7b1db9d79148f185);
+            
+        
+
+        circle_marker_d5b1db5fd32ce2575476a1da6399cd86.bindPopup(popup_46e7574144d7dd83ea6c5ea0fdd3d60c)
+        ;
+
+        
+    
+    
+            var circle_marker_dbda0fe74d2dfc6be53c1a350119fa37 = L.circleMarker(
+                [37.7063375555838, -77.67558967981834],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_52172e37472cb5db3b2a5126f6735d29 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3cc23fe07042b6aecf9edbaa9e28dc74 = $(`<div id="html_3cc23fe07042b6aecf9edbaa9e28dc74" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 6097<br><b>CP ID:</b> II_11_2521<br><b>Year:</b> None<br><b>Stated County:</b> Henrico<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 73.2</div>`)[0];
+                popup_52172e37472cb5db3b2a5126f6735d29.setContent(html_3cc23fe07042b6aecf9edbaa9e28dc74);
+            
+        
+
+        circle_marker_dbda0fe74d2dfc6be53c1a350119fa37.bindPopup(popup_52172e37472cb5db3b2a5126f6735d29)
+        ;
+
+        
+    
+    
+            var circle_marker_00182fe7d36653eeb79e17ecbfd3dd7a = L.circleMarker(
+                [38.0610720758157, -77.5350331253396],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_777c772eb0f43d0976edd9cfc0a62f3c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_60c33dd5051262ef942529351344945c = $(`<div id="html_60c33dd5051262ef942529351344945c" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10292<br><b>CP ID:</b> II_10_1843<br><b>Year:</b> None<br><b>Stated County:</b> King William<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 71.8</div>`)[0];
+                popup_777c772eb0f43d0976edd9cfc0a62f3c.setContent(html_60c33dd5051262ef942529351344945c);
+            
+        
+
+        circle_marker_00182fe7d36653eeb79e17ecbfd3dd7a.bindPopup(popup_777c772eb0f43d0976edd9cfc0a62f3c)
+        ;
+
+        
+    
+    
+            var circle_marker_4cf064c8b415e239132929655582373a = L.circleMarker(
+                [36.99730600651705, -76.82607836551294],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_c5751824a18689f958b28e7ce84bdee2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f63868d15afa8c17ea3481c26d8903c5 = $(`<div id="html_f63868d15afa8c17ea3481c26d8903c5" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10789<br><b>CP ID:</b> II_12_2893<br><b>Year:</b> None<br><b>Stated County:</b> Surry<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 71.4</div>`)[0];
+                popup_c5751824a18689f958b28e7ce84bdee2.setContent(html_f63868d15afa8c17ea3481c26d8903c5);
+            
+        
+
+        circle_marker_4cf064c8b415e239132929655582373a.bindPopup(popup_c5751824a18689f958b28e7ce84bdee2)
+        ;
+
+        
+    
+    
+            var circle_marker_074e0b92b43f024179ed22b492240c80 = L.circleMarker(
+                [38.083351833420394, -77.37459837228323],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_8ea64306cc4a6c760e5f4e9f8fb99ddb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b4460abca32f52691dbcdf8dd0f662f0 = $(`<div id="html_b4460abca32f52691dbcdf8dd0f662f0" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10365<br><b>CP ID:</b> II_12_3552<br><b>Year:</b> None<br><b>Stated County:</b> Spotsylvania<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 69.5</div>`)[0];
+                popup_8ea64306cc4a6c760e5f4e9f8fb99ddb.setContent(html_b4460abca32f52691dbcdf8dd0f662f0);
+            
+        
+
+        circle_marker_074e0b92b43f024179ed22b492240c80.bindPopup(popup_8ea64306cc4a6c760e5f4e9f8fb99ddb)
+        ;
+
+        
+    
+    
+            var circle_marker_c14a4851d5507e258ab06e10d33d5dc6 = L.circleMarker(
+                [36.81932257297845, -77.17056852220253],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_65806854996d4cc2ab7b00d682fa1688 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7a12576cfc0824b0a2a935366bbf95f3 = $(`<div id="html_7a12576cfc0824b0a2a935366bbf95f3" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 9453<br><b>CP ID:</b> II_9_1069<br><b>Year:</b> None<br><b>Stated County:</b> Surry<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 69.4</div>`)[0];
+                popup_65806854996d4cc2ab7b00d682fa1688.setContent(html_7a12576cfc0824b0a2a935366bbf95f3);
+            
+        
+
+        circle_marker_c14a4851d5507e258ab06e10d33d5dc6.bindPopup(popup_65806854996d4cc2ab7b00d682fa1688)
+        ;
+
+        
+    
+    
+            var circle_marker_4f1bfb9e7d6ac134e45eccebd20cb030 = L.circleMarker(
+                [36.985803695534145, -77.37592060361615],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_5e26bb8dbb482aa8514f1beb82c966fb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_95cb4bdefa452f5e5f48075247c55628 = $(`<div id="html_95cb4bdefa452f5e5f48075247c55628" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 11023<br><b>CP ID:</b> II_11_2292<br><b>Year:</b> None<br><b>Stated County:</b> Prince George<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 69.4</div>`)[0];
+                popup_5e26bb8dbb482aa8514f1beb82c966fb.setContent(html_95cb4bdefa452f5e5f48075247c55628);
+            
+        
+
+        circle_marker_4f1bfb9e7d6ac134e45eccebd20cb030.bindPopup(popup_5e26bb8dbb482aa8514f1beb82c966fb)
+        ;
+
+        
+    
+    
+            var circle_marker_20ffaf44609939c4916b213da5f0f7df = L.circleMarker(
+                [37.9637587893867, -77.60961744452445],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_f2b7021004b21b2109f711b0257b8563);
+        
+    
+        var popup_ccb4bced011ec41133f8e7f151e7123f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ba8bde4a5771486d8276f2e8bdf07e7f = $(`<div id="html_ba8bde4a5771486d8276f2e8bdf07e7f" style="width: 100.0%; height: 100.0%;"><b>OSS ID:</b> 10352<br><b>CP ID:</b> II_12_3361<br><b>Year:</b> None<br><b>Stated County:</b> Spotsylvania<br><b>Notes:</b> Centroid in adjacent county (modern)<br><b>Confidence:</b> 67.4</div>`)[0];
+                popup_ccb4bced011ec41133f8e7f151e7123f.setContent(html_ba8bde4a5771486d8276f2e8bdf07e7f);
+            
+        
+
+        circle_marker_20ffaf44609939c4916b213da5f0f7df.bindPopup(popup_ccb4bced011ec41133f8e7f151e7123f)
+        ;
+
+        
+    
+    
+            marker_cluster_f2b7021004b21b2109f711b0257b8563.addTo(map_6521929a333efa365f87ce595c0e4c87);
+        
+</script>
+</html>
