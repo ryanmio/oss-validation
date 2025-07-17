@@ -24,6 +24,14 @@ The OSS polygon layer survives a quartet of statistically independent, methodolo
 
 Together these streams show the OSS polygons are spatially and areally consistent with independent C&P text and GNIS landmarks within tight tolerances.
 
+### Grant Dataset Extraction & Matching
+
+Large-scale polygon and text corpora were first distilled to comparable tabular form.  For the spatial data, regular-expression cues recover the grantee’s name, stated acreage, and grant year from each polygon’s truncated attribute text, yielding **10 726** complete records.  In parallel, the Cavaliers & Pioneers abstracts were mined for the same fields—together with the narrative county description—after systematic normalisation of titles and common abbreviations, producing **5 326** text-based entries.
+
+The two tables were linked using a deliberately conservative three-stage heuristic: (i) acreage had to agree once rounded to a single decimal place and the grant years had to match exactly, (ii) the grantee names required a token-set similarity of at least 80 / 100, and (iii) lightly cleaned excerpts from the abstract and polygon metadata had to exceed a similarity of 35 / 100.  Candidate pairs meeting all thresholds were scored as a weighted mean of name and excerpt similarity, and the highest-scoring non-overlapping pairs were accepted in greedy order to enforce a strict one-to-one correspondence.
+
+This procedure identified **1 496 unique polygon–abstract matches**—roughly one quarter of the available narratives (28 % of abstracts; 14 % of polygons).  Despite the stringent filters the median confidence of the accepted links is 87 / 100 (mean 86); the minimum is 62.  Only 219 abstracts exhibited more than one admissible polygon candidate, underscoring the low ambiguity of the matching space.  These linked records serve as the foundation for all subsequent county-level, acreage, and positional validations.
+
 ---
 
 ## Detailed Results
@@ -153,12 +161,5 @@ ls oss_validation/county_accuracy_validation/positional_accuracy_metrics.csv
 ```
 
 ---
-
-## Recommended Talking Points for Robin
-
-1. **High county-level agreement:** > 95 % of centroids fall in the expected 17-18th c. county polygons, well inside the pre-set 95 % requirement.
-2. **Strong acreage coherence:** Half of all matched grants differ by ≤ 5 % from the C&P acreage; > 80 % pass a combined acreage+county test.
-3. **Absolute error comfortably low:** Worst-case (Tier-2) and stratified audits both keep 90 % of points under 7 km—comfortably tighter than the 10 km benchmark.
-4. **Transparent provenance:** Every metric links to CSVs and interactive maps so reviewers can inspect individual cases.
 
 These results collectively substantiate that the OSS polygons form a reliable ground-truth layer for the benchmark study. 
