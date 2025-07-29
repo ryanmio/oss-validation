@@ -15,3 +15,5 @@ __pycache__/
 .DS_Store 
 /data/reference
 /cache
+paper-files/main.md
+.env
